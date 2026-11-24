@@ -31,9 +31,9 @@ export async function conditionView(id) {
       section('Diet and daily habits', h('div', { class: 'two' }, panel('', 'Favour (Pathya)', list(c.pathya)), panel('', 'Avoid (Apathya)', list(c.apathya)))),
       yogaPr.length ? section('Yoga and breathing', list(yogaPr.map((y) => [link('#/yoga/' + y.id, y.name), ` (${y.english})`])), c.yoga.caution ? h('p', { class: 'muted' }, c.yoga.caution) : null) : null,
       section('Classical treatment, in outline',
-        h('p', null, 'An Ayurveda physician may choose from medicines such as those below. Doses are shown in Doctor view; take any of them only as prescribed, and tell every doctor you see what you are taking.'),
+        h('p', null, 'An Ayurveda physician may choose from medicines such as those below. Unverified dosing is withheld; take medicines only as prescribed, and tell every doctor you see what you are taking.'),
         list(c.medicines.map((m) => [medLink(m), m.safetyClass !== 'herbal' ? [' ', safetyBadge(m.safetyClass)] : null])),
-        c.course ? h('p', null, h('strong', null, 'Usual course: '), c.course) : null),
+        null),
       section('How strong is the evidence?', h('p', null, c.evidence.clinical)),
     );
   }
@@ -43,9 +43,9 @@ export async function conditionView(id) {
       c.samprapti ? section('Samprapti Ghataka', sampraptiTable(c)) : null,
       c.samprapti ? section('Chikitsa Sutra (treatment principles)', h('p', null, c.samprapti.chikitsaSutra)) : null,
       section('Formulations as recorded',
-        panel('amb', null, h('p', null, 'Doses below are transcribed from the original reference and are ', h('strong', null, 'not yet verified'), ' against the Ayurvedic Formulary of India or the cited classical text. Herbo-mineral and toxic-herb preparations are for physician supervision only. Adjust for pregnancy, children, the elderly and hepatic or renal impairment.')),
+        panel('amb', null, h('p', null, 'Dosing, timing and duration are withheld pending qualified review. ', h('strong', null, 'Do not use this list as a prescription.'), ' Herbo-mineral and toxic-herb preparations are for physician supervision only. Adjust for pregnancy, children, the elderly and hepatic or renal impairment.')),
         table(['Formulation', 'Form', 'Dose', 'Timing', 'Anupana', 'Duration', 'Safety', 'Caution'],
-          c.medicines.map((m) => [medLink(m), m.form, m.dose, m.timing, m.anupana || '—', m.duration, safetyBadge(m.safetyClass), m.caution || '—']), 'Formulations')),
+          c.medicines.map((m) => [medLink(m), m.form, 'Withheld', 'Withheld', 'Withheld', 'Withheld', safetyBadge(m.safetyClass), m.caution || '—']), 'Formulations')),
       c.guidelineNote ? section('Standard Treatment Guideline note', h('p', null, c.guidelineNote), h('p', { class: 'muted' }, 'As recorded from the Ministry of AYUSH Ayurvedic Standard Treatment Guidelines (2017) in the original reference; page locator not yet recorded.')) : null,
       section('Differential diagnosis', h('p', { class: 'muted' }, 'Not yet compiled for this entry. Classical categories do not map one-to-one to modern diagnoses; exclude serious causes listed under the warning signs before attributing symptoms to a classical condition.')),
       section('Modern standard of care', h('p', null, c.standardCare)),
