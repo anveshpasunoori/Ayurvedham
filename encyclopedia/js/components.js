@@ -47,12 +47,13 @@ export function table(head, rows, caption) {
     h('tbody', null, rows.map((r) => h('tr', null, r.map((c) => h('td', null, c)))))));
 }
 export function cards(items, cls = '') {
-  return h('div', { class: 'grid ' + cls }, items.map((x) => h('a', { class: 'card', href: x.href }, x.img ? h('img', { src: x.img, alt: '', loading: 'lazy', decoding: 'async' }) : null, h('b', null, x.title), x.sub ? h('small', null, x.sub) : null)));
+  return h('div', { class: 'grid ' + cls }, items.map((x) => h('a', { class: 'card', href: x.href }, x.img ? h('img', { src: x.img, alt: '', loading: 'lazy', decoding: 'async', onerror: e=>e.target.remove() }) : null, h('b', null, x.title), x.sub ? h('small', null, x.sub) : null)));
 }
 export function figure(im) {
   return h('figure', null,
     h('img', { src: im.thumb || im.src, srcset: im.thumb ? `${im.thumb} 480w, ${im.src} 960w` : null, sizes: '(max-width: 600px) 100vw, 480px', alt: im.alt, loading: 'lazy', decoding: 'async',
       onerror: (e) => { e.target.replaceWith(h('p', { class: 'muted' }, 'Image could not be loaded. ', link(im.sourceUrl, 'View on Wikimedia Commons'))); } }),
+    h('a',{class:'btn photo-full',href:im.src,target:'_blank',rel:'noopener noreferrer'},'View full-size image (opens new tab)'),
     h('figcaption', null, im.caption ? im.caption + ' ' : '', h('i', null, im.depicts), '. ', h('span', null, `Photo: ${im.author} · `), link(im.licenseUrl || im.sourceUrl, im.license, { rel: 'license' }), ' · ', link(im.sourceUrl, 'source'),
       im.generated ? h('strong', null, ' · Illustration, not a photograph') : null));
 }
