@@ -1,0 +1,82 @@
+{
+  "sections": [
+    {
+      "id": "conditions",
+      "name": "Diseases & diagnosis"
+    },
+    {
+      "id": "herbs",
+      "name": "Medicinal plants"
+    },
+    {
+      "id": "formulations",
+      "name": "Medicinal formulations"
+    },
+    {
+      "id": "therapies",
+      "name": "Therapies & Panchakarma"
+    },
+    {
+      "id": "anatomy",
+      "name": "Anatomy & physiology"
+    },
+    {
+      "id": "nutrition",
+      "name": "Food & nutrition"
+    },
+    {
+      "id": "lifestyle",
+      "name": "Lifestyle & prevention"
+    },
+    {
+      "id": "yoga",
+      "name": "Yoga & breathing"
+    },
+    {
+      "id": "texts",
+      "name": "Classical literature"
+    },
+    {
+      "id": "research",
+      "name": "Research & evidence"
+    },
+    {
+      "id": "safety",
+      "name": "Medical safety"
+    },
+    {
+      "id": "students",
+      "name": "Student academy"
+    }
+  ],
+  "entries": [
+    {
+      "id": "reading-evidence",
+      "section": "research",
+      "name": "Understanding evidence",
+      "status": "editorial",
+      "aliases": [
+        "research",
+        "clinical evidence"
+      ],
+      "patient": "A classical reference documents traditional use; it does not by itself establish that a treatment works or is safe.",
+      "doctor": "Evaluate study design, population, comparator, outcomes, adverse events and certainty independently of textual authority.",
+      "student": "Distinguish textual provenance from clinical efficacy and safety.",
+      "sources": []
+    },
+    {
+      "id": "urgent-care",
+      "section": "safety",
+      "name": "When to seek urgent medical care",
+      "status": "editorial",
+      "aliases": [
+        "emergency",
+        "red flags"
+      ],
+      "patient": "Do not delay emergency medical care for chest pain, severe breathing difficulty, stroke symptoms or loss of consciousness.",
+      "doctor": "Prioritize emergency assessment and referral over traditional interventions.",
+      "student": "Recognize red flags and escalation pathways.",
+      "sources": []
+    }
+  ]
+}
