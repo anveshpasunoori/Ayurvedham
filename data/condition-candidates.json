@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "publicationStatus": "draft",
+  "entries": [
+    {
+      "id": "yauvana-pidika",
+      "name": "Acne",
+      "classicalTerm": "Yauvana Pidika / Mukhadushika",
+      "sourceCandidate": "Sushruta Samhita, Nidana Sthana 13",
+      "mappingCaution": "Classical description overlaps with acne but is not a validated diagnostic equivalent.",
+      "standardCare": "Gentle skin care and evidence-based topical treatment; seek dermatology care for scarring or persistent inflammatory acne.",
+      "redFlags": [
+        "Rapidly worsening painful lesions",
+        "Fever with spreading redness"
+      ],
+      "traditionalTreatmentStatus": "Requires edition and formulation verification"
+    },
+    {
+      "id": "mutrakrichra",
+      "name": "Painful urination",
+      "classicalTerm": "Mutrakrichra",
+      "sourceCandidate": "Charaka Samhita, Chikitsa Sthana 26",
+      "mappingCaution": "Painful urination has multiple causes and is not synonymous with urinary infection.",
+      "standardCare": "Clinical assessment and urine testing when indicated; antibiotics for bacterial infection when prescribed.",
+      "redFlags": [
+        "Fever with flank pain",
+        "Inability to urinate",
+        "Pregnancy with urinary symptoms"
+      ],
+      "traditionalTreatmentStatus": "Requires edition and formulation verification"
+    },
+    {
+      "id": "khalitya",
+      "name": "Hair loss",
+      "classicalTerm": "Khalitya",
+      "sourceCandidate": "Charaka Samhita, Chikitsa Sthana 26",
+      "mappingCaution": "Classical hair loss categories do not establish the modern cause.",
+      "standardCare": "Assess pattern, medications, scalp disease and nutritional or endocrine causes as indicated.",
+      "redFlags": [
+        "Painful inflamed scalp",
+        "Rapid patchy or scarring hair loss"
+      ],
+      "traditionalTreatmentStatus": "Requires edition and formulation verification"
+    }
+  ]
+}
