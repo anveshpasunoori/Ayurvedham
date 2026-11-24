@@ -1,0 +1,26 @@
+{
+ "category": "diagnosis",
+ "label": "Diagnosis",
+ "items": [
+  {"id": "nidana-panchaka", "title": "Nidana Panchaka", "english": "Five means of understanding a disease",
+   "summary": "Classical diagnosis rests on five components that together describe how a disease arises and shows itself. Every condition article in this encyclopedia is organised around them.",
+   "sections": [
+    {"h": "The five components", "table": {"head": ["Component", "Meaning"], "rows": [
+     ["Nidana", "Causes: diet, lifestyle, season, external factors"],
+     ["Purvarupa", "Early warning signs before the disease is fully expressed"],
+     ["Rupa", "Characteristic signs and symptoms"],
+     ["Upashaya", "Diagnostic response: what relieves or aggravates (a therapeutic test)"],
+     ["Samprapti", "Pathogenesis: how the disturbed dosha travels and lodges"]]}},
+    {"h": "Samprapti Ghataka", "p": ["Samprapti is summarised by its components (Ghataka): the dosha involved, the tissues affected (Dushya), the channels (Srotas), the type of channel disturbance, the seat of disease (Adhishthana), the state of Agni and whether Ama is present. Condition articles show these in Doctor and Student views."]}],
+   "sources": [{"text": "Madhava Nidana, chapter 1 (Panchanidana Lakshana)", "verified": false}, {"text": "Charaka Samhita, Nidana Sthana 1", "verified": false}]},
+  {"id": "pariksha", "title": "Rogi and Roga Pariksha", "english": "Examination of patient and disease",
+   "summary": "Classical texts describe several structured examination systems. In modern practice they complement, never replace, clinical examination and investigations.",
+   "sections": [
+    {"h": "Trividha Pariksha (threefold)", "list": ["Darshana: inspection", "Sparshana: palpation", "Prashna: history-taking"]},
+    {"h": "Ashtavidha Pariksha (eightfold)", "list": ["Nadi: pulse", "Mutra: urine", "Mala: stool", "Jihva: tongue", "Shabda: voice and body sounds", "Sparsha: touch, temperature, texture", "Drik: eyes", "Akriti: build and appearance"]},
+    {"h": "Dashavidha Pariksha (tenfold assessment of the patient)", "list": ["Prakriti: constitution", "Vikriti: current disorder", "Sara: tissue excellence", "Samhanana: compactness of build", "Pramana: body measurements", "Satmya: habituation, what suits the person", "Sattva: mental strength", "Ahara Shakti: capacity to take and digest food", "Vyayama Shakti: exercise capacity", "Vaya: age"]},
+    {"h": "Nadi Pariksha (pulse diagnosis)", "p": ["Pulse reading appears in later texts (Sharangadhara Samhita; Yogaratnakara) rather than in Charaka or Sushruta. Studies of agreement between practitioners and of diagnostic accuracy are few and inconsistent. Pulse reading must not replace blood pressure measurement, ECG, laboratory tests or imaging when these are indicated."]},
+    {"h": "Modern investigations", "p": ["Many classical conditions overlap with diseases that need laboratory confirmation: blood sugar and HbA1c for Prameha/diabetes, haemoglobin for Pandu/anaemia, liver tests for Kamala/jaundice, thyroid tests, urine examination, imaging for stones. Ayurvedic Standard Treatment Guidelines (Ministry of AYUSH) also recommend relevant modern investigations."]}],
+   "sources": [{"text": "Charaka Samhita, Vimana Sthana 8 (Dashavidha Pariksha)", "verified": false}, {"text": "Yogaratnakara, Ashtavidha Pariksha", "verified": false}, {"text": "Sharangadhara Samhita, Purva Khanda 3 (Nadi Pariksha)", "verified": false}]}
+ ]
+}

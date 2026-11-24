@@ -1,0 +1,72 @@
+{
+ "schema": "prakriti-question",
+ "version": 1,
+ "migratedFrom": "index.html",
+ "legacySha": "42cb8f2e1884",
+ "count": 7,
+ "items": [
+  {
+   "id": "pq1",
+   "question": "Body frame",
+   "options": {
+    "vata": "Thin, light, hard to gain weight",
+    "pitta": "Medium, muscular",
+    "kapha": "Broad, solid, gains weight easily"
+   }
+  },
+  {
+   "id": "pq2",
+   "question": "Skin",
+   "options": {
+    "vata": "Dry, rough, cool",
+    "pitta": "Warm, oily, freckles or rashes easily",
+    "kapha": "Thick, smooth, cool, oily"
+   }
+  },
+  {
+   "id": "pq3",
+   "question": "Appetite and digestion",
+   "options": {
+    "vata": "Irregular; bloating or gas",
+    "pitta": "Strong; irritable if a meal is late",
+    "kapha": "Steady but slow; can skip meals easily"
+   }
+  },
+  {
+   "id": "pq4",
+   "question": "Sleep",
+   "options": {
+    "vata": "Light, wakes easily",
+    "pitta": "Moderate, sound",
+    "kapha": "Deep and long; hard to get up"
+   }
+  },
+  {
+   "id": "pq5",
+   "question": "Under stress you tend to be",
+   "options": {
+    "vata": "Anxious, worried",
+    "pitta": "Irritable, impatient",
+    "kapha": "Calm, withdrawn, slow to react"
+   }
+  },
+  {
+   "id": "pq6",
+   "question": "Weather you dislike most",
+   "options": {
+    "vata": "Cold and wind",
+    "pitta": "Heat and sun",
+    "kapha": "Cold and damp"
+   }
+  },
+  {
+   "id": "pq7",
+   "question": "Speech and activity",
+   "options": {
+    "vata": "Fast, talkative, restless",
+    "pitta": "Sharp, focused, precise",
+    "kapha": "Slow, steady, methodical"
+   }
+  }
+ ]
+}

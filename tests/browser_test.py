@@ -12,9 +12,9 @@ AXE = (ROOT / 'node_modules/axe-core/axe.min.js')
 ROUTES = ['#/', '#/conditions', '#/conditions/jwara', '#/conditions/madhumeha', '#/herbs', '#/herbs/ashwagandha', '#/formulations',
           '#/formulations/jwaramurari-rasa', '#/therapies', '#/therapies/basti', '#/ailments', '#/ailments/cold', '#/yoga', '#/yoga/nadi',
           '#/branches', '#/branches/shalya', '#/texts', '#/texts/charaka-samhita', '#/dictionary', '#/dictionary/ojas', '#/centres',
-          '#/centres/avs', '#/academy', '#/academy/quiz?topic=herbs', '#/academy/flashcards', '#/safety', '#/about', '#/saved', '#/nope/x']
-SEARCHES = {'ज्वर': 'Fever', 'జ్వరం': 'Fever', 'moolam': 'Piles', 'tulsi': 'Tulsi', 'ashwagandha': 'Ashwagandha', 'basti': 'Basti'}
-AXE_PAGES = ['#/', '#/conditions', '#/conditions/jwara', '#/herbs/haridra', '#/formulations/jwaramurari-rasa', '#/academy/quiz?topic=terms', '#/safety']
+          '#/centres/avs', '#/academy', '#/academy/quiz?topic=herbs', '#/academy/flashcards', '#/safety', '#/about', '#/saved', '#/nope/x', '#/learn', '#/learn/tridosha', '#/learn/ritucharya', '#/learn/pregnancy', '#/learn/snakebite', '#/tools', '#/tools/finder', '#/tools/prakriti', '#/tools/routine']
+SEARCHES = {'ज्वर': 'Fever', 'జ్వరం': 'Fever', 'moolam': 'Piles', 'tulsi': 'Tulsi', 'ashwagandha': 'Ashwagandha', 'basti': 'Basti', 'ojas': 'Ojas', 'snake': 'Snakebite'}
+AXE_PAGES = ['#/learn/shat-kriyakala', '#/tools/routine', '#/tools/prakriti', '#/', '#/conditions', '#/conditions/jwara', '#/herbs/haridra', '#/formulations/jwaramurari-rasa', '#/academy/quiz?topic=terms', '#/safety']
 
 failures = []
 def check(ok, msg):
@@ -40,7 +40,7 @@ def main():
             for r in ROUTES:
                 pg.goto(base + r); pg.wait_for_selector('main h1', timeout=5000)
                 text = pg.inner_text('main')
-                check(not any(x in text for x in ['[object ', 'undefined', 'NaN']), f'{name} {r}: stray JS value in text')
+                check(not any(x in text for x in ['[object ', 'undefined', 'NaN']) and '\nnull' not in text, f'{name} {r}: stray JS value in text')
                 check(not pg.evaluate('document.documentElement.scrollWidth > innerWidth + 1'), f'{name} {r}: horizontal overflow')
                 if a.shots: pg.screenshot(path=str(ROOT / f'tests/screenshots/{name}-{r.strip("#/").replace("/", "_").replace("?", "_") or "home"}.png'))
             for q, want in SEARCHES.items():

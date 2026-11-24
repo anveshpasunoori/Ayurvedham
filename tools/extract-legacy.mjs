@@ -29,7 +29,7 @@ function declaration(name) {
 }
 
 const ctx = vm.createContext({});
-const names = ['E', 'T', 'G', 'G0', 'D', 'SB', 'CS0', 'SG', 'SYL', 'TERMS', 'HB', 'GL', 'YP', 'YG', 'FRED', 'MA', 'SEA', 'CT', 'RG', 'SYN', 'LIB', 'LS'];
+const names = ['E', 'T', 'G', 'G0', 'D', 'SB', 'CS0', 'SG', 'SYL', 'TERMS', 'HB', 'GL', 'YP', 'YG', 'FRED', 'MA', 'SEA', 'CT', 'RG', 'SYN', 'LIB', 'LS', 'RQ'];
 let src = '';
 for (const n of names) src += declaration(n).replace(/^\s*const\s+/, 'var ').replace(/^\s*let\s+/, 'var ') + '\n';
 vm.runInContext(src, ctx, { timeout: 2000 });
@@ -187,6 +187,7 @@ write('centres.json', 'centre', centres);
 write('synonyms.json', 'synonym', synonyms);
 write('syllabus.json', 'syllabus', syllabus);
 write('seasons.json', 'season', seasons);
+write('prakriti-questions.json', 'prakriti-question', L('RQ').map(([q, o], i) => ({ id: 'pq' + (i + 1), question: q, options: { vata: o[0], pitta: o[1], kapha: o[2] } })));
 write('emergency.json', 'red-flag', emergency.map((t, i) => ({ id: 'rf' + (i + 1), text: t })));
 console.log(Object.entries({ conditions, herbs, formulations: forms, terms, yoga, ailments, texts, centres, synonyms, syllabus, seasons, emergency })
   .map(([k, v]) => `${k}: ${v.length}`).join('\n'));

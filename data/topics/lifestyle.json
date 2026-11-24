@@ -1,0 +1,62 @@
+{
+ "category": "lifestyle",
+ "label": "Lifestyle & prevention",
+ "items": [
+  {"id": "dinacharya", "title": "Dinacharya", "english": "Daily routine", "tool": "routine",
+   "summary": "A daily routine of waking early, cleansing, oil massage, exercise, regular meals and timely sleep is the foundation of Ayurvedic prevention.",
+   "sections": [
+    {"h": "The classical sequence", "table": {"head": ["Practice", "What it involves"], "rows": [
+     ["Brahma Muhurta", "Waking before sunrise (about 1½ hours before)"],
+     ["Elimination", "Attending to natural urges without straining"],
+     ["Dantadhavana", "Cleaning teeth; classically with twigs of neem, babul or similar bitter-astringent plants"],
+     ["Jihva Nirlekhana", "Tongue scraping"],
+     ["Gandusha / Kavala", "Holding or swishing oil or decoctions in the mouth"],
+     ["Anjana", "Eye care with collyrium (classical; use only safe, approved products)"],
+     ["Pratimarsha Nasya", "A drop or two of oil in each nostril"],
+     ["Abhyanga", "Oil massage, especially of head, ears and feet"],
+     ["Vyayama", "Exercise to half of one's capacity (Ardha Shakti), until light sweating"],
+     ["Snana", "Bathing"],
+     ["Meals", "Main meal at midday; light, early dinner"],
+     ["Sleep", "Going to bed at a regular, early hour"]]}},
+    {"h": "Safety notes", "list": ["Traditional kohl and some 'surma' products have been found to contain lead; do not use them, especially for children", "Do not use oil nasal drops if you have a cold, sinus infection, or immediately after meals", "Adjust exercise for heart, lung or joint conditions and pregnancy with your doctor"]},
+    {"h": "Modern view", "p": ["Regular sleep and meal timing, daily physical activity and oral hygiene are well supported by modern evidence. Tongue scraping can reduce tongue coating and odour; oil pulling has limited, low-quality evidence and does not replace brushing and dental care."]}],
+   "sources": [{"text": "Ashtanga Hridaya, Sutra Sthana 2 (Dinacharya)", "verified": false}, {"text": "Charaka Samhita, Sutra Sthana 5", "verified": false}]},
+  {"id": "ritucharya", "title": "Ritucharya", "english": "Seasonal routine", "seasons": true,
+   "summary": "Diet and conduct change with each of six seasons, because strength, digestion and doshas change through the year.",
+   "sections": [
+    {"h": "Two halves of the year", "p": ["Uttarayana or Adana Kala (late winter, spring, summer): the sun 'takes away' strength; people are weaker by summer. Dakshinayana or Visarga Kala (rains, autumn, early winter): the moon 'gives' strength; people are strongest in early winter."]},
+    {"h": "Ritusandhi", "p": ["The two weeks between seasons (the last week of one and the first of the next) are a transition: change habits gradually rather than abruptly."]},
+    {"h": "Dosha rhythm through the year (classical)", "table": {"head": ["Dosha", "Accumulates", "Aggravated", "Pacified"], "rows": [
+     ["Vata", "Summer (Grishma)", "Rains (Varsha)", "Autumn (Sharad)"],
+     ["Pitta", "Rains (Varsha)", "Autumn (Sharad)", "Early winter (Hemanta)"],
+     ["Kapha", "Late winter (Shishira)", "Spring (Vasanta)", "Summer (Grishma)"]]}},
+    {"h": "Note on climate", "p": ["The six seasons describe the climate of north India. In other regions and hemispheres, match the guidance to local weather (hot-dry, rainy, cold) rather than to calendar months."]}],
+   "sources": [{"text": "Ashtanga Hridaya, Sutra Sthana 3 (Ritucharya)", "verified": false}, {"text": "Charaka Samhita, Sutra Sthana 6", "verified": false}]},
+  {"id": "nidra", "title": "Nidra", "english": "Sleep",
+   "summary": "Sleep is one of the three supports of life (Trayopastambha) with food and regulated sexual life. Good sleep is said to bring happiness, strength, fertility, knowledge and long life.",
+   "sections": [
+    {"h": "Classical guidance", "list": ["Sleep at night; avoid daytime sleep except in summer or for the weak, elderly, children and those exhausted", "Night waking is said to increase Vata and dryness; daytime sleep to increase Kapha and heaviness", "For poor sleep: oil massage of head and feet, warm milk, a calm mind before bed"]},
+    {"h": "Modern view", "p": ["Adults generally need 7–9 hours. Persistent insomnia, loud snoring with pauses in breathing, or excessive daytime sleepiness should be assessed by a doctor (for example for sleep apnoea, depression or thyroid disease). Cognitive behavioural therapy for insomnia is the first-line treatment."]}],
+   "sources": [{"text": "Charaka Samhita, Sutra Sthana 21 (Ashtauninditiya)", "verified": false}]},
+  {"id": "vega", "title": "Vega Dharana", "english": "Natural urges",
+   "summary": "Charaka lists thirteen natural urges that must not be suppressed, and mental impulses that should be restrained.",
+   "sections": [
+    {"h": "Urges not to suppress (Adharaniya Vega)", "list": ["Flatus", "Faeces", "Urine", "Sneezing", "Thirst", "Hunger", "Sleep", "Cough", "Breathlessness after exertion", "Yawning", "Tears", "Vomiting", "Semen"]},
+    {"h": "Impulses to restrain (Dharaniya Vega)", "p": ["Greed, grief, fear, anger, vanity, shamelessness, jealousy, excessive attachment and malice; and harmful speech and actions."]},
+    {"h": "Modern view", "p": ["Habitual holding of stool or urine is linked to constipation and urinary problems. Forcing urges (for example, inducing vomiting or straining at stool) is equally harmful."]}],
+   "sources": [{"text": "Charaka Samhita, Sutra Sthana 7 (Navegandharaniya)", "verified": false}]},
+  {"id": "swasthavritta", "title": "Swasthavritta", "english": "Preventive and social medicine",
+   "summary": "Swasthavritta is the Ayurvedic discipline of staying healthy: daily and seasonal routine, ethical conduct (Sadvritta), hygiene, diet and Rasayana.",
+   "sections": [
+    {"h": "Classical pillars", "list": ["Dinacharya and Ritucharya", "Sadvritta: ethical, social and personal conduct", "Achara Rasayana: truthfulness, non-violence, compassion and calm as 'rejuvenation'", "Ahara: wholesome diet", "Yoga and moderate exercise"]},
+    {"h": "Add modern prevention", "list": ["Blood pressure check at least yearly in adults", "Blood sugar screening, especially with family history or excess weight", "Cancer screening appropriate to age and sex (cervical, breast, colorectal)", "Vaccinations according to the national schedule", "Stopping tobacco and limiting alcohol"]}],
+   "sources": [{"text": "Charaka Samhita, Sutra Sthana 8 (Sadvritta)", "verified": false}, {"text": "Charaka Samhita, Chikitsa Sthana 1 (Achara Rasayana)", "verified": false}]},
+  {"id": "yoga-overview", "title": "Yoga, pranayama and meditation", "english": "Overview",
+   "summary": "Yoga is a related but separate tradition. Postures, breathing practices and meditation are used alongside Ayurvedic treatment for general wellbeing.",
+   "sections": [
+    {"h": "What evidence shows", "p": ["Systematic reviews report modest benefits of yoga for chronic low back pain, stress and anxiety symptoms, and quality of life in several chronic conditions. Evidence for disease-specific claims is weaker."]},
+    {"h": "Safety", "list": ["Learn from a qualified teacher", "Avoid forceful breathing (Kapalabhati, Bhastrika) and breath-holding in pregnancy, heart disease, high blood pressure, epilepsy and after recent surgery", "Avoid inversions with glaucoma, uncontrolled blood pressure or neck problems", "Stop for pain, dizziness or breathlessness"]},
+    {"h": "Practices in this encyclopedia", "p": ["See the Yoga & breathing module for individual practices with cautions."]}],
+   "sources": [{"text": "Hatha Yoga Pradipika", "verified": false}, {"text": "Patanjali, Yoga Sutra", "verified": false}]}
+ ]
+}

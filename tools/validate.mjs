@@ -3,7 +3,7 @@
 // Errors fail the build; warnings are printed for editorial follow-up.
 //   node tools/validate.mjs           # summary
 //   node tools/validate.mjs --verbose # list every warning
-import { readFileSync, readdirSync } from 'node:fs';
+import { readFileSync, readdirSync, existsSync } from 'node:fs';
 
 const root = new URL('..', import.meta.url).pathname;
 const verbose = process.argv.includes('--verbose');
@@ -92,6 +92,12 @@ for (const s of data.synonyms?.items || []) {
 for (const a of data.ailments?.items || []) {
   if (a.linkedCondition && !C.has(a.linkedCondition)) warn(`ailments/${a.id}: linked condition ${a.linkedCondition} not in conditions`);
   if (!a.redFlags.length) err(`ailments/${a.id}: needs red flags`);
+}
+for (const t of data.topics?.items || []) {
+  if (!t.sections?.length) err(`topics/${t.id}: no sections`);
+  for (const c of t.conditions || []) if (!C.has(c)) err(`topics/${t.id}: unknown condition ${c}`);
+  if (t.diagram && !existsSync(root + `encyclopedia/img/${t.diagram}.svg`)) err(`topics/${t.id}: missing diagram ${t.diagram}`);
+  for (const s of t.sections || []) if (s.table && s.table.rows.some((r) => r.length !== s.table.head.length)) err(`topics/${t.id}: table "${s.h}" has ragged rows`);
 }
 const termNames = new Map();
 for (const t of data.terms?.items || []) { const k = t.term.toLowerCase().replace(/\(.*?\)/g, '').replace(/[^a-z]/g, ''); if (termNames.has(k)) warn(`terms: possible duplicate ${termNames.get(k)} ~ ${t.id}`); termNames.set(k, t.id); }

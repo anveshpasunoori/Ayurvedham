@@ -4,18 +4,19 @@ import { MODULES, load } from './store.js';
 import { search } from './search.js';
 import { state, recordVisit, crumbs } from './components.js';
 import { conditionView } from './views/condition.js';
-import { herbView, formulationView, therapyView, yogaView, ailmentView, textView, termView, branchView, centreView } from './views/entities.js';
+import { herbView, formulationView, therapyView, yogaView, ailmentView, textView, termView, branchView, centreView, topicView } from './views/entities.js';
 import { listView } from './views/lists.js';
 import { homeView, searchView, safetyView, aboutView, savedView } from './views/pages.js';
 import { academyView } from './views/academy.js';
+import { toolsView } from './views/tools.js';
 
 const $ = (id) => document.getElementById(id);
 const main = $('main');
-const DETAIL = { conditions: conditionView, herbs: herbView, formulations: formulationView, therapies: therapyView, yoga: yogaView, ailments: ailmentView, texts: textView, dictionary: termView, branches: branchView, centres: centreView };
+const DETAIL = { learn: topicView, conditions: conditionView, herbs: herbView, formulations: formulationView, therapies: therapyView, yoga: yogaView, ailments: ailmentView, texts: textView, dictionary: termView, branches: branchView, centres: centreView };
 const PAGES = { '': homeView, search: (p) => searchView(p), safety: safetyView, about: aboutView, saved: savedView };
-const NAV = [['conditions', 'Conditions'], ['herbs', 'Plants'], ['formulations', 'Formulations'], ['therapies', 'Therapies'], ['ailments', 'Everyday'], ['yoga', 'Yoga'], ['branches', 'Branches'], ['texts', 'Library'], ['dictionary', 'Dictionary'], ['academy', 'Academy'], ['safety', 'Safety']];
+const NAV = [['learn', 'Learn'], ['conditions', 'Conditions'], ['herbs', 'Plants'], ['formulations', 'Formulations'], ['therapies', 'Therapies'], ['ailments', 'Everyday'], ['yoga', 'Yoga'], ['branches', 'Branches'], ['texts', 'Library'], ['dictionary', 'Dictionary'], ['tools', 'Tools'], ['academy', 'Academy'], ['safety', 'Safety']];
 // Hashes used by the original reference and the first prototype, kept working.
-const LEGACY = { 'reading-evidence': '#/about', 'urgent-care': '#/safety', library: '#/texts', herbs: '#/herbs', everyday: '#/everyday', safety: '#/safety', centres: '#/centres', healers: '#/centres', az: '#/dictionary', medicines: '#/formulations', home: '#/' };
+const LEGACY = { 'reading-evidence': '#/about', 'urgent-care': '#/safety', library: '#/texts', herbs: '#/herbs', everyday: '#/everyday', safety: '#/safety', centres: '#/centres', healers: '#/centres', az: '#/dictionary', medicines: '#/formulations', home: '#/', routine: '#/tools/routine', prevention: '#/learn/swasthavritta', origins: '#/texts', how: '#/learn/pathya-kalpana', finder: '#/tools/finder' };
 
 async function legacyRedirect(raw) {
   if (LEGACY[raw]) return LEGACY[raw] === '#/everyday' ? '#/ailments' : LEGACY[raw];
@@ -38,6 +39,7 @@ async function route() {
   let view;
   try {
     if (seg === 'academy') view = await academyView(id, params);
+    else if (seg === 'tools') view = await toolsView(id, params);
     else if (id && DETAIL[seg]) view = await DETAIL[seg](id, params);
     else if (DETAIL[seg]) view = await listView(seg, params);
     else if (seg in PAGES) view = await PAGES[seg](params);

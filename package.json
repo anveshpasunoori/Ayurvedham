@@ -4,11 +4,12 @@
   "type": "module",
   "description": "Ayurvedham encyclopedia: static site, no runtime dependencies. Dev dependencies are used only for tests.",
   "scripts": {
-    "migrate": "node tools/extract-legacy.mjs",
+    "migrate": "node tools/extract-legacy.mjs && node tools/build-topics.mjs",
     "validate": "node tools/validate.mjs",
-    "test": "node tools/validate.mjs && node --test tests/*.test.mjs commerce/*.test.mjs",
+    "test": "npm run lint && node tools/validate.mjs && node --test tests/*.test.mjs commerce/*.test.mjs",
     "test:browser": "python3 tests/browser_test.py",
-    "serve": "python3 -m http.server 8000"
+    "serve": "python3 -m http.server 8000",
+    "lint": "for f in encyclopedia/js/*.js encyclopedia/js/views/*.js encyclopedia/sw.js tools/*.mjs; do node --check \"$f\" || exit 1; done"
   },
   "devDependencies": {
     "axe-core": "^4.14.1"

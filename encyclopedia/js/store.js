@@ -13,6 +13,7 @@ export const loadAll = (...names) => Promise.all(names.map(load));
 
 // Module registry: route segment → dataset, labels and how to name an item.
 export const MODULES = [
+  { id: 'learn', label: 'Learn', singular: 'Article', data: 'topics', title: (x) => x.title, sub: (x) => x.english },
   { id: 'conditions', label: 'Conditions', singular: 'Condition', data: 'conditions', title: (x) => x.names.en, sub: (x) => [x.names.iast, x.names.sa].filter(Boolean).join(' · ') },
   { id: 'herbs', label: 'Medicinal plants', singular: 'Plant', data: 'herbs', title: (x) => x.names.sa, sub: (x) => x.names.botanical },
   { id: 'formulations', label: 'Formulations', singular: 'Formulation', data: 'formulations', title: (x) => x.name, sub: (x) => x.form },

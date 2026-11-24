@@ -91,3 +91,9 @@ dl.kv{display:grid;grid-template-columns:max-content 1fr;gap:6px 16px}dl.kv dt{f
 @media (max-width:900px){.layout{grid-template-columns:1fr}.toc{display:none}.two{grid-template-columns:1fr}}
 @media (max-width:560px){.top{position:static}.bar{gap:8px}.brand small{display:none}.brand{flex:1}.search{order:3;flex-basis:100%}html{scroll-padding-top:12px}.notice{font-size:13.5px}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+
+.chk{display:flex;gap:8px;align-items:flex-start;padding:6px 0;cursor:pointer}.chk input{margin-top:5px;width:18px;height:18px;flex:none}
+.field{display:grid;gap:4px}.field span{font-weight:600;font-size:14.5px}
+.field input,.field select{padding:9px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);min-height:44px}
+fieldset{border:1px solid var(--line);border-radius:10px;padding:10px 14px;margin:12px 0}legend{font-weight:600;padding:0 6px}
+.planner .two{gap:12px}

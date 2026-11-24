@@ -15,6 +15,7 @@ function aliasesFor(mod, x) {
     case 'yoga': return [x.english];
     case 'texts': return [x.author, x.group];
     case 'dictionary': return [];
+    case 'learn': return [x.english, x.categoryLabel, ...x.sections.map((s) => s.h)];
     case 'branches': return [x.english, x.modernParallel];
     case 'centres': return [x.place, x.region];
     default: return [];

@@ -135,3 +135,27 @@ export async function centreView(id) {
     kvTable([['Founded', c.founded], ['Type', c.type], ['Region', c.region], ['In-patient', c.inpatient], ['Out-patient', c.outpatient], ['Website', c.website ? link(c.website, c.website, { rel: 'noopener' }) : null]], c.name),
     section('Treatments offered', list(c.treatments)), h('p', null, c.note)]) };
 }
+
+const DIAGRAMS = {
+  'panchamahabhuta-tridosha': 'Illustration: the five elements and how they combine into the three doshas.',
+  'shat-kriyakala': 'Illustration: the six stages of disease described by Sushruta.',
+};
+const TOOLS = { prakriti: ['#/tools/prakriti', 'Try the constitution self-assessment'], routine: ['#/tools/routine', 'Plan your daily routine'] };
+export async function topicView(id) {
+  const [T, C, S] = await loadAll('topics', 'conditions', 'seasons');
+  const t = T.byId.get(id); if (!t) return null;
+  const route = '#/learn/' + id;
+  const block = (s) => section(s.h,
+    ...(s.p || []).map((x) => h('p', null, x)),
+    s.list ? list(s.list) : null,
+    s.table ? table(s.table.head, s.table.rows, s.h) : null);
+  const body = [h('p', { class: 'lead' }, t.summary),
+    t.diagram ? h('figure', null, h('img', { src: `img/${t.diagram}.svg`, alt: DIAGRAMS[t.diagram], width: 640, loading: 'lazy' }), h('figcaption', null, h('strong', null, 'Educational illustration, '), 'not a photograph or a clinical reference.')) : null,
+    t.tool ? h('p', null, link(TOOLS[t.tool][0], TOOLS[t.tool][1] + ' →', { class: 'btn primary' })) : null,
+    ...t.sections.map(block),
+    t.seasons ? section('Guidance for each season', table(['Season', 'Guidance'], S.items.map((x) => [x.name, x.guidance]), 'Seasons')) : null,
+    t.conditions?.length ? section('Related conditions', condCards(C, t.conditions)) : null,
+    section('Sources', t.sources.length ? refList(t.sources) : h('p', { class: 'muted' }, 'Editorial content; no specific classical locator.'))];
+  return { title: t.title, route, node: article([crumbs(['Learn', '#/learn'], [t.categoryLabel, '#/learn?f=' + encodeURIComponent(t.categoryLabel)], [t.title]), h('h1', null, t.title), h('div', { class: 'names' }, t.english),
+    h('div', { class: 'badges' }, reviewBadge(t.status), h('span', { class: 'badge' }, t.categoryLabel)), actions(route, t.title)], body.filter(Boolean)) };
+}

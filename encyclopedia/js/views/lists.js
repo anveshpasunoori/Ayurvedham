@@ -4,6 +4,7 @@ import { load, moduleById } from '../store.js';
 import { crumbs, reviewBadge } from '../components.js';
 
 const FILTERS = {
+  learn: { label: 'Category', get: (x) => x.categoryLabel },
   conditions: { label: 'System', get: (x) => x.groupName || 'Other', param: 'group', key: (x) => x.group || '' },
   formulations: { label: 'Safety', get: (x) => ({ herbal: 'Herbal', 'herbo-mineral': 'Metals or minerals', 'contains-toxic-herb': 'Toxic herb' })[x.safetyClass] },
   therapies: { label: 'Category', get: (x) => ({ shodhana: 'Shodhana (purification)', purvakarma: 'Preparatory', bahya: 'External', shalya: 'Para-surgical' })[x.category] },
@@ -11,6 +12,7 @@ const FILTERS = {
   centres: { label: 'Region', get: (x) => x.region },
 };
 const INTRO = {
+  learn: 'Foundations of Ayurveda, diagnosis, food, daily and seasonal routine, health across life, toxicology and research. Each article separates the traditional model from modern science.',
   conditions: 'Each condition gives warning signs first, then modern standard care, diet, yoga and the classical treatment framework. Switch reading mode for doses (Doctor) or study notes (Student).',
   herbs: 'Botanical identity, Rasa Panchaka, traditional uses, cautions and the formulations each plant appears in.',
   formulations: 'Formulations referenced across the encyclopedia. Mineral and toxic-herb preparations are clearly marked and are for physician supervision only.',

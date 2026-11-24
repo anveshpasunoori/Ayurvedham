@@ -1,0 +1,55 @@
+{
+ "category": "lifestages",
+ "label": "Health across life",
+ "items": [
+  {"id": "womens-health", "title": "Women's health", "english": "Stri Roga and menstrual health", "conditions": ["asrigdara", "kashtartava", "shwetapradara", "thyroid"],
+   "summary": "Classical gynaecology (Stri Roga) describes menstrual, uterine and vaginal disorders, with menstruation viewed as a natural monthly cleansing.",
+   "sections": [
+    {"h": "Classical concepts", "list": ["Artava: menstrual blood, considered an Upadhatu (secondary tissue) of Rasa", "Rituchakra: the menstrual cycle, divided into the menstrual phase (Rajasrava Kala), proliferative phase (Ritu Kala) and the post-ovulatory phase (Ritu Vyatita Kala)", "Twenty gynaecological disorders (Yonivyapad) described by Charaka and Sushruta"]},
+    {"h": "Rajaswala Paricharya", "p": ["Classical texts prescribe rest and dietary restrictions during menstruation. Modern understanding does not support isolation or restrictions on normal activities; rest and comfort as needed are reasonable. Menstruation is not impure."]},
+    {"h": "See a doctor for", "list": ["Very heavy bleeding (soaking a pad or tampon every hour for several hours), or bleeding between periods or after sex", "Any bleeding after menopause", "Severe pelvic pain, or pain with fever", "Missed periods with a possible pregnancy", "A lump in the breast"]},
+    {"h": "Menopause", "p": ["Classically described as Rajonivritti, a natural transition associated with increasing Vata. Hot flushes, sleep disturbance, mood changes and bone loss can be managed with lifestyle measures and, where suitable, menopausal hormone therapy; discuss bone density and cardiovascular risk with a doctor."]}],
+   "sources": [{"text": "Charaka Samhita, Chikitsa Sthana 30 (Yonivyapad Chikitsa)", "verified": false}, {"text": "Sushruta Samhita, Uttara Tantra 38", "verified": false}]},
+  {"id": "pregnancy", "title": "Pregnancy care (Garbhini Paricharya)", "english": "Antenatal care in Ayurveda",
+   "summary": "Classical texts describe a month-by-month diet and conduct for pregnancy, centred on milk, ghee and nourishing food. Modern antenatal care comes first.",
+   "sections": [
+    {"h": "Essential modern care", "list": ["Register for antenatal care early and attend all visits and scans", "Folic acid before conception and in early pregnancy; iron and calcium as advised", "Do not take any herbal, Rasa or Bhasma medicine in pregnancy unless your obstetrician has approved it", "Avoid alcohol, tobacco and unpasteurised products"]},
+    {"h": "Classical monthly regimen (outline)", "p": ["Charaka, Sushruta and Vagbhata describe a different diet for each month: for example, cold milk in the first month, milk processed with sweet herbs in the second and third, and ghee and rice preparations in later months; with enemas (Anuvasana Basti) in the eighth and ninth months in classical practice. The procedures in late pregnancy are not recommended without specialist obstetric supervision."]},
+    {"h": "Conduct", "p": ["Texts advise a calm, pleasant environment, avoiding heavy exertion, long journeys on rough roads, fasting, sleeping on the back, suppressing urges and frightening experiences."]},
+    {"h": "Seek urgent care for", "list": ["Vaginal bleeding or leaking fluid", "Severe headache, blurred vision or swelling of face and hands", "Reduced baby movements", "Severe abdominal pain, fever or fits"]}],
+   "sources": [{"text": "Charaka Samhita, Sharira Sthana 8", "verified": false}, {"text": "Sushruta Samhita, Sharira Sthana 10", "verified": false}, {"text": "Ashtanga Hridaya, Sharira Sthana 1", "verified": false}]},
+  {"id": "postpartum", "title": "Postpartum care (Sutika Paricharya)", "english": "Care after childbirth",
+   "summary": "The postpartum woman (Sutika) is considered weak and Vata-aggravated. Classical care uses rest, oil massage, warm baths and digestible, nourishing food for about six weeks.",
+   "sections": [
+    {"h": "Classical measures", "list": ["Abhyanga with warm oil and warm water baths", "Binding of the abdomen", "Light, warm, easily digested food at first, then gradually nourishing food", "Avoiding exertion, cold exposure and sexual intercourse during the Sutika period"]},
+    {"h": "Breastfeeding (Stanya)", "p": ["Classical texts describe galactagogue foods and herbs such as Shatavari. Exclusive breastfeeding for about six months is the modern recommendation. Check any herb with your doctor while breastfeeding."]},
+    {"h": "Seek urgent care for", "list": ["Heavy bleeding, large clots or feeling faint", "Fever, foul-smelling discharge or a red, painful breast", "Calf pain or breathlessness", "Low mood, anxiety or thoughts of harming yourself or the baby"]}],
+   "sources": [{"text": "Sushruta Samhita, Sharira Sthana 10", "verified": false}, {"text": "Kashyapa Samhita, Khila Sthana 11", "verified": false}]},
+  {"id": "pediatrics", "title": "Children's health (Kaumarabhritya)", "english": "Paediatrics", "conditions": ["autism", "krimi"],
+   "summary": "Kaumarabhritya covers newborn care, nutrition, growth and childhood illness. Kashyapa Samhita is its main classical text.",
+   "sections": [
+    {"h": "Essential modern care", "list": ["Follow the national immunisation schedule; no traditional practice replaces vaccination", "Exclusive breastfeeding for about six months, then complementary foods", "Regular growth and development checks", "Do not give adult Ayurvedic medicines, Rasa preparations or Bhasmas to children"]},
+    {"h": "Swarna Prashana", "p": ["A preparation containing processed gold with ghee and honey, promoted for immunity and intellect in children. Its classical basis is a passage in Kashyapa Samhita on Swarna Prashana. There is no robust clinical evidence of benefit, the gold content of products varies, and honey must not be given to infants under one year (risk of infant botulism). It is not a vaccine."]},
+    {"h": "Seek urgent care for", "list": ["Any fever in a baby under 3 months", "Fast or difficult breathing, blue lips", "Drowsiness, floppiness or a fit", "Not feeding, few wet nappies, sunken eyes", "A rash that does not fade when pressed"]}],
+   "sources": [{"text": "Kashyapa Samhita, Sutra Sthana 18 (Lehadhyaya)", "verified": false}, {"text": "Ashtanga Hridaya, Uttara Sthana 1", "verified": false}]},
+  {"id": "mens-health", "title": "Men's health", "english": "Vajikarana and men's health",
+   "summary": "Vajikarana covers sexual health, vigour and fertility. Several common men's problems can be signs of other illness and need medical assessment.",
+   "sections": [
+    {"h": "Classical approach", "p": ["Vajikarana uses nourishing diet, conduct and drugs (for example Ashwagandha, Shatavari, Kapikacchu, Gokshura) after the body has been cleansed, and emphasises emotional wellbeing and a healthy relationship."]},
+    {"h": "Medical points", "list": ["Erectile difficulty can be an early sign of heart disease or diabetes: check blood pressure, sugar and cholesterol", "Infertility needs semen analysis and assessment of both partners", "Urinary hesitancy or weak stream after 50 may be prostate enlargement; blood in urine needs urgent assessment", "Many 'herbal' sexual-enhancement products sold online have been found to contain hidden prescription drugs such as sildenafil; avoid unlicensed products"]}],
+   "sources": [{"text": "Charaka Samhita, Chikitsa Sthana 2 (Vajikarana)", "verified": false}]},
+  {"id": "geriatrics", "title": "Healthy ageing (Jara and Rasayana)", "english": "Geriatrics",
+   "summary": "Old age (Jara) is described as a Vata-predominant stage. Rasayana aims to slow decline and preserve strength, memory and immunity.",
+   "sections": [
+    {"h": "Classical approach", "list": ["Regular routine, oil massage, warm and nourishing food", "Rasayana drugs such as Amalaki, Haritaki, Guduchi and Chyawanprash, under supervision", "Achara Rasayana: calm, ethical and engaged living"]},
+    {"h": "Medical points", "list": ["Review all medicines and supplements with a doctor or pharmacist at least yearly (risk of interactions)", "Prevent falls: strength and balance exercise, good lighting, eye checks", "Screen for hearing loss, memory problems, depression and osteoporosis", "Kidney and liver function decline with age: doses that suit younger adults may be too high"]}],
+   "sources": [{"text": "Charaka Samhita, Chikitsa Sthana 1 (Rasayana)", "verified": false}]},
+  {"id": "mental-health", "title": "Mental health (Manas)", "english": "Mind in Ayurveda", "conditions": ["vishada", "anidra", "apasmara"],
+   "summary": "Ayurveda describes the mind (Manas) with three qualities, Sattva, Rajas and Tamas, and recognises mental disorders such as Unmada (psychosis-like states) and Apasmara (seizure disorders).",
+   "sections": [
+    {"h": "Classical concepts", "list": ["Sattva (clarity), Rajas (activity, passion), Tamas (inertia): disorders arise from excess Rajas and Tamas", "Medhya Rasayana: herbs said to support intellect, including Mandukaparni, Yashtimadhu, Guduchi and Shankhapushpi", "Sattvavajaya Chikitsa: control of the mind by knowledge, courage, memory and concentration, a classical form of psychological therapy", "Achara Rasayana: ethical, compassionate conduct"]},
+    {"h": "Modern care comes first", "list": ["Depression, anxiety, bipolar disorder, psychosis and epilepsy are treatable with psychological therapies and medicines", "Never stop psychiatric or antiepileptic medicines without your doctor, even when feeling better", "Herbs such as Ashwagandha, Jatamansi and Brahmi can interact with sedatives and other medicines"]},
+    {"h": "If you are in crisis", "p": ["If you are thinking about harming yourself or ending your life, contact local emergency services or a crisis helpline now (in India, Tele-MANAS: 14416; in the US, 988), or go to the nearest emergency department."]}],
+   "sources": [{"text": "Charaka Samhita, Sutra Sthana 11 (Sattvavajaya)", "verified": false}, {"text": "Charaka Samhita, Chikitsa Sthana 9 (Unmada) and 10 (Apasmara)", "verified": false}]}
+ ]
+}

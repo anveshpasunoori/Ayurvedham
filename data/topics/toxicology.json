@@ -1,0 +1,39 @@
+{
+ "category": "toxicology",
+ "label": "Toxicology & emergencies",
+ "items": [
+  {"id": "agada-overview", "title": "Agada Tantra", "english": "Classical toxicology",
+   "summary": "Agada Tantra deals with poisons from plants, minerals and animals, and their management. Today, suspected poisoning is a medical emergency.",
+   "sections": [
+    {"h": "Classical categories", "list": ["Sthavara Visha: poisons from plants and minerals", "Jangama Visha: poisons from animals (snakes, scorpions, insects)", "Gara Visha: artificial or combined poisons", "Dushi Visha: weak, residual poison that persists in the body"]},
+    {"h": "Emergency first", "p": ["For any suspected poisoning, call emergency services or a poison centre immediately. Do not induce vomiting unless a medical professional tells you to. Take the container or plant to hospital."]}],
+   "sources": [{"text": "Sushruta Samhita, Kalpa Sthana", "verified": false}, {"text": "Charaka Samhita, Chikitsa Sthana 23 (Visha Chikitsa)", "verified": false}]},
+  {"id": "snakebite", "title": "Snakebite: first aid", "english": "Sarpa Damsha",
+   "summary": "Snakebite needs urgent hospital care with antivenom. Traditional remedies must never delay transport.",
+   "sections": [
+    {"h": "Do", "list": ["Keep calm and keep the person still", "Remove rings, watches and tight clothing from the bitten limb", "Immobilise the limb with a splint, at about heart level", "Get to a hospital with antivenom as fast as possible", "Note the time of the bite and any symptoms"]},
+    {"h": "Do not", "list": ["Cut, suck or burn the wound", "Apply a tight tourniquet", "Apply herbs, chemicals or ice", "Wait for symptoms to appear before going to hospital", "Try to catch or kill the snake"]}],
+   "sources": [{"text": "World Health Organization guidance on snakebite envenoming", "verified": false}]},
+  {"id": "poisonous-plants", "title": "Poisonous medicinal plants", "english": "Upavisha and Visha drugs",
+   "summary": "Several plants used in Ayurvedic pharmacy are poisonous in their raw form and are used only after purification (Shodhana) in tiny doses by trained physicians.",
+   "sections": [
+    {"h": "Examples", "table": {"head": ["Plant", "Botanical name", "Main danger"], "rows": [
+     ["Vatsanabha", "Aconitum species", "Heart rhythm disturbance, death; one of the most toxic"],
+     ["Kupilu", "Strychnos nux-vomica", "Strychnine: muscle spasms, convulsions"],
+     ["Dhattura", "Datura metel", "Confusion, delirium, fast heart rate, high temperature"],
+     ["Bhallataka", "Semecarpus anacardium", "Severe skin blistering and allergy"],
+     ["Jayapala", "Croton tiglium", "Violent purging, dehydration"],
+     ["Gunja", "Abrus precatorius", "Abrin: vomiting, organ failure if seeds are chewed"],
+     ["Karavira", "Nerium oleander", "Cardiac glycosides: heart rhythm disturbance"],
+     ["Arka", "Calotropis species", "Latex burns eyes and skin; cardiac effects"]]}},
+    {"h": "Safety", "p": ["Never prepare or take these at home. Keep products containing them away from children. Formulation pages in this encyclopedia mark preparations containing toxic herbs."]}],
+   "sources": [{"text": "Rasa Tarangini (Upavisha and Visha chapters)", "verified": false}]},
+  {"id": "heavy-metals", "title": "Heavy metals in herbal products", "english": "Rasa Shastra safety",
+   "summary": "Some Ayurvedic preparations intentionally contain processed metals and minerals; contamination also occurs. Lead, mercury and arsenic poisoning have been reported.",
+   "sections": [
+    {"h": "What is known", "p": ["A study of Ayurvedic products bought online in the United States found detectable lead, mercury or arsenic in about one in five products, and more often in Rasa Shastra products (Saper RB et al., JAMA 2008). Cases of lead poisoning linked to Ayurvedic medicines have been reported repeatedly in medical journals."]},
+    {"h": "Reduce your risk", "list": ["Take mineral preparations only when prescribed, for the shortest time", "Buy only from licensed GMP manufacturers; ask for heavy-metal test reports", "Never give such products to children or in pregnancy without specialist advice", "Tell your doctor about any such product; blood lead testing is simple"]},
+    {"h": "Symptoms of lead poisoning", "list": ["Abdominal pain, constipation", "Tiredness, anaemia", "Headache, memory problems, irritability", "Tingling or weakness in hands and feet"]}],
+   "sources": [{"text": "Saper RB et al. Lead, mercury, and arsenic in US- and Indian-manufactured Ayurvedic medicines sold via the Internet. JAMA 2008;300(8):915–923", "verified": false}]}
+ ]
+}
