@@ -3,7 +3,11 @@ import { loadAll } from '../store.js';
 import { state, crumbs, reviewBadge, reviewNotice, safetyBadge, evidenceBadge, section, list, panel, kvTable, table, cards, actions, modeNote, article, refList } from '../components.js';
 
 export async function conditionView(id) {
-  const [C, H, F, TH, Y, A, B] = await loadAll('conditions', 'herbs', 'formulations', 'therapies', 'yoga', 'ailments', 'branches');
+  const [C, H, F, TH, Y, A, B, DX] = await loadAll('conditions', 'herbs', 'formulations', 'therapies', 'yoga', 'ailments', 'branches', 'differentials');
+  const dx = DX.byId.get(id);
+  const dxSection = () => section('Differential diagnosis', dx
+    ? [h('p', null, reviewBadge('draft'), ' Modern conditions to consider; draft, awaiting clinical review. Not exhaustive.'), list(dx.differentials), h('h3', null, 'Initial investigations to consider'), list(dx.investigations)]
+    : h('p', { class: 'muted' }, 'Not yet compiled for this entry.'));
   const c = C.byId.get(id); if (!c) return null;
   const route = '#/conditions/' + id, mode = state.mode;
   const branches = B.items.filter((b) => b.conditionIds?.includes(id) || b.groups.includes(c.group));
@@ -49,7 +53,7 @@ export async function conditionView(id) {
         table(['Formulation', 'Form', 'Safety', 'Caution'],
           c.medicines.map((m) => [medLink(m), m.form, safetyBadge(m.safetyClass), m.caution || '—']), 'Formulations')),
       c.guidelineNote ? section('Standard Treatment Guideline note', h('p', null, c.guidelineNote), h('p', { class: 'muted' }, 'As recorded from the Ministry of AYUSH Ayurvedic Standard Treatment Guidelines (2017) in the original reference; page locator not yet recorded.')) : null,
-      section('Differential diagnosis', h('p', { class: 'muted' }, 'Not yet compiled for this entry. Classical categories do not map one-to-one to modern diagnoses; exclude serious causes listed under the warning signs before attributing symptoms to a classical condition.')),
+      dxSection(),
       section('Modern standard of care', h('p', null, c.standardCare)),
       section('Pathya and Apathya', h('div', { class: 'two' }, panel('', 'Pathya', list(c.pathya)), panel('', 'Apathya', list(c.apathya)))),
       section('Evidence', h('p', null, c.evidence.clinical), h('p', { class: 'muted' }, c.evidence.traditional)),
@@ -62,6 +66,7 @@ export async function conditionView(id) {
       section('Study notes', kvTable([['English', c.names.en], ['Sanskrit', c.names.iast], ['System group', c.groupName], ['Classification', c.types], ['Key symptoms (Rupa)', c.symptoms.join('; ')]], 'Study notes')),
       c.samprapti ? section('Samprapti Ghataka', sampraptiTable(c), h('p', null, h('strong', null, 'Chikitsa Sutra: '), c.samprapti.chikitsaSutra)) : section('Samprapti Ghataka', h('p', { class: 'muted' }, 'Not yet compiled for this entry.')),
       section('Self-test', ...cardsQ.map(([q, a]) => h('details', { class: 'panel' }, h('summary', null, q), h('p', null, a))), h('p', null, link('#/academy/quiz?topic=conditions', 'Take a quiz on conditions →'))),
+      dxSection(),
       section('Formulations to know', list(c.medicines.map((m) => [medLink(m), ` — ${m.form}`]))),
       section('Classical references', refList(c.references)),
       section('Curriculum mapping', list(['II BAMS Roga Nidana evam Vikriti Vijnana: Nidana Panchaka and Samprapti', 'III BAMS Kayachikitsa (or the relevant specialty): Chikitsa Sutra and formulations', 'Swasthavritta: Pathya-Apathya'])),

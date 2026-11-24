@@ -10,7 +10,7 @@ from playwright.sync_api import sync_playwright
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 AXE = (ROOT / 'node_modules/axe-core/axe.min.js')
 ROUTES = ['#/', '#/conditions', '#/conditions/jwara', '#/conditions/madhumeha', '#/herbs', '#/herbs/ashwagandha', '#/formulations',
-          '#/formulations/jwaramurari-rasa', '#/therapies', '#/therapies/basti', '#/ailments', '#/ailments/cold', '#/yoga', '#/yoga/nadi',
+          '#/formulations/jwaramurari-rasa', '#/therapies', '#/therapies/basti', '#/therapies/netra-tarpana', '#/ailments', '#/ailments/cold', '#/yoga', '#/yoga/nadi',
           '#/branches', '#/branches/shalya', '#/texts', '#/texts/charaka-samhita', '#/dictionary', '#/dictionary/ojas', '#/centres',
           '#/centres/avs', '#/academy', '#/academy/quiz?topic=herbs', '#/academy/flashcards', '#/safety', '#/about', '#/saved', '#/nope/x', '#/learn', '#/learn/tridosha', '#/learn/ritucharya', '#/learn/pregnancy', '#/learn/snakebite', '#/tools', '#/tools/finder', '#/tools/prakriti', '#/tools/routine']
 SEARCHES = {'ज्वर': 'Fever', 'జ్వరం': 'Fever', 'moolam': 'Piles', 'tulsi': 'Tulsi', 'ashwagandha': 'Ashwagandha', 'basti': 'Basti', 'ojas': 'Ojas', 'snake': 'Snakebite'}
@@ -58,6 +58,8 @@ def main():
         pg.goto(base + '#/conditions/madhumeha'); pg.wait_for_selector('main h1')
         check(pg.locator('text=Formulations as recorded').count() == 0, 'patient mode should not show dose table')
         pg.select_option('#mode', 'doctor'); pg.wait_for_selector('#formulations-as-recorded'); check(pg.locator('main table').count() >= 2, 'doctor mode tables')
+        check('HbA1c' in pg.inner_text('#differential-diagnosis + *') or 'HbA1c' in pg.inner_text('main'), 'doctor mode differentials')
+        check('Withheld' not in pg.inner_text('main') and ' mg' not in pg.inner_text('main'), 'no doses in doctor view')
         pg.select_option('#mode', 'student'); pg.wait_for_selector('#self-test'); pg.select_option('#mode', 'patient')
         # Keyboard search: type, arrow down, enter.
         pg.fill('#q', 'ashwagandha'); pg.wait_for_selector('#suggest li'); pg.keyboard.press('ArrowDown'); pg.keyboard.press('Enter'); pg.wait_for_timeout(400)

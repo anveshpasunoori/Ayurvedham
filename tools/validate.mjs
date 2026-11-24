@@ -99,6 +99,8 @@ for (const t of data.topics?.items || []) {
   if (t.diagram && !existsSync(root + `encyclopedia/img/${t.diagram}.svg`)) err(`topics/${t.id}: missing diagram ${t.diagram}`);
   for (const s of t.sections || []) if (s.table && s.table.rows.some((r) => r.length !== s.table.head.length)) err(`topics/${t.id}: table "${s.h}" has ragged rows`);
 }
+for (const d of data.differentials?.items || []) { if (!C.has(d.id)) err(`differentials: unknown condition ${d.id}`); if (!d.differentials.length || !d.investigations.length) err(`differentials/${d.id}: empty`); }
+for (const c of C) if (data.differentials && !data.differentials.items.some((d) => d.id === c)) warn(`conditions/${c}: no differential diagnosis`);
 const termNames = new Map();
 for (const t of data.terms?.items || []) { const k = t.term.toLowerCase().replace(/\(.*?\)/g, '').replace(/[^a-z]/g, ''); if (termNames.has(k)) warn(`terms: possible duplicate ${termNames.get(k)} ~ ${t.id}`); termNames.set(k, t.id); }
 
