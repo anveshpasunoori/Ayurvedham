@@ -91,3 +91,9 @@ npm run migrate        # re-extract data/ from the legacy index.html
 2. Add photographs for the next 15 plants by usage frequency (see `herbs[].conditions.length`).
 3. Build the Ayurvedic anatomy/physiology module (Dosha, Dhatu, Srotas, Agni, Ama, Ojas, Prakriti) from `data/terms.json` plus new editorial records.
 4. Add a GitHub Actions workflow for `npm test` and the browser suite.
+
+## Subsequent safety and commercial foundation work
+- Withheld structured dosage, timing, anupana and duration in modular condition and formulation views. Legacy site and other narrative clinical text still require audit; this is not a complete publication gate.
+- Added GitHub Actions unit/data validation workflow and included commerce tests in npm test.
+- Added pure account ownership, tenant membership and verified directory projection policies with tests. Not wired to a deployed backend.
+- CI execution and browser regression results not yet verified. No live payment or identity services configured.
