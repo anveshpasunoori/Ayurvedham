@@ -105,6 +105,17 @@ for (const h of herbs) {
   }
 }
 
+// Attach photographs from the image registry (data/images.json is hand-curated, never generated).
+const fp = (file, w) => `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(file)}?width=${w}`;
+try {
+  const reg = JSON.parse(readFileSync(root + 'data/images.json', 'utf8'));
+  for (const im of reg.items) {
+    const h = herbs.find((x) => x.id === im.herb); if (!h) throw new Error('images.json: unknown herb ' + im.herb);
+    const { herb, file, ...rest } = im;
+    h.images.push({ ...rest, src: fp(file, 960), thumb: fp(file, 480) });
+  }
+} catch (e) { if (e.code !== 'ENOENT') throw e; }
+
 // --- Formulations (derived from the medicine tables)
 const forms = [...formulations.values()].map((f) => ({ ...f, cautions: [...f.cautions], usedIn: [...new Set(f.usedIn)],
   herbs: herbs.filter((h) => h.formulations.includes(f.id)).map((h) => h.id),

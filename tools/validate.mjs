@@ -11,7 +11,7 @@ const load = (f) => JSON.parse(readFileSync(root + 'data/' + f, 'utf8'));
 const errors = [], warnings = [];
 const err = (m) => errors.push(m), warn = (m) => warnings.push(m);
 
-const files = readdirSync(root + 'data').filter((f) => f.endsWith('.json') && !f.endsWith('.schema.json') && !['coverage.json', 'condition-candidates.json', 'emergency.json'].includes(f));
+const files = readdirSync(root + 'data').filter((f) => f.endsWith('.json') && !f.endsWith('.schema.json') && !['coverage.json', 'condition-candidates.json', 'emergency.json', 'images.json'].includes(f));
 const data = {};
 for (const f of files) {
   let j; try { j = load(f); } catch (e) { err(`${f}: invalid JSON (${e.message})`); continue; }

@@ -13,10 +13,14 @@ Each clinical entry requires a source locator, modern differential and red flags
 Images require species or procedure identification, author, source URL, license and alt text. Do not use generated images as botanical identification references.
 
 ## Architecture
-Incrementally migrate data into versioned JSON; preserve stable IDs and hash links. Build patient and clinician views from shared records, with clinician-only historical treatment details clearly labeled. Add student learning tools, multilingual aliases, source search, accessible navigation and offline support after data validation.
+Implemented (see PROGRESS.md for status):
+- Legacy data extracted to `data/*.json` by `tools/extract-legacy.mjs`; hand-curated files (`branches`, `therapies`, `images`) sit beside them.
+- `encyclopedia/` renders patient, doctor and student views from the same record; doses and Samprapti appear only in doctor/student views and are labelled unverified.
+- Search folds English, IAST, Devanagari, regional synonyms and Indic-script input through one phonetic key (`js/translit.js`).
+- `tools/validate.mjs` enforces publication gates; `tests/` covers data rules, routes, accessibility and offline use.
 
 ## Milestones
-1. Inventory and schemas; audit existing content and fix unsafe mappings.
+1. Inventory and schemas; audit existing content and fix unsafe mappings. (Platform done; content audit pending review.)
 2. Expand reviewed condition and herb records; verify sources and images.
 3. Formulary and procedure catalogs, cross-links and search.
 4. Classical chapter index, nutrition and student modules.

@@ -8,6 +8,10 @@ A single-page reference for classical Ayurvedic treatment, traced to the book ea
 - Study corner for BAMS students: Samprapti Ghataka notes, quizzes and flashcards
 - Search in English, Hindi, Telugu, Tamil, Malayalam and Kannada
 
+## Encyclopedia (in development)
+
+A modular rebuild lives in `encyclopedia/`, built on validated datasets in `data/`. Run `npm run serve` and open `http://localhost:8000/encyclopedia/`. See `PROGRESS.md` for what is complete and what still awaits medical review.
+
 ## Run it
 
 Open `index.html` in a browser. No build step and no dependencies (fonts load from Google Fonts).

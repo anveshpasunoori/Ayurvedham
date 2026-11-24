@@ -50,8 +50,9 @@ export function cards(items, cls = '') {
 }
 export function figure(im) {
   return h('figure', null,
-    h('img', { src: im.thumb || im.src, alt: im.alt, loading: 'lazy', decoding: 'async', width: im.width || null, height: im.height || null }),
-    h('figcaption', null, im.caption ? im.caption + ' ' : '', h('span', null, `Photo: ${im.author} · `), link(im.licenseUrl || im.sourceUrl, im.license, { rel: 'license' }), ' · ', link(im.sourceUrl, 'source'),
+    h('img', { src: im.thumb || im.src, srcset: im.thumb ? `${im.thumb} 480w, ${im.src} 960w` : null, sizes: '(max-width: 600px) 100vw, 480px', alt: im.alt, loading: 'lazy', decoding: 'async',
+      onerror: (e) => { e.target.replaceWith(h('p', { class: 'muted' }, 'Image could not be loaded. ', link(im.sourceUrl, 'View on Wikimedia Commons'))); } }),
+    h('figcaption', null, im.caption ? im.caption + ' ' : '', h('i', null, im.depicts), '. ', h('span', null, `Photo: ${im.author} · `), link(im.licenseUrl || im.sourceUrl, im.license, { rel: 'license' }), ' · ', link(im.sourceUrl, 'source'),
       im.generated ? h('strong', null, ' · Illustration, not a photograph') : null));
 }
 

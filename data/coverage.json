@@ -1,116 +1,129 @@
 {
-  "version": 1,
-  "status": "planning",
-  "branches": [
-    {
-      "name": "Kayachikitsa",
-      "status": "audit-required"
-    },
-    {
-      "name": "Shalya Tantra",
-      "status": "audit-required"
-    },
-    {
-      "name": "Shalakya Tantra",
-      "status": "audit-required"
-    },
-    {
-      "name": "Kaumarabhritya",
-      "status": "audit-required"
-    },
-    {
-      "name": "Agada Tantra",
-      "status": "audit-required"
-    },
-    {
-      "name": "Bhuta Vidya",
-      "status": "audit-required"
-    },
-    {
-      "name": "Rasayana",
-      "status": "audit-required"
-    },
-    {
-      "name": "Vajikarana",
-      "status": "audit-required"
-    }
-  ],
-  "conditionCandidates": [
-    {
-      "name": "Acne",
-      "status": "source-verification-required"
-    },
-    {
-      "name": "Dandruff",
-      "status": "source-verification-required"
-    },
-    {
-      "name": "Alopecia",
-      "status": "source-verification-required"
-    },
-    {
-      "name": "Tinnitus",
-      "status": "source-verification-required"
-    },
-    {
-      "name": "Earache",
-      "status": "source-verification-required"
-    },
-    {
-      "name": "Toothache",
-      "status": "source-verification-required"
-    },
-    {
-      "name": "Goitre",
-      "status": "source-verification-required"
-    },
-    {
-      "name": "Painful urination",
-      "status": "source-verification-required"
-    },
-    {
-      "name": "Urinary retention",
-      "status": "source-verification-required"
-    },
-    {
-      "name": "Oedema",
-      "status": "source-verification-required"
-    },
-    {
-      "name": "Wounds",
-      "status": "source-verification-required"
-    },
-    {
-      "name": "Abdominal masses",
-      "status": "source-verification-required"
-    },
-    {
-      "name": "Alcohol-related disorders",
-      "status": "source-verification-required"
-    },
-    {
-      "name": "Cataract",
-      "status": "source-verification-required"
-    },
-    {
-      "name": "Dry eye",
-      "status": "source-verification-required"
-    },
-    {
-      "name": "Infertility",
-      "status": "source-verification-required"
-    },
-    {
-      "name": "Menopause",
-      "status": "source-verification-required"
-    },
-    {
-      "name": "Childhood nutrition",
-      "status": "source-verification-required"
-    },
-    {
-      "name": "Poisoning",
-      "status": "source-verification-required"
-    }
-  ]
+ "version": 2,
+ "status": "platform-built-content-unreviewed",
+ "branches": [
+  {
+   "name": "Kayachikitsa",
+   "status": "partial"
+  },
+  {
+   "name": "Shalya Tantra",
+   "status": "minimal"
+  },
+  {
+   "name": "Shalakya Tantra",
+   "status": "partial"
+  },
+  {
+   "name": "Kaumarabhritya",
+   "status": "minimal"
+  },
+  {
+   "name": "Agada Tantra",
+   "status": "minimal"
+  },
+  {
+   "name": "Bhuta Vidya",
+   "status": "minimal"
+  },
+  {
+   "name": "Rasayana",
+   "status": "minimal"
+  },
+  {
+   "name": "Vajikarana",
+   "status": "minimal"
+  }
+ ],
+ "conditionCandidates": [
+  {
+   "name": "Acne",
+   "status": "source-verification-required"
+  },
+  {
+   "name": "Dandruff",
+   "status": "source-verification-required"
+  },
+  {
+   "name": "Alopecia",
+   "status": "source-verification-required"
+  },
+  {
+   "name": "Tinnitus",
+   "status": "source-verification-required"
+  },
+  {
+   "name": "Earache",
+   "status": "source-verification-required"
+  },
+  {
+   "name": "Toothache",
+   "status": "source-verification-required"
+  },
+  {
+   "name": "Goitre",
+   "status": "source-verification-required"
+  },
+  {
+   "name": "Painful urination",
+   "status": "source-verification-required"
+  },
+  {
+   "name": "Urinary retention",
+   "status": "source-verification-required"
+  },
+  {
+   "name": "Oedema",
+   "status": "source-verification-required"
+  },
+  {
+   "name": "Wounds",
+   "status": "source-verification-required"
+  },
+  {
+   "name": "Abdominal masses",
+   "status": "source-verification-required"
+  },
+  {
+   "name": "Alcohol-related disorders",
+   "status": "source-verification-required"
+  },
+  {
+   "name": "Cataract",
+   "status": "source-verification-required"
+  },
+  {
+   "name": "Dry eye",
+   "status": "source-verification-required"
+  },
+  {
+   "name": "Infertility",
+   "status": "source-verification-required"
+  },
+  {
+   "name": "Menopause",
+   "status": "source-verification-required"
+  },
+  {
+   "name": "Childhood nutrition",
+   "status": "source-verification-required"
+  },
+  {
+   "name": "Poisoning",
+   "status": "source-verification-required"
+  }
+ ],
+ "updated": "2026-11-24",
+ "modules": {
+  "conditions": 55,
+  "herbs": 59,
+  "formulations": 255,
+  "therapies": 16,
+  "ailments": 22,
+  "yoga": 26,
+  "texts": 44,
+  "terms": 55,
+  "photographs": 7,
+  "reviewedRecords": 0
+ }
 }

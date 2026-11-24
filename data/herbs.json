@@ -47,7 +47,22 @@
     "gridhrasi",
     "pakshaghata"
    ],
-   "images": [],
+   "images": [
+    {
+     "id": "img-withania-somnifera-1",
+     "kind": "photograph",
+     "depicts": "Withania somnifera",
+     "identification": "commons-description",
+     "author": "Cliff (Flickr), Arlington, VA, USA",
+     "license": "CC BY 2.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ashwagandha_(Withania_somnifera).jpg",
+     "alt": "Ashwagandha (Withania somnifera) plant with oval green leaves",
+     "caption": "Ashwagandha plant.",
+     "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Ashwagandha_(Withania_somnifera).jpg?width=960",
+     "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Ashwagandha_(Withania_somnifera).jpg?width=480"
+    }
+   ],
    "review": {
     "status": "legacy-unreviewed",
     "reviewer": null,
@@ -89,7 +104,22 @@
     "hypertension",
     "fibromyalgia"
    ],
-   "images": [],
+   "images": [
+    {
+     "id": "img-bacopa-monnieri-1",
+     "kind": "photograph",
+     "depicts": "Bacopa monnieri",
+     "identification": "commons-description",
+     "author": "Alex Popovkin, Bahia, Brazil",
+     "license": "CC BY 2.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bacopa_monnieri_(L.)_Pennell_(6812666587).jpg",
+     "alt": "Brahmi (Bacopa monnieri), a creeping plant with small fleshy leaves and pale flowers",
+     "caption": "Brahmi growing in the wild.",
+     "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Bacopa_monnieri_(L.)_Pennell_(6812666587).jpg?width=960",
+     "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Bacopa_monnieri_(L.)_Pennell_(6812666587).jpg?width=480"
+    }
+   ],
    "review": {
     "status": "legacy-unreviewed",
     "reviewer": null,
@@ -144,7 +174,22 @@
     "vicharchika",
     "shvitra"
    ],
-   "images": [],
+   "images": [
+    {
+     "id": "img-tinospora-cordifolia-1",
+     "kind": "photograph",
+     "depicts": "Tinospora cordifolia",
+     "identification": "commons-description",
+     "author": "Dinesh Valke, Thane, India",
+     "license": "CC BY-SA 2.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tinospora_cordifolia_(3052491270).jpg",
+     "alt": "Guduchi (Tinospora cordifolia) climbing vine with heart-shaped leaves",
+     "caption": "Guduchi vine with its heart-shaped leaves.",
+     "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Tinospora_cordifolia_(3052491270).jpg?width=960",
+     "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Tinospora_cordifolia_(3052491270).jpg?width=480"
+    }
+   ],
    "review": {
     "status": "legacy-unreviewed",
     "reviewer": null,
@@ -189,7 +234,22 @@
     "shitapitta",
     "vicharchika"
    ],
-   "images": [],
+   "images": [
+    {
+     "id": "img-curcuma-longa-1",
+     "kind": "photograph",
+     "depicts": "Curcuma longa (rhizome and powder)",
+     "identification": "commons-description",
+     "author": "Simon A. Eugster",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Curcuma_longa_roots.jpg",
+     "alt": "Fresh turmeric (Curcuma longa) rhizomes, a cut slice and yellow-orange turmeric powder",
+     "caption": "Turmeric rhizome, the part used, with ground powder.",
+     "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Curcuma_longa_roots.jpg?width=960",
+     "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Curcuma_longa_roots.jpg?width=480"
+    }
+   ],
    "review": {
     "status": "legacy-unreviewed",
     "reviewer": null,
@@ -264,7 +324,22 @@
     "dantaveshta",
     "mukhapaka"
    ],
-   "images": [],
+   "images": [
+    {
+     "id": "img-phyllanthus-emblica-1",
+     "kind": "photograph",
+     "depicts": "Phyllanthus emblica (fruit, young leaves, flower buds)",
+     "identification": "commons-description",
+     "author": "J.M.Garg",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indian_gooseberry_(Phyllanthus_emblica_syn_Emblica_officinalis)_fruit_with_young_leaves_%26_flower_buds_at_Jayanti,_Duars,_West_Bengal_W_Picture_045.jpg",
+     "alt": "Amalaki (Phyllanthus emblica) branch with round green fruit and fine feathery leaves",
+     "caption": "Amalaki fruit on the branch, West Bengal.",
+     "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Indian_gooseberry_(Phyllanthus_emblica_syn_Emblica_officinalis)_fruit_with_young_leaves_%26_flower_buds_at_Jayanti%2C_Duars%2C_West_Bengal_W_Picture_045.jpg?width=960",
+     "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Indian_gooseberry_(Phyllanthus_emblica_syn_Emblica_officinalis)_fruit_with_young_leaves_%26_flower_buds_at_Jayanti%2C_Duars%2C_West_Bengal_W_Picture_045.jpg?width=480"
+    }
+   ],
    "review": {
     "status": "legacy-unreviewed",
     "reviewer": null,
@@ -912,7 +987,22 @@
    ],
    "formulations": [],
    "conditions": [],
-   "images": [],
+   "images": [
+    {
+     "id": "img-ocimum-tenuiflorum-1",
+     "kind": "photograph",
+     "depicts": "Ocimum tenuiflorum (habit)",
+     "identification": "commons-description",
+     "author": "Forest & Kim Starr",
+     "license": "CC BY 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Starr_080117-1577_Ocimum_tenuiflorum.jpg",
+     "alt": "Tulsi (Ocimum tenuiflorum) bushy plant with green leaves and flower spikes",
+     "caption": "Tulsi plant.",
+     "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Starr_080117-1577_Ocimum_tenuiflorum.jpg?width=960",
+     "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Starr_080117-1577_Ocimum_tenuiflorum.jpg?width=480"
+    }
+   ],
    "review": {
     "status": "legacy-unreviewed",
     "reviewer": null,
@@ -1042,7 +1132,22 @@
     "vatarakta",
     "abhishyanda"
    ],
-   "images": [],
+   "images": [
+    {
+     "id": "img-azadirachta-indica-1",
+     "kind": "photograph",
+     "depicts": "Azadirachta indica",
+     "identification": "commons-description",
+     "author": "Dinesh Valke, Thane, India",
+     "license": "CC BY-SA 2.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Azadirachta_indica_A._Juss._(31761735438).jpg",
+     "alt": "Neem (Azadirachta indica) branch with serrated, pointed leaflets",
+     "caption": "Neem foliage.",
+     "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Azadirachta_indica_A._Juss._(31761735438).jpg?width=960",
+     "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Azadirachta_indica_A._Juss._(31761735438).jpg?width=480"
+    }
+   ],
    "review": {
     "status": "legacy-unreviewed",
     "reviewer": null,

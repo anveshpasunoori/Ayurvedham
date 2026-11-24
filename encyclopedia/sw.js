@@ -1,6 +1,6 @@
 // Offline support: precache the app shell; network-first for data so updates
 // arrive promptly, with the cached copy as the offline fallback.
-const VERSION = 'ayu-v1';
+const VERSION = 'ayu-v2';
 const SHELL = ['./', './index.html', './css/app.css', './css/print.css', './js/main.js', './js/util.js', './js/store.js', './js/search.js', './js/translit.js', './js/components.js',
   './js/views/condition.js', './js/views/entities.js', './js/views/lists.js', './js/views/pages.js', './js/views/academy.js', './manifest.webmanifest'];
 self.addEventListener('install', (e) => e.waitUntil(caches.open(VERSION).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting())));
@@ -13,5 +13,8 @@ self.addEventListener('fetch', (e) => {
     if (req.destination === 'image') e.respondWith(caches.open(VERSION + '-img').then(async (c) => (await c.match(req)) || fetch(req).then((r) => { if (r.ok || r.type === 'opaque') c.put(req, r.clone()); return r; })));
     return;
   }
-  e.respondWith(fetch(req).then((r) => { if (r.ok) caches.open(VERSION).then((c) => c.put(req, r.clone())); return r; }).catch(() => caches.match(req)));
+  e.respondWith(fetch(req).then((r) => {
+    if (r.ok) { const copy = r.clone(); e.waitUntil(caches.open(VERSION).then((c) => c.put(req, copy))); }
+    return r;
+  }).catch(() => caches.match(req, { ignoreSearch: req.mode === 'navigate' })));
 });
