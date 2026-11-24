@@ -1,0 +1,35 @@
+{
+  "roles": [
+    {
+      "id": "grower",
+      "name": "Growers & FPOs",
+      "description": "Medicinal crop supply"
+    },
+    {
+      "id": "processor",
+      "name": "Processors",
+      "description": "Drying, grading and storage"
+    },
+    {
+      "id": "manufacturer",
+      "name": "Manufacturers",
+      "description": "Production and contract manufacturing"
+    },
+    {
+      "id": "distributor",
+      "name": "Dealers & distributors",
+      "description": "Wholesale distribution"
+    },
+    {
+      "id": "pharmacy",
+      "name": "Pharmacies",
+      "description": "Retail and institutional supply"
+    },
+    {
+      "id": "laboratory",
+      "name": "Testing laboratories",
+      "description": "Quality testing and documentation"
+    }
+  ],
+  "businesses": []
+}
