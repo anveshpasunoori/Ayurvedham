@@ -42,6 +42,7 @@ def main():
                 text = pg.inner_text('main')
                 check(not any(x in text for x in ['[object ', 'undefined', 'NaN']) and '\nnull' not in text, f'{name} {r}: stray JS value in text')
                 check(not pg.evaluate('document.documentElement.scrollWidth > innerWidth + 1'), f'{name} {r}: horizontal overflow')
+                check(not pg.evaluate("(() => { const a = document.querySelector('.brand').getBoundingClientRect(), b = document.querySelector('.controls').getBoundingClientRect(); return a.right > b.left && a.left < b.right && a.bottom > b.top && a.top < b.bottom; })()"), f'{name} {r}: header controls overlap logo')
                 if a.shots: pg.screenshot(path=str(ROOT / f'tests/screenshots/{name}-{r.strip("#/").replace("/", "_").replace("?", "_") or "home"}.png'))
             for q, want in SEARCHES.items():
                 pg.goto(base + '#/search?q=' + q); pg.wait_for_selector('main h1')

@@ -89,7 +89,7 @@ figcaption{font-size:13.5px;color:var(--mute);margin-top:6px}
 .stat{font-family:var(--serif);font-size:30px;display:block}
 dl.kv{display:grid;grid-template-columns:max-content 1fr;gap:6px 16px}dl.kv dt{font-weight:600}dl.kv dd{margin:0}
 @media (max-width:900px){.layout{grid-template-columns:1fr}.toc{display:none}.two{grid-template-columns:1fr}}
-@media (max-width:560px){.top{position:static}.bar{gap:8px}.brand small{display:none}.brand{flex:1}.search{order:3;flex-basis:100%}html{scroll-padding-top:12px}.notice{font-size:13.5px}}
+@media (max-width:560px){.top{position:static}.bar{gap:8px}.brand small{display:none}.brand{flex:1}.search{order:3;flex-basis:100%}.controls{order:2;width:100%}.controls select{flex:1;min-width:0}html{scroll-padding-top:12px}.notice{font-size:13.5px}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 
 .chk{display:flex;gap:8px;align-items:flex-start;padding:6px 0;cursor:pointer}.chk input{margin-top:5px;width:18px;height:18px;flex:none}
