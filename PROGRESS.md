@@ -97,3 +97,9 @@ npm run migrate        # re-extract data/ from the legacy index.html
 - Added GitHub Actions unit/data validation workflow and included commerce tests in npm test.
 - Added pure account ownership, tenant membership and verified directory projection policies with tests. Not wired to a deployed backend.
 - CI execution and browser regression results not yet verified. No live payment or identity services configured.
+
+## API integration increment
+- Added read-only API handler, PostgreSQL repository adapter and HTTP server factory; trusted identity adapter and production database configuration remain pending.
+- Added API and repository unit tests (not executed in this session).
+- Added local editorial review queue exporter and workflow documentation. No medical records approved by automation.
+- Payment signature verification helper and tests added; checkout remains disabled.
