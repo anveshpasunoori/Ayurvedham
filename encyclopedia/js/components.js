@@ -75,7 +75,7 @@ export function actions(route, title, extra = []) {
   return h('div', { class: 'actions noprint' }, saveButton(route, title), h('button', { class: 'btn', type: 'button', onclick: () => print() }, 'Print'), ...extra);
 }
 export function modeNote() {
-  const t = { patient: 'Patient view: plain-language guidance. Switch to Doctor view for doses and classical pathogenesis.', doctor: 'Doctor view: classical frameworks, formulation details and doses as recorded. Verify against the primary source before prescribing.', student: 'Student view: study notes, Samprapti Ghataka, references and self-test.' }[state.mode];
+  const t = { patient: 'Patient view: plain-language guidance. Switch to Doctor view for classical pathogenesis and formulation details.', doctor: 'Doctor view: classical frameworks and formulation safety details. Doses are withheld until verified by a qualified reviewer.', student: 'Student view: study notes, Samprapti Ghataka, references and self-test.' }[state.mode];
   return h('p', { class: 'muted noprint' }, t);
 }
 

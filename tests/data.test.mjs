@@ -52,3 +52,10 @@ test('no locator is claimed as verified until an edition is recorded', () => {
 test('therapy pages give no procedure quantities', () => {
   for (const t of data('therapies')) assert.doesNotMatch(JSON.stringify(t), /\b\d+\s?(ml|mg|g|minutes?)\b/i, t.id);
 });
+
+test('modular views never render recorded doses (withheld until review)', () => {
+  for (const f of ['condition.js', 'entities.js', 'academy.js', 'tools.js']) {
+    const src = readFileSync(new URL(`../encyclopedia/js/views/${f}`, import.meta.url), 'utf8');
+    assert.doesNotMatch(src, /m\.dose\b|\.timing\b|m\.duration\b|m\.anupana\b/, f);
+  }
+});
