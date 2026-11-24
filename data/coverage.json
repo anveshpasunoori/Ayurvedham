@@ -116,14 +116,18 @@
  "updated": "2026-11-24",
  "modules": {
   "conditions": 55,
+  "differentialsDraft": 55,
   "herbs": 59,
-  "formulations": 255,
-  "therapies": 16,
+  "photographs": 11,
+  "regionalNameSets": 30,
+  "formulations": 265,
+  "therapies": 24,
+  "learnArticles": 37,
   "ailments": 22,
   "yoga": 26,
   "texts": 44,
   "terms": 55,
-  "photographs": 7,
+  "interfaceLanguages": 7,
   "reviewedRecords": 0
  }
 }

@@ -2,104 +2,82 @@
 
 Last updated: 2026-11-24 · Branch: `encyclopedia-expansion`
 
-This file is the single source of truth for what is done and what is not. A module is **done** only when it has no placeholders and its clinical content has passed qualified medical review. By that standard, **no clinical module is done yet**: the platform is built, but nearly all clinical content still awaits review.
+This file is the single source of truth for what is done and what is not. A clinical module counts as **done** only when its content has passed qualified medical review. By that standard, **no clinical module is done yet**: the platform, tools and editorial content are built, but every clinical record still awaits a named BAMS/MD reviewer. Run `node tools/review-queue.mjs` for the current review inventory.
 
 ## How to run
 
 ```
 npm install            # dev-only: axe-core for accessibility tests
 npm run serve          # then open http://localhost:8000/encyclopedia/
-npm test               # data validation + unit tests
+npm test               # syntax check, data validation, all unit tests (encyclopedia, commerce, backend)
 python3 tests/browser_test.py [--chrome /path/to/chrome] [--shots]
-npm run migrate        # re-extract data/ from the legacy index.html
+npm run migrate        # re-extract data/ from legacy index.html and rebuild data/topics.json
+node tools/review-queue.mjs   # export unreviewed records, high-risk first
 ```
 
-## Status legend
-- [x] implemented and tested
-- [~] implemented, content partial or unverified
-- [ ] not started
+CI (`.github/workflows/validate.yml`) runs `npm test`, then the browser suite with axe-core.
 
-## 1. Architecture and platform
-- [x] Legacy `index.html` preserved unchanged as the production entry point (no URLs broken)
-- [x] Legacy data extracted into versioned JSON (`tools/extract-legacy.mjs`, re-runnable)
-- [x] Stable ids; hash routes `#/<module>/<id>`; legacy hashes (`#jwara`, `#library`, `#reading-evidence`, …) redirect
-- [x] Modular ES-module app (`encyclopedia/js/`), no runtime dependencies, no build step
-- [x] Lazy per-module data loading; search index built on first search
-- [x] Zero-dependency validator: ids, cross-references, review gates, image metadata, safety cautions, duplicate hints
-- [x] Unit tests (`tests/data.test.mjs`) and browser tests with axe-core WCAG 2 A/AA (`tests/browser_test.py`)
-- [x] Service worker: offline shell and visited articles (tested)
-- [x] Review fields on every clinical record: `review.status`, `reviewer`, `date`, `note`
-- [ ] Content versioning beyond git history (per-record `changelog`)
-- [ ] Generated sitemap / static pre-render for search engines
-- [ ] CI workflow (GitHub Actions) running `npm test` and the browser suite
-- [ ] Broken external-link checker (needs network access in CI)
+Legend: [x] implemented and tested · [~] implemented, content draft or unverified · [ ] not started
+
+## 1. Platform
+- [x] Legacy `index.html` preserved unchanged; legacy hashes redirect into the new app
+- [x] Versioned JSON datasets with stable ids; extractor is re-runnable; hand-curated files are never overwritten
+- [x] Modular ES-module app, no runtime dependencies, no build step
+- [x] Validator: ids, cross-references, review gates, image metadata, safety cautions, unsplit formulations, topic tables, differential coverage
+- [x] Unit tests (28 in total across encyclopedia, commerce and backend) and browser tests (40+ routes at two viewports, multilingual search, modes, keyboard, bookmarks, theme, axe WCAG 2 A/AA, offline)
+- [x] Service worker offline support
+- [x] Review fields on every clinical record; dose, timing, anupana and duration withheld in all new views until review (enforced by a test)
+- [ ] Per-record changelog beyond git history
+- [ ] Static pre-rendering for search engines (hash routes are not indexed)
 
 ## 2. User experience
-- [x] Patient / Doctor / Student modes rendered from the same record
-- [x] Global search: English, Sanskrit (IAST and Devanagari), regional names (276 synonyms), native-script input in Devanagari, Telugu, Tamil, Kannada and Malayalam via transliteration
-- [x] A–Z index, text filter and category chips on every module index
-- [x] Breadcrumbs, automatic table of contents, related articles, cross-links between modules
-- [x] Bookmarks and recently viewed (on device)
-- [x] Light / dark theme; print stylesheet for clinical reference
-- [x] Responsive layout tested at 390 px and 1280 px
-- [x] Safety notice on every page; red flags shown first in every article
-- [ ] Interface translation (menus and labels) into Hindi, Telugu, Tamil, Malayalam, Kannada, Sanskrit
-- [ ] Native-script names stored per record (`names.hi`, `names.te`, …) with a `verified` flag
-- [ ] Image lightbox / gallery for multiple photos
+- [x] Patient / Doctor / Student modes from the same record
+- [x] Global search: English, IAST, Devanagari, 276 regional synonyms, regional plant names, and native-script input in Devanagari, Telugu, Tamil, Kannada and Malayalam
+- [x] Interface in English, Hindi, Telugu, Tamil, Malayalam, Kannada and Sanskrit, marked as not professionally verified; English safety notice always shown
+- [x] A–Z indexes, filters, breadcrumbs, table of contents, related articles, cross-links, bookmarks, recents, dark/light theme, print stylesheet
+- [x] Tools: symptom finder (warning signs first), constitution self-assessment, daily routine planner
+- [~] Article text is English only; translated articles not started
 
-## 3. Content modules
+## 3. Content
 
-| Module | Records | Status | What is missing |
+| Module | Records | Status | Remaining work |
 |---|---|---|---|
-| Conditions | 55 | [~] legacy-unreviewed | Medical review; verified edition and verse locators; differential diagnosis (field shown as "not yet compiled"); regional names; investigations; prognosis |
-| Medicinal plants | 59 | [~] legacy-unreviewed | API monograph locators; distribution; identification features; adulteration; research summaries; photos for 52 plants |
-| Formulations | 255 | [~] legacy-unreviewed | 115 lack a classical locator; 61 are combined entries ("A / B") to split; full verified ingredient lists; AFI references; quality standards |
-| Therapies | 16 | [~] editorial | Chapter locators unverified; illustrations; more classical therapies (Shirobasti, Tarpana, Putapaka, Kavala/Gandusha, Lepa, Upanaha, Pinda Sveda …) |
+| Conditions | 55 | [~] legacy-unreviewed | Medical review; verified edition/verse locators; regional names; prognosis |
+| Differential diagnosis | 55 | [~] draft | Clinical review |
+| Medicinal plants | 59 | [~] legacy-unreviewed | API monograph locators; distribution; identification features; adulteration; research |
+| Plant photographs | 11 | [~] identity per Commons description | 48 plants without photos; botanist confirmation |
+| Regional plant names | 30 plants × 5 languages | [~] draft | Native-speaker and Pharmacopoeia check; remaining 29 plants |
+| Formulations | 265 | [~] legacy-unreviewed | 133 lack a classical locator; verified ingredient lists; AFI references |
+| Therapies | 24 | [~] editorial | Edition-verified locators; illustrations |
+| Learn articles | 37 | [~] editorial | Fundamentals, diagnosis, nutrition and recipes, lifestyle, women/pregnancy/postpartum/children/men/ageing/mental health, toxicology, research. Edition-verified locators; more diagrams |
 | Everyday ailments | 22 | [~] legacy-unreviewed | Medical review |
-| Yoga & breathing | 26 | [~] editorial | Illustrations; verified editions of Hatha Yoga Pradipika locators |
-| Eight branches | 8 | [~] editorial | Shalya, Kaumarabhritya, Agada, Bhuta Vidya, Rasayana and Vajikarana have minimal condition coverage |
-| Classical library | 44 | [~] | Edition records (editor, publisher, year); chapter indexes |
-| Dictionary | 55 | [~] editorial | Expand to full terminology; Sanskrit script; cross-links from articles |
-| Centres | 13 | [~] informational | Verify current details |
-| Student academy | — | [x] tools / [~] content | Quizzes and flashcards are generated from unreviewed data; case studies not started |
-| Safety | — | [x] | — |
-| Anatomy & physiology, Marma, Prakriti, diagnostics, nutrition & recipes, Dinacharya/Ritucharya, women's / paediatric / geriatric / mental health, toxicology | — | [ ] | Not started as dedicated modules (season data exists in `data/seasons.json`; legacy routine planner still lives in the original page) |
+| Yoga & breathing | 26 | [~] editorial | Illustrations |
+| Eight branches | 8 | [~] editorial | Shalya, Kaumarabhritya, Agada, Bhuta Vidya, Rasayana, Vajikarana need more conditions |
+| Classical library | 44 | [~] | Edition records and chapter indexes |
+| Dictionary | 55 | [~] editorial | Expand terminology |
+| Student academy | — | [x] tools / [~] content | Case studies; questions drawn from unreviewed data |
 
-## 4. Images
-- [x] Image registry `data/images.json`; validator requires species, author, licence, source URL and alt text
-- [x] 7 Wikimedia Commons photographs (Ashwagandha, Brahmi, Guduchi, Haridra, Amalaki, Tulsi, Nimba) with licence confirmed from the file page
-- [~] Identity is as described on Commons (`identification: "commons-description"`); botanist confirmation pending
-- [ ] Remaining 52 plants. Workflow: find a Commons file showing the part used, confirm species, author and licence on the file page, add an entry to `data/images.json`, run `npm run migrate && npm test`
-- [ ] Educational diagrams (Samprapti flow, Shat Kriyakala, Srotas map), clearly labelled as illustrations
-- [ ] Self-hosted resized copies (currently served from Commons via `Special:FilePath`)
+## 4. What cannot be completed by software alone
+- **Medical review.** Every clinical record needs a named, qualified reviewer and date before `review.status` can become `reviewed`; the validator enforces this.
+- **Edition-verified references.** Locators are chapter-level; verifying verse and page needs physical or licensed editions.
+- **Professional translation** of the interface and future articles.
+- **Botanical confirmation** of photographs and expansion to the remaining plants (workflow: add to `data/images.json`, run `npm run migrate && npm test`).
+- **Legacy page audit.** The original `index.html` still shows recorded doses; decide whether to withhold them there too.
 
-## 5. Medical accuracy work queue (needs a qualified reviewer)
-1. Verify each condition's references against a named edition; record `edition` and set `verified: true` only then.
-2. Check every recorded dose against the Ayurvedic Formulary of India / API and the cited classical text.
-3. Split the 61 combined formulation entries and attach verified ingredients.
-4. Write differential diagnosis and investigations for each condition.
-5. Promote records to `reviewed` with reviewer name and date; the validator enforces both.
-6. Review `data/condition-candidates.json` (acne, painful urination, hair loss) and `data/coverage.json` gaps before adding them.
+## 5. Next steps
+1. Recruit reviewers; work through `tools/review-queue.mjs` output, high-risk formulations first.
+2. Photographs for the next plants by usage (`herbs[].conditions.length`).
+3. Expand Shalya, Kaumarabhritya, Agada and Rasayana condition coverage from `data/condition-candidates.json` and `data/coverage.json`.
+4. Decide on the legacy page's dose display once the new app reaches feature parity, then retire it.
 
-## 6. Known limitations
-- The original reference's interactive tools (find-my-treatment guide, daily routine planner, prakriti quiz) are not yet ported; they remain available in `index.html`.
-- Photos load from Wikimedia Commons; if Commons is unreachable the page shows a link instead.
-- Search keys fold spelling variants phonetically; rare false matches are possible.
-
-## Next session: start here
-1. Port the routine planner and prakriti quiz into an `encyclopedia/js/views/tools.js` module.
-2. Add photographs for the next 15 plants by usage frequency (see `herbs[].conditions.length`).
-3. Build the Ayurvedic anatomy/physiology module (Dosha, Dhatu, Srotas, Agni, Ama, Ojas, Prakriti) from `data/terms.json` plus new editorial records.
-4. Add a GitHub Actions workflow for `npm test` and the browser suite.
-
-## Subsequent safety and commercial foundation work
+## Subsequent safety and commercial foundation work (parallel contributor)
 - Withheld structured dosage, timing, anupana and duration in modular condition and formulation views. Legacy site and other narrative clinical text still require audit; this is not a complete publication gate.
 - Added GitHub Actions unit/data validation workflow and included commerce tests in npm test.
 - Added pure account ownership, tenant membership and verified directory projection policies with tests. Not wired to a deployed backend.
-- CI execution and browser regression results not yet verified. No live payment or identity services configured.
+- No live payment or identity services configured.
 
-## API integration increment
+## API integration increment (parallel contributor)
 - Added read-only API handler, PostgreSQL repository adapter and HTTP server factory; trusted identity adapter and production database configuration remain pending.
-- Added API and repository unit tests (not executed in this session).
+- Added API and repository unit tests; they run in `npm test`.
 - Added local editorial review queue exporter and workflow documentation. No medical records approved by automation.
 - Payment signature verification helper and tests added; checkout remains disabled.

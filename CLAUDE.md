@@ -5,7 +5,9 @@ Work on `encyclopedia-expansion`. Read `PROGRESS.md` first: it is the continuati
 ## Layout
 - `index.html` — legacy single-file reference; still the production entry point. Do not edit its data without re-running `npm run migrate`.
 - `data/*.json` — versioned datasets. Most are generated from `index.html` by `tools/extract-legacy.mjs`; `branches.json`, `therapies.json` and `images.json` are hand-curated and must never be overwritten by the extractor.
-- `encyclopedia/` — modular app (ES modules, no build). Routes are `#/<module>/<id>`; `js/store.js` registers modules; `js/views/` holds one file per view family.
+- `encyclopedia/` — modular app (ES modules, no build). Routes are `#/<module>/<id>`; `js/store.js` registers modules; `js/views/` holds one file per view family; `js/i18n.js` holds interface translations.
+- `data/topics/*.json` — Learn articles; `npm run migrate` combines them into `data/topics.json`.
+- Doses, timing, anupana and duration are withheld in all new views until review (a test enforces this).
 - `tools/validate.mjs` — run before every commit (`npm test`).
 - `tests/` — unit tests (node:test) and browser tests (Playwright + axe-core).
 
