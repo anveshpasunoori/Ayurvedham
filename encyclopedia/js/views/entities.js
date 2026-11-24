@@ -31,7 +31,7 @@ export async function formulationView(id) {
   const f = F.byId.get(id); if (!f) return null;
   const route = '#/formulations/' + id;
   const danger = f.safetyClass !== 'herbal';
-  const rows = f.usedIn.map((cid) => { const c = C.byId.get(cid); const m = c.medicines.find((m) => m.formulation === id); return [link('#/conditions/' + cid, c.names.en), m.dose, m.timing, m.anupana || '—', m.duration]; });
+  const rows = f.usedIn.map((cid) => { const c = C.byId.get(cid); const m = c.medicines.find((m) => m.formulation === id); return [link('#/conditions/' + cid, c.names.en), 'Withheld', 'Withheld', 'Withheld', 'Withheld']; });
   const head = [crumbs(['Formulations', '#/formulations'], [f.name]), h('h1', null, f.name),
     h('div', { class: 'badges' }, reviewBadge(f.status), h('span', { class: 'badge' }, f.form), safetyBadge(f.safetyClass)), actions(route, f.name), modeNote()];
   const body = [
@@ -43,8 +43,8 @@ export async function formulationView(id) {
     section('Classical source', f.classicalSource ? refList([f.classicalSource]) : h('p', { class: 'muted' }, 'Locator not yet recorded.')),
     f.herbs.length ? section('Key ingredients', h('p', { class: 'muted' }, 'Ingredients matched from the plant encyclopedia; a full verified ingredient list is pending.'), list(f.herbs.map((x) => Hs.byId.get(x)).map((x) => [link('#/herbs/' + x.id, x.names.sa), ' — ', h('i', null, x.names.botanical)]))) : null,
     state.mode === 'patient'
-      ? section('Used for', condCards(C, f.usedIn), h('p', null, 'Doses are shown in Doctor view. Take only as prescribed.'))
-      : section('Indications and recorded doses', panel('amb', null, 'Doses are transcribed from the original reference and are not yet verified against the Ayurvedic Formulary of India.'), table(['Condition', 'Dose', 'Timing', 'Anupana', 'Duration'], rows, 'Recorded doses')),
+      ? section('Used for', condCards(C, f.usedIn), h('p', null, 'Unverified dosing is withheld. Take only as prescribed.'))
+      : section('Indications and recorded doses', panel('amb', null, 'Dosing, timing and duration are withheld pending qualified medical review.'), table(['Condition', 'Dose', 'Timing', 'Anupana', 'Duration'], rows, 'Recorded doses')),
     section('Quality standard', h('p', { class: 'muted' }, 'Ayurvedic Formulary of India / Pharmacopoeia reference not yet recorded. Buy only from licensed manufacturers; ask for heavy-metal and microbial test results for mineral preparations.')),
   ];
   return { title: f.name, route, node: article(head, body.filter(Boolean)) };
