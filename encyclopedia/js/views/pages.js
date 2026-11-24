@@ -7,12 +7,16 @@ import { crumbs, section, list, panel, cards, kvTable, table, article, refList }
 export async function homeView() {
   const sets = await loadAll(...MODULES.map((m) => m.data));
   const recent = store.get('recent', []).slice(0, 6);
+  const plants = (await load('herbs')).items.filter(x=>x.images?.length).slice(0,8);
   return { title: 'Home', route: '#/', node: h('div', null,
     h('section', { class: 'hero' }, h('h1', null, 'Ayurveda encyclopedia'),
       h('p', { class: 'lead' }, 'Conditions, medicinal plants, formulations, therapies and the classical library, with warning signs, modern standard care and the strength of evidence set beside every traditional treatment.'),
       h('p', null, 'Choose a reading mode at the top: ', h('strong', null, 'Patient'), ' for plain guidance, ', h('strong', null, 'Doctor'), ' for classical frameworks, formulations and safety classes, ', h('strong', null, 'Student'), ' for study notes and self-tests. Search works in English, Sanskrit and Indian scripts.')),
+    h('div', { class: 'quicklinks' }, [['conditions','Explore conditions'],['herbs','Browse medicinal plants'],['academy','Study Ayurveda'],['tools','Explore wellness tools']].map(([id,label])=>h('a',{class:'btn',href:'#/'+id},label))),
+    h('h2',null,'Explore the encyclopedia'),
     h('div', { class: 'grid tiles' }, MODULES.map((m, i) => h('a', { class: 'card tile', href: '#/' + m.id }, h('span', { class: 'stat' }, sets[i].items.length), h('b', null, m.label)))),
     h('div', { class: 'grid tiles' }, h('a', { class: 'card tile', href: '#/tools' }, h('b', null, 'Tools'), h('small', null, 'Symptom finder, constitution, daily routine')), h('a', { class: 'card tile', href: '#/academy' }, h('b', null, 'Student academy'), h('small', null, 'Flashcards, quizzes, BAMS syllabus map')), h('a', { class: 'card tile', href: '#/safety' }, h('b', null, 'Medical safety'), h('small', null, 'Emergency signs, metals, toxic herbs, special groups')), h('a', { class: 'card tile', href: '#/about' }, h('b', null, 'Editorial standards'), h('small', null, 'Review status, evidence ratings, coverage'))),
+    h('section',{class:'featured-plants'},h('h2',null,'Medicinal plant atlas'),h('p',{class:'muted'},'Photographs from credited sources. Botanical identification still requires expert confirmation.'),cards(plants.map(x=>({href:'#/herbs/'+x.id,title:x.names.sa,sub:x.names.botanical,img:x.images[0].thumb||x.images[0].src}))),link('#/herbs','Explore all medicinal plants')),
     recent.length ? [h('h2', null, 'Recently viewed'), cards(recent.map((r) => ({ href: r.route, title: r.title })))] : null) };
 }
 
