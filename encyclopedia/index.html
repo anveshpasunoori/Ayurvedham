@@ -1,1 +1,46 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Ayurvedham Encyclopedia</title><link rel="stylesheet" href="style.css"><script type="module" src="app.js"></script></head><body><header><a href="../index.html">Ayurvedham · Original reference</a><h1>Ayurveda encyclopedia</h1><p>Classical knowledge, clinical evidence and safety</p><p><a href="../commerce/">Explore membership plans (preview)</a></p></header><main><aside><label for="search">Search encyclopedia</label><input id="search" type="search" placeholder="Name, Sanskrit term, topic"><nav id="sections" aria-label="Encyclopedia sections"></nav></aside><section><div class="toolbar"><label for="mode">Reading mode</label><select id="mode"><option value="patient">Patient</option><option value="doctor">Doctor</option><option value="student">Student</option></select></div><div id="status" role="status"></div><div id="results"></div><article id="article"></article></section></main><footer>Educational reference, not a prescription. Seek qualified medical care for urgent symptoms.</footer></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ayurvedham Encyclopedia</title>
+<meta name="description" content="A source-referenced Ayurveda encyclopedia: conditions, medicinal plants, formulations, therapies, classical texts and safety, for patients, doctors and students.">
+<meta name="theme-color" content="#17402f">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Ccircle cx=%2216%22 cy=%2216%22 r=%2216%22 fill=%22%2317402f%22/%3E%3Cpath d=%22M16 6c6 4 8 10 0 20-8-10-6-16 0-20z%22 fill=%22%23f3e9c9%22/%3E%3C/svg%3E">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="css/app.css">
+<link rel="stylesheet" href="css/print.css" media="print">
+<script>try{const t=localStorage.getItem('ayu-theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+<script type="module" src="js/main.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+ <div class="bar">
+  <a class="brand" href="#/"><span class="mark" aria-hidden="true">आ</span><span>Ayurvedham<small>Encyclopedia</small></span></a>
+  <form class="search" role="search" id="searchform">
+   <label class="sr" for="q">Search the encyclopedia</label>
+   <input id="q" type="search" autocomplete="off" placeholder="Search: fever, ज्वर, జ్వరం, ashwagandha, basti…" aria-controls="suggest" aria-expanded="false">
+   <ul id="suggest" role="listbox" hidden></ul>
+  </form>
+  <div class="controls">
+   <label class="sr" for="mode">Reading mode</label>
+   <select id="mode" title="Reading mode">
+    <option value="patient">Patient</option>
+    <option value="doctor">Doctor</option>
+    <option value="student">Student</option>
+   </select>
+   <button id="theme" type="button" aria-label="Switch colour theme" title="Light / dark"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 3a9 9 0 0 0 0 18z" fill="currentColor"/></svg></button>
+   <a class="iconlink" href="#/saved" title="Saved and recent" aria-label="Saved and recent articles">★</a>
+  </div>
+ </div>
+ <nav class="mainnav" aria-label="Encyclopedia modules" id="mainnav"></nav>
+</header>
+<div class="notice" role="note">Educational reference, not a prescription. Never stop prescribed medicine. For chest pain, breathlessness, stroke signs, heavy bleeding or loss of consciousness, call emergency services now.</div>
+<main id="main" tabindex="-1"><p class="loading">Loading encyclopedia…</p></main>
+<footer class="foot">
+ <p>Ayurvedham Encyclopedia · <a href="#/about">Editorial standards</a> · <a href="#/safety">Safety</a> · <a href="../index.html">Original reference</a> · <a href="../commerce/">Membership plans (preview)</a></p>
+ <p class="muted">Content migrated from the original reference is marked <em>awaiting medical review</em> until a qualified BAMS/MD reviewer verifies it.</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,10 @@
+/* Printable clinical reference */
+.top,.notice .controls,.toc,.actions,.foot,.skip,#suggest,.filters,.az,.noprint{display:none!important}
+body{background:#fff;color:#000;font-size:11pt}
+main{max-width:none;padding:0}
+.layout{display:block}
+.panel,.tbl{border:1px solid #999;break-inside:avoid}
+a{color:#000;text-decoration:none}
+h1,h2,h3{break-after:avoid}
+.notice{display:block;border:1px solid #000;background:#fff}
+main::after{content:"Printed from Ayurvedham Encyclopedia. Educational reference only; not a prescription. Content marked 'awaiting medical review' has not been verified by a qualified reviewer.";display:block;margin-top:2em;font-size:9pt;border-top:1px solid #999;padding-top:6px}

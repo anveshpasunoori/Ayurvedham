@@ -1,0 +1,449 @@
+{
+ "schema": "text",
+ "version": 1,
+ "migratedFrom": "index.html",
+ "legacySha": "42cb8f2e1884",
+ "count": 44,
+ "items": [
+  {
+   "id": "charaka-samhita",
+   "title": "Charaka Samhita",
+   "author": "Agnivesha; revised by Charaka, completed by Dridhabala",
+   "period": "c. 2nd c. BCE – 5th c. CE",
+   "group": "Great Three (Brihat Trayi)",
+   "contribution": "Internal medicine: causes, diagnosis and treatment of most diseases; daily routine; Rasayana",
+   "siteStatus": "cited",
+   "siteStatusLabel": "Cited on site"
+  },
+  {
+   "id": "sushruta-samhita",
+   "title": "Sushruta Samhita",
+   "author": "Sushruta",
+   "period": "c. early centuries CE",
+   "group": "Great Three (Brihat Trayi)",
+   "contribution": "Surgery, anatomy, Kshara Sutra, eye and ENT, stones, fistula",
+   "siteStatus": "cited",
+   "siteStatusLabel": "Cited on site"
+  },
+  {
+   "id": "ashtanga-hridaya",
+   "title": "Ashtanga Hridaya",
+   "author": "Vagbhata",
+   "period": "c. 7th c. CE",
+   "group": "Great Three (Brihat Trayi)",
+   "contribution": "Concise synthesis of Charaka and Sushruta; daily and seasonal routine",
+   "siteStatus": "cited",
+   "siteStatusLabel": "Cited on site"
+  },
+  {
+   "id": "ashtanga-sangraha",
+   "title": "Ashtanga Sangraha",
+   "author": "Vriddha Vagbhata",
+   "period": "c. 6th–7th c. CE",
+   "group": "Classical Samhitas",
+   "contribution": "Larger companion to Ashtanga Hridaya; expanded treatments",
+   "siteStatus": "planned",
+   "siteStatusLabel": "Planned"
+  },
+  {
+   "id": "agnivesha-tantra",
+   "title": "Agnivesha Tantra",
+   "author": "Agnivesha (pupil of Atreya)",
+   "period": "Ancient",
+   "group": "Classical Samhitas",
+   "contribution": "Survives only as the Charaka Samhita, which revised it",
+   "siteStatus": "cited",
+   "siteStatusLabel": "Cited on site"
+  },
+  {
+   "id": "bhela-samhita",
+   "title": "Bhela Samhita",
+   "author": "Bhela (pupil of Atreya)",
+   "period": "Ancient",
+   "group": "Classical Samhitas",
+   "contribution": "Parallel Atreya-school text; survives incomplete in one manuscript",
+   "siteStatus": "planned",
+   "siteStatusLabel": "Planned"
+  },
+  {
+   "id": "harita-samhita",
+   "title": "Harita Samhita",
+   "author": "Attributed to Harita",
+   "period": "Surviving text medieval",
+   "group": "Classical Samhitas",
+   "contribution": "General medicine; women's and children's health",
+   "siteStatus": "planned",
+   "siteStatusLabel": "Planned"
+  },
+  {
+   "id": "kashyapa-samhita",
+   "title": "Kashyapa Samhita",
+   "author": "Kashyapa; redacted by Vatsya",
+   "period": "Early centuries CE (debated)",
+   "group": "Classical Samhitas",
+   "contribution": "Paediatrics (Kaumarabhritya), women's health, Amlapitta",
+   "siteStatus": "cited",
+   "siteStatusLabel": "Cited on site"
+  },
+  {
+   "id": "madhava-nidana",
+   "title": "Madhava Nidana",
+   "author": "Madhavakara",
+   "period": "c. 7th–8th c. CE",
+   "group": "Diagnosis",
+   "contribution": "Standard text on causes, types and symptoms of every disease",
+   "siteStatus": "cited",
+   "siteStatusLabel": "Cited on site"
+  },
+  {
+   "id": "vrinda-madhava-siddhayoga",
+   "title": "Vrinda Madhava (Siddhayoga)",
+   "author": "Vrinda",
+   "period": "c. 9th–10th c. CE",
+   "group": "Treatment compendia",
+   "contribution": "Treatments arranged in Madhava Nidana's order",
+   "siteStatus": "planned",
+   "siteStatusLabel": "Planned"
+  },
+  {
+   "id": "chikitsa-kalika",
+   "title": "Chikitsa Kalika",
+   "author": "Tisata",
+   "period": "c. 10th c. CE",
+   "group": "Treatment compendia",
+   "contribution": "Concise treatment manual",
+   "siteStatus": "planned",
+   "siteStatusLabel": "Planned"
+  },
+  {
+   "id": "chakradatta",
+   "title": "Chakradatta",
+   "author": "Chakrapanidatta",
+   "period": "11th c. CE",
+   "group": "Treatment compendia",
+   "contribution": "Standard treatment compendium; Amavata and many formulas",
+   "siteStatus": "cited",
+   "siteStatusLabel": "Cited on site"
+  },
+  {
+   "id": "vangasena-samhita",
+   "title": "Vangasena Samhita",
+   "author": "Vangasena",
+   "period": "c. 12th c. CE",
+   "group": "Treatment compendia",
+   "contribution": "Treatment compendium from Bengal",
+   "siteStatus": "planned",
+   "siteStatusLabel": "Planned"
+  },
+  {
+   "id": "gadanigraha",
+   "title": "Gadanigraha",
+   "author": "Shodhala",
+   "period": "12th c. CE",
+   "group": "Treatment compendia",
+   "contribution": "Formulas and new diseases such as Katigraha (low back pain)",
+   "siteStatus": "cited",
+   "siteStatusLabel": "Cited on site"
+  },
+  {
+   "id": "sharangadhara-samhita",
+   "title": "Sharangadhara Samhita",
+   "author": "Sharangadhara",
+   "period": "c. 13th–14th c. CE",
+   "group": "Pharmacy",
+   "contribution": "Pharmaceutics: how to make powders, decoctions, ghee, oils; pulse diagnosis",
+   "siteStatus": "cited",
+   "siteStatusLabel": "Cited on site"
+  },
+  {
+   "id": "bhavaprakasha",
+   "title": "Bhavaprakasha",
+   "author": "Bhavamishra",
+   "period": "16th c. CE",
+   "group": "Treatment compendia",
+   "contribution": "Comprehensive text; new diseases and New World plants",
+   "siteStatus": "cited",
+   "siteStatusLabel": "Cited on site"
+  },
+  {
+   "id": "yogaratnakara",
+   "title": "Yogaratnakara",
+   "author": "Anonymous (Maharashtra)",
+   "period": "c. 17th c. CE",
+   "group": "Treatment compendia",
+   "contribution": "Popular formulary and diagnosis",
+   "siteStatus": "cited",
+   "siteStatusLabel": "Cited on site"
+  },
+  {
+   "id": "bhaishajya-ratnavali",
+   "title": "Bhaishajya Ratnavali",
+   "author": "Govinda Das Sen",
+   "period": "18th c. CE",
+   "group": "Treatment compendia",
+   "contribution": "Large formulary; source of many modern classical medicines",
+   "siteStatus": "cited",
+   "siteStatusLabel": "Cited on site"
+  },
+  {
+   "id": "basavarajiyam",
+   "title": "Basavarajiyam",
+   "author": "Basavaraja (Andhra region)",
+   "period": "c. 18th c. CE (debated)",
+   "group": "Regional texts",
+   "contribution": "Telugu-Sanskrit handbook; pulse diagnosis and mineral medicines",
+   "siteStatus": "planned",
+   "siteStatusLabel": "Planned"
+  },
+  {
+   "id": "sahasrayogam",
+   "title": "Sahasrayogam",
+   "author": "Kerala tradition (compiler unknown)",
+   "period": "Date uncertain",
+   "group": "Regional texts",
+   "contribution": "Kerala formulary: Kashayams like Rasnasaptakam, Kokilaksham, oils",
+   "siteStatus": "cited",
+   "siteStatusLabel": "Cited on site"
+  },
+  {
+   "id": "dhanvantari-nighantu",
+   "title": "Dhanvantari Nighantu",
+   "author": "Attributed to Dhanvantari",
+   "period": "c. 10th c. CE (debated)",
+   "group": "Herb dictionaries (Nighantu)",
+   "contribution": "Names and properties of medicinal plants",
+   "siteStatus": "planned",
+   "siteStatusLabel": "Planned"
+  },
+  {
+   "id": "shodhala-nighantu",
+   "title": "Shodhala Nighantu",
+   "author": "Shodhala",
+   "period": "12th c. CE",
+   "group": "Herb dictionaries (Nighantu)",
+   "contribution": "Herb names and properties",
+   "siteStatus": "planned",
+   "siteStatusLabel": "Planned"
+  },
+  {
+   "id": "madanapala-nighantu",
+   "title": "Madanapala Nighantu",
+   "author": "Madanapala",
+   "period": "14th c. CE",
+   "group": "Herb dictionaries (Nighantu)",
+   "contribution": "Herbs, foods and their properties",
+   "siteStatus": "planned",
+   "siteStatusLabel": "Planned"
+  },
+  {
+   "id": "kaiyadeva-nighantu",
+   "title": "Kaiyadeva Nighantu",
+   "author": "Kaiyadeva",
+   "period": "c. 15th c. CE",
+   "group": "Herb dictionaries (Nighantu)",
+   "contribution": "Herbs and diet (Pathyapathya)",
+   "siteStatus": "planned",
+   "siteStatusLabel": "Planned"
+  },
+  {
+   "id": "raja-nighantu",
+   "title": "Raja Nighantu",
+   "author": "Narahari Pandita",
+   "period": "Medieval (debated)",
+   "group": "Herb dictionaries (Nighantu)",
+   "contribution": "Extensive herb synonyms and properties",
+   "siteStatus": "planned",
+   "siteStatusLabel": "Planned"
+  },
+  {
+   "id": "bhavaprakasha-nighantu",
+   "title": "Bhavaprakasha Nighantu",
+   "author": "Bhavamishra",
+   "period": "16th c. CE",
+   "group": "Herb dictionaries (Nighantu)",
+   "contribution": "The most widely used herb dictionary today",
+   "siteStatus": "cited",
+   "siteStatusLabel": "Cited on site"
+  },
+  {
+   "id": "abhidhana-manjari",
+   "title": "Abhidhana Manjari",
+   "author": "Kerala scholar",
+   "period": "Modern era",
+   "group": "Herb dictionaries (Nighantu)",
+   "contribution": "Kerala herb names",
+   "siteStatus": "planned",
+   "siteStatusLabel": "Planned"
+  },
+  {
+   "id": "priya-nighantu",
+   "title": "Priya Nighantu",
+   "author": "P. V. Sharma",
+   "period": "20th c. CE",
+   "group": "Herb dictionaries (Nighantu)",
+   "contribution": "Modern Nighantu",
+   "siteStatus": "planned",
+   "siteStatusLabel": "Planned"
+  },
+  {
+   "id": "rasarnava",
+   "title": "Rasarnava",
+   "author": "Anonymous",
+   "period": "c. 12th c. CE",
+   "group": "Rasa Shastra (minerals)",
+   "contribution": "Early alchemy: mercury processing",
+   "siteStatus": "planned",
+   "siteStatusLabel": "Planned"
+  },
+  {
+   "id": "rasendra-chudamani",
+   "title": "Rasendra Chudamani",
+   "author": "Somadeva",
+   "period": "c. 12th–13th c. CE",
+   "group": "Rasa Shastra (minerals)",
+   "contribution": "Mineral medicines and processing",
+   "siteStatus": "planned",
+   "siteStatusLabel": "Planned"
+  },
+  {
+   "id": "rasa-ratna-samuccaya",
+   "title": "Rasa Ratna Samuccaya",
+   "author": "Vagbhata (Rasa)",
+   "period": "c. 13th c. CE",
+   "group": "Rasa Shastra (minerals)",
+   "contribution": "Standard Rasa Shastra text: purification of metals and minerals",
+   "siteStatus": "cited",
+   "siteStatusLabel": "Cited on site"
+  },
+  {
+   "id": "rasa-prakasha-sudhakara",
+   "title": "Rasa Prakasha Sudhakara",
+   "author": "Yashodhara",
+   "period": "c. 13th c. CE",
+   "group": "Rasa Shastra (minerals)",
+   "contribution": "Mineral processing",
+   "siteStatus": "planned",
+   "siteStatusLabel": "Planned"
+  },
+  {
+   "id": "rasaratnakara",
+   "title": "Rasaratnakara",
+   "author": "Nityanatha Siddha",
+   "period": "c. 13th c. CE",
+   "group": "Rasa Shastra (minerals)",
+   "contribution": "Mineral formulas",
+   "siteStatus": "planned",
+   "siteStatusLabel": "Planned"
+  },
+  {
+   "id": "rasendra-sara-sangraha",
+   "title": "Rasendra Sara Sangraha",
+   "author": "Gopala Krishna",
+   "period": "Medieval",
+   "group": "Rasa Shastra (minerals)",
+   "contribution": "Popular herbo-mineral formulary",
+   "siteStatus": "cited",
+   "siteStatusLabel": "Cited on site"
+  },
+  {
+   "id": "ayurveda-prakasha",
+   "title": "Ayurveda Prakasha",
+   "author": "Madhava Upadhyaya",
+   "period": "c. 17th c. CE",
+   "group": "Rasa Shastra (minerals)",
+   "contribution": "Mineral processing and formulas",
+   "siteStatus": "cited",
+   "siteStatusLabel": "Cited on site"
+  },
+  {
+   "id": "rasa-tarangini",
+   "title": "Rasa Tarangini",
+   "author": "Sadananda Sharma",
+   "period": "20th c. CE",
+   "group": "Rasa Shastra (minerals)",
+   "contribution": "Modern standard text on mineral medicines and their purification",
+   "siteStatus": "cited",
+   "siteStatusLabel": "Cited on site"
+  },
+  {
+   "id": "rigveda",
+   "title": "Rigveda",
+   "author": "Vedic seers",
+   "period": "c. 1500–1200 BCE",
+   "group": "Vedic & philosophical roots",
+   "contribution": "Oshadhi Sukta (hymn to healing plants); the Ashvins as physicians",
+   "siteStatus": "planned",
+   "siteStatusLabel": "Planned"
+  },
+  {
+   "id": "atharvaveda",
+   "title": "Atharvaveda",
+   "author": "Vedic seers",
+   "period": "c. 1200–1000 BCE",
+   "group": "Vedic & philosophical roots",
+   "contribution": "Earliest healing hymns and plant medicine; Ayurveda is called its Upaveda",
+   "siteStatus": "planned",
+   "siteStatusLabel": "Planned"
+  },
+  {
+   "id": "taittiriya-upanishad",
+   "title": "Taittiriya Upanishad",
+   "author": "Vedic",
+   "period": "1st millennium BCE",
+   "group": "Vedic & philosophical roots",
+   "contribution": "The five sheaths (Pancha Kosha): body, breath, mind, intellect, bliss",
+   "siteStatus": "planned",
+   "siteStatusLabel": "Planned"
+  },
+  {
+   "id": "prashna-upanishad",
+   "title": "Prashna Upanishad",
+   "author": "Vedic",
+   "period": "1st millennium BCE",
+   "group": "Vedic & philosophical roots",
+   "contribution": "Prana and its divisions, basis of the five Vayus",
+   "siteStatus": "planned",
+   "siteStatusLabel": "Planned"
+  },
+  {
+   "id": "samkhya-karika",
+   "title": "Samkhya Karika",
+   "author": "Ishvarakrishna",
+   "period": "c. 4th–5th c. CE",
+   "group": "Vedic & philosophical roots",
+   "contribution": "The 25 principles (tattvas) behind Ayurveda's theory of matter and mind",
+   "siteStatus": "planned",
+   "siteStatusLabel": "Planned"
+  },
+  {
+   "id": "yoga-sutras",
+   "title": "Yoga Sutras",
+   "author": "Patanjali",
+   "period": "c. 2nd c. BCE – 4th c. CE",
+   "group": "Yoga texts",
+   "contribution": "Mind, meditation and the eight limbs of yoga",
+   "siteStatus": "planned",
+   "siteStatusLabel": "Planned"
+  },
+  {
+   "id": "hatha-yoga-pradipika",
+   "title": "Hatha Yoga Pradipika",
+   "author": "Svatmarama",
+   "period": "15th c. CE",
+   "group": "Yoga texts",
+   "contribution": "Asanas, pranayama and six cleansing practices (Shatkarma)",
+   "siteStatus": "planned",
+   "siteStatusLabel": "Planned"
+  },
+  {
+   "id": "gheranda-samhita",
+   "title": "Gheranda Samhita",
+   "author": "Gheranda",
+   "period": "c. 17th c. CE",
+   "group": "Yoga texts",
+   "contribution": "Cleansing practices, asanas, mudras, pranayama",
+   "siteStatus": "planned",
+   "siteStatusLabel": "Planned"
+  }
+ ]
+}

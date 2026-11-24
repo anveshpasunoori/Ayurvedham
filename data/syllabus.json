@@ -1,0 +1,74 @@
+{
+ "schema": "syllabus",
+ "version": 1,
+ "migratedFrom": "index.html",
+ "legacySha": "42cb8f2e1884",
+ "count": 13,
+ "items": [
+  {
+   "year": "I BAMS",
+   "subject": "Padartha Vijnana (fundamental principles)",
+   "coverageHtml": "Core terms below; <a href=\"#library\">Classical library</a> (Samkhya and Vedic roots)"
+  },
+  {
+   "year": "I BAMS",
+   "subject": "Samskritam evam Ayurveda Itihas (Sanskrit and history)",
+   "coverageHtml": "<a href=\"#library\">Classical library</a>: authors, periods and contributions of 44 texts"
+  },
+  {
+   "year": "I BAMS",
+   "subject": "Kriya Sharira (physiology)",
+   "coverageHtml": "Core terms: dosha, dhatu, mala, agni, ojas; <a href=\"#routine\">Daily routine</a> (prakriti)"
+  },
+  {
+   "year": "I BAMS",
+   "subject": "Samhita Adhyayana 1 (Ashtanga Hridaya and Charaka Sutrasthana)",
+   "coverageHtml": "<a href=\"#routine\">Dinacharya and Ritucharya</a>; <a href=\"#prevention\">Prevention</a>"
+  },
+  {
+   "year": "II BAMS",
+   "subject": "Dravyaguna (pharmacology of herbs)",
+   "coverageHtml": "<a href=\"#medicines\">Medicine index</a>; herb encyclopedia planned"
+  },
+  {
+   "year": "II BAMS",
+   "subject": "Rasashastra and Bhaishajya Kalpana (pharmaceutics)",
+   "coverageHtml": "📜 source of every classical medicine; <a href=\"#safety\">Rasa medicine safety</a>; <a href=\"#how\">dosage forms and anupana</a>"
+  },
+  {
+   "year": "II BAMS",
+   "subject": "Roga Nidana (diagnosis and pathology)",
+   "coverageHtml": "🎓 Samprapti Ghataka and symptoms on every <a href=\"#\">condition page</a>"
+  },
+  {
+   "year": "II BAMS",
+   "subject": "Swasthavritta (preventive medicine)",
+   "coverageHtml": "<a href=\"#prevention\">Prevention</a>, <a href=\"#routine\">Daily routine</a>, <a href=\"#everyday\">Everyday ailments</a>"
+  },
+  {
+   "year": "II BAMS",
+   "subject": "Agada Tantra (toxicology)",
+   "coverageHtml": "Toxic-herb and mineral warnings on <a href=\"#safety\">Safety first</a>"
+  },
+  {
+   "year": "III BAMS",
+   "subject": "Kayachikitsa (internal medicine)",
+   "coverageHtml": "Treatment, doses, pathya and chikitsa sutra on every condition page"
+  },
+  {
+   "year": "III BAMS",
+   "subject": "Panchakarma",
+   "coverageHtml": "Procedures on each condition page (Practitioner view); <a href=\"#centres\">centres</a> that offer them"
+  },
+  {
+   "year": "III BAMS",
+   "subject": "Shalya and Shalakya (surgery; eye, ENT, dental)",
+   "coverageHtml": "Piles, fistula, fissure, stones; eye, mouth and gum conditions"
+  },
+  {
+   "year": "III BAMS",
+   "subject": "Prasuti Tantra and Stri Roga; Kaumarabhritya",
+   "coverageHtml": "Menstrual conditions; autism page; Kashyapa Samhita in the library"
+  }
+ ]
+}

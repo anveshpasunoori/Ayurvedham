@@ -1,0 +1,6365 @@
+{
+ "schema": "formulation",
+ "version": 1,
+ "migratedFrom": "index.html",
+ "legacySha": "42cb8f2e1884",
+ "count": 255,
+ "items": [
+  {
+   "id": "abhayarishta",
+   "name": "Abhayarishta",
+   "form": "Fermented liquid",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Bhaishajya Ratnavali, Arsha 105–107",
+    "verified": false
+   },
+   "usedIn": [
+    "bhagandara",
+    "kashtartava",
+    "vibandha"
+   ],
+   "cautions": [
+    "Self-generated alcohol; laxative.",
+    "Laxative; self-generated alcohol.",
+    "Self-generated alcohol."
+   ],
+   "herbs": [
+    "haritaki"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "abhayarishta-takrarishta",
+   "name": "Abhayarishta / Takrarishta",
+   "form": "Fermented liquid",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Bhaishajya Ratnavali, Arsha 105–107",
+    "verified": false
+   },
+   "usedIn": [
+    "arsha"
+   ],
+   "cautions": [
+    "Contain self-generated alcohol."
+   ],
+   "herbs": [
+    "haritaki"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "agastya-haritaki-avaleha",
+   "name": "Agastya Haritaki Avaleha",
+   "form": "Herbal jam",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Ashtanga Hridaya, Chikitsa 3/125–128",
+    "verified": false
+   },
+   "usedIn": [
+    "kasa"
+   ],
+   "cautions": [
+    "Mildly laxative; sugar-based."
+   ],
+   "herbs": [
+    "haritaki"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "agnitundi-sanjivani-vati",
+   "name": "Agnitundi / Sanjivani Vati",
+   "form": "Tablet",
+   "safetyClass": "contains-toxic-herb",
+   "classicalSource": {
+    "text": "Sharangadhara Samhita, Madhyama Khanda 7/18–19",
+    "verified": false
+   },
+   "usedIn": [
+    "katigraha"
+   ],
+   "cautions": [
+    "Contain nux vomica, bhallataka or aconite. Supervision only."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "agnitundi-vati",
+   "name": "Agnitundi Vati",
+   "form": "Tablet",
+   "safetyClass": "contains-toxic-herb",
+   "classicalSource": {
+    "text": "Bhaishajya Ratnavali, Agnimandya 117–118",
+    "verified": false
+   },
+   "usedIn": [
+    "amavata"
+   ],
+   "cautions": [
+    "Contains nux vomica (strychnine). Supervision only."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "ajmodadi-churna",
+   "name": "Ajmodadi Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Sharangadhara Samhita, Madhyama Khanda 6/113–115",
+    "verified": false
+   },
+   "usedIn": [
+    "amavata"
+   ],
+   "cautions": [
+    "Heating; avoid in acidity and pregnancy."
+   ],
+   "herbs": [
+    "yavani"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "amalaki-churna",
+   "name": "Amalaki Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "amlapitta",
+    "pandu",
+    "asrigdara",
+    "shwetapradara"
+   ],
+   "cautions": [
+    "Generally safe; may loosen stools.",
+    "Vitamin C helps iron absorption.",
+    "Generally safe."
+   ],
+   "herbs": [
+    "amalaki"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "amapachana-gomutra-haritaki-vati",
+   "name": "Amapachana / Gomutra Haritaki Vati",
+   "form": "Tablet",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Ashtanga Hridaya, Uttara 22/102",
+    "verified": false
+   },
+   "usedIn": [
+    "amavata"
+   ],
+   "cautions": [
+    "Haritaki is laxative."
+   ],
+   "herbs": [
+    "haritaki"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "amapachana-vati",
+   "name": "Amapachana Vati",
+   "form": "Tablet",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "abhishyanda",
+    "ajirna"
+   ],
+   "cautions": [
+    "Generally well tolerated."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "amavatari-rasa",
+   "name": "Amavatari Rasa",
+   "form": "Herbo-mineral",
+   "safetyClass": "herbo-mineral",
+   "classicalSource": {
+    "text": "Bhaishajya Ratnavali, Amavata 180–181",
+    "verified": false
+   },
+   "usedIn": [
+    "amavata"
+   ],
+   "cautions": [
+    "Contains mercury and sulphur. Supervision only."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "amritadi-dashamoola-kwatha",
+   "name": "Amritadi / Dashamoola Kwatha",
+   "form": "Decoction",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "amavata"
+   ],
+   "cautions": [
+    "Generally well tolerated."
+   ],
+   "herbs": [
+    "guduchi",
+    "bilva"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "amritarishta",
+   "name": "Amritarishta",
+   "form": "Fermented liquid",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Bhaishajya Ratnavali, Jvara 690–692",
+    "verified": false
+   },
+   "usedIn": [
+    "jwara"
+   ],
+   "cautions": [
+    "Contains self-generated alcohol (about 5–10%)."
+   ],
+   "herbs": [
+    "guduchi"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "anandabhairava-rasa",
+   "name": "Anandabhairava Rasa",
+   "form": "Herbo-mineral",
+   "safetyClass": "herbo-mineral",
+   "classicalSource": {
+    "text": "Rasendra Sara Sangraha, Jvara 2/103",
+    "verified": false
+   },
+   "usedIn": [
+    "atisara"
+   ],
+   "cautions": [
+    "Contains mercury and aconite. Supervision only."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "anu-taila-nasal-drops",
+   "name": "Anu Taila nasal drops",
+   "form": "Oil",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Ashtanga Hridaya, Sutra 20/37–38",
+    "verified": false
+   },
+   "usedIn": [
+    "avabahuka"
+   ],
+   "cautions": [
+    "Do not use with a cold or blocked nose."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "aragvadha-churna",
+   "name": "Aragvadha (Cassia fistula) Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "vibandha"
+   ],
+   "cautions": [
+    "Cramps in higher doses."
+   ],
+   "herbs": [
+    "aragvadha"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "arogyavardhini-rasa",
+   "name": "Arogyavardhini Rasa",
+   "form": "Herbo-mineral",
+   "safetyClass": "herbo-mineral",
+   "classicalSource": {
+    "text": "Rasa Ratna Samuccaya 20/106–108",
+    "verified": false
+   },
+   "usedIn": [
+    "jalodara",
+    "thyroid"
+   ],
+   "cautions": [
+    "Contains mercury and copper. Supervision only."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "arogyavardhini-vati",
+   "name": "Arogyavardhini Vati",
+   "form": "Herbo-mineral",
+   "safetyClass": "herbo-mineral",
+   "classicalSource": {
+    "text": "Rasa Ratna Samuccaya 20/106–108",
+    "verified": false
+   },
+   "usedIn": [
+    "ekakushtha",
+    "kamala",
+    "cholesterol",
+    "fattyliver",
+    "aruchi",
+    "shitapitta",
+    "shvitra"
+   ],
+   "cautions": [
+    "Contains mercury and copper. Supervision only.",
+    "Contains mercury and copper. Supervision only, with liver tests."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "arshakuthara-rasa",
+   "name": "Arshakuthara Rasa",
+   "form": "Herbo-mineral",
+   "safetyClass": "herbo-mineral",
+   "classicalSource": {
+    "text": "Yogaratnakara, Arsha (p. 265)",
+    "verified": false
+   },
+   "usedIn": [
+    "arsha",
+    "bhagandara"
+   ],
+   "cautions": [
+    "Contains mercury. Supervision only."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "ashoka-bark-milk-decoction",
+   "name": "Ashoka bark milk decoction",
+   "form": "Milk decoction",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "asrigdara"
+   ],
+   "cautions": [
+    "Generally well tolerated."
+   ],
+   "herbs": [
+    "ashoka"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "ashokarishta",
+   "name": "Ashokarishta",
+   "form": "Fermented liquid",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Bhaishajya Ratnavali, Striroga 114–116",
+    "verified": false
+   },
+   "usedIn": [
+    "asrigdara"
+   ],
+   "cautions": [
+    "Self-generated alcohol."
+   ],
+   "herbs": [
+    "ashoka"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "ashwagandha-bala-rasna-churna",
+   "name": "Ashwagandha / Bala / Rasna Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "pakshaghata"
+   ],
+   "cautions": [
+    "Ashwagandha: rare liver injury."
+   ],
+   "herbs": [
+    "ashwagandha",
+    "rasna",
+    "bala"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "ashwagandha-pippalimoola-churna",
+   "name": "Ashwagandha + Pippalimoola Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "katigraha"
+   ],
+   "cautions": [
+    "Avoid in pregnancy."
+   ],
+   "herbs": [
+    "ashwagandha",
+    "pippali"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "ashwagandha-churna",
+   "name": "Ashwagandha Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "sandhivata",
+    "vishada",
+    "avabahuka",
+    "cervical",
+    "fibromyalgia"
+   ],
+   "cautions": [
+    "Rare liver injury reported; may affect thyroid levels; avoid in pregnancy.",
+    "Rare liver injury; avoid in pregnancy and hyperthyroidism.",
+    "Rare liver injury; avoid in pregnancy."
+   ],
+   "herbs": [
+    "ashwagandha"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "ashwagandhadi-churna",
+   "name": "Ashwagandhadi Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "anidra"
+   ],
+   "cautions": [
+    "Rare liver injury; avoid in pregnancy and hyperthyroidism."
+   ],
+   "herbs": [
+    "ashwagandha"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "ashwagandharishta-balarishta",
+   "name": "Ashwagandharishta / Balarishta",
+   "form": "Fermented liquid",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Bhaishajya Ratnavali, Murchha 13–17",
+    "verified": false
+   },
+   "usedIn": [
+    "gridhrasi",
+    "pakshaghata",
+    "fibromyalgia"
+   ],
+   "cautions": [
+    "Self-generated alcohol."
+   ],
+   "herbs": [
+    "ashwagandha",
+    "bala"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "avipattikara-churna",
+   "name": "Avipattikara Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Bhaishajya Ratnavali, Amlapitta 24–25",
+    "verified": false
+   },
+   "usedIn": [
+    "amlapitta",
+    "vibandha",
+    "shitapitta"
+   ],
+   "cautions": [
+    "Contains trivrit (laxative), so loose stools are common. Contains sugar.",
+    "Purgative; contains sugar. Higher than the usual 3–6 g dose in the Ayurvedic Formulary of India: only for short purgation under supervision.",
+    "Laxative; contains sugar."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "bakuchi-seed-internal-and-external",
+   "name": "Bakuchi (Psoralea) seed, internal and external",
+   "form": "Powder / oil",
+   "safetyClass": "contains-toxic-herb",
+   "classicalSource": null,
+   "usedIn": [
+    "shvitra"
+   ],
+   "cautions": [
+    "Causes severe sunburn and blistering with sun exposure; reported liver injury. Never self-medicate."
+   ],
+   "herbs": [
+    "bakuchi"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "bala-rasna-churna",
+   "name": "Bala / Rasna Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "avabahuka"
+   ],
+   "cautions": [
+    "Generally well tolerated."
+   ],
+   "herbs": [
+    "rasna",
+    "bala"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "balarishta-dashamoolarishta",
+   "name": "Balarishta / Dashamoolarishta",
+   "form": "Fermented liquid",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Sharangadhara Samhita, Madhyama Khanda 10/78–89",
+    "verified": false
+   },
+   "usedIn": [
+    "cervical"
+   ],
+   "cautions": [
+    "Self-generated alcohol. The Ayurvedic Formulary of India gives 12–24 ml per dose; follow your doctor."
+   ],
+   "herbs": [
+    "bilva",
+    "bala"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "bhumyamalaki-churna-or-juice",
+   "name": "Bhumyamalaki (Phyllanthus) Churna or juice",
+   "form": "Powder / juice",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "kamala"
+   ],
+   "cautions": [
+    "Generally well tolerated."
+   ],
+   "herbs": [
+    "amalaki",
+    "bhumyamalaki"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "bhumyamalaki-churna",
+   "name": "Bhumyamalaki Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "jalodara",
+    "mutraghata"
+   ],
+   "cautions": [
+    "Generally well tolerated."
+   ],
+   "herbs": [
+    "amalaki",
+    "bhumyamalaki"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "bibhitaki-pippali-churna",
+   "name": "Bibhitaki + Pippali Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "kasa"
+   ],
+   "cautions": [
+    "Pippali is heating; may aggravate acidity."
+   ],
+   "herbs": [
+    "bibhitaki",
+    "pippali"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "bilva-churna",
+   "name": "Bilva (bael) Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "grahani"
+   ],
+   "cautions": [
+    "Can constipate if used for long."
+   ],
+   "herbs": [
+    "bilva"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "bilwa-root-churna",
+   "name": "Bilwa (bael) root Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "atisara"
+   ],
+   "cautions": [
+    "Generally well tolerated."
+   ],
+   "herbs": [
+    "bilva"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "bola-parpati",
+   "name": "Bola Parpati",
+   "form": "Herbo-mineral",
+   "safetyClass": "herbo-mineral",
+   "classicalSource": null,
+   "usedIn": [
+    "asrigdara"
+   ],
+   "cautions": [
+    "Contains mercury and sulphur. Supervision only."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "borax-application",
+   "name": "Borax (Tankana) application",
+   "form": "Mineral powder",
+   "safetyClass": "herbo-mineral",
+   "classicalSource": null,
+   "usedIn": [
+    "mukhapaka"
+   ],
+   "cautions": [
+    "Borax is toxic if swallowed, especially for children. Avoid in children."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "brahmi-kalyanaka-panchagavya-ghrita",
+   "name": "Brahmi / Kalyanaka / Panchagavya Ghrita",
+   "form": "Medicated ghee",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Ashtanga Hridaya, Uttara 7/18",
+    "verified": false
+   },
+   "usedIn": [
+    "vishada"
+   ],
+   "cautions": [
+    "High fat; caution with cholesterol or gallstones."
+   ],
+   "herbs": [
+    "brahmi"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "brahmi-churna",
+   "name": "Brahmi Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "vishada"
+   ],
+   "cautions": [
+    "Stomach upset; may slow heart rate; may interact with thyroid drugs."
+   ],
+   "herbs": [
+    "brahmi"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "brahmi-ghrita",
+   "name": "Brahmi Ghrita",
+   "form": "Medicated ghee",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Ashtanga Hridaya, Uttara 6/23–24",
+    "verified": false
+   },
+   "usedIn": [
+    "apasmara"
+   ],
+   "cautions": [
+    "High fat."
+   ],
+   "herbs": [
+    "brahmi"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "brahmi-drakshadi-shatavaryadi-kashaya",
+   "name": "Brahmi-Drakshadi / Shatavaryadi Kashaya",
+   "form": "Decoction",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "fibromyalgia"
+   ],
+   "cautions": [
+    "Generally well tolerated."
+   ],
+   "herbs": [
+    "brahmi",
+    "shatavari",
+    "draksha"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "brihat-kushmanda-avaleha-shatavari-paka",
+   "name": "Brihat Kushmanda Avaleha / Shatavari Paka",
+   "form": "Herbal jam",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "adhimantha"
+   ],
+   "cautions": [
+    "Sugar-based."
+   ],
+   "herbs": [
+    "shatavari",
+    "kushmanda"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "brihat-vatachintamani-rasa",
+   "name": "Brihat Vatachintamani Rasa",
+   "form": "Herbo-mineral",
+   "safetyClass": "herbo-mineral",
+   "classicalSource": {
+    "text": "Bhaishajya Ratnavali, Vatavyadhi 502–503",
+    "verified": false
+   },
+   "usedIn": [
+    "pakshaghata"
+   ],
+   "cautions": [
+    "Contains gold, silver, mercury. Supervision only."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "bruhat-gangadhara-churna",
+   "name": "Bruhat Gangadhara Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Sharangadhara Samhita, Madhyama Khanda 6/49–50",
+    "verified": false
+   },
+   "usedIn": [
+    "atisara",
+    "grahani"
+   ],
+   "cautions": [
+    "Constipating; generally well tolerated.",
+    "Constipating."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "castor-oil",
+   "name": "Castor oil",
+   "form": "Oil",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "parikartika",
+    "kashtartava",
+    "katigraha",
+    "gridhrasi",
+    "vibandha"
+   ],
+   "cautions": [
+    "Cramps, diarrhoea; avoid in pregnancy.",
+    "Strong laxative.",
+    "Strong laxative; avoid in pregnancy.",
+    "Strong laxative: cramps, dehydration with regular use. Avoid in pregnancy."
+   ],
+   "herbs": [
+    "eranda"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "castor-seeds-boiled-in-milk",
+   "name": "Castor seeds boiled in milk (Eranda Beeja Kshirapaka)",
+   "form": "Seeds in milk",
+   "safetyClass": "contains-toxic-herb",
+   "classicalSource": null,
+   "usedIn": [
+    "katigraha",
+    "gridhrasi"
+   ],
+   "cautions": [
+    "Castor seeds contain ricin, a deadly poison. Only from a practitioner, prepared exactly; never chew raw seeds.",
+    "Castor seeds contain ricin, a deadly poison. Only from a practitioner; never chew raw seeds."
+   ],
+   "herbs": [
+    "eranda"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "chandraprabha-vati",
+   "name": "Chandraprabha Vati",
+   "form": "Tablet",
+   "safetyClass": "herbo-mineral",
+   "classicalSource": {
+    "text": "Sharangadhara Samhita, Madhyama Khanda 7/40–44",
+    "verified": false
+   },
+   "usedIn": [
+    "madhumeha",
+    "ashmari",
+    "mutrashtila",
+    "shwetapradara"
+   ],
+   "cautions": [
+    "Contains shilajit and small amounts of mineral; used in kidney involvement.",
+    "Contains shilajit and small amounts of mineral."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "chitraka-haritaki-avaleha",
+   "name": "Chitraka Haritaki Avaleha",
+   "form": "Herbal jam",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Bhaishajya Ratnavali, Nasaroga 31–32",
+    "verified": false
+   },
+   "usedIn": [
+    "pratishyaya"
+   ],
+   "cautions": [
+    "Mildly laxative; avoid in pregnancy (chitraka)."
+   ],
+   "herbs": [
+    "haritaki",
+    "chitraka"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "chitrakadi-vati",
+   "name": "Chitrakadi Vati",
+   "form": "Tablet",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Charaka Samhita, Chikitsa 15",
+    "verified": false
+   },
+   "usedIn": [
+    "ajirna",
+    "aruchi"
+   ],
+   "cautions": [
+    "Heating; avoid in pregnancy."
+   ],
+   "herbs": [
+    "chitraka"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "chopachini-churna",
+   "name": "Chopachini Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "shwetapradara"
+   ],
+   "cautions": [
+    "Generally well tolerated."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "dadimadya-ghrita",
+   "name": "Dadimadya Ghrita",
+   "form": "Medicated ghee",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Ashtanga Hridaya, Chikitsa 16/2",
+    "verified": false
+   },
+   "usedIn": [
+    "pandu"
+   ],
+   "cautions": [
+    "High fat."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "dadimashtaka-churna",
+   "name": "Dadimashtaka Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Bhaishajya Ratnavali, Grahani 36–37",
+    "verified": false
+   },
+   "usedIn": [
+    "atisara",
+    "grahani"
+   ],
+   "cautions": [
+    "Contains sugar."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "darvyadi-kwatha",
+   "name": "Darvyadi Kwatha",
+   "form": "Decoction",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Bhaishajya Ratnavali, Striroga 380–384",
+    "verified": false
+   },
+   "usedIn": [
+    "shwetapradara"
+   ],
+   "cautions": [
+    "Bitter."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "dashamoola-kashaya",
+   "name": "Dashamoola Kashaya",
+   "form": "Decoction",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "avabahuka"
+   ],
+   "cautions": [
+    "Generally well tolerated."
+   ],
+   "herbs": [
+    "bilva"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "dashamoola-kwatha",
+   "name": "Dashamoola Kwatha",
+   "form": "Decoction",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "tamaka"
+   ],
+   "cautions": [
+    "Generally well tolerated."
+   ],
+   "herbs": [
+    "bilva"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "dashamoola-kwatha-with-sesame-oil",
+   "name": "Dashamoola Kwatha with sesame oil",
+   "form": "Decoction",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "kashtartava"
+   ],
+   "cautions": [
+    "Generally well tolerated."
+   ],
+   "herbs": [
+    "bilva"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "dashamoola-taila",
+   "name": "Dashamoola Taila (scalp massage)",
+   "form": "Oil",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Bhaishajya Ratnavali, Shiroroga 65–69",
+    "verified": false
+   },
+   "usedIn": [
+    "shiroroga"
+   ],
+   "cautions": [
+    "External only."
+   ],
+   "herbs": [
+    "bilva"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "dashamoolarishta-ashwagandharishta",
+   "name": "Dashamoolarishta / Ashwagandharishta",
+   "form": "Fermented liquid",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Bhaishajya Ratnavali, Murchha 13–17",
+    "verified": false
+   },
+   "usedIn": [
+    "sandhivata"
+   ],
+   "cautions": [
+    "Contain self-generated alcohol."
+   ],
+   "herbs": [
+    "ashwagandha",
+    "bilva"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "dashamula-katutrayam-kwatha",
+   "name": "Dashamula Katutrayam Kwatha",
+   "form": "Decoction",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Sahasrayogam, Kashaya 107",
+    "verified": false
+   },
+   "usedIn": [
+    "cervical"
+   ],
+   "cautions": [
+    "Generally well tolerated."
+   ],
+   "herbs": [
+    "bilva"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "dashana-samskara-churna",
+   "name": "Dashana Samskara Churna",
+   "form": "Tooth powder",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "dantaveshta"
+   ],
+   "cautions": [
+    "Use gently; abrasive powders can wear enamel."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "dhanyaka-cold-infusion",
+   "name": "Dhanyaka (coriander) cold infusion",
+   "form": "Infusion",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "mutrashtila"
+   ],
+   "cautions": [
+    "Safe."
+   ],
+   "herbs": [
+    "dhanyaka"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "dhatri-lauha-navayasa-lauha",
+   "name": "Dhatri Lauha / Navayasa Lauha",
+   "form": "Iron-based tablet",
+   "safetyClass": "herbo-mineral",
+   "classicalSource": {
+    "text": "Charaka Samhita, Chikitsa 16/70–71",
+    "verified": false
+   },
+   "usedIn": [
+    "pandu"
+   ],
+   "cautions": [
+    "Iron bhasma: dark stools, constipation."
+   ],
+   "herbs": [
+    "amalaki"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "draksha",
+   "name": "Draksha (raisins)",
+   "form": "Dried fruit",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "arsha",
+    "parikartika"
+   ],
+   "cautions": [
+    "Safe; sugar content.",
+    "Safe."
+   ],
+   "herbs": [
+    "draksha"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "draksha-soaked",
+   "name": "Draksha (raisins), soaked",
+   "form": "Dried fruit",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "vibandha"
+   ],
+   "cautions": [
+    "Safe; sugar content."
+   ],
+   "herbs": [
+    "draksha"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "drakshadi-leha",
+   "name": "Drakshadi Leha (Pitta type)",
+   "form": "Herbal jam",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "kasa"
+   ],
+   "cautions": [
+    "Sugar-based."
+   ],
+   "herbs": [
+    "draksha"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "draksharishta",
+   "name": "Draksharishta",
+   "form": "Fermented liquid",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Sharangadhara Samhita, Madhyama Khanda 10/69–71",
+    "verified": false
+   },
+   "usedIn": [
+    "kasa"
+   ],
+   "cautions": [
+    "Contains self-generated alcohol."
+   ],
+   "herbs": [
+    "draksha"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "drakshavaleha",
+   "name": "Drakshavaleha",
+   "form": "Herbal jam",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Ashtanga Hridaya, Chikitsa 16/29–30",
+    "verified": false
+   },
+   "usedIn": [
+    "pandu",
+    "fattyliver",
+    "aruchi"
+   ],
+   "cautions": [
+    "Sugar-based.",
+    "Sugar-based: unsuitable in diabetes."
+   ],
+   "herbs": [
+    "draksha"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "eranda-bhrishta-haritaki",
+   "name": "Eranda Bhrishta Haritaki",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "kashtartava"
+   ],
+   "cautions": [
+    "Laxative."
+   ],
+   "herbs": [
+    "haritaki",
+    "eranda"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "eranda-bhrishta-haritaki-churna",
+   "name": "Eranda Bhrishta Haritaki Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "fattyliver"
+   ],
+   "cautions": [
+    "Laxative; avoid in pregnancy."
+   ],
+   "herbs": [
+    "haritaki",
+    "eranda"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "eranda-taila",
+   "name": "Eranda Taila (castor oil)",
+   "form": "Oil",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "amavata"
+   ],
+   "cautions": [
+    "Strong laxative: cramps, diarrhoea. Avoid in pregnancy."
+   ],
+   "herbs": [
+    "eranda"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "fresh-ginger-with-rock-salt",
+   "name": "Fresh ginger with rock salt",
+   "form": "Food",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "ajirna",
+    "aruchi"
+   ],
+   "cautions": [
+    "Classical appetiser; avoid with acidity.",
+    "Avoid with acidity."
+   ],
+   "herbs": [
+    "shunthi"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "gandhaka-rasayana",
+   "name": "Gandhaka Rasayana",
+   "form": "Purified sulphur",
+   "safetyClass": "herbo-mineral",
+   "classicalSource": {
+    "text": "Yogaratnakara, Rasayana",
+    "verified": false
+   },
+   "usedIn": [
+    "ekakushtha",
+    "vicharchika"
+   ],
+   "cautions": [
+    "Sulphur-based; supervision."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "garlic-paste",
+   "name": "Garlic paste (Rasona Pinda)",
+   "form": "Paste",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "pakshaghata"
+   ],
+   "cautions": [
+    "Garlic increases bleeding risk with aspirin, clopidogrel or warfarin; tell your doctor."
+   ],
+   "herbs": [
+    "lashuna"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "ghee-nasal-drops",
+   "name": "Ghee nasal drops (Go Ghrita Nasya)",
+   "form": "Lukewarm cow ghee",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "shiroroga"
+   ],
+   "cautions": [
+    "Do not use with a cold or blocked nose, or right after meals."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "godanti-bhasma",
+   "name": "Godanti Bhasma",
+   "form": "Mineral ash (gypsum)",
+   "safetyClass": "herbo-mineral",
+   "classicalSource": {
+    "text": "Rasa Tarangini 11/238–240",
+    "verified": false
+   },
+   "usedIn": [
+    "jwara"
+   ],
+   "cautions": [
+    "Calcium-based; generally mild, but buy only from licensed makers."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "gokshura-churna",
+   "name": "Gokshura Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "ashmari",
+    "mutraghata",
+    "mutrashtila"
+   ],
+   "cautions": [
+    "Generally well tolerated.",
+    "Monitor potassium."
+   ],
+   "herbs": [
+    "gokshura"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "gokshuradi-guggulu",
+   "name": "Gokshuradi Guggulu",
+   "form": "Tablet",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Sharangadhara Samhita, Madhyama Khanda 7/84–86",
+    "verified": false
+   },
+   "usedIn": [
+    "madhumeha",
+    "ashmari",
+    "mutrashtila"
+   ],
+   "cautions": [
+    "Guggulu cautions; used when there is urinary infection.",
+    "Guggulu cautions."
+   ],
+   "herbs": [
+    "gokshura",
+    "guggulu"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "gomutra-haritaki-churna",
+   "name": "Gomutra Haritaki Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Ashtanga Hridaya, Uttara 22/102",
+    "verified": false
+   },
+   "usedIn": [
+    "jalodara"
+   ],
+   "cautions": [
+    "Laxative."
+   ],
+   "herbs": [
+    "haritaki"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "guduchi-haridra-churna",
+   "name": "Guduchi / Haridra Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "vicharchika"
+   ],
+   "cautions": [
+    "Guduchi: rare liver-injury reports."
+   ],
+   "herbs": [
+    "guduchi",
+    "haridra"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "guduchi-manjishtha-khadira-haridra-sariva-churna",
+   "name": "Guduchi / Manjishtha / Khadira / Haridra / Sariva Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "ekakushtha"
+   ],
+   "cautions": [
+    "Choose 2 or more by dosha; Guduchi has rare liver-injury reports."
+   ],
+   "herbs": [
+    "guduchi",
+    "haridra",
+    "manjishtha",
+    "khadira"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "guduchi-manjishtha-churna",
+   "name": "Guduchi / Manjishtha Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "shvitra"
+   ],
+   "cautions": [
+    "Guduchi: rare liver-injury reports."
+   ],
+   "herbs": [
+    "guduchi",
+    "manjishtha"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "guduchi-churna",
+   "name": "Guduchi Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "shitapitta"
+   ],
+   "cautions": [
+    "Rare liver-injury reports."
+   ],
+   "herbs": [
+    "guduchi"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "guduchi-juice-or-powder",
+   "name": "Guduchi juice or powder",
+   "form": "Juice / powder",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "vatarakta"
+   ],
+   "cautions": [
+    "Rare liver injury reports; may lower blood sugar."
+   ],
+   "herbs": [
+    "guduchi"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "guduchyadi-nagaradi-parpataka-kwatha",
+   "name": "Guduchyadi / Nagaradi / Parpataka Kwatha",
+   "form": "Decoction",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Sharangadhara Samhita, Madhyama Khanda 2/8",
+    "verified": false
+   },
+   "usedIn": [
+    "jwara"
+   ],
+   "cautions": [
+    "Very bitter; may cause nausea. Guduchi may lower blood sugar."
+   ],
+   "herbs": [
+    "shunthi"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "guggulu-tiktaka-ghrita",
+   "name": "Guggulu Tiktaka Ghrita",
+   "form": "Medicated ghee",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Ashtanga Hridaya, Chikitsa 21/57–58",
+    "verified": false
+   },
+   "usedIn": [
+    "avabahuka",
+    "cervical"
+   ],
+   "cautions": [
+    "High fat."
+   ],
+   "herbs": [
+    "guggulu",
+    "nimba"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "haridra-khanda",
+   "name": "Haridra Khanda (allergic rhinitis)",
+   "form": "Granules",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Bhaishajya Ratnavali, Shitapitta 12–14",
+    "verified": false
+   },
+   "usedIn": [
+    "pratishyaya",
+    "krimi",
+    "shitapitta"
+   ],
+   "cautions": [
+    "Contains sugar; turmeric interacts with blood thinners.",
+    "Sugar-based.",
+    "Sugar-based; turmeric interacts with blood thinners."
+   ],
+   "herbs": [
+    "haridra"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "haritaki-churna",
+   "name": "Haritaki Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "arsha",
+    "parikartika",
+    "pakshaghata",
+    "vibandha"
+   ],
+   "cautions": [
+    "Laxative; avoid in pregnancy.",
+    "Laxative.",
+    "Avoid in pregnancy."
+   ],
+   "herbs": [
+    "haritaki"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "head-and-foot-oil-massage",
+   "name": "Head and foot oil massage (Shiro / Pada Abhyanga)",
+   "form": "External",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "anidra"
+   ],
+   "cautions": [
+    "Safe."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "hingvadi-churna",
+   "name": "Hingvadi Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Yogaratnakara, Gulma (p. 522)",
+    "verified": false
+   },
+   "usedIn": [
+    "kashtartava"
+   ],
+   "cautions": [
+    "Heating."
+   ],
+   "herbs": [
+    "hingu"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "hingvashtaka-churna",
+   "name": "Hingvashtaka Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Bhaishajya Ratnavali, Agnimandya 37",
+    "verified": false
+   },
+   "usedIn": [
+    "ajirna",
+    "aruchi",
+    "grahani"
+   ],
+   "cautions": [
+    "Heating; avoid in acidity, ulcers and pregnancy.",
+    "Heating."
+   ],
+   "herbs": [
+    "hingu"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "honey-gargle",
+   "name": "Honey gargle",
+   "form": "Gargle",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "mukhapaka"
+   ],
+   "cautions": [
+    "Not for babies under 1 year."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "hot-sitz-bath-with-triphala-or-panchavalkala-decoction",
+   "name": "Hot sitz bath with Triphala or Panchavalkala decoction",
+   "form": "Local",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Bhavaprakasha Nighantu, Haritakyadi Varga 41",
+    "verified": false
+   },
+   "usedIn": [
+    "bhagandara"
+   ],
+   "cautions": [
+    "External."
+   ],
+   "herbs": [
+    "amalaki",
+    "haritaki",
+    "bibhitaki"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "irimedadi-taila",
+   "name": "Irimedadi Taila",
+   "form": "Oil",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Ashtanga Hridaya, Uttara 22/90–96",
+    "verified": false
+   },
+   "usedIn": [
+    "dantaveshta"
+   ],
+   "cautions": [
+    "Do not swallow."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "isabgol",
+   "name": "Isabgol (psyllium husk)",
+   "form": "Husk",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "vibandha"
+   ],
+   "cautions": [
+    "Must be taken with plenty of water; can cause bloating at first."
+   ],
+   "herbs": [
+    "isabgol"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "jasmine-leaf-paste-or-chewing",
+   "name": "Jasmine (jati) leaf paste or chewing",
+   "form": "Leaf paste",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "mukhapaka"
+   ],
+   "cautions": [
+    "Safe."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "jatiphala-churna",
+   "name": "Jatiphala (nutmeg) Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "anidra"
+   ],
+   "cautions": [
+    "Do not exceed dose: above about 5 g nutmeg causes palpitations, confusion and hallucinations."
+   ],
+   "herbs": [
+    "jatiphala"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "jatyadi-karanja-taila",
+   "name": "Jatyadi / Karanja Taila (external)",
+   "form": "Oil",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Sharangadhara Samhita, Madhyama Khanda 9/168–170",
+    "verified": false
+   },
+   "usedIn": [
+    "vicharchika"
+   ],
+   "cautions": [
+    "Test a small area first; avoid on weeping skin."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "jatyadi-taila",
+   "name": "Jatyadi Taila (local)",
+   "form": "Oil",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Sharangadhara Samhita, Madhyama Khanda 9/168–170",
+    "verified": false
+   },
+   "usedIn": [
+    "arsha",
+    "bhagandara",
+    "parikartika"
+   ],
+   "cautions": [
+    "External only.",
+    "External."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "jwaramurari-rasa",
+   "name": "Jwaramurari Rasa",
+   "form": "Herbo-mineral",
+   "safetyClass": "herbo-mineral",
+   "classicalSource": null,
+   "usedIn": [
+    "jwara"
+   ],
+   "cautions": [
+    "Contains processed mercury. Supervision only."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "kaishora-maha-yogaraja-guggulu",
+   "name": "Kaishora / Maha Yogaraja Guggulu",
+   "form": "Tablet",
+   "safetyClass": "herbo-mineral",
+   "classicalSource": {
+    "text": "Sharangadhara Samhita, Madhyama Khanda 7/56–60",
+    "verified": false
+   },
+   "usedIn": [
+    "sandhivata"
+   ],
+   "cautions": [
+    "Maha Yogaraja contains mineral bhasmas. Guggulu cautions apply."
+   ],
+   "herbs": [
+    "guggulu"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "kaishora-guggulu",
+   "name": "Kaishora Guggulu",
+   "form": "Tablet",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Bhaishajya Ratnavali, Vatarakta 97–101",
+    "verified": false
+   },
+   "usedIn": [
+    "ekakushtha",
+    "vatarakta"
+   ],
+   "cautions": [
+    "Guggulu cautions."
+   ],
+   "herbs": [
+    "guggulu"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "kalamegha-churna",
+   "name": "Kalamegha Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "kamala"
+   ],
+   "cautions": [
+    "Bitter; may cause nausea."
+   ],
+   "herbs": [
+    "kalamegha"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "kalyanaka-ghrita",
+   "name": "Kalyanaka Ghrita",
+   "form": "Medicated ghee",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Ashtanga Hridaya, Uttara 6",
+    "verified": false
+   },
+   "usedIn": [
+    "apasmara"
+   ],
+   "cautions": [
+    "High fat."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "kamadudha-rasa",
+   "name": "Kamadudha Rasa",
+   "form": "Herbo-mineral (mineral-based, no mercury)",
+   "safetyClass": "herbo-mineral",
+   "classicalSource": {
+    "text": "Rasa Tantra Sara va Siddha Prayoga Sangraha, Kharaliya Rasayana 80",
+    "verified": false
+   },
+   "usedIn": [
+    "amlapitta",
+    "asrigdara"
+   ],
+   "cautions": [
+    "Coral, pearl and mineral based. Buy from licensed makers.",
+    "Coral and mineral based."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "kanakasava",
+   "name": "Kanakasava",
+   "form": "Fermented liquid",
+   "safetyClass": "contains-toxic-herb",
+   "classicalSource": {
+    "text": "Bhaishajya Ratnavali, Hikka-Shvasa 98–101",
+    "verified": false
+   },
+   "usedIn": [
+    "tamaka"
+   ],
+   "cautions": [
+    "Contains Dhattura (datura), which is toxic in excess. Supervision only."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "kanchanara-guggulu",
+   "name": "Kanchanara Guggulu",
+   "form": "Tablet",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Sharangadhara Samhita, Madhyama Khanda 7/95–98",
+    "verified": false
+   },
+   "usedIn": [
+    "thyroid",
+    "mutrashtila"
+   ],
+   "cautions": [
+    "Guggulu may change thyroid test results and interact with thyroxine; separate doses and recheck TSH.",
+    "Guggulu cautions."
+   ],
+   "herbs": [
+    "guggulu",
+    "kanchanara"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "kankayana-agnitundi-vati",
+   "name": "Kankayana / Agnitundi Vati",
+   "form": "Tablet",
+   "safetyClass": "contains-toxic-herb",
+   "classicalSource": {
+    "text": "Bhaishajya Ratnavali, Agnimandya 117–118",
+    "verified": false
+   },
+   "usedIn": [
+    "fattyliver"
+   ],
+   "cautions": [
+    "Agnitundi contains nux vomica (strychnine). Supervision only. The Ayurvedic Formulary of India limits Agnitundi to 125–250 mg per dose."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "kankayana-vati",
+   "name": "Kankayana Vati",
+   "form": "Tablet",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Bhaishajya Ratnavali, Gulma 56–58",
+    "verified": false
+   },
+   "usedIn": [
+    "arsha",
+    "parikartika"
+   ],
+   "cautions": [
+    "Contains bhallataka in some versions. Check label.",
+    "Some versions contain bhallataka; check label."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "kantakari-ghrita",
+   "name": "Kantakari Ghrita (Vata type)",
+   "form": "Medicated ghee",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "tamaka"
+   ],
+   "cautions": [
+    "High fat."
+   ],
+   "herbs": [
+    "kantakari"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "kaphaketu-chandramrita-shwasakuthara-rasa",
+   "name": "Kaphaketu / Chandramrita / Shwasakuthara Rasa",
+   "form": "Herbo-mineral",
+   "safetyClass": "herbo-mineral",
+   "classicalSource": {
+    "text": "Yogaratnakara, Shvasa (p. 373)",
+    "verified": false
+   },
+   "usedIn": [
+    "kasa"
+   ],
+   "cautions": [
+    "Contain mercury/sulphur, some aconite. Supervision only."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "karanja-jatyadi-mahamarichadi-taila",
+   "name": "Karanja / Jatyadi / Mahamarichadi Taila",
+   "form": "Oil (external)",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Sharangadhara Samhita, Madhyama Khanda 9/168–170",
+    "verified": false
+   },
+   "usedIn": [
+    "ekakushtha"
+   ],
+   "cautions": [
+    "External; test a small area first."
+   ],
+   "herbs": [
+    "maricha"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "karpasasthyadi-dhanwantaram-bala-taila",
+   "name": "Karpasasthyadi / Dhanwantaram / Bala Taila (external)",
+   "form": "Oil",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Sahasrayogam, Taila 11",
+    "verified": false
+   },
+   "usedIn": [
+    "pakshaghata"
+   ],
+   "cautions": [
+    "External."
+   ],
+   "herbs": [
+    "bala"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "katuki-churna",
+   "name": "Katuki Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "kamala",
+    "fattyliver"
+   ],
+   "cautions": [
+    "Bitter; laxative in higher doses.",
+    "Bitter; laxative."
+   ],
+   "herbs": [
+    "katuki"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "khadiradi-gutika",
+   "name": "Khadiradi Gutika",
+   "form": "Lozenge",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Charaka Samhita, Chikitsa 26/206–210 (mouth); Yogaratnakara, Kasa (cough)",
+    "verified": false
+   },
+   "usedIn": [
+    "dantaveshta"
+   ],
+   "cautions": [
+    "Generally safe."
+   ],
+   "herbs": [
+    "khadira"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "khadirarishta",
+   "name": "Khadirarishta",
+   "form": "Fermented liquid",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Sharangadhara Samhita, Madhyama Khanda 10/60–63",
+    "verified": false
+   },
+   "usedIn": [
+    "vicharchika",
+    "shvitra"
+   ],
+   "cautions": [
+    "Self-generated alcohol."
+   ],
+   "herbs": [
+    "khadira"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "khadirarishta-aragvadharishta",
+   "name": "Khadirarishta / Aragvadharishta",
+   "form": "Fermented liquid",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Sharangadhara Samhita, Madhyama Khanda 10/60–63",
+    "verified": false
+   },
+   "usedIn": [
+    "ekakushtha"
+   ],
+   "cautions": [
+    "Contain self-generated alcohol, which can itself worsen psoriasis."
+   ],
+   "herbs": [
+    "khadira",
+    "aragvadha"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "kokilaksha-amritadi-laghu-manjishthadi-kwatha",
+   "name": "Kokilaksha / Amritadi / Laghu Manjishthadi Kwatha",
+   "form": "Decoction",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Sharangadhara Samhita, Madhyama Khanda 2/137–141 (Brihat Manjishthadi)",
+    "verified": false
+   },
+   "usedIn": [
+    "vatarakta"
+   ],
+   "cautions": [
+    "Generally well tolerated."
+   ],
+   "herbs": [
+    "guduchi",
+    "manjishtha"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "krimighna-vati",
+   "name": "Krimighna Vati",
+   "form": "Tablet",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "krimi"
+   ],
+   "cautions": [
+    "Check label for mineral content."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "krimimudgara-krimikuthara-rasa",
+   "name": "Krimimudgara / Krimikuthara Rasa",
+   "form": "Herbo-mineral",
+   "safetyClass": "herbo-mineral",
+   "classicalSource": {
+    "text": "Rasa Tantra Sara va Siddha Prayoga Sangraha, Kharaliya Rasayana 60",
+    "verified": false
+   },
+   "usedIn": [
+    "krimi"
+   ],
+   "cautions": [
+    "Contain mercury and sulphur. Supervision only; not for children."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "ksheerabala-mahamasha-taila",
+   "name": "Ksheerabala / Mahamasha Taila (external)",
+   "form": "Oil",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Ashtanga Hridaya, Chikitsa 22/44",
+    "verified": false
+   },
+   "usedIn": [
+    "fibromyalgia"
+   ],
+   "cautions": [
+    "External."
+   ],
+   "herbs": [
+    "bala"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "ksheerabala-101-taila",
+   "name": "Ksheerabala 101 Taila",
+   "form": "Oil (internal)",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Ashtanga Hridaya, Chikitsa 22/44",
+    "verified": false
+   },
+   "usedIn": [
+    "avabahuka"
+   ],
+   "cautions": [
+    "Generally well tolerated."
+   ],
+   "herbs": [
+    "bala"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "kumari-juice",
+   "name": "Kumari (aloe) juice",
+   "form": "Fresh juice",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "jalodara",
+    "kamala"
+   ],
+   "cautions": [
+    "Aloe latex causes diarrhoea and potassium loss; avoid in pregnancy.",
+    "Diarrhoea, potassium loss; avoid in pregnancy."
+   ],
+   "herbs": [
+    "kumari"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "kushmanda-juice",
+   "name": "Kushmanda (ash gourd) juice",
+   "form": "Fresh juice",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "vishada"
+   ],
+   "cautions": [
+    "Safe; cooling."
+   ],
+   "herbs": [
+    "kushmanda"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "kutaja-churna-kutaja-ghana-vati",
+   "name": "Kutaja Churna / Kutaja Ghana Vati",
+   "form": "Powder / tablet",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Siddha Yoga Sangraha, Atisara-Grahani",
+    "verified": false
+   },
+   "usedIn": [
+    "atisara"
+   ],
+   "cautions": [
+    "Generally well tolerated."
+   ],
+   "herbs": [
+    "kutaja"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "kutaja-ghana-vati",
+   "name": "Kutaja Ghana Vati",
+   "form": "Tablet",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Siddha Yoga Sangraha, Atisara-Grahani",
+    "verified": false
+   },
+   "usedIn": [
+    "grahani"
+   ],
+   "cautions": [
+    "Generally well tolerated."
+   ],
+   "herbs": [
+    "kutaja"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "kutajarishta",
+   "name": "Kutajarishta",
+   "form": "Fermented liquid",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Bhaishajya Ratnavali, Atisara 97–98",
+    "verified": false
+   },
+   "usedIn": [
+    "grahani"
+   ],
+   "cautions": [
+    "Self-generated alcohol."
+   ],
+   "herbs": [
+    "kutaja"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "lashunadi-vati",
+   "name": "Lashunadi Vati (garlic)",
+   "form": "Tablet",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Vaidya Jivanam, Kshaya 13",
+    "verified": false
+   },
+   "usedIn": [
+    "cholesterol"
+   ],
+   "cautions": [
+    "Garlic increases bleeding risk with blood thinners."
+   ],
+   "herbs": [
+    "lashuna"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "lavangadi-khadiradi-vati",
+   "name": "Lavangadi / Khadiradi Vati",
+   "form": "Lozenge",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Charaka Samhita, Chikitsa 26/206–210 (mouth); Yogaratnakara, Kasa (cough)",
+    "verified": false
+   },
+   "usedIn": [
+    "kasa"
+   ],
+   "cautions": [
+    "Generally safe."
+   ],
+   "herbs": [
+    "khadira"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "lavangadi-vati",
+   "name": "Lavangadi Vati",
+   "form": "Lozenge",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Vaidya Jivanam, Kasa-Shvasa 7",
+    "verified": false
+   },
+   "usedIn": [
+    "pratishyaya"
+   ],
+   "cautions": [
+    "Generally safe."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "lodhra-churna",
+   "name": "Lodhra Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "asrigdara",
+    "shwetapradara"
+   ],
+   "cautions": [
+    "Constipating."
+   ],
+   "herbs": [
+    "lodhra"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "lohasava",
+   "name": "Lohasava",
+   "form": "Fermented liquid",
+   "safetyClass": "herbo-mineral",
+   "classicalSource": {
+    "text": "Sharangadhara Samhita, Madhyama Khanda 10/34–36",
+    "verified": false
+   },
+   "usedIn": [
+    "pandu"
+   ],
+   "cautions": [
+    "Contains iron; self-generated alcohol."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "mahakalyanaka-ghrita",
+   "name": "Mahakalyanaka Ghrita",
+   "form": "Medicated ghee",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Ashtanga Hridaya, Uttara 6/27–33",
+    "verified": false
+   },
+   "usedIn": [
+    "fibromyalgia"
+   ],
+   "cautions": [
+    "High fat."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "mahanarayana-taila",
+   "name": "Mahanarayana Taila (external)",
+   "form": "Oil",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Bhaishajya Ratnavali, Vatavyadhi 151–157",
+    "verified": false
+   },
+   "usedIn": [
+    "sandhivata"
+   ],
+   "cautions": [
+    "External only."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "maharasnadi-dashamula-gandharvahastadi-kashaya",
+   "name": "Maharasnadi / Dashamula / Gandharvahastadi Kashaya",
+   "form": "Decoction",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Sahasrayogam, Kashaya 394",
+    "verified": false
+   },
+   "usedIn": [
+    "pakshaghata"
+   ],
+   "cautions": [
+    "Generally well tolerated."
+   ],
+   "herbs": [
+    "bilva",
+    "rasna"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "mahasudarshana-churna",
+   "name": "Mahasudarshana Churna (as infusion)",
+   "form": "Powder infusion",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "jwara"
+   ],
+   "cautions": [
+    "Very bitter; can upset the stomach."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "mahatiktaka-kwatha",
+   "name": "Mahatiktaka Kwatha",
+   "form": "Decoction",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "ekakushtha",
+    "vicharchika"
+   ],
+   "cautions": [
+    "Very bitter."
+   ],
+   "herbs": [
+    "nimba"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "mamajjaka-ghana-vati",
+   "name": "Mamajjaka Ghana Vati",
+   "form": "Tablet",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "madhumeha"
+   ],
+   "cautions": [
+    "Risk of low sugar with insulin or sulfonylureas."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "mamsyadi-kwatha",
+   "name": "Mamsyadi Kwatha",
+   "form": "Decoction",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "anidra"
+   ],
+   "cautions": [
+    "Jatamansi is sedating."
+   ],
+   "herbs": [
+    "jatamansi"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "manasamitra-vatakam",
+   "name": "Manasamitra Vatakam",
+   "form": "Tablet",
+   "safetyClass": "herbo-mineral",
+   "classicalSource": {
+    "text": "Sahasrayogam, Gutika 68",
+    "verified": false
+   },
+   "usedIn": [
+    "fibromyalgia"
+   ],
+   "cautions": [
+    "Contains gold, silver and other minerals. Supervision only."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "manasmitra-vati",
+   "name": "Manasmitra Vati",
+   "form": "Tablet",
+   "safetyClass": "herbo-mineral",
+   "classicalSource": {
+    "text": "Sahasrayogam, Gutika 68",
+    "verified": false
+   },
+   "usedIn": [
+    "apasmara"
+   ],
+   "cautions": [
+    "Contains gold, silver and other minerals. Supervision only."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "manjishthadi-kwatha",
+   "name": "Manjishthadi Kwatha",
+   "form": "Decoction",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Sharangadhara Samhita, Madhyama Khanda 2/137–141 (Brihat Manjishthadi)",
+    "verified": false
+   },
+   "usedIn": [
+    "ekakushtha",
+    "shitapitta",
+    "vicharchika"
+   ],
+   "cautions": [
+    "Generally well tolerated."
+   ],
+   "herbs": [
+    "manjishtha"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "mansyadi-kwatha",
+   "name": "Mansyadi Kwatha",
+   "form": "Decoction",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "apasmara"
+   ],
+   "cautions": [
+    "Jatamansi is sedating."
+   ],
+   "herbs": [
+    "jatamansi"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "medohara-triphala-guggulu",
+   "name": "Medohara / Triphala Guggulu",
+   "form": "Tablet",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Sharangadhara Samhita, Madhyama Khanda 7/82",
+    "verified": false
+   },
+   "usedIn": [
+    "cholesterol"
+   ],
+   "cautions": [
+    "Guggulu: stomach upset, rash; may interact with thyroid and blood-thinning drugs; avoid in pregnancy."
+   ],
+   "herbs": [
+    "amalaki",
+    "haritaki",
+    "bibhitaki",
+    "guggulu"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "murivenna-dhanwantaram-taila",
+   "name": "Murivenna / Dhanwantaram Taila (external)",
+   "form": "Oil",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Vaidya Yoga Ratnavali, Taila p. 244",
+    "verified": false
+   },
+   "usedIn": [
+    "katigraha"
+   ],
+   "cautions": [
+    "External."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "musta-vidanga-haritaki-churna",
+   "name": "Musta / Vidanga / Haritaki Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "sthaulya"
+   ],
+   "cautions": [
+    "Haritaki is laxative; avoid in pregnancy."
+   ],
+   "herbs": [
+    "haritaki",
+    "musta",
+    "vidanga"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "musta-churna",
+   "name": "Musta Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "atisara",
+    "cholesterol",
+    "grahani"
+   ],
+   "cautions": [
+    "Generally well tolerated."
+   ],
+   "herbs": [
+    "musta"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "nagakesara-mocharasa-lodhra-shunthi-churna",
+   "name": "Nagakesara / Mocharasa / Lodhra / Shunthi Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "asrigdara"
+   ],
+   "cautions": [
+    "Generally well tolerated."
+   ],
+   "herbs": [
+    "shunthi",
+    "lodhra"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "naradiya-lakshmivilasa-rasa-abhraka-bhasma",
+   "name": "Naradiya Lakshmivilasa Rasa / Abhraka Bhasma",
+   "form": "Herbo-mineral",
+   "safetyClass": "herbo-mineral",
+   "classicalSource": {
+    "text": "Bhaishajya Ratnavali, Rasayana 55–58",
+    "verified": false
+   },
+   "usedIn": [
+    "pratishyaya"
+   ],
+   "cautions": [
+    "Contain mercury or mica ash. Supervision only."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "narayana-churna",
+   "name": "Narayana Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Ashtanga Hridaya, Chikitsa 15/14–16",
+    "verified": false
+   },
+   "usedIn": [
+    "jalodara"
+   ],
+   "cautions": [
+    "Purgative."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "nayanamrita-eye-drops",
+   "name": "Nayanamrita eye drops (licensed product)",
+   "form": "Eye drops",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "abhishyanda"
+   ],
+   "cautions": [
+    "Use only sealed, sterile, licensed drops; stop if pain increases."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "nirgundi-panchaguna-taila",
+   "name": "Nirgundi / Panchaguna Taila (external)",
+   "form": "Oil",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "cervical"
+   ],
+   "cautions": [
+    "External."
+   ],
+   "herbs": [
+    "nirgundi"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "nisha-amalaki",
+   "name": "Nisha-Amalaki (turmeric + amla)",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "madhumeha"
+   ],
+   "cautions": [
+    "Turmeric may interact with blood thinners."
+   ],
+   "herbs": [
+    "haridra",
+    "amalaki"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "oral-rehydration-solution",
+   "name": "Oral rehydration solution (ORS)",
+   "form": "Drink",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "atisara"
+   ],
+   "cautions": [
+    "The most important treatment for diarrhoea at any age."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "palasha-beejadi-churna",
+   "name": "Palasha Beejadi Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "krimi"
+   ],
+   "cautions": [
+    "Palasha seed is toxic in overdose; keep to dose."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "palasha-kshara",
+   "name": "Palasha Kshara",
+   "form": "Plant alkali",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "ashmari"
+   ],
+   "cautions": [
+    "Alkaline; may irritate the stomach."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "panchatikta-guggulu-ghrita",
+   "name": "Panchatikta Guggulu Ghrita",
+   "form": "Medicated ghee",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Ashtanga Hridaya, Chikitsa 21/57–58",
+    "verified": false
+   },
+   "usedIn": [
+    "vatarakta"
+   ],
+   "cautions": [
+    "High fat."
+   ],
+   "herbs": [
+    "guggulu",
+    "nimba"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "panchatiktaka-ghrita",
+   "name": "Panchatiktaka Ghrita",
+   "form": "Medicated ghee",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Bhaishajya Ratnavali, Kushtha 114–116",
+    "verified": false
+   },
+   "usedIn": [
+    "ekakushtha",
+    "vicharchika",
+    "shvitra"
+   ],
+   "cautions": [
+    "High fat; caution with high cholesterol or gallstones.",
+    "High fat."
+   ],
+   "herbs": [
+    "nimba"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "panchavalkala-kshirivriksha-kashaya-gargle",
+   "name": "Panchavalkala / Kshirivriksha Kashaya gargle",
+   "form": "Gargle",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "dantaveshta"
+   ],
+   "cautions": [
+    "Astringent."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "parijata-leaf-juice",
+   "name": "Parijata (night jasmine) leaf juice",
+   "form": "Fresh juice",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "gridhrasi"
+   ],
+   "cautions": [
+    "Bitter; may upset the stomach."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "pashanabheda-churna",
+   "name": "Pashanabheda Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "ashmari"
+   ],
+   "cautions": [
+    "Generally well tolerated."
+   ],
+   "herbs": [
+    "pashanabheda"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "pathyadi-kwatha",
+   "name": "Pathyadi Kwatha",
+   "form": "Decoction",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Sharangadhara Samhita, Madhyama Khanda 2/143–145",
+    "verified": false
+   },
+   "usedIn": [
+    "shiroroga"
+   ],
+   "cautions": [
+    "Bitter; generally well tolerated."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "patoladi-kwatha",
+   "name": "Patoladi Kwatha",
+   "form": "Decoction",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "amlapitta"
+   ],
+   "cautions": [
+    "Bitter; may cause nausea."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "phalatrikadi-vasaguduchyadi-kwatha",
+   "name": "Phalatrikadi / Vasaguduchyadi Kwatha",
+   "form": "Decoction",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Ashtanga Hridaya, Chikitsa 16/13",
+    "verified": false
+   },
+   "usedIn": [
+    "kamala"
+   ],
+   "cautions": [
+    "Guduchi: rare reports of liver injury, so stop if jaundice worsens."
+   ],
+   "herbs": [
+    "vasa"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "phalatrikadi-kashaya",
+   "name": "Phalatrikadi Kashaya",
+   "form": "Decoction",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "fattyliver"
+   ],
+   "cautions": [
+    "Generally well tolerated."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "phalatrikadi-kwatha",
+   "name": "Phalatrikadi Kwatha",
+   "form": "Decoction",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "sthaulya",
+    "cholesterol"
+   ],
+   "cautions": [
+    "Generally well tolerated."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "pinda-taila-ksheerabala-taila",
+   "name": "Pinda Taila / Ksheerabala Taila (external)",
+   "form": "Oil",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Ashtanga Hridaya, Chikitsa 22/44",
+    "verified": false
+   },
+   "usedIn": [
+    "vatarakta"
+   ],
+   "cautions": [
+    "External."
+   ],
+   "herbs": [
+    "bala"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "pippali-churna",
+   "name": "Pippali Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "pandu",
+    "aruchi"
+   ],
+   "cautions": [
+    "Heating; may aggravate acidity."
+   ],
+   "herbs": [
+    "pippali"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "pradarari-lauha",
+   "name": "Pradarari Lauha",
+   "form": "Iron-based tablet",
+   "safetyClass": "herbo-mineral",
+   "classicalSource": {
+    "text": "Bhaishajya Ratnavali, Striroga 70–72",
+    "verified": false
+   },
+   "usedIn": [
+    "shwetapradara"
+   ],
+   "cautions": [
+    "Iron preparation."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "pravala-pishti",
+   "name": "Pravala Pishti",
+   "form": "Coral powder",
+   "safetyClass": "herbo-mineral",
+   "classicalSource": {
+    "text": "Ayurveda Sara Sangraha (p. 119)",
+    "verified": false
+   },
+   "usedIn": [
+    "hypertension"
+   ],
+   "cautions": [
+    "Calcium-based mineral; buy from licensed makers."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "punarnava-churna",
+   "name": "Punarnava Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "ashmari",
+    "mutraghata",
+    "mutrashtila"
+   ],
+   "cautions": [
+    "Diuretic.",
+    "Diuretic; can change potassium; needs blood-test monitoring.",
+    "Diuretic; may increase frequency."
+   ],
+   "herbs": [
+    "punarnava"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "punarnava-guggulu",
+   "name": "Punarnava Guggulu",
+   "form": "Tablet",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Bharata Bhaishajya Ratnakara, Part 3, 85",
+    "verified": false
+   },
+   "usedIn": [
+    "vatarakta"
+   ],
+   "cautions": [
+    "Guggulu cautions; diuretic."
+   ],
+   "herbs": [
+    "punarnava",
+    "guggulu"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "punarnava-mandura",
+   "name": "Punarnava Mandura",
+   "form": "Iron-based tablet",
+   "safetyClass": "herbo-mineral",
+   "classicalSource": {
+    "text": "Charaka Samhita, Chikitsa 16/93–95",
+    "verified": false
+   },
+   "usedIn": [
+    "pandu",
+    "kamala"
+   ],
+   "cautions": [
+    "Iron oxide (mandura) preparation: dark stools, constipation. Keep from children (iron overdose).",
+    "Iron preparation."
+   ],
+   "herbs": [
+    "punarnava"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "punarnavadi-churna-punarnavashtaka-kwatha",
+   "name": "Punarnavadi Churna / Punarnavashtaka Kwatha",
+   "form": "Powder / decoction",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Chakradatta, Shotha 10",
+    "verified": false
+   },
+   "usedIn": [
+    "jalodara"
+   ],
+   "cautions": [
+    "Diuretic; can lower potassium."
+   ],
+   "herbs": [
+    "punarnava"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "punarnavashtaka-varunadi-kwatha",
+   "name": "Punarnavashtaka / Varunadi Kwatha",
+   "form": "Decoction",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Chakradatta, Shotha 10",
+    "verified": false
+   },
+   "usedIn": [
+    "mutraghata"
+   ],
+   "cautions": [
+    "Fluid intake counts toward the daily limit."
+   ],
+   "herbs": [
+    "punarnava",
+    "varuna"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "punarnavashtaka-kwatha",
+   "name": "Punarnavashtaka Kwatha",
+   "form": "Decoction",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Chakradatta, Shotha 10",
+    "verified": false
+   },
+   "usedIn": [
+    "adhimantha"
+   ],
+   "cautions": [
+    "Diuretic."
+   ],
+   "herbs": [
+    "punarnava"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "pushyanuga-churna",
+   "name": "Pushyanuga Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Bhaishajya Ratnavali, Striroga 46–48",
+    "verified": false
+   },
+   "usedIn": [
+    "asrigdara"
+   ],
+   "cautions": [
+    "Generally well tolerated."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "rajahpravartini-vati",
+   "name": "Rajahpravartini Vati",
+   "form": "Tablet",
+   "safetyClass": "herbo-mineral",
+   "classicalSource": {
+    "text": "Bhaishajya Ratnavali, Striroga 233",
+    "verified": false
+   },
+   "usedIn": [
+    "kashtartava"
+   ],
+   "cautions": [
+    "Contains borax and minerals; never if pregnancy is possible."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "rasna-ashwagandha-shunthi-churna",
+   "name": "Rasna / Ashwagandha / Shunthi Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "gridhrasi"
+   ],
+   "cautions": [
+    "Ashwagandha: avoid in pregnancy."
+   ],
+   "herbs": [
+    "ashwagandha",
+    "shunthi",
+    "rasna"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "rasna-shunthi-churna",
+   "name": "Rasna / Shunthi Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "katigraha"
+   ],
+   "cautions": [
+    "Shunthi is heating."
+   ],
+   "herbs": [
+    "shunthi",
+    "rasna"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "rasnadi-dashamula-kwatha",
+   "name": "Rasnadi / Dashamula Kwatha",
+   "form": "Decoction",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Sahasrayogam, Kashaya 396",
+    "verified": false
+   },
+   "usedIn": [
+    "sandhivata"
+   ],
+   "cautions": [
+    "Generally well tolerated."
+   ],
+   "herbs": [
+    "bilva",
+    "rasna"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "rasnapanchaka-rasnasaptaka-kwatha",
+   "name": "Rasnapanchaka / Rasnasaptaka Kwatha",
+   "form": "Decoction",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "amavata"
+   ],
+   "cautions": [
+    "Generally well tolerated."
+   ],
+   "herbs": [
+    "rasna"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "rasnasaptaka-dashamoola-erandamoola-kashaya",
+   "name": "Rasnasaptaka / Dashamoola / Erandamoola Kashaya",
+   "form": "Decoction",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "katigraha"
+   ],
+   "cautions": [
+    "Generally well tolerated."
+   ],
+   "herbs": [
+    "bilva",
+    "eranda",
+    "rasna"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "rasnasaptaka-rasnapanchaka-kashaya",
+   "name": "Rasnasaptaka / Rasnapanchaka Kashaya",
+   "form": "Decoction",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "fibromyalgia"
+   ],
+   "cautions": [
+    "Generally well tolerated."
+   ],
+   "herbs": [
+    "rasna"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "rasnasaptaka-sahacharadi-maharasnadi-kashaya",
+   "name": "Rasnasaptaka / Sahacharadi / Maharasnadi Kashaya",
+   "form": "Decoction",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Sharangadhara Samhita, Madhyama Khanda 2/89–91",
+    "verified": false
+   },
+   "usedIn": [
+    "gridhrasi"
+   ],
+   "cautions": [
+    "Generally well tolerated."
+   ],
+   "herbs": [
+    "rasna"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "rasnasaptaka-kwatha",
+   "name": "Rasnasaptaka Kwatha",
+   "form": "Decoction",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "cervical"
+   ],
+   "cautions": [
+    "Generally well tolerated."
+   ],
+   "herbs": [
+    "rasna"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "sahacharadi-ghrita",
+   "name": "Sahacharadi Ghrita",
+   "form": "Medicated ghee",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "adhimantha"
+   ],
+   "cautions": [
+    "High fat."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "samshamani-vati",
+   "name": "Samshamani Vati (Guduchi)",
+   "form": "Tablet",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Siddha Yoga Sangraha, Jvara",
+    "verified": false
+   },
+   "usedIn": [
+    "jwara",
+    "mukhapaka"
+   ],
+   "cautions": [
+    "Rare reports of liver injury with Guduchi; stop if urine turns dark or eyes yellow.",
+    "Guduchi: rare liver-injury reports."
+   ],
+   "herbs": [
+    "guduchi"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "sanjivani-vati",
+   "name": "Sanjivani Vati",
+   "form": "Tablet",
+   "safetyClass": "contains-toxic-herb",
+   "classicalSource": {
+    "text": "Sharangadhara Samhita, Madhyama Khanda 7/18–19",
+    "verified": false
+   },
+   "usedIn": [
+    "jwara",
+    "atisara"
+   ],
+   "cautions": [
+    "Contains Bhallataka and Vatsanabha (aconite). Supervision only."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "saraswata-churna",
+   "name": "Saraswata Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "anidra"
+   ],
+   "cautions": [
+    "Contains vacha. Short-term only."
+   ],
+   "herbs": [
+    "vacha"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "saraswatarishta",
+   "name": "Saraswatarishta",
+   "form": "Fermented liquid",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Bhaishajya Ratnavali, Rasayana 178–184",
+    "verified": false
+   },
+   "usedIn": [
+    "anidra",
+    "vishada",
+    "apasmara"
+   ],
+   "cautions": [
+    "Contains self-generated alcohol.",
+    "Contains self-generated alcohol; avoid if alcohol is a concern.",
+    "Self-generated alcohol; alcohol can trigger seizures."
+   ],
+   "herbs": [
+    "vacha"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "sarpagandha-ghana-vati",
+   "name": "Sarpagandha Ghana Vati",
+   "form": "Tablet",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Siddha Yoga Sangraha, Bhrama-Anidra-Unmada",
+    "verified": false
+   },
+   "usedIn": [
+    "anidra"
+   ],
+   "cautions": [
+    "Contains reserpine: lowers blood pressure, can cause depression, stuffy nose, stomach ulcer. Avoid if depressed, pregnant or on BP drugs."
+   ],
+   "herbs": [
+    "sarpagandha"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "sarpagandha-mishran",
+   "name": "Sarpagandha Mishran (Sarpagandha, Jatamansi, Vacha, Punarnava, Brahmi, Shankhapushpi, Guduchi)",
+   "form": "Tablet / capsule",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Rasa Tarangini 12/17–19",
+    "verified": false
+   },
+   "usedIn": [
+    "hypertension"
+   ],
+   "cautions": [
+    "Sarpagandha contains reserpine: can cause depression, stuffy nose, stomach ulcer, low pulse. Avoid in depression and pregnancy. Can add to blood-pressure medicines, so monitor for low BP."
+   ],
+   "herbs": [
+    "brahmi",
+    "guduchi",
+    "punarnava",
+    "jatamansi",
+    "shankhapushpi",
+    "vacha",
+    "sarpagandha"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "shadbindu-taila-nasya",
+   "name": "Shadbindu Taila Nasya",
+   "form": "Medicated oil",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Bhaishajya Ratnavali, Shiroroga 49",
+    "verified": false
+   },
+   "usedIn": [
+    "shiroroga"
+   ],
+   "cautions": [
+    "Brief sneezing and watery eyes are normal; best learnt from a practitioner."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "shallaki-extract",
+   "name": "Shallaki (Boswellia) extract",
+   "form": "Capsule",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "cervical"
+   ],
+   "cautions": [
+    "Mild stomach upset."
+   ],
+   "herbs": [
+    "shallaki"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "shankha-pravala-kapardika-bhasma",
+   "name": "Shankha / Pravala / Kapardika Bhasma",
+   "form": "Calcium ash (conch, coral, cowrie)",
+   "safetyClass": "herbo-mineral",
+   "classicalSource": {
+    "text": "Ayurveda Prakasha 2/298–300",
+    "verified": false
+   },
+   "usedIn": [
+    "amlapitta"
+   ],
+   "cautions": [
+    "Calcium-based antacids; check purity."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "shankha-vati",
+   "name": "Shankha Vati",
+   "form": "Tablet",
+   "safetyClass": "herbo-mineral",
+   "classicalSource": {
+    "text": "Bhaishajya Ratnavali, Agnimandya 182",
+    "verified": false
+   },
+   "usedIn": [
+    "kashtartava"
+   ],
+   "cautions": [
+    "Classical formula contains mercury, sulphur and aconite. Supervision only."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "shankhapushpi-churna",
+   "name": "Shankhapushpi Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Rasa Tarangini 12/17–19",
+    "verified": false
+   },
+   "usedIn": [
+    "vishada"
+   ],
+   "cautions": [
+    "May lower blood pressure; sedating."
+   ],
+   "herbs": [
+    "shankhapushpi"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "shatavari-churna",
+   "name": "Shatavari Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "apasmara"
+   ],
+   "cautions": [
+    "Generally well tolerated."
+   ],
+   "herbs": [
+    "shatavari"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "shilajatu",
+   "name": "Shilajatu",
+   "form": "Mineral pitch",
+   "safetyClass": "herbo-mineral",
+   "classicalSource": null,
+   "usedIn": [
+    "sthaulya",
+    "mutraghata"
+   ],
+   "cautions": [
+    "Must be purified; raw shilajit can contain heavy metals.",
+    "Raw shilajit can contain heavy metals; kidneys clear these poorly."
+   ],
+   "herbs": [
+    "shilajatu"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "shirahshuladi-vajra-rasa",
+   "name": "Shirahshuladi Vajra Rasa",
+   "form": "Herbo-mineral",
+   "safetyClass": "herbo-mineral",
+   "classicalSource": null,
+   "usedIn": [
+    "shiroroga"
+   ],
+   "cautions": [
+    "Contains mercury, sulphur and metals. Supervision only."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "shuddha-vishatinduka-churna",
+   "name": "Shuddha Vishatinduka Churna",
+   "form": "Powder",
+   "safetyClass": "contains-toxic-herb",
+   "classicalSource": null,
+   "usedIn": [
+    "sandhivata"
+   ],
+   "cautions": [
+    "Nux vomica (strychnine). Overdose causes spasms and can be fatal. Specialist only."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "shunthi-churna",
+   "name": "Shunthi (dry ginger) Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "amavata",
+    "atisara",
+    "cholesterol",
+    "ajirna"
+   ],
+   "cautions": [
+    "Heating; may cause acidity.",
+    "Heating."
+   ],
+   "herbs": [
+    "shunthi"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "shunthi-water",
+   "name": "Shunthi (dry ginger) water",
+   "form": "Infusion",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "tamaka"
+   ],
+   "cautions": [
+    "Safe."
+   ],
+   "herbs": [
+    "shunthi"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "shunthi-haritaki-churna",
+   "name": "Shunthi-Haritaki Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "sandhivata"
+   ],
+   "cautions": [
+    "Mildly laxative; heating."
+   ],
+   "herbs": [
+    "haritaki",
+    "shunthi"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "simhanada-guggulu",
+   "name": "Simhanada Guggulu",
+   "form": "Tablet",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Bhaishajya Ratnavali, Amavata 130–131",
+    "verified": false
+   },
+   "usedIn": [
+    "amavata"
+   ],
+   "cautions": [
+    "Guggulu can cause stomach upset or rash, and may interact with thyroid and blood-thinning drugs. Avoid in pregnancy."
+   ],
+   "herbs": [
+    "guggulu"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "sitopaladi-yashtimadhu-churna",
+   "name": "Sitopaladi + Yashtimadhu Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Sharangadhara Samhita, Madhyama Khanda 6/134–135",
+    "verified": false
+   },
+   "usedIn": [
+    "kasa"
+   ],
+   "cautions": [
+    "Liquorice raises blood pressure and lowers potassium with long use. Honey: never for babies under 1 year."
+   ],
+   "herbs": [
+    "pippali",
+    "yashtimadhu"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "sitopaladi-churna",
+   "name": "Sitopaladi Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Sharangadhara Samhita, Madhyama Khanda 6/134–135",
+    "verified": false
+   },
+   "usedIn": [
+    "pratishyaya",
+    "tamaka"
+   ],
+   "cautions": [
+    "Contains sugar."
+   ],
+   "herbs": [
+    "pippali"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "sitz-bath-with-triphala-or-panchavalkala-decoction",
+   "name": "Sitz bath with Triphala or Panchavalkala decoction",
+   "form": "Local",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Bhavaprakasha Nighantu, Haritakyadi Varga 41",
+    "verified": false
+   },
+   "usedIn": [
+    "arsha",
+    "parikartika"
+   ],
+   "cautions": [
+    "External; use warm, not hot.",
+    "External."
+   ],
+   "herbs": [
+    "amalaki",
+    "haritaki",
+    "bibhitaki"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "smritisagara-rasa",
+   "name": "Smritisagara Rasa",
+   "form": "Herbo-mineral",
+   "safetyClass": "herbo-mineral",
+   "classicalSource": null,
+   "usedIn": [
+    "apasmara"
+   ],
+   "cautions": [
+    "Contains mercury and arsenic compounds. Supervision only."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "surana-vataka",
+   "name": "Surana Vataka",
+   "form": "Tablet",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "arsha"
+   ],
+   "cautions": [
+    "Generally safe."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "sutashekhara-kaphaketu-rasa",
+   "name": "Sutashekhara / Kaphaketu Rasa",
+   "form": "Herbo-mineral",
+   "safetyClass": "herbo-mineral",
+   "classicalSource": {
+    "text": "Rasendra Sara Sangraha, Kapharoga 30",
+    "verified": false
+   },
+   "usedIn": [
+    "abhishyanda"
+   ],
+   "cautions": [
+    "Contain mercury. Supervision only."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "sutashekhara-rasa",
+   "name": "Sutashekhara Rasa",
+   "form": "Herbo-mineral",
+   "safetyClass": "herbo-mineral",
+   "classicalSource": {
+    "text": "Yogaratnakara, Amlapitta (p. 705)",
+    "verified": false
+   },
+   "usedIn": [
+    "amlapitta"
+   ],
+   "cautions": [
+    "Contains mercury. Supervision only."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "swadishta-virechana-churna",
+   "name": "Swadishta Virechana Churna",
+   "form": "Powder (laxative)",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "mukhapaka"
+   ],
+   "cautions": [
+    "Laxative."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "swasakuthara-rasa",
+   "name": "Swasakuthara Rasa",
+   "form": "Herbo-mineral",
+   "safetyClass": "herbo-mineral",
+   "classicalSource": {
+    "text": "Yogaratnakara, Shvasa (p. 373)",
+    "verified": false
+   },
+   "usedIn": [
+    "tamaka"
+   ],
+   "cautions": [
+    "Contains mercury, sulphur and aconite. Supervision only."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "tagara-churna",
+   "name": "Tagara Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "anidra"
+   ],
+   "cautions": [
+    "Sedating (valerian family); avoid with alcohol or sleeping pills."
+   ],
+   "herbs": [
+    "tagara"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "takra-with-roasted-cumin",
+   "name": "Takra (fresh buttermilk) with roasted cumin",
+   "form": "Food",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "grahani"
+   ],
+   "cautions": [
+    "Use fresh, thin, non-sour buttermilk."
+   ],
+   "herbs": [
+    "jiraka"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "talishadi-churna",
+   "name": "Talishadi Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Sharangadhara Samhita, Madhyama Khanda 6/130–131",
+    "verified": false
+   },
+   "usedIn": [
+    "kasa",
+    "pratishyaya",
+    "tamaka"
+   ],
+   "cautions": [
+    "Contains sugar; diabetics take care.",
+    "Contains sugar."
+   ],
+   "herbs": [
+    "pippali"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "tiktaka-ghrita",
+   "name": "Tiktaka Ghrita",
+   "form": "Medicated ghee",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Ashtanga Hridaya, Chikitsa 19/2–4",
+    "verified": false
+   },
+   "usedIn": [
+    "abhishyanda"
+   ],
+   "cautions": [
+    "High fat."
+   ],
+   "herbs": [
+    "nimba"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "trayodashanga-guggulu",
+   "name": "Trayodashanga Guggulu",
+   "form": "Tablet",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Bhaishajya Ratnavali, Vatavyadhi 89",
+    "verified": false
+   },
+   "usedIn": [
+    "bhagandara"
+   ],
+   "cautions": [
+    "Guggulu cautions."
+   ],
+   "herbs": [
+    "guggulu"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "tribhuvanakirti-rasa",
+   "name": "Tribhuvanakirti Rasa",
+   "form": "Herbo-mineral",
+   "safetyClass": "herbo-mineral",
+   "classicalSource": {
+    "text": "Rasamrita 9/80",
+    "verified": false
+   },
+   "usedIn": [
+    "jwara"
+   ],
+   "cautions": [
+    "Contains mercury and aconite. Supervision only."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "trikatu-churna",
+   "name": "Trikatu Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Bhaishajya Ratnavali, Paribhasha 16",
+    "verified": false
+   },
+   "usedIn": [
+    "pratishyaya",
+    "thyroid"
+   ],
+   "cautions": [
+    "Very heating; avoid in acidity, ulcers, pregnancy.",
+    "Very heating; avoid in acidity and pregnancy."
+   ],
+   "herbs": [
+    "pippali",
+    "shunthi",
+    "maricha"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "triphala",
+   "name": "Triphala",
+   "form": "Powder / tablet",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Bhavaprakasha Nighantu, Haritakyadi Varga 41",
+    "verified": false
+   },
+   "usedIn": [
+    "madhumeha"
+   ],
+   "cautions": [
+    "Loose stools."
+   ],
+   "herbs": [
+    "amalaki",
+    "haritaki",
+    "bibhitaki"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "triphala-gokshuradi-guggulu",
+   "name": "Triphala / Gokshuradi Guggulu",
+   "form": "Tablet",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Sharangadhara Samhita, Madhyama Khanda 7/84–86",
+    "verified": false
+   },
+   "usedIn": [
+    "adhimantha"
+   ],
+   "cautions": [
+    "Guggulu cautions."
+   ],
+   "herbs": [
+    "amalaki",
+    "haritaki",
+    "bibhitaki",
+    "gokshura",
+    "guggulu"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "triphala-churna",
+   "name": "Triphala Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Bhavaprakasha Nighantu, Haritakyadi Varga 41",
+    "verified": false
+   },
+   "usedIn": [
+    "arsha",
+    "sthaulya",
+    "bhagandara",
+    "parikartika",
+    "cholesterol",
+    "fattyliver",
+    "vibandha"
+   ],
+   "cautions": [
+    "Loose stools."
+   ],
+   "herbs": [
+    "amalaki",
+    "haritaki",
+    "bibhitaki"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "triphala-decoction-gargle",
+   "name": "Triphala decoction gargle",
+   "form": "Gargle",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Bhavaprakasha Nighantu, Haritakyadi Varga 41",
+    "verified": false
+   },
+   "usedIn": [
+    "mukhapaka"
+   ],
+   "cautions": [
+    "Safe."
+   ],
+   "herbs": [
+    "amalaki",
+    "haritaki",
+    "bibhitaki"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "triphala-decoction-mouthwash",
+   "name": "Triphala decoction mouthwash",
+   "form": "Gargle",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Bhavaprakasha Nighantu, Haritakyadi Varga 41",
+    "verified": false
+   },
+   "usedIn": [
+    "dantaveshta"
+   ],
+   "cautions": [
+    "Do not swallow large amounts."
+   ],
+   "herbs": [
+    "amalaki",
+    "haritaki",
+    "bibhitaki"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "triphala-guggulu",
+   "name": "Triphala Guggulu",
+   "form": "Tablet",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Sharangadhara Samhita, Madhyama Khanda 7/82",
+    "verified": false
+   },
+   "usedIn": [
+    "bhagandara",
+    "shwetapradara",
+    "abhishyanda",
+    "fattyliver"
+   ],
+   "cautions": [
+    "Guggulu cautions."
+   ],
+   "herbs": [
+    "amalaki",
+    "haritaki",
+    "bibhitaki",
+    "guggulu"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "triphala-guggulu-medohara-guggulu",
+   "name": "Triphala Guggulu / Medohara Guggulu",
+   "form": "Tablet",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Sharangadhara Samhita, Madhyama Khanda 7/82",
+    "verified": false
+   },
+   "usedIn": [
+    "sthaulya"
+   ],
+   "cautions": [
+    "Guggulu cautions."
+   ],
+   "herbs": [
+    "amalaki",
+    "haritaki",
+    "bibhitaki",
+    "guggulu"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "triphala-kwatha",
+   "name": "Triphala Kwatha",
+   "form": "Decoction",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Bhavaprakasha Nighantu, Haritakyadi Varga 41",
+    "verified": false
+   },
+   "usedIn": [
+    "vatarakta"
+   ],
+   "cautions": [
+    "Loose stools."
+   ],
+   "herbs": [
+    "amalaki",
+    "haritaki",
+    "bibhitaki"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "unmadagaja-keshari-rasa",
+   "name": "Unmadagaja Keshari Rasa",
+   "form": "Herbo-mineral",
+   "safetyClass": "herbo-mineral",
+   "classicalSource": null,
+   "usedIn": [
+    "vishada"
+   ],
+   "cautions": [
+    "Contains mercury. Supervision only."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "ushirasava",
+   "name": "Ushirasava",
+   "form": "Fermented liquid",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Bhaishajya Ratnavali, Raktapitta 137–140",
+    "verified": false
+   },
+   "usedIn": [
+    "ashmari"
+   ],
+   "cautions": [
+    "Self-generated alcohol."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "vacha-churna",
+   "name": "Vacha Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "vishada",
+    "apasmara"
+   ],
+   "cautions": [
+    "Contains beta-asarone (toxic in animal studies); short-term only, never in pregnancy or children.",
+    "Beta-asarone toxicity; short-term only; never in pregnancy or children."
+   ],
+   "herbs": [
+    "vacha"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "vaginal-wash-with-triphala-or-panchavalkala-decoction",
+   "name": "Vaginal wash with Triphala or Panchavalkala decoction",
+   "form": "Local",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Bhavaprakasha Nighantu, Haritakyadi Varga 41",
+    "verified": false
+   },
+   "usedIn": [
+    "shwetapradara"
+   ],
+   "cautions": [
+    "Use only if a doctor has excluded infection; douching can upset normal vaginal flora."
+   ],
+   "herbs": [
+    "amalaki",
+    "haritaki",
+    "bibhitaki"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "vanga-trivanga-bhasma",
+   "name": "Vanga / Trivanga Bhasma",
+   "form": "Metal ash (tin, lead, zinc)",
+   "safetyClass": "herbo-mineral",
+   "classicalSource": {
+    "text": "Siddha Yoga Sangraha, Svarnadi Dhatu 159",
+    "verified": false
+   },
+   "usedIn": [
+    "madhumeha"
+   ],
+   "cautions": [
+    "Trivanga contains lead. Supervision only; kidney monitoring."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "varuna-kwatha",
+   "name": "Varuna Kwatha",
+   "form": "Decoction",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "mutrashtila"
+   ],
+   "cautions": [
+    "Generally well tolerated."
+   ],
+   "herbs": [
+    "varuna"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "varuna-shigru-ashmarihara-kwatha",
+   "name": "Varuna-Shigru / Ashmarihara Kwatha",
+   "form": "Decoction",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Siddha Yoga Sangraha, Ashmari-Mutrakrichra",
+    "verified": false
+   },
+   "usedIn": [
+    "ashmari"
+   ],
+   "cautions": [
+    "Generally well tolerated."
+   ],
+   "herbs": [
+    "varuna"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "varuna-shigru-dashamoola-kwatha",
+   "name": "Varuna-Shigru / Dashamoola Kwatha",
+   "form": "Decoction",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "thyroid"
+   ],
+   "cautions": [
+    "Generally well tolerated."
+   ],
+   "herbs": [
+    "bilva",
+    "varuna"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "vasa-leaf-juice",
+   "name": "Vasa (Adulsa) leaf juice",
+   "form": "Fresh juice",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "kasa"
+   ],
+   "cautions": [
+    "Avoid in pregnancy (may stimulate the uterus)."
+   ],
+   "herbs": [
+    "vasa"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "vasa-guduchyadi-kashaya",
+   "name": "Vasa-Guduchyadi Kashaya",
+   "form": "Decoction",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Ashtanga Hridaya, Chikitsa 16/13",
+    "verified": false
+   },
+   "usedIn": [
+    "fattyliver"
+   ],
+   "cautions": [
+    "Guduchi: rare liver-injury reports in some people; get liver tests rechecked."
+   ],
+   "herbs": [
+    "vasa"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "vasakadi-patoladi-manjishthadi-kwatha",
+   "name": "Vasakadi / Patoladi / Manjishthadi Kwatha",
+   "form": "Decoction",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Sharangadhara Samhita, Madhyama Khanda 2/137–141 (Brihat Manjishthadi)",
+    "verified": false
+   },
+   "usedIn": [
+    "abhishyanda"
+   ],
+   "cautions": [
+    "Bitter."
+   ],
+   "herbs": [
+    "vasa",
+    "manjishtha"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "vasanta-kusumakara-rasa",
+   "name": "Vasanta Kusumakara Rasa",
+   "form": "Herbo-mineral",
+   "safetyClass": "herbo-mineral",
+   "classicalSource": {
+    "text": "Rasendra Sara Sangraha, Rasayana-Vajikarana 80–83",
+    "verified": false
+   },
+   "usedIn": [
+    "madhumeha"
+   ],
+   "cautions": [
+    "Contains gold, mercury and other metals; for neuropathy. Supervision only."
+   ],
+   "herbs": [
+    "vasa"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "vasavaleha-agastya-rasayana",
+   "name": "Vasavaleha / Agastya Rasayana",
+   "form": "Herbal jam",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Ashtanga Hridaya, Chikitsa 3/125–128",
+    "verified": false
+   },
+   "usedIn": [
+    "tamaka"
+   ],
+   "cautions": [
+    "Sugar-based; Agastya Rasayana is laxative. Vasa: avoid in pregnancy."
+   ],
+   "herbs": [
+    "vasa"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "vatagajankusha-rasa",
+   "name": "Vatagajankusha Rasa",
+   "form": "Herbo-mineral",
+   "safetyClass": "herbo-mineral",
+   "classicalSource": {
+    "text": "Rasendra Sara Sangraha, Vatavyadhi 13 (Maha Vatagajankusha)",
+    "verified": false
+   },
+   "usedIn": [
+    "avabahuka",
+    "gridhrasi"
+   ],
+   "cautions": [
+    "Contains mercury and aconite. Supervision only."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "vidangadi-churna",
+   "name": "Vidangadi Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "krimi"
+   ],
+   "cautions": [
+    "Generally well tolerated."
+   ],
+   "herbs": [
+    "vidanga"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "vidangarishta",
+   "name": "Vidangarishta",
+   "form": "Fermented liquid",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "krimi"
+   ],
+   "cautions": [
+    "Self-generated alcohol."
+   ],
+   "herbs": [
+    "vidanga"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "vijayasaradi-phalatrikadi-kwatha",
+   "name": "Vijayasaradi / Phalatrikadi Kwatha",
+   "form": "Decoction",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "madhumeha"
+   ],
+   "cautions": [
+    "Can lower sugar further alongside other drugs."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "vrikshamla-churna",
+   "name": "Vrikshamla (Garcinia) Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "cholesterol"
+   ],
+   "cautions": [
+    "Concentrated Garcinia extracts have been linked to liver injury; stop if jaundice develops."
+   ],
+   "herbs": [
+    "vrikshamla"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "vyaghri-haritaki-avaleha",
+   "name": "Vyaghri Haritaki Avaleha",
+   "form": "Herbal jam",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "kasa",
+    "tamaka"
+   ],
+   "cautions": [
+    "Mildly laxative; sugar-based.",
+    "Laxative; sugar-based."
+   ],
+   "herbs": [
+    "haritaki"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "vyoshadi-guggulu",
+   "name": "Vyoshadi Guggulu",
+   "form": "Tablet",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Ashtanga Hridaya, Chikitsa 21/49",
+    "verified": false
+   },
+   "usedIn": [
+    "thyroid"
+   ],
+   "cautions": [
+    "Guggulu cautions."
+   ],
+   "herbs": [
+    "pippali",
+    "shunthi",
+    "maricha",
+    "guggulu"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "vyoshadi-vati",
+   "name": "Vyoshadi Vati",
+   "form": "Tablet",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "pratishyaya"
+   ],
+   "cautions": [
+    "Heating."
+   ],
+   "herbs": [
+    "pippali",
+    "shunthi",
+    "maricha"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "warm-water-with-honey",
+   "name": "Warm water with honey",
+   "form": "Drink",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "sthaulya"
+   ],
+   "cautions": [
+    "Honey is still sugar; keep to a teaspoon."
+   ],
+   "herbs": [],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "yashtimadhu-churna",
+   "name": "Yashtimadhu (liquorice) Churna",
+   "form": "Powder",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "amlapitta",
+    "asrigdara"
+   ],
+   "cautions": [
+    "Raises blood pressure, lowers potassium; avoid in hypertension, heart or kidney disease and pregnancy.",
+    "Raises blood pressure with long use."
+   ],
+   "herbs": [
+    "yashtimadhu"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "yashtimadhu-gairika-powder",
+   "name": "Yashtimadhu + Gairika powder (local)",
+   "form": "Powder paste",
+   "safetyClass": "herbal",
+   "classicalSource": null,
+   "usedIn": [
+    "mukhapaka"
+   ],
+   "cautions": [
+    "External; Gairika is red ochre, a mineral."
+   ],
+   "herbs": [
+    "yashtimadhu"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "yogaraja-simhanada-guggulu",
+   "name": "Yogaraja / Simhanada Guggulu",
+   "form": "Tablet",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Bhaishajya Ratnavali, Amavata 130–131",
+    "verified": false
+   },
+   "usedIn": [
+    "katigraha"
+   ],
+   "cautions": [
+    "Guggulu cautions."
+   ],
+   "herbs": [
+    "guggulu"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "yogaraja-trayodashanga-guggulu",
+   "name": "Yogaraja / Trayodashanga Guggulu",
+   "form": "Tablet",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Bhaishajya Ratnavali, Vatavyadhi 89",
+    "verified": false
+   },
+   "usedIn": [
+    "gridhrasi"
+   ],
+   "cautions": [
+    "Guggulu cautions."
+   ],
+   "herbs": [
+    "guggulu"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "yogaraja-guggulu",
+   "name": "Yogaraja Guggulu",
+   "form": "Tablet",
+   "safetyClass": "herbal",
+   "classicalSource": {
+    "text": "Bhaishajya Ratnavali, Amavata 90–93",
+    "verified": false
+   },
+   "usedIn": [
+    "sandhivata",
+    "avabahuka",
+    "pakshaghata",
+    "cervical"
+   ],
+   "cautions": [
+    "Stomach upset, rash; interactions with thyroid and blood-thinning drugs; avoid in pregnancy.",
+    "Guggulu cautions.",
+    "Guggulu may interact with blood thinners and antiplatelets."
+   ],
+   "herbs": [
+    "guggulu"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  }
+ ]
+}

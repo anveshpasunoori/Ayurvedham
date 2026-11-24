@@ -1,0 +1,49 @@
+{
+ "schema": "red-flag",
+ "version": 1,
+ "migratedFrom": "index.html",
+ "legacySha": "42cb8f2e1884",
+ "count": 10,
+ "items": [
+  {
+   "id": "rf1",
+   "text": "Chest pain or pressure, or pain spreading to arm, jaw or back"
+  },
+  {
+   "id": "rf2",
+   "text": "Severe breathlessness, or blue lips"
+  },
+  {
+   "id": "rf3",
+   "text": "Face drooping, arm weakness or slurred speech (stroke signs)"
+  },
+  {
+   "id": "rf4",
+   "text": "Fainting, a seizure for the first time, or confusion"
+  },
+  {
+   "id": "rf5",
+   "text": "Vomiting blood, black stools or heavy bleeding"
+  },
+  {
+   "id": "rf6",
+   "text": "Severe abdominal pain, or a rigid swollen belly"
+  },
+  {
+   "id": "rf7",
+   "text": "High fever with stiff neck, rash that does not fade, or fever over 3 days"
+  },
+  {
+   "id": "rf8",
+   "text": "Thoughts of harming yourself or ending your life"
+  },
+  {
+   "id": "rf9",
+   "text": "Pregnant with bleeding, severe pain or reduced baby movements"
+  },
+  {
+   "id": "rf10",
+   "text": "Sudden loss of vision, or a severe sudden headache unlike any before"
+  }
+ ]
+}

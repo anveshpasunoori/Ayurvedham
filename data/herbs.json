@@ -1,0 +1,2572 @@
+{
+ "schema": "herb",
+ "version": 1,
+ "migratedFrom": "index.html",
+ "legacySha": "42cb8f2e1884",
+ "count": 59,
+ "items": [
+  {
+   "id": "ashwagandha",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Ashwagandha",
+    "botanical": "Withania somnifera",
+    "common": [
+     "Winter cherry",
+     "Asgandh"
+    ]
+   },
+   "partUsed": "Root",
+   "rasa": "Tikta, Kashaya, Madhura",
+   "guna": "Laghu, Snigdha",
+   "virya": "Ushna",
+   "vipaka": "Madhura",
+   "doshaEffect": "Calms Vata and Kapha",
+   "uses": "Rasayana (rejuvenative), strength, sleep, nerves, fatigue",
+   "cautions": "Can raise thyroid hormone; rare liver injury reported; avoid in pregnancy and with sedatives.",
+   "matchKeywords": [
+    "ashwagandha"
+   ],
+   "formulations": [
+    "ashwagandha-churna",
+    "dashamoolarishta-ashwagandharishta",
+    "ashwagandhadi-churna",
+    "ashwagandha-pippalimoola-churna",
+    "rasna-ashwagandha-shunthi-churna",
+    "ashwagandharishta-balarishta",
+    "ashwagandha-bala-rasna-churna"
+   ],
+   "conditions": [
+    "sandhivata",
+    "vishada",
+    "avabahuka",
+    "cervical",
+    "fibromyalgia",
+    "anidra",
+    "katigraha",
+    "gridhrasi",
+    "pakshaghata"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "brahmi",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Brahmi",
+    "botanical": "Bacopa monnieri",
+    "common": [
+     "Water hyssop"
+    ]
+   },
+   "partUsed": "Whole plant",
+   "rasa": "Tikta, Kashaya, Madhura",
+   "guna": "Laghu, Sara",
+   "virya": "Shita",
+   "vipaka": "Madhura",
+   "doshaEffect": "Calms Kapha and Vata",
+   "uses": "Medhya (memory and intellect), anxiety, sleep, epilepsy support",
+   "cautions": "Nausea and loose stools; may slow heart rate; caution with thyroid and sedative drugs.",
+   "matchKeywords": [
+    "brahmi"
+   ],
+   "formulations": [
+    "brahmi-churna",
+    "brahmi-kalyanaka-panchagavya-ghrita",
+    "brahmi-ghrita",
+    "sarpagandha-mishran",
+    "brahmi-drakshadi-shatavaryadi-kashaya"
+   ],
+   "conditions": [
+    "vishada",
+    "apasmara",
+    "hypertension",
+    "fibromyalgia"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "guduchi",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Guduchi",
+    "botanical": "Tinospora cordifolia",
+    "common": [
+     "Giloy"
+    ]
+   },
+   "partUsed": "Stem",
+   "rasa": "Tikta, Kashaya",
+   "guna": "Guru, Snigdha",
+   "virya": "Ushna",
+   "vipaka": "Madhura",
+   "doshaEffect": "Balances all three doshas",
+   "uses": "Fever, immunity, gout, skin, Rasayana",
+   "cautions": "Lowers blood sugar; liver injury reported with long or heavy use; caution in autoimmune disease.",
+   "matchKeywords": [
+    "guduchi",
+    "samshamani",
+    "amritadi",
+    "amritarishta"
+   ],
+   "formulations": [
+    "samshamani-vati",
+    "amritarishta",
+    "amritadi-dashamoola-kwatha",
+    "guduchi-manjishtha-khadira-haridra-sariva-churna",
+    "guduchi-juice-or-powder",
+    "kokilaksha-amritadi-laghu-manjishthadi-kwatha",
+    "sarpagandha-mishran",
+    "guduchi-churna",
+    "guduchi-haridra-churna",
+    "guduchi-manjishtha-churna"
+   ],
+   "conditions": [
+    "jwara",
+    "mukhapaka",
+    "amavata",
+    "ekakushtha",
+    "vatarakta",
+    "hypertension",
+    "shitapitta",
+    "vicharchika",
+    "shvitra"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "haridra",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Haridra",
+    "botanical": "Curcuma longa",
+    "common": [
+     "Turmeric",
+     "Haldi"
+    ]
+   },
+   "partUsed": "Rhizome",
+   "rasa": "Tikta, Katu",
+   "guna": "Ruksha, Laghu",
+   "virya": "Ushna",
+   "vipaka": "Katu",
+   "doshaEffect": "Calms Kapha and Pitta",
+   "uses": "Diabetes (Prameha), skin, allergy, wounds, liver",
+   "cautions": "High doses: stomach upset; caution with gallstones and blood thinners.",
+   "matchKeywords": [
+    "haridra",
+    "nisha"
+   ],
+   "formulations": [
+    "nisha-amalaki",
+    "guduchi-manjishtha-khadira-haridra-sariva-churna",
+    "haridra-khanda",
+    "guduchi-haridra-churna"
+   ],
+   "conditions": [
+    "madhumeha",
+    "ekakushtha",
+    "pratishyaya",
+    "krimi",
+    "shitapitta",
+    "vicharchika"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "amalaki",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Amalaki",
+    "botanical": "Phyllanthus emblica",
+    "common": [
+     "Indian gooseberry",
+     "Amla"
+    ]
+   },
+   "partUsed": "Fruit",
+   "rasa": "Five tastes except salt; mainly sour",
+   "guna": "Guru, Ruksha, Shita",
+   "virya": "Shita",
+   "vipaka": "Madhura",
+   "doshaEffect": "Balances all three, especially Pitta",
+   "uses": "Rasayana, eyes, hair, acidity, diabetes, vitamin C source",
+   "cautions": "Generally safe; may loosen stools.",
+   "matchKeywords": [
+    "amalaki",
+    "nisha-amalaki",
+    "triphala",
+    "chyavana",
+    "dhatri"
+   ],
+   "formulations": [
+    "amalaki-churna",
+    "nisha-amalaki",
+    "triphala",
+    "triphala-churna",
+    "sitz-bath-with-triphala-or-panchavalkala-decoction",
+    "bhumyamalaki-churna",
+    "dhatri-lauha-navayasa-lauha",
+    "bhumyamalaki-churna-or-juice",
+    "triphala-guggulu-medohara-guggulu",
+    "triphala-guggulu",
+    "hot-sitz-bath-with-triphala-or-panchavalkala-decoction",
+    "vaginal-wash-with-triphala-or-panchavalkala-decoction",
+    "triphala-kwatha",
+    "triphala-gokshuradi-guggulu",
+    "triphala-decoction-mouthwash",
+    "triphala-decoction-gargle",
+    "medohara-triphala-guggulu"
+   ],
+   "conditions": [
+    "amlapitta",
+    "pandu",
+    "asrigdara",
+    "shwetapradara",
+    "madhumeha",
+    "arsha",
+    "sthaulya",
+    "bhagandara",
+    "parikartika",
+    "cholesterol",
+    "fattyliver",
+    "vibandha",
+    "jalodara",
+    "mutraghata",
+    "kamala",
+    "abhishyanda",
+    "vatarakta",
+    "adhimantha",
+    "dantaveshta",
+    "mukhapaka"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "haritaki",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Haritaki",
+    "botanical": "Terminalia chebula",
+    "common": [
+     "Chebulic myrobalan",
+     "Harad"
+    ]
+   },
+   "partUsed": "Fruit",
+   "rasa": "Five tastes except salt; mainly astringent",
+   "guna": "Laghu, Ruksha",
+   "virya": "Ushna",
+   "vipaka": "Madhura",
+   "doshaEffect": "Balances all three, especially Vata",
+   "uses": "Gentle laxative (anulomana), digestion, Rasayana, piles",
+   "cautions": "Avoid in pregnancy, dehydration, extreme weakness and fasting.",
+   "matchKeywords": [
+    "haritaki",
+    "abhaya",
+    "triphala"
+   ],
+   "formulations": [
+    "agastya-haritaki-avaleha",
+    "vyaghri-haritaki-avaleha",
+    "amapachana-gomutra-haritaki-vati",
+    "shunthi-haritaki-churna",
+    "triphala",
+    "triphala-churna",
+    "haritaki-churna",
+    "abhayarishta-takrarishta",
+    "sitz-bath-with-triphala-or-panchavalkala-decoction",
+    "chitraka-haritaki-avaleha",
+    "gomutra-haritaki-churna",
+    "musta-vidanga-haritaki-churna",
+    "triphala-guggulu-medohara-guggulu",
+    "triphala-guggulu",
+    "abhayarishta",
+    "hot-sitz-bath-with-triphala-or-panchavalkala-decoction",
+    "eranda-bhrishta-haritaki",
+    "vaginal-wash-with-triphala-or-panchavalkala-decoction",
+    "triphala-kwatha",
+    "triphala-gokshuradi-guggulu",
+    "triphala-decoction-mouthwash",
+    "triphala-decoction-gargle",
+    "medohara-triphala-guggulu",
+    "eranda-bhrishta-haritaki-churna"
+   ],
+   "conditions": [
+    "kasa",
+    "tamaka",
+    "amavata",
+    "sandhivata",
+    "madhumeha",
+    "arsha",
+    "sthaulya",
+    "bhagandara",
+    "parikartika",
+    "cholesterol",
+    "fattyliver",
+    "vibandha",
+    "pakshaghata",
+    "pratishyaya",
+    "jalodara",
+    "shwetapradara",
+    "abhishyanda",
+    "kashtartava",
+    "vatarakta",
+    "adhimantha",
+    "dantaveshta",
+    "mukhapaka"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "bibhitaki",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Bibhitaki",
+    "botanical": "Terminalia bellirica",
+    "common": [
+     "Beleric myrobalan",
+     "Baheda"
+    ]
+   },
+   "partUsed": "Fruit",
+   "rasa": "Kashaya",
+   "guna": "Ruksha, Laghu",
+   "virya": "Ushna",
+   "vipaka": "Madhura",
+   "doshaEffect": "Mainly calms Kapha",
+   "uses": "Cough, voice, eyes, hair",
+   "cautions": "Generally safe in standard doses.",
+   "matchKeywords": [
+    "bibhitaki",
+    "triphala"
+   ],
+   "formulations": [
+    "bibhitaki-pippali-churna",
+    "triphala",
+    "triphala-churna",
+    "sitz-bath-with-triphala-or-panchavalkala-decoction",
+    "triphala-guggulu-medohara-guggulu",
+    "triphala-guggulu",
+    "hot-sitz-bath-with-triphala-or-panchavalkala-decoction",
+    "vaginal-wash-with-triphala-or-panchavalkala-decoction",
+    "triphala-kwatha",
+    "triphala-gokshuradi-guggulu",
+    "triphala-decoction-mouthwash",
+    "triphala-decoction-gargle",
+    "medohara-triphala-guggulu"
+   ],
+   "conditions": [
+    "kasa",
+    "madhumeha",
+    "arsha",
+    "sthaulya",
+    "bhagandara",
+    "parikartika",
+    "cholesterol",
+    "fattyliver",
+    "vibandha",
+    "shwetapradara",
+    "abhishyanda",
+    "vatarakta",
+    "adhimantha",
+    "dantaveshta",
+    "mukhapaka"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "pippali",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Pippali",
+    "botanical": "Piper longum",
+    "common": [
+     "Long pepper"
+    ]
+   },
+   "partUsed": "Fruit, root",
+   "rasa": "Katu",
+   "guna": "Laghu, Snigdha, Tikshna",
+   "virya": "Anushna-shita (mild)",
+   "vipaka": "Madhura",
+   "doshaEffect": "Calms Vata and Kapha",
+   "uses": "Cough, asthma, digestion, Rasayana in small graded doses",
+   "cautions": "Long continuous use is warned against in Charaka; caution with high Pitta and acidity.",
+   "matchKeywords": [
+    "pippali",
+    "trikatu",
+    "vyoshadi",
+    "talishadi",
+    "sitopaladi"
+   ],
+   "formulations": [
+    "sitopaladi-yashtimadhu-churna",
+    "bibhitaki-pippali-churna",
+    "talishadi-churna",
+    "sitopaladi-churna",
+    "trikatu-churna",
+    "vyoshadi-vati",
+    "pippali-churna",
+    "vyoshadi-guggulu",
+    "ashwagandha-pippalimoola-churna"
+   ],
+   "conditions": [
+    "kasa",
+    "pratishyaya",
+    "tamaka",
+    "thyroid",
+    "pandu",
+    "aruchi",
+    "katigraha"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "shunthi",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Shunthi",
+    "botanical": "Zingiber officinale",
+    "common": [
+     "Dry ginger",
+     "Saunth"
+    ]
+   },
+   "partUsed": "Rhizome",
+   "rasa": "Katu",
+   "guna": "Laghu, Snigdha",
+   "virya": "Ushna",
+   "vipaka": "Madhura",
+   "doshaEffect": "Calms Vata and Kapha",
+   "uses": "Digests ama, appetite, nausea, joint pain, colds",
+   "cautions": "Acidity and heartburn; caution with blood thinners and bleeding.",
+   "matchKeywords": [
+    "shunthi",
+    "ginger",
+    "trikatu",
+    "vyoshadi",
+    "nagaradi"
+   ],
+   "formulations": [
+    "guduchyadi-nagaradi-parpataka-kwatha",
+    "shunthi-churna",
+    "shunthi-haritaki-churna",
+    "trikatu-churna",
+    "vyoshadi-vati",
+    "shunthi-water",
+    "vyoshadi-guggulu",
+    "nagakesara-mocharasa-lodhra-shunthi-churna",
+    "rasna-shunthi-churna",
+    "rasna-ashwagandha-shunthi-churna",
+    "fresh-ginger-with-rock-salt"
+   ],
+   "conditions": [
+    "jwara",
+    "amavata",
+    "atisara",
+    "cholesterol",
+    "ajirna",
+    "sandhivata",
+    "pratishyaya",
+    "thyroid",
+    "tamaka",
+    "asrigdara",
+    "katigraha",
+    "gridhrasi",
+    "aruchi"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "maricha",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Maricha",
+    "botanical": "Piper nigrum",
+    "common": [
+     "Black pepper"
+    ]
+   },
+   "partUsed": "Fruit",
+   "rasa": "Katu",
+   "guna": "Laghu, Tikshna",
+   "virya": "Ushna",
+   "vipaka": "Katu",
+   "doshaEffect": "Calms Kapha and Vata",
+   "uses": "Digestion, colds, increases absorption of other herbs",
+   "cautions": "Burning and acidity in Pitta conditions.",
+   "matchKeywords": [
+    "maricha",
+    "trikatu",
+    "vyoshadi"
+   ],
+   "formulations": [
+    "karanja-jatyadi-mahamarichadi-taila",
+    "trikatu-churna",
+    "vyoshadi-vati",
+    "vyoshadi-guggulu"
+   ],
+   "conditions": [
+    "ekakushtha",
+    "pratishyaya",
+    "thyroid"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "yashtimadhu",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Yashtimadhu",
+    "botanical": "Glycyrrhiza glabra",
+    "common": [
+     "Liquorice",
+     "Mulethi"
+    ]
+   },
+   "partUsed": "Root",
+   "rasa": "Madhura",
+   "guna": "Guru, Snigdha",
+   "virya": "Shita",
+   "vipaka": "Madhura",
+   "doshaEffect": "Calms Vata and Pitta",
+   "uses": "Voice, cough, ulcers, acidity, mouth sores",
+   "cautions": "Long use raises blood pressure, lowers potassium and causes swelling; avoid in hypertension and pregnancy.",
+   "matchKeywords": [
+    "yashtimadhu",
+    "liquorice"
+   ],
+   "formulations": [
+    "sitopaladi-yashtimadhu-churna",
+    "yashtimadhu-churna",
+    "yashtimadhu-gairika-powder"
+   ],
+   "conditions": [
+    "kasa",
+    "amlapitta",
+    "asrigdara",
+    "mukhapaka"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "shatavari",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Shatavari",
+    "botanical": "Asparagus racemosus",
+    "common": [
+     "Wild asparagus"
+    ]
+   },
+   "partUsed": "Root",
+   "rasa": "Madhura, Tikta",
+   "guna": "Guru, Snigdha",
+   "virya": "Shita",
+   "vipaka": "Madhura",
+   "doshaEffect": "Calms Vata and Pitta",
+   "uses": "Women's health, breast milk, acidity, Rasayana",
+   "cautions": "Heavy for weak digestion and Kapha; caution with hormone-sensitive conditions.",
+   "matchKeywords": [
+    "shatavari",
+    "shatavaryadi"
+   ],
+   "formulations": [
+    "shatavari-churna",
+    "brihat-kushmanda-avaleha-shatavari-paka",
+    "brahmi-drakshadi-shatavaryadi-kashaya"
+   ],
+   "conditions": [
+    "apasmara",
+    "adhimantha",
+    "fibromyalgia"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "gokshura",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Gokshura",
+    "botanical": "Tribulus terrestris",
+    "common": [
+     "Puncture vine",
+     "Gokhru"
+    ]
+   },
+   "partUsed": "Fruit",
+   "rasa": "Madhura",
+   "guna": "Guru, Snigdha",
+   "virya": "Shita",
+   "vipaka": "Madhura",
+   "doshaEffect": "Calms Vata and Pitta",
+   "uses": "Urinary health, kidney stones, prostate, vitality",
+   "cautions": "Generally safe; caution with lithium and diuretics.",
+   "matchKeywords": [
+    "gokshura",
+    "gokshuradi"
+   ],
+   "formulations": [
+    "gokshuradi-guggulu",
+    "gokshura-churna",
+    "triphala-gokshuradi-guggulu"
+   ],
+   "conditions": [
+    "madhumeha",
+    "ashmari",
+    "mutrashtila",
+    "mutraghata",
+    "adhimantha"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "punarnava",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Punarnava",
+    "botanical": "Boerhavia diffusa",
+    "common": [
+     "Hogweed",
+     "Gadahpurna"
+    ]
+   },
+   "partUsed": "Root, whole plant",
+   "rasa": "Madhura, Tikta, Kashaya",
+   "guna": "Laghu, Ruksha",
+   "virya": "Ushna",
+   "vipaka": "Madhura",
+   "doshaEffect": "Calms Kapha and Vata",
+   "uses": "Swelling (shotha), ascites, kidney support, anaemia",
+   "cautions": "Increases urine; caution with diuretics and lithium; kidney failure needs a doctor.",
+   "matchKeywords": [
+    "punarnava"
+   ],
+   "formulations": [
+    "punarnavadi-churna-punarnavashtaka-kwatha",
+    "punarnava-mandura",
+    "punarnava-churna",
+    "punarnavashtaka-varunadi-kwatha",
+    "punarnava-guggulu",
+    "punarnavashtaka-kwatha",
+    "sarpagandha-mishran"
+   ],
+   "conditions": [
+    "jalodara",
+    "pandu",
+    "kamala",
+    "ashmari",
+    "mutraghata",
+    "mutrashtila",
+    "vatarakta",
+    "adhimantha",
+    "hypertension"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "guggulu",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Guggulu",
+    "botanical": "Commiphora wightii",
+    "common": [
+     "Indian bdellium"
+    ]
+   },
+   "partUsed": "Purified resin",
+   "rasa": "Tikta, Katu",
+   "guna": "Laghu, Ruksha, Vishada, Sukshma",
+   "virya": "Ushna",
+   "vipaka": "Katu",
+   "doshaEffect": "Calms Vata and Kapha",
+   "uses": "Joints, obesity, cholesterol, glands (lekhana: scraping)",
+   "cautions": "Must be purified (shodhita). Rash, stomach upset; may interact with thyroid and blood-thinning drugs; avoid in pregnancy.",
+   "matchKeywords": [
+    "guggulu"
+   ],
+   "formulations": [
+    "simhanada-guggulu",
+    "yogaraja-guggulu",
+    "kaishora-maha-yogaraja-guggulu",
+    "gokshuradi-guggulu",
+    "kaishora-guggulu",
+    "kanchanara-guggulu",
+    "vyoshadi-guggulu",
+    "triphala-guggulu-medohara-guggulu",
+    "triphala-guggulu",
+    "trayodashanga-guggulu",
+    "guggulu-tiktaka-ghrita",
+    "yogaraja-simhanada-guggulu",
+    "yogaraja-trayodashanga-guggulu",
+    "punarnava-guggulu",
+    "panchatikta-guggulu-ghrita",
+    "triphala-gokshuradi-guggulu",
+    "medohara-triphala-guggulu"
+   ],
+   "conditions": [
+    "amavata",
+    "sandhivata",
+    "avabahuka",
+    "pakshaghata",
+    "cervical",
+    "madhumeha",
+    "ashmari",
+    "mutrashtila",
+    "ekakushtha",
+    "vatarakta",
+    "thyroid",
+    "sthaulya",
+    "bhagandara",
+    "shwetapradara",
+    "abhishyanda",
+    "fattyliver",
+    "katigraha",
+    "gridhrasi",
+    "adhimantha",
+    "cholesterol"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "shallaki",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Shallaki",
+    "botanical": "Boswellia serrata",
+    "common": [
+     "Indian frankincense",
+     "Salai"
+    ]
+   },
+   "partUsed": "Gum resin",
+   "rasa": "Kashaya, Tikta, Madhura",
+   "guna": "Laghu, Ruksha",
+   "virya": "Shita",
+   "vipaka": "Katu",
+   "doshaEffect": "Calms Kapha and Pitta",
+   "uses": "Joint pain and swelling",
+   "cautions": "Mild stomach upset; caution with blood thinners.",
+   "matchKeywords": [
+    "shallaki",
+    "boswellia"
+   ],
+   "formulations": [
+    "shallaki-extract"
+   ],
+   "conditions": [
+    "cervical"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "arjuna",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Arjuna",
+    "botanical": "Terminalia arjuna",
+    "common": [
+     "Arjun tree"
+    ]
+   },
+   "partUsed": "Bark",
+   "rasa": "Kashaya",
+   "guna": "Laghu, Ruksha",
+   "virya": "Shita",
+   "vipaka": "Katu",
+   "doshaEffect": "Calms Kapha and Pitta",
+   "uses": "Heart (hridya), fractures, bleeding",
+   "cautions": "May add to effects of heart and blood-pressure drugs; use under supervision in heart disease.",
+   "matchKeywords": [
+    "arjuna",
+    "partha"
+   ],
+   "formulations": [],
+   "conditions": [],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "tulsi",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Tulsi",
+    "botanical": "Ocimum tenuiflorum",
+    "common": [
+     "Holy basil"
+    ]
+   },
+   "partUsed": "Leaf",
+   "rasa": "Katu, Tikta",
+   "guna": "Laghu, Ruksha",
+   "virya": "Ushna",
+   "vipaka": "Katu",
+   "doshaEffect": "Calms Kapha and Vata",
+   "uses": "Cough, colds, fever, immunity",
+   "cautions": "Caution with blood thinners and when trying to conceive.",
+   "matchKeywords": [
+    "tulsi",
+    "tulasi"
+   ],
+   "formulations": [],
+   "conditions": [],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "vasa",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Vasa",
+    "botanical": "Justicia adhatoda",
+    "common": [
+     "Malabar nut",
+     "Adulsa"
+    ]
+   },
+   "partUsed": "Leaf",
+   "rasa": "Tikta, Kashaya",
+   "guna": "Laghu, Ruksha",
+   "virya": "Shita",
+   "vipaka": "Katu",
+   "doshaEffect": "Calms Kapha and Pitta",
+   "uses": "Cough, asthma, bleeding disorders (Raktapitta)",
+   "cautions": "Avoid in pregnancy (can stimulate the uterus).",
+   "matchKeywords": [
+    "vasa",
+    "vasaka"
+   ],
+   "formulations": [
+    "vasa-leaf-juice",
+    "vasanta-kusumakara-rasa",
+    "vasavaleha-agastya-rasayana",
+    "phalatrikadi-vasaguduchyadi-kwatha",
+    "vasakadi-patoladi-manjishthadi-kwatha",
+    "vasa-guduchyadi-kashaya"
+   ],
+   "conditions": [
+    "kasa",
+    "madhumeha",
+    "tamaka",
+    "kamala",
+    "abhishyanda",
+    "fattyliver"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "kantakari",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Kantakari",
+    "botanical": "Solanum virginianum",
+    "common": [
+     "Yellow-berried nightshade"
+    ]
+   },
+   "partUsed": "Whole plant",
+   "rasa": "Katu, Tikta",
+   "guna": "Laghu, Ruksha, Tikshna",
+   "virya": "Ushna",
+   "vipaka": "Katu",
+   "doshaEffect": "Calms Kapha and Vata",
+   "uses": "Cough, asthma, colds",
+   "cautions": "Nightshade family: use only prepared formulations in standard doses.",
+   "matchKeywords": [
+    "kantakari"
+   ],
+   "formulations": [
+    "kantakari-ghrita"
+   ],
+   "conditions": [
+    "tamaka"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "nimba",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Nimba",
+    "botanical": "Azadirachta indica",
+    "common": [
+     "Neem"
+    ]
+   },
+   "partUsed": "Leaf, bark",
+   "rasa": "Tikta, Kashaya",
+   "guna": "Laghu",
+   "virya": "Shita",
+   "vipaka": "Katu",
+   "doshaEffect": "Calms Kapha and Pitta",
+   "uses": "Skin disease, fever, worms, wounds, diabetes",
+   "cautions": "Never give neem oil to infants or children (serious poisoning reported); avoid in pregnancy and when trying to conceive.",
+   "matchKeywords": [
+    "nimba",
+    "neem",
+    "panchatikta",
+    "tiktaka"
+   ],
+   "formulations": [
+    "mahatiktaka-kwatha",
+    "panchatiktaka-ghrita",
+    "guggulu-tiktaka-ghrita",
+    "panchatikta-guggulu-ghrita",
+    "tiktaka-ghrita"
+   ],
+   "conditions": [
+    "ekakushtha",
+    "vicharchika",
+    "shvitra",
+    "avabahuka",
+    "cervical",
+    "vatarakta",
+    "abhishyanda"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "manjishtha",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Manjishtha",
+    "botanical": "Rubia cordifolia",
+    "common": [
+     "Indian madder"
+    ]
+   },
+   "partUsed": "Root",
+   "rasa": "Madhura, Tikta, Kashaya",
+   "guna": "Guru, Ruksha",
+   "virya": "Ushna",
+   "vipaka": "Katu",
+   "doshaEffect": "Calms Kapha and Pitta",
+   "uses": "Blood purifier, skin, complexion, gout",
+   "cautions": "Turns urine reddish (harmless).",
+   "matchKeywords": [
+    "manjishtha"
+   ],
+   "formulations": [
+    "guduchi-manjishtha-khadira-haridra-sariva-churna",
+    "manjishthadi-kwatha",
+    "kokilaksha-amritadi-laghu-manjishthadi-kwatha",
+    "vasakadi-patoladi-manjishthadi-kwatha",
+    "guduchi-manjishtha-churna"
+   ],
+   "conditions": [
+    "ekakushtha",
+    "shitapitta",
+    "vicharchika",
+    "vatarakta",
+    "abhishyanda",
+    "shvitra"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "khadira",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Khadira",
+    "botanical": "Senegalia catechu",
+    "common": [
+     "Catechu",
+     "Kattha"
+    ]
+   },
+   "partUsed": "Heartwood",
+   "rasa": "Tikta, Kashaya",
+   "guna": "Laghu, Ruksha",
+   "virya": "Shita",
+   "vipaka": "Katu",
+   "doshaEffect": "Calms Kapha and Pitta",
+   "uses": "Best for skin disease (Kushthaghna), mouth and gums",
+   "cautions": "Strongly astringent; may constipate.",
+   "matchKeywords": [
+    "khadira",
+    "khadiradi",
+    "khadirarishta"
+   ],
+   "formulations": [
+    "lavangadi-khadiradi-vati",
+    "guduchi-manjishtha-khadira-haridra-sariva-churna",
+    "khadirarishta-aragvadharishta",
+    "khadiradi-gutika",
+    "khadirarishta"
+   ],
+   "conditions": [
+    "kasa",
+    "ekakushtha",
+    "dantaveshta",
+    "vicharchika",
+    "shvitra"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "kutaja",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Kutaja",
+    "botanical": "Holarrhena pubescens",
+    "common": [
+     "Kurchi"
+    ]
+   },
+   "partUsed": "Bark, seed",
+   "rasa": "Tikta, Kashaya",
+   "guna": "Laghu, Ruksha",
+   "virya": "Shita",
+   "vipaka": "Katu",
+   "doshaEffect": "Calms Kapha and Pitta",
+   "uses": "Diarrhoea, dysentery, IBS, bleeding piles",
+   "cautions": "Use standard doses; avoid prolonged high doses.",
+   "matchKeywords": [
+    "kutaja"
+   ],
+   "formulations": [
+    "kutaja-churna-kutaja-ghana-vati",
+    "kutaja-ghana-vati",
+    "kutajarishta"
+   ],
+   "conditions": [
+    "atisara",
+    "grahani"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "bilva",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Bilva",
+    "botanical": "Aegle marmelos",
+    "common": [
+     "Bael"
+    ]
+   },
+   "partUsed": "Unripe fruit, root",
+   "rasa": "Kashaya, Tikta",
+   "guna": "Laghu, Ruksha",
+   "virya": "Ushna",
+   "vipaka": "Katu",
+   "doshaEffect": "Calms Kapha and Vata",
+   "uses": "Diarrhoea, IBS (unripe fruit); root in Dashamoola",
+   "cautions": "May constipate; caution with diabetes drugs.",
+   "matchKeywords": [
+    "bilva",
+    "bilwa",
+    "dashamoola",
+    "dashamula"
+   ],
+   "formulations": [
+    "amritadi-dashamoola-kwatha",
+    "rasnadi-dashamula-kwatha",
+    "dashamoolarishta-ashwagandharishta",
+    "dashamoola-taila",
+    "dashamoola-kwatha",
+    "varuna-shigru-dashamoola-kwatha",
+    "bilwa-root-churna",
+    "dashamoola-kwatha-with-sesame-oil",
+    "dashamoola-kashaya",
+    "rasnasaptaka-dashamoola-erandamoola-kashaya",
+    "maharasnadi-dashamula-gandharvahastadi-kashaya",
+    "dashamula-katutrayam-kwatha",
+    "balarishta-dashamoolarishta",
+    "bilva-churna"
+   ],
+   "conditions": [
+    "amavata",
+    "sandhivata",
+    "shiroroga",
+    "tamaka",
+    "thyroid",
+    "atisara",
+    "kashtartava",
+    "avabahuka",
+    "katigraha",
+    "pakshaghata",
+    "cervical",
+    "grahani"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "musta",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Musta",
+    "botanical": "Cyperus rotundus",
+    "common": [
+     "Nut grass",
+     "Nagarmotha"
+    ]
+   },
+   "partUsed": "Rhizome",
+   "rasa": "Tikta, Katu, Kashaya",
+   "guna": "Laghu, Ruksha",
+   "virya": "Shita",
+   "vipaka": "Katu",
+   "doshaEffect": "Calms Kapha and Pitta",
+   "uses": "Digestion, diarrhoea, fever, thirst",
+   "cautions": "Generally safe.",
+   "matchKeywords": [
+    "musta"
+   ],
+   "formulations": [
+    "musta-vidanga-haritaki-churna",
+    "musta-churna"
+   ],
+   "conditions": [
+    "sthaulya",
+    "atisara",
+    "cholesterol",
+    "grahani"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "jatamansi",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Jatamansi",
+    "botanical": "Nardostachys jatamansi",
+    "common": [
+     "Spikenard"
+    ]
+   },
+   "partUsed": "Rhizome",
+   "rasa": "Tikta, Kashaya, Madhura",
+   "guna": "Laghu, Snigdha",
+   "virya": "Shita",
+   "vipaka": "Katu",
+   "doshaEffect": "Balances all three doshas",
+   "uses": "Sleep, anxiety, mind, skin",
+   "cautions": "Endangered Himalayan species: choose certified sustainable sources; caution with sedatives.",
+   "matchKeywords": [
+    "jatamansi",
+    "mamsyadi",
+    "mansyadi"
+   ],
+   "formulations": [
+    "mamsyadi-kwatha",
+    "mansyadi-kwatha",
+    "sarpagandha-mishran"
+   ],
+   "conditions": [
+    "anidra",
+    "apasmara",
+    "hypertension"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "shankhapushpi",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Shankhapushpi",
+    "botanical": "Convolvulus prostratus",
+    "common": [
+     "Shankhpushpi"
+    ]
+   },
+   "partUsed": "Whole plant",
+   "rasa": "Kashaya, Tikta",
+   "guna": "Snigdha, Pichchila",
+   "virya": "Shita",
+   "vipaka": "Madhura",
+   "doshaEffect": "Calms Vata and Pitta",
+   "uses": "Memory (Medhya), anxiety, sleep",
+   "cautions": "Caution with sedatives and anti-epileptic drugs.",
+   "matchKeywords": [
+    "shankhapushpi"
+   ],
+   "formulations": [
+    "shankhapushpi-churna",
+    "sarpagandha-mishran"
+   ],
+   "conditions": [
+    "vishada",
+    "hypertension"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "vacha",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Vacha",
+    "botanical": "Acorus calamus",
+    "common": [
+     "Sweet flag",
+     "Bach"
+    ]
+   },
+   "partUsed": "Rhizome",
+   "rasa": "Katu, Tikta",
+   "guna": "Laghu, Tikshna",
+   "virya": "Ushna",
+   "vipaka": "Katu",
+   "doshaEffect": "Calms Kapha and Vata",
+   "uses": "Speech, memory, epilepsy, nasal congestion",
+   "cautions": "Contains beta-asarone (toxic in high or long doses); the US bans calamus in food. Short courses under supervision only.",
+   "matchKeywords": [
+    "vacha",
+    "saraswata"
+   ],
+   "formulations": [
+    "saraswata-churna",
+    "saraswatarishta",
+    "vacha-churna",
+    "sarpagandha-mishran"
+   ],
+   "conditions": [
+    "anidra",
+    "vishada",
+    "apasmara",
+    "hypertension"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "sarpagandha",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Sarpagandha",
+    "botanical": "Rauvolfia serpentina",
+    "common": [
+     "Indian snakeroot"
+    ]
+   },
+   "partUsed": "Root",
+   "rasa": "Tikta",
+   "guna": "Ruksha",
+   "virya": "Ushna",
+   "vipaka": "Katu",
+   "doshaEffect": "Calms Vata and Kapha",
+   "uses": "High blood pressure, insomnia, agitation",
+   "cautions": "Contains reserpine: can cause depression, low pulse and nasal stuffiness. Prescription and monitoring only.",
+   "matchKeywords": [
+    "sarpagandha"
+   ],
+   "formulations": [
+    "sarpagandha-ghana-vati",
+    "sarpagandha-mishran"
+   ],
+   "conditions": [
+    "anidra",
+    "hypertension"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "kalamegha",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Kalamegha",
+    "botanical": "Andrographis paniculata",
+    "common": [
+     "King of bitters",
+     "Kalmegh"
+    ]
+   },
+   "partUsed": "Whole plant",
+   "rasa": "Tikta",
+   "guna": "Laghu, Ruksha",
+   "virya": "Ushna",
+   "vipaka": "Katu",
+   "doshaEffect": "Calms Kapha and Pitta",
+   "uses": "Fever, liver, colds",
+   "cautions": "Avoid in pregnancy; allergic reactions reported.",
+   "matchKeywords": [
+    "kalamegha"
+   ],
+   "formulations": [
+    "kalamegha-churna"
+   ],
+   "conditions": [
+    "kamala"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "bhumyamalaki",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Bhumyamalaki",
+    "botanical": "Phyllanthus amarus",
+    "common": [
+     "Bhui amla"
+    ]
+   },
+   "partUsed": "Whole plant",
+   "rasa": "Tikta, Kashaya, Madhura",
+   "guna": "Laghu, Ruksha",
+   "virya": "Shita",
+   "vipaka": "Madhura",
+   "doshaEffect": "Calms Kapha and Pitta",
+   "uses": "Jaundice, liver, urinary problems",
+   "cautions": "May lower blood sugar; caution with diabetes drugs.",
+   "matchKeywords": [
+    "bhumyamalaki"
+   ],
+   "formulations": [
+    "bhumyamalaki-churna",
+    "bhumyamalaki-churna-or-juice"
+   ],
+   "conditions": [
+    "jalodara",
+    "mutraghata",
+    "kamala"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "katuki",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Katuki",
+    "botanical": "Picrorhiza kurroa",
+    "common": [
+     "Kutki"
+    ]
+   },
+   "partUsed": "Rhizome",
+   "rasa": "Tikta",
+   "guna": "Laghu, Ruksha",
+   "virya": "Shita",
+   "vipaka": "Katu",
+   "doshaEffect": "Calms Kapha and Pitta",
+   "uses": "Liver, jaundice, fever, mild purgative",
+   "cautions": "Diarrhoea at high doses; endangered: use sustainable sources.",
+   "matchKeywords": [
+    "katuki"
+   ],
+   "formulations": [
+    "katuki-churna"
+   ],
+   "conditions": [
+    "kamala",
+    "fattyliver"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "aragvadha",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Aragvadha",
+    "botanical": "Cassia fistula",
+    "common": [
+     "Golden shower",
+     "Amaltas"
+    ]
+   },
+   "partUsed": "Fruit pulp",
+   "rasa": "Madhura",
+   "guna": "Guru, Mridu, Snigdha",
+   "virya": "Shita",
+   "vipaka": "Madhura",
+   "doshaEffect": "Calms Vata and Pitta",
+   "uses": "Gentle laxative (Charaka calls it safe even for children and the elderly), skin",
+   "cautions": "Cramps at high doses.",
+   "matchKeywords": [
+    "aragvadha"
+   ],
+   "formulations": [
+    "khadirarishta-aragvadharishta",
+    "aragvadha-churna"
+   ],
+   "conditions": [
+    "ekakushtha",
+    "vibandha"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "eranda",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Eranda",
+    "botanical": "Ricinus communis",
+    "common": [
+     "Castor"
+    ]
+   },
+   "partUsed": "Root, seed oil",
+   "rasa": "Madhura, Katu, Kashaya",
+   "guna": "Guru, Snigdha, Tikshna, Sukshma",
+   "virya": "Ushna",
+   "vipaka": "Madhura",
+   "doshaEffect": "Best for Vata",
+   "uses": "Purgative oil, joint and back pain, sciatica",
+   "cautions": "Raw seeds are poisonous (ricin). Oil: cramps, diarrhoea; avoid in pregnancy and bowel obstruction.",
+   "matchKeywords": [
+    "eranda",
+    "castor"
+   ],
+   "formulations": [
+    "eranda-taila",
+    "castor-oil",
+    "eranda-bhrishta-haritaki",
+    "rasnasaptaka-dashamoola-erandamoola-kashaya",
+    "castor-seeds-boiled-in-milk",
+    "eranda-bhrishta-haritaki-churna"
+   ],
+   "conditions": [
+    "amavata",
+    "parikartika",
+    "kashtartava",
+    "katigraha",
+    "gridhrasi",
+    "vibandha",
+    "fattyliver"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "rasna",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Rasna",
+    "botanical": "Pluchea lanceolata (Alpinia galanga is used in South India)",
+    "common": [
+     "Rasna"
+    ]
+   },
+   "partUsed": "Leaf, root",
+   "rasa": "Tikta",
+   "guna": "Guru",
+   "virya": "Ushna",
+   "vipaka": "Katu",
+   "doshaEffect": "Calms Kapha and Vata",
+   "uses": "The classical chief herb for Vata disorders: joint pain, sciatica, paralysis",
+   "cautions": "Botanical identity differs by region; buy from a GMP-certified maker.",
+   "matchKeywords": [
+    "rasna",
+    "maharasnadi",
+    "rasnadi",
+    "rasnasaptaka",
+    "rasnapanchaka"
+   ],
+   "formulations": [
+    "rasnapanchaka-rasnasaptaka-kwatha",
+    "rasnadi-dashamula-kwatha",
+    "bala-rasna-churna",
+    "rasna-shunthi-churna",
+    "rasnasaptaka-dashamoola-erandamoola-kashaya",
+    "rasna-ashwagandha-shunthi-churna",
+    "rasnasaptaka-sahacharadi-maharasnadi-kashaya",
+    "ashwagandha-bala-rasna-churna",
+    "maharasnadi-dashamula-gandharvahastadi-kashaya",
+    "rasnasaptaka-kwatha",
+    "rasnasaptaka-rasnapanchaka-kashaya"
+   ],
+   "conditions": [
+    "amavata",
+    "sandhivata",
+    "avabahuka",
+    "katigraha",
+    "gridhrasi",
+    "pakshaghata",
+    "cervical",
+    "fibromyalgia"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "bala",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Bala",
+    "botanical": "Sida cordifolia",
+    "common": [
+     "Country mallow",
+     "Kharenti"
+    ]
+   },
+   "partUsed": "Root",
+   "rasa": "Madhura",
+   "guna": "Guru, Snigdha, Pichchila",
+   "virya": "Shita",
+   "vipaka": "Madhura",
+   "doshaEffect": "Calms Vata and Pitta",
+   "uses": "Strength, nerves, Vata disorders (used in Ksheerabala oil)",
+   "cautions": "Contains ephedrine: avoid with heart disease, high blood pressure and stimulants.",
+   "matchKeywords": [
+    "bala",
+    "ksheerabala",
+    "balarishta"
+   ],
+   "formulations": [
+    "bala-rasna-churna",
+    "ksheerabala-101-taila",
+    "ashwagandharishta-balarishta",
+    "ashwagandha-bala-rasna-churna",
+    "karpasasthyadi-dhanwantaram-bala-taila",
+    "pinda-taila-ksheerabala-taila",
+    "balarishta-dashamoolarishta",
+    "ksheerabala-mahamasha-taila"
+   ],
+   "conditions": [
+    "avabahuka",
+    "gridhrasi",
+    "pakshaghata",
+    "fibromyalgia",
+    "vatarakta",
+    "cervical"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "yavani",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Yavani",
+    "botanical": "Trachyspermum ammi",
+    "common": [
+     "Ajwain"
+    ]
+   },
+   "partUsed": "Fruit",
+   "rasa": "Katu, Tikta",
+   "guna": "Laghu, Ruksha, Tikshna",
+   "virya": "Ushna",
+   "vipaka": "Katu",
+   "doshaEffect": "Calms Kapha and Vata",
+   "uses": "Bloating, colic, indigestion",
+   "cautions": "Acidity in Pitta conditions.",
+   "matchKeywords": [
+    "yavani",
+    "ajmoda",
+    "ajmodadi"
+   ],
+   "formulations": [
+    "ajmodadi-churna"
+   ],
+   "conditions": [
+    "amavata"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "jiraka",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Jiraka",
+    "botanical": "Cuminum cyminum",
+    "common": [
+     "Cumin",
+     "Jeera"
+    ]
+   },
+   "partUsed": "Fruit",
+   "rasa": "Katu",
+   "guna": "Laghu, Ruksha",
+   "virya": "Ushna",
+   "vipaka": "Katu",
+   "doshaEffect": "Calms Kapha and Vata",
+   "uses": "Digestion, IBS, diarrhoea",
+   "cautions": "Generally safe as food.",
+   "matchKeywords": [
+    "jiraka",
+    "cumin"
+   ],
+   "formulations": [
+    "takra-with-roasted-cumin"
+   ],
+   "conditions": [
+    "grahani"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "hingu",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Hingu",
+    "botanical": "Ferula assa-foetida",
+    "common": [
+     "Asafoetida",
+     "Hing"
+    ]
+   },
+   "partUsed": "Resin",
+   "rasa": "Katu",
+   "guna": "Laghu, Snigdha, Tikshna",
+   "virya": "Ushna",
+   "vipaka": "Katu",
+   "doshaEffect": "Calms Kapha and Vata",
+   "uses": "Colic, gas, bloating",
+   "cautions": "Avoid in infants and pregnancy; commercial hing often contains wheat or other fillers.",
+   "matchKeywords": [
+    "hingu",
+    "hingvashtaka",
+    "hingvadi"
+   ],
+   "formulations": [
+    "hingvadi-churna",
+    "hingvashtaka-churna"
+   ],
+   "conditions": [
+    "kashtartava",
+    "ajirna",
+    "aruchi",
+    "grahani"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "lashuna",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Lashuna",
+    "botanical": "Allium sativum",
+    "common": [
+     "Garlic"
+    ]
+   },
+   "partUsed": "Bulb",
+   "rasa": "Five tastes except sour; mainly pungent",
+   "guna": "Snigdha, Tikshna, Guru, Pichchila, Sara",
+   "virya": "Ushna",
+   "vipaka": "Katu",
+   "doshaEffect": "Calms Vata and Kapha",
+   "uses": "Cholesterol, joints, worms, cough",
+   "cautions": "Bleeding risk with blood thinners and before surgery; aggravates Pitta.",
+   "matchKeywords": [
+    "lashuna",
+    "garlic",
+    "rasona"
+   ],
+   "formulations": [
+    "garlic-paste",
+    "lashunadi-vati"
+   ],
+   "conditions": [
+    "pakshaghata",
+    "cholesterol"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "kumari",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Kumari",
+    "botanical": "Aloe vera",
+    "common": [
+     "Aloe",
+     "Ghritkumari"
+    ]
+   },
+   "partUsed": "Leaf pulp",
+   "rasa": "Tikta, Madhura",
+   "guna": "Guru, Snigdha, Pichchila",
+   "virya": "Shita",
+   "vipaka": "Katu",
+   "doshaEffect": "Calms Pitta and Kapha",
+   "uses": "Liver, menstrual problems, burns and skin (gel)",
+   "cautions": "The yellow latex is a strong laxative; avoid internally in pregnancy.",
+   "matchKeywords": [
+    "kumari",
+    "kumaryasava"
+   ],
+   "formulations": [
+    "kumari-juice"
+   ],
+   "conditions": [
+    "jalodara",
+    "kamala"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "isabgol",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Isabgol",
+    "botanical": "Plantago ovata",
+    "common": [
+     "Psyllium husk"
+    ]
+   },
+   "partUsed": "Seed husk",
+   "rasa": "Madhura",
+   "guna": "Guru, Snigdha, Pichchila",
+   "virya": "Shita",
+   "vipaka": "Madhura",
+   "doshaEffect": "Calms Vata and Pitta",
+   "uses": "Constipation, diarrhoea, piles, cholesterol",
+   "cautions": "Always take with plenty of water (choking and blockage risk); separate from other medicines by 2 hours.",
+   "matchKeywords": [
+    "isabgol",
+    "psyllium"
+   ],
+   "formulations": [
+    "isabgol"
+   ],
+   "conditions": [
+    "vibandha"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "kushmanda",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Kushmanda",
+    "botanical": "Benincasa hispida",
+    "common": [
+     "Ash gourd",
+     "Petha"
+    ]
+   },
+   "partUsed": "Fruit",
+   "rasa": "Madhura",
+   "guna": "Laghu, Snigdha",
+   "virya": "Shita",
+   "vipaka": "Madhura",
+   "doshaEffect": "Calms Vata and Pitta",
+   "uses": "Acidity, mind (Medhya), weakness",
+   "cautions": "Safe as food.",
+   "matchKeywords": [
+    "kushmanda"
+   ],
+   "formulations": [
+    "kushmanda-juice",
+    "brihat-kushmanda-avaleha-shatavari-paka"
+   ],
+   "conditions": [
+    "vishada",
+    "adhimantha"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "lodhra",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Lodhra",
+    "botanical": "Symplocos racemosa",
+    "common": [
+     "Lodh tree"
+    ]
+   },
+   "partUsed": "Bark",
+   "rasa": "Kashaya",
+   "guna": "Laghu, Ruksha",
+   "virya": "Shita",
+   "vipaka": "Katu",
+   "doshaEffect": "Calms Kapha and Pitta",
+   "uses": "Heavy periods, white discharge, eyes, skin",
+   "cautions": "Astringent; may constipate.",
+   "matchKeywords": [
+    "lodhra"
+   ],
+   "formulations": [
+    "lodhra-churna",
+    "nagakesara-mocharasa-lodhra-shunthi-churna"
+   ],
+   "conditions": [
+    "asrigdara",
+    "shwetapradara"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "ashoka",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Ashoka",
+    "botanical": "Saraca asoca",
+    "common": [
+     "Ashoka tree"
+    ]
+   },
+   "partUsed": "Bark",
+   "rasa": "Kashaya, Tikta",
+   "guna": "Laghu, Ruksha",
+   "virya": "Shita",
+   "vipaka": "Katu",
+   "doshaEffect": "Calms Kapha and Pitta",
+   "uses": "Heavy and painful periods (uterine tonic)",
+   "cautions": "Often adulterated with Polyalthia longifolia bark; buy from a trusted maker. Avoid in pregnancy.",
+   "matchKeywords": [
+    "ashoka"
+   ],
+   "formulations": [
+    "ashokarishta",
+    "ashoka-bark-milk-decoction"
+   ],
+   "conditions": [
+    "asrigdara"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "bakuchi",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Bakuchi",
+    "botanical": "Psoralea corylifolia",
+    "common": [
+     "Babchi"
+    ]
+   },
+   "partUsed": "Seed",
+   "rasa": "Katu, Tikta",
+   "guna": "Laghu, Ruksha",
+   "virya": "Ushna",
+   "vipaka": "Katu",
+   "doshaEffect": "Calms Kapha and Vata",
+   "uses": "Vitiligo, skin disease",
+   "cautions": "Strongly phototoxic (burns with sun); liver injury reported. Doctor supervision only.",
+   "matchKeywords": [
+    "bakuchi"
+   ],
+   "formulations": [
+    "bakuchi-seed-internal-and-external"
+   ],
+   "conditions": [
+    "shvitra"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "chitraka",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Chitraka",
+    "botanical": "Plumbago zeylanica",
+    "common": [
+     "Ceylon leadwort"
+    ]
+   },
+   "partUsed": "Root",
+   "rasa": "Katu",
+   "guna": "Laghu, Ruksha, Tikshna",
+   "virya": "Ushna",
+   "vipaka": "Katu",
+   "doshaEffect": "Calms Kapha and Vata",
+   "uses": "Appetite, piles, digestion",
+   "cautions": "Blisters skin; abortifacient: never in pregnancy. Purified form only.",
+   "matchKeywords": [
+    "chitraka",
+    "chitrakadi"
+   ],
+   "formulations": [
+    "chitraka-haritaki-avaleha",
+    "chitrakadi-vati"
+   ],
+   "conditions": [
+    "pratishyaya",
+    "ajirna",
+    "aruchi"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "vidanga",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Vidanga",
+    "botanical": "Embelia ribes",
+    "common": [
+     "False black pepper",
+     "Vaividang"
+    ]
+   },
+   "partUsed": "Fruit",
+   "rasa": "Katu, Kashaya",
+   "guna": "Laghu, Ruksha, Tikshna",
+   "virya": "Ushna",
+   "vipaka": "Katu",
+   "doshaEffect": "Calms Kapha and Vata",
+   "uses": "The classical chief herb for worms (Krimighna)",
+   "cautions": "Avoid long courses and in pregnancy.",
+   "matchKeywords": [
+    "vidanga",
+    "vidangadi",
+    "vidangarishta"
+   ],
+   "formulations": [
+    "musta-vidanga-haritaki-churna",
+    "vidangadi-churna",
+    "vidangarishta"
+   ],
+   "conditions": [
+    "sthaulya",
+    "krimi"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "shilajatu",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Shilajatu",
+    "botanical": "Asphaltum punjabianum (mineral pitch)",
+    "common": [
+     "Shilajit"
+    ]
+   },
+   "partUsed": "Purified exudate",
+   "rasa": "Tikta, Katu, Kashaya",
+   "guna": "Guru, Snigdha",
+   "virya": "Ushna",
+   "vipaka": "Katu",
+   "doshaEffect": "Calms Kapha and Vata",
+   "uses": "Diabetes, urinary health, Rasayana",
+   "cautions": "Raw shilajit can contain heavy metals and fungi: purified, tested products only.",
+   "matchKeywords": [
+    "shilajatu",
+    "shilajit"
+   ],
+   "formulations": [
+    "shilajatu"
+   ],
+   "conditions": [
+    "sthaulya",
+    "mutraghata"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "dhanyaka",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Dhanyaka",
+    "botanical": "Coriandrum sativum",
+    "common": [
+     "Coriander"
+    ]
+   },
+   "partUsed": "Fruit",
+   "rasa": "Kashaya, Tikta, Madhura, Katu",
+   "guna": "Laghu, Snigdha",
+   "virya": "Ushna (cold infusion is used for burning)",
+   "vipaka": "Madhura",
+   "doshaEffect": "Balances all three doshas",
+   "uses": "Burning urination, thirst, acidity, digestion",
+   "cautions": "Safe as food.",
+   "matchKeywords": [
+    "dhanyaka",
+    "coriander"
+   ],
+   "formulations": [
+    "dhanyaka-cold-infusion"
+   ],
+   "conditions": [
+    "mutrashtila"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "draksha",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Draksha",
+    "botanical": "Vitis vinifera",
+    "common": [
+     "Raisins"
+    ]
+   },
+   "partUsed": "Dried fruit",
+   "rasa": "Madhura",
+   "guna": "Guru, Snigdha, Mridu",
+   "virya": "Shita",
+   "vipaka": "Madhura",
+   "doshaEffect": "Calms Vata and Pitta",
+   "uses": "Constipation, acidity, weakness, thirst",
+   "cautions": "High in sugar: caution in diabetes.",
+   "matchKeywords": [
+    "draksha"
+   ],
+   "formulations": [
+    "drakshadi-leha",
+    "draksharishta",
+    "draksha",
+    "drakshavaleha",
+    "brahmi-drakshadi-shatavaryadi-kashaya",
+    "draksha-soaked"
+   ],
+   "conditions": [
+    "kasa",
+    "arsha",
+    "parikartika",
+    "pandu",
+    "fattyliver",
+    "aruchi",
+    "fibromyalgia",
+    "vibandha"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "jatiphala",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Jatiphala",
+    "botanical": "Myristica fragrans",
+    "common": [
+     "Nutmeg"
+    ]
+   },
+   "partUsed": "Seed",
+   "rasa": "Tikta, Katu",
+   "guna": "Laghu, Tikshna",
+   "virya": "Ushna",
+   "vipaka": "Katu",
+   "doshaEffect": "Calms Kapha and Vata",
+   "uses": "Diarrhoea, sleep, digestion",
+   "cautions": "Toxic in large doses (myristicin): a few grams can cause hallucinations and palpitations.",
+   "matchKeywords": [
+    "jatiphala",
+    "nutmeg"
+   ],
+   "formulations": [
+    "jatiphala-churna"
+   ],
+   "conditions": [
+    "anidra"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "tagara",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Tagara",
+    "botanical": "Valeriana jatamansi",
+    "common": [
+     "Indian valerian"
+    ]
+   },
+   "partUsed": "Rhizome",
+   "rasa": "Tikta, Katu, Kashaya",
+   "guna": "Laghu, Snigdha",
+   "virya": "Ushna",
+   "vipaka": "Katu",
+   "doshaEffect": "Calms Kapha and Vata",
+   "uses": "Sleep, anxiety, headache",
+   "cautions": "Drowsiness; avoid with alcohol and sedatives.",
+   "matchKeywords": [
+    "tagara"
+   ],
+   "formulations": [
+    "tagara-churna"
+   ],
+   "conditions": [
+    "anidra"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "pashanabheda",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Pashanabheda",
+    "botanical": "Bergenia ligulata",
+    "common": [
+     "Stone-breaker"
+    ]
+   },
+   "partUsed": "Rhizome",
+   "rasa": "Kashaya, Tikta",
+   "guna": "Laghu, Snigdha",
+   "virya": "Shita",
+   "vipaka": "Katu",
+   "doshaEffect": "Balances all three doshas",
+   "uses": "Kidney and bladder stones, burning urination",
+   "cautions": "Large stones or kidney blockage need a doctor.",
+   "matchKeywords": [
+    "pashanabheda"
+   ],
+   "formulations": [
+    "pashanabheda-churna"
+   ],
+   "conditions": [
+    "ashmari"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "varuna",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Varuna",
+    "botanical": "Crateva religiosa",
+    "common": [
+     "Three-leaved caper"
+    ]
+   },
+   "partUsed": "Bark",
+   "rasa": "Tikta, Kashaya",
+   "guna": "Laghu, Ruksha",
+   "virya": "Ushna",
+   "vipaka": "Katu",
+   "doshaEffect": "Calms Kapha and Vata",
+   "uses": "Kidney stones, prostate enlargement, urinary infection",
+   "cautions": "Generally safe in standard doses.",
+   "matchKeywords": [
+    "varuna"
+   ],
+   "formulations": [
+    "varuna-shigru-dashamoola-kwatha",
+    "varuna-shigru-ashmarihara-kwatha",
+    "punarnavashtaka-varunadi-kwatha",
+    "varuna-kwatha"
+   ],
+   "conditions": [
+    "thyroid",
+    "ashmari",
+    "mutraghata",
+    "mutrashtila"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "kanchanara",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Kanchanara",
+    "botanical": "Bauhinia variegata",
+    "common": [
+     "Mountain ebony"
+    ]
+   },
+   "partUsed": "Bark",
+   "rasa": "Kashaya",
+   "guna": "Laghu, Ruksha",
+   "virya": "Shita",
+   "vipaka": "Katu",
+   "doshaEffect": "Calms Kapha and Pitta",
+   "uses": "Glands, goitre, cysts, lymph nodes",
+   "cautions": "Thyroid disease needs blood tests and a doctor.",
+   "matchKeywords": [
+    "kanchanara"
+   ],
+   "formulations": [
+    "kanchanara-guggulu"
+   ],
+   "conditions": [
+    "thyroid",
+    "mutrashtila"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "nirgundi",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Nirgundi",
+    "botanical": "Vitex negundo",
+    "common": [
+     "Five-leaved chaste tree"
+    ]
+   },
+   "partUsed": "Leaf",
+   "rasa": "Katu, Tikta",
+   "guna": "Laghu, Ruksha",
+   "virya": "Ushna",
+   "vipaka": "Katu",
+   "doshaEffect": "Calms Kapha and Vata",
+   "uses": "Pain and swelling (oil, poultice), sciatica",
+   "cautions": "External use is safest.",
+   "matchKeywords": [
+    "nirgundi"
+   ],
+   "formulations": [
+    "nirgundi-panchaguna-taila"
+   ],
+   "conditions": [
+    "cervical"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "vrikshamla",
+   "status": "legacy-unreviewed",
+   "names": {
+    "sa": "Vrikshamla",
+    "botanical": "Garcinia indica",
+    "common": [
+     "Kokum"
+    ]
+   },
+   "partUsed": "Fruit rind",
+   "rasa": "Amla",
+   "guna": "Ruksha",
+   "virya": "Ushna",
+   "vipaka": "Amla",
+   "doshaEffect": "Calms Vata and Kapha",
+   "uses": "Digestion, weight management",
+   "cautions": "Liver injury reported with concentrated Garcinia weight-loss extracts.",
+   "matchKeywords": [
+    "vrikshamla",
+    "garcinia"
+   ],
+   "formulations": [
+    "vrikshamla-churna"
+   ],
+   "conditions": [
+    "cholesterol"
+   ],
+   "images": [],
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  }
+ ]
+}

@@ -1,0 +1,434 @@
+{
+ "schema": "yoga",
+ "version": 1,
+ "migratedFrom": "index.html",
+ "legacySha": "42cb8f2e1884",
+ "count": 26,
+ "items": [
+  {
+   "id": "nadi",
+   "name": "Nadi Shodhana",
+   "english": "Alternate-nostril breathing",
+   "description": "Slow breathing through one nostril at a time; calms the mind and balances the nervous system.",
+   "source": "Hatha Yoga Pradipika 2.7–10",
+   "avoidIf": "Breathe gently; never strain or hold the breath without a teacher.",
+   "usedFor": [
+    "jwara",
+    "kasa",
+    "amlapitta",
+    "amavata",
+    "arsha",
+    "ekakushtha",
+    "anidra",
+    "vishada",
+    "shiroroga",
+    "tamaka",
+    "pandu",
+    "atisara",
+    "grahani",
+    "apasmara",
+    "mutrashtila",
+    "asrigdara",
+    "kashtartava",
+    "pakshaghata",
+    "vatarakta",
+    "adhimantha",
+    "hypertension",
+    "fibromyalgia",
+    "shitapitta",
+    "vicharchika",
+    "bhagandara",
+    "mutraghata",
+    "kamala"
+   ],
+   "status": "editorial"
+  },
+  {
+   "id": "bhramari",
+   "name": "Bhramari",
+   "english": "Humming-bee breath",
+   "description": "Humming on the out-breath; quietens the mind, eases anxiety and helps sleep.",
+   "source": "Hatha Yoga Pradipika 2.68",
+   "avoidIf": "Avoid lying down; stop if dizzy.",
+   "usedFor": [
+    "anidra",
+    "vishada",
+    "shiroroga",
+    "hypertension"
+   ],
+   "status": "editorial"
+  },
+  {
+   "id": "ujjayi",
+   "name": "Ujjayi",
+   "english": "Victorious breath",
+   "description": "Slow breathing with a soft throat sound; said to remove phlegm from the throat and strengthen digestion.",
+   "source": "Hatha Yoga Pradipika 2.51–53",
+   "avoidIf": "Avoid breath-holding in heart disease and high blood pressure.",
+   "usedFor": [
+    "kasa",
+    "pratishyaya",
+    "tamaka",
+    "thyroid"
+   ],
+   "status": "editorial"
+  },
+  {
+   "id": "shitali",
+   "name": "Shitali and Sheetkari",
+   "english": "Cooling breaths",
+   "description": "Breathing in through a rolled tongue or the teeth; cools the body, eases acidity, thirst and Pitta.",
+   "source": "Hatha Yoga Pradipika 2.54–58",
+   "avoidIf": "Avoid in cold, cough, asthma and low blood pressure.",
+   "usedFor": [
+    "amlapitta",
+    "shitapitta",
+    "vicharchika",
+    "mukhapaka"
+   ],
+   "status": "editorial"
+  },
+  {
+   "id": "kapalabhati",
+   "name": "Kapalabhati",
+   "english": "Skull-shining breath",
+   "description": "Short forceful out-breaths; clears Kapha and phlegm, stimulates digestion.",
+   "source": "Hatha Yoga Pradipika 2.35",
+   "avoidIf": "Avoid in pregnancy, high blood pressure, heart disease, epilepsy, hernia, recent surgery and during periods.",
+   "usedFor": [
+    "madhumeha",
+    "pratishyaya",
+    "sthaulya",
+    "aruchi",
+    "cholesterol",
+    "fattyliver"
+   ],
+   "status": "editorial"
+  },
+  {
+   "id": "bhastrika",
+   "name": "Bhastrika",
+   "english": "Bellows breath",
+   "description": "Forceful in and out breaths; warms the body and clears Kapha.",
+   "source": "Hatha Yoga Pradipika 2.59–67",
+   "avoidIf": "Same cautions as Kapalabhati; avoid in Pitta conditions.",
+   "usedFor": [],
+   "status": "editorial"
+  },
+  {
+   "id": "neti",
+   "name": "Jala Neti",
+   "english": "Nasal rinse",
+   "description": "Rinsing the nose with lukewarm salt water; clears sinuses and allergies.",
+   "source": "Hatha Yoga Pradipika 2.29–30 (Neti)",
+   "avoidIf": "Use boiled or sterile water only (tap water has caused rare fatal infections). Avoid with nosebleeds or ear infection.",
+   "usedFor": [
+    "pratishyaya"
+   ],
+   "status": "editorial"
+  },
+  {
+   "id": "shavasana",
+   "name": "Shavasana",
+   "english": "Corpse pose",
+   "description": "Lying still with full relaxation; removes fatigue and calms the mind.",
+   "source": "Hatha Yoga Pradipika 1.32",
+   "avoidIf": "Suitable for almost everyone.",
+   "usedFor": [
+    "jwara",
+    "amavata",
+    "ekakushtha",
+    "anidra",
+    "shiroroga",
+    "pandu",
+    "atisara",
+    "apasmara",
+    "asrigdara",
+    "kashtartava",
+    "vatarakta",
+    "abhishyanda",
+    "adhimantha",
+    "hypertension",
+    "fibromyalgia",
+    "bhagandara",
+    "jalodara",
+    "mutraghata",
+    "kamala"
+   ],
+   "status": "editorial"
+  },
+  {
+   "id": "yoganidra",
+   "name": "Yoga Nidra",
+   "english": "Guided deep relaxation",
+   "description": "Body scan and guided relaxation; helps sleep, stress and blood pressure.",
+   "source": "Modern practice built on Tantric pratyahara",
+   "avoidIf": "Suitable for almost everyone.",
+   "usedFor": [
+    "amlapitta",
+    "anidra",
+    "shiroroga",
+    "grahani",
+    "apasmara",
+    "asrigdara",
+    "hypertension",
+    "fibromyalgia"
+   ],
+   "status": "editorial"
+  },
+  {
+   "id": "paschimottana",
+   "name": "Paschimottanasana",
+   "english": "Seated forward bend",
+   "description": "Stretches the back of the body; HYP says it kindles digestive fire and slims the abdomen.",
+   "source": "Hatha Yoga Pradipika 1.28–29",
+   "avoidIf": "Avoid with acute back pain, slipped disc and in pregnancy.",
+   "usedFor": [
+    "madhumeha",
+    "sthaulya"
+   ],
+   "status": "editorial"
+  },
+  {
+   "id": "matsyendra",
+   "name": "Ardha Matsyendrasana",
+   "english": "Half spinal twist",
+   "description": "Seated twist; HYP says it increases appetite and helps digestion.",
+   "source": "Hatha Yoga Pradipika 1.26–27",
+   "avoidIf": "Avoid with disc problems, recent abdominal surgery and in pregnancy.",
+   "usedFor": [
+    "madhumeha",
+    "sthaulya",
+    "vibandha",
+    "ajirna",
+    "aruchi",
+    "cholesterol",
+    "fattyliver"
+   ],
+   "status": "editorial"
+  },
+  {
+   "id": "bhujanga",
+   "name": "Bhujangasana",
+   "english": "Cobra pose",
+   "description": "Gentle backbend lying on the front; strengthens the back and stimulates digestion.",
+   "source": "Gheranda Samhita 2.42–43",
+   "avoidIf": "Avoid in pregnancy, hernia and acute back injury.",
+   "usedFor": [
+    "tamaka",
+    "vibandha",
+    "ashmari",
+    "katigraha",
+    "gridhrasi",
+    "fattyliver",
+    "cervical"
+   ],
+   "status": "editorial"
+  },
+  {
+   "id": "shalabha",
+   "name": "Shalabhasana",
+   "english": "Locust pose",
+   "description": "Lying on the front, lifting the legs; strengthens the low back.",
+   "source": "Gheranda Samhita 2",
+   "avoidIf": "Avoid with heart disease and high blood pressure.",
+   "usedFor": [
+    "katigraha"
+   ],
+   "status": "editorial"
+  },
+  {
+   "id": "vajra",
+   "name": "Vajrasana",
+   "english": "Diamond pose",
+   "description": "Sitting on the heels; the one pose advised after meals, for digestion and gas.",
+   "source": "Gheranda Samhita 2.12",
+   "avoidIf": "Avoid with knee injury or severe arthritis of the knee.",
+   "usedFor": [
+    "amlapitta",
+    "grahani",
+    "vibandha",
+    "ajirna",
+    "aruchi",
+    "mutrashtila"
+   ],
+   "status": "editorial"
+  },
+  {
+   "id": "pawan",
+   "name": "Pavanamuktasana",
+   "english": "Wind-relieving pose",
+   "description": "Knees hugged to the chest; relieves gas, bloating and constipation.",
+   "source": "Modern hatha practice",
+   "avoidIf": "Avoid after abdominal surgery and in pregnancy.",
+   "usedFor": [
+    "arsha",
+    "grahani",
+    "vibandha",
+    "ajirna",
+    "ashmari",
+    "parikartika"
+   ],
+   "status": "editorial"
+  },
+  {
+   "id": "tada",
+   "name": "Tadasana",
+   "english": "Mountain pose (with arm stretch)",
+   "description": "Standing tall and stretching up; posture, balance and circulation.",
+   "source": "Modern hatha practice (Common Yoga Protocol)",
+   "avoidIf": "Suitable for most people.",
+   "usedFor": [
+    "sandhivata",
+    "ashmari",
+    "avabahuka"
+   ],
+   "status": "editorial"
+  },
+  {
+   "id": "sukshma",
+   "name": "Sukshma Vyayama",
+   "english": "Gentle joint loosening",
+   "description": "Slow rotations of neck, shoulders, wrists, hips, knees and ankles; keeps joints mobile.",
+   "source": "Common Yoga Protocol, Ministry of Ayush",
+   "avoidIf": "Move within a pain-free range only.",
+   "usedFor": [
+    "amavata",
+    "sandhivata",
+    "avabahuka",
+    "vatarakta",
+    "cervical",
+    "fibromyalgia"
+   ],
+   "status": "editorial"
+  },
+  {
+   "id": "setu",
+   "name": "Setu Bandhasana",
+   "english": "Bridge pose",
+   "description": "Lifting the hips from lying on the back; strengthens the back, hips and pelvic floor.",
+   "source": "Modern hatha practice",
+   "avoidIf": "Avoid with neck injury.",
+   "usedFor": [
+    "sandhivata",
+    "thyroid",
+    "mutrashtila",
+    "kashtartava",
+    "katigraha",
+    "gridhrasi"
+   ],
+   "status": "editorial"
+  },
+  {
+   "id": "makara",
+   "name": "Makarasana",
+   "english": "Crocodile pose",
+   "description": "Resting on the front with relaxed back muscles; eases back pain and breathing.",
+   "source": "Gheranda Samhita 2",
+   "avoidIf": "Suitable for most people.",
+   "usedFor": [
+    "kasa",
+    "sandhivata",
+    "tamaka",
+    "kashtartava",
+    "katigraha",
+    "gridhrasi",
+    "cervical"
+   ],
+   "status": "editorial"
+  },
+  {
+   "id": "suryanamaskara",
+   "name": "Surya Namaskara",
+   "english": "Sun salutation",
+   "description": "A flowing series of 12 postures; overall fitness, weight and metabolism.",
+   "source": "Traditional practice",
+   "avoidIf": "Avoid in pregnancy, high blood pressure, heart disease, hernia and back injury; go slowly.",
+   "usedFor": [
+    "madhumeha",
+    "vishada",
+    "thyroid",
+    "sthaulya",
+    "cholesterol",
+    "fattyliver"
+   ],
+   "status": "editorial"
+  },
+  {
+   "id": "mandukasana",
+   "name": "Mandukasana",
+   "english": "Frog pose",
+   "description": "Kneeling forward bend pressing fists into the abdomen; traditionally used for digestion and diabetes.",
+   "source": "Gheranda Samhita 2",
+   "avoidIf": "Avoid after abdominal surgery, with ulcers and knee problems.",
+   "usedFor": [
+    "madhumeha"
+   ],
+   "status": "editorial"
+  },
+  {
+   "id": "viparita",
+   "name": "Viparita Karani (legs up the wall)",
+   "english": "Inverted lake",
+   "description": "Legs resting up a wall; venous drainage, calm.",
+   "source": "Hatha Yoga Pradipika 3.78–81 (as a mudra)",
+   "avoidIf": "Avoid during periods, with glaucoma, high blood pressure and neck problems.",
+   "usedFor": [
+    "arsha",
+    "parikartika"
+   ],
+   "status": "editorial"
+  },
+  {
+   "id": "meditation",
+   "name": "Dhyana",
+   "english": "Meditation",
+   "description": "Sitting still and attending to the breath or a mantra; stress, mood and focus.",
+   "source": "Yoga Sutras 2.29, 3.2",
+   "avoidIf": "If meditation brings up distress, pause and seek guidance.",
+   "usedFor": [
+    "ekakushtha",
+    "vishada",
+    "hypertension",
+    "vicharchika"
+   ],
+   "status": "editorial"
+  },
+  {
+   "id": "trataka",
+   "name": "Trataka",
+   "english": "Steady gazing",
+   "description": "Gazing at a candle flame without blinking, then closing the eyes; HYP says it benefits the eyes.",
+   "source": "Hatha Yoga Pradipika 2.31–32",
+   "avoidIf": "Avoid in glaucoma, epilepsy and eye infection.",
+   "usedFor": [],
+   "status": "editorial"
+  },
+  {
+   "id": "simha",
+   "name": "Simhasana",
+   "english": "Lion pose",
+   "description": "Kneeling, mouth open, tongue out, exhaling with a roar; throat, voice and mouth.",
+   "source": "Hatha Yoga Pradipika 1.50–52",
+   "avoidIf": "Suitable for most people.",
+   "usedFor": [
+    "kasa",
+    "mukhapaka",
+    "dantaveshta"
+   ],
+   "status": "editorial"
+  },
+  {
+   "id": "gentle",
+   "name": "Gentle chair yoga",
+   "english": "Supported movement",
+   "description": "Seated stretches and breathing for people with limited mobility.",
+   "source": "Adapted practice",
+   "avoidIf": "Work only with a therapist after stroke or serious illness.",
+   "usedFor": [
+    "pakshaghata"
+   ],
+   "status": "editorial"
+  }
+ ]
+}
