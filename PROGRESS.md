@@ -81,3 +81,7 @@ Legend: [x] implemented and tested · [~] implemented, content draft or unverifi
 - Added API and repository unit tests; they run in `npm test`.
 - Added local editorial review queue exporter and workflow documentation. No medical records approved by automation.
 - Payment signature verification helper and tests added; checkout remains disabled.
+
+## Visual refinement increment
+- Added homepage quick links, photo-led medicinal plant atlas using existing credited photos, full-size photo links, image error handling, responsive card grids and larger touch targets.
+- Current registry contains 11 photographs; no new photograph identity or license was independently verified in this increment. Browser visual regression testing remains pending.
