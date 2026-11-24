@@ -9,9 +9,10 @@ export async function homeView() {
   const recent = store.get('recent', []).slice(0, 6);
   const plants = (await load('herbs')).items.filter(x=>x.images?.length).slice(0,8);
   return { title: 'Home', route: '#/', node: h('div', null,
-    h('section', { class: 'hero' }, h('h1', null, 'Ayurveda encyclopedia'),
+    h('section', { class: 'hero' }, h('h1', null, 'How can we help you today?'),
       h('p', { class: 'lead' }, 'Conditions, medicinal plants, formulations, therapies and the classical library, with warning signs, modern standard care and the strength of evidence set beside every traditional treatment.'),
       h('p', null, 'Choose a reading mode at the top: ', h('strong', null, 'Patient'), ' for plain guidance, ', h('strong', null, 'Doctor'), ' for classical frameworks, formulations and safety classes, ', h('strong', null, 'Student'), ' for study notes and self-tests. Search works in English, Sanskrit and Indian scripts.')),
+    h('div',{class:'grid tiles'},[['../health/','Understand your health','Modern medical resources'],['../clinics/','Find a doctor','Verified practitioner discovery'],['#/conditions','Explore Ayurveda','Conditions and safety'],['#/academy','Learn Ayurveda','Study and quizzes'],['../agri/','Grow medicinal plants','Farming and profitability'],['../trade/','Business and trade','Suppliers and procurement']].map(([href,label,desc])=>h('a',{class:'card tile',href},h('b',null,label),h('small',null,desc)))),
     h('div', { class: 'quicklinks' }, [['conditions','Explore conditions'],['herbs','Browse medicinal plants'],['academy','Study Ayurveda'],['tools','Explore wellness tools']].map(([id,label])=>h('a',{class:'btn',href:'#/'+id},label))),
     h('h2',null,'Explore the encyclopedia'),
     h('div', { class: 'grid tiles' }, MODULES.map((m, i) => h('a', { class: 'card tile', href: '#/' + m.id }, h('span', { class: 'stat' }, sets[i].items.length), h('b', null, m.label)))),
