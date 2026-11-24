@@ -6,7 +6,7 @@
   "scripts": {
     "migrate": "node tools/extract-legacy.mjs",
     "validate": "node tools/validate.mjs",
-    "test": "node tools/validate.mjs && node --test tests/*.test.mjs",
+    "test": "node tools/validate.mjs && node --test tests/*.test.mjs commerce/*.test.mjs",
     "test:browser": "python3 tests/browser_test.py",
     "serve": "python3 -m http.server 8000"
   },
