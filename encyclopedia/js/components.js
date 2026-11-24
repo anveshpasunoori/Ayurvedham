@@ -30,8 +30,9 @@ export const safetyBadge = (c) => { const s = SAFETY[c] || SAFETY.herbal; return
 export const EVIDENCE = { some: ['Some clinical evidence', 'ok'], limited: ['Limited clinical evidence', 'warn'], 'very-limited': ['Very limited clinical evidence', 'warn'] };
 export const evidenceBadge = (r) => { const e = EVIDENCE[r] || EVIDENCE['very-limited']; return h('span', { class: 'badge ' + e[1] }, e[0]); };
 
+let secN = 0;
 export function section(title, ...body) {
-  const id = slug(title);
+  const id = slug(title) || 'section-' + (++secN);
   return h('section', { 'aria-labelledby': id }, h('h2', { id }, title), ...body);
 }
 export const list = (items, cls = 'clean') => h('ul', { class: cls }, items.map((x) => h('li', null, x)));

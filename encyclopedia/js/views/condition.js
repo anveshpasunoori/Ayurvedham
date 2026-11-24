@@ -1,4 +1,5 @@
 import { h, link } from '../util.js';
+import { t } from '../i18n.js';
 import { loadAll } from '../store.js';
 import { state, crumbs, reviewBadge, reviewNotice, safetyBadge, evidenceBadge, section, list, panel, kvTable, table, cards, actions, modeNote, article, refList } from '../components.js';
 
@@ -25,14 +26,14 @@ export async function conditionView(id) {
   const yogaPr = (c.yoga?.practices || []).map((p) => Y.byId.get(p)).filter(Boolean);
   const body = [
     h('p', { class: 'lead' }, c.summary),
-    panel('red', 'Get medical help urgently if', list(c.redFlags)),
+    panel('red', t('urgent'), list(c.redFlags)),
     reviewNotice(c),
     h('p', { class: 'muted' }, h('strong', null, 'Naming note. '), c.mappingCaution),
   ];
 
   if (mode === 'patient') {
     body.push(
-      section('Symptoms', list(c.symptoms)),
+      section(t('symptoms'), list(c.symptoms)),
       section('What modern medicine advises', h('p', null, c.standardCare)),
       section('Diet and daily habits', h('div', { class: 'two' }, panel('', 'Favour (Pathya)', list(c.pathya)), panel('', 'Avoid (Apathya)', list(c.apathya)))),
       yogaPr.length ? section('Yoga and breathing', list(yogaPr.map((y) => [link('#/yoga/' + y.id, y.name), ` (${y.english})`])), c.yoga.caution ? h('p', { class: 'muted' }, c.yoga.caution) : null) : null,

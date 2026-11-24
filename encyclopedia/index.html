@@ -24,6 +24,8 @@
    <ul id="suggest" role="listbox" hidden></ul>
   </form>
   <div class="controls">
+   <label class="sr" for="lang">Language</label>
+   <select id="lang" title="Language"></select>
    <label class="sr" for="mode">Reading mode</label>
    <select id="mode" title="Reading mode">
     <option value="patient">Patient</option>
@@ -36,7 +38,8 @@
  </div>
  <nav class="mainnav" aria-label="Encyclopedia modules" id="mainnav"></nav>
 </header>
-<div class="notice" role="note">Educational reference, not a prescription. Never stop prescribed medicine. For chest pain, breathlessness, stroke signs, heavy bleeding or loss of consciousness, call emergency services now.</div>
+<div class="notice" role="note" id="notice">Educational reference, not a prescription. Never stop prescribed medicine. For chest pain, breathlessness, stroke signs, heavy bleeding or loss of consciousness, call emergency services now.</div>
+<div class="langnote" id="langnote" role="note" hidden></div>
 <main id="main" tabindex="-1"><p class="loading">Loading encyclopedia…</p></main>
 <footer class="foot">
  <p>Ayurvedham Encyclopedia · <a href="#/about">Editorial standards</a> · <a href="#/safety">Safety</a> · <a href="../index.html">Original reference</a> · <a href="../commerce/">Membership plans (preview)</a></p>

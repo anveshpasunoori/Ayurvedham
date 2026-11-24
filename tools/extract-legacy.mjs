@@ -139,6 +139,15 @@ try {
   }
 } catch (e) { if (e.code !== 'ENOENT') throw e; }
 
+// Regional names (hand-curated, unverified drafts) from data/regional-names.json.
+try {
+  const rn = JSON.parse(readFileSync(root + 'data/regional-names.json', 'utf8'));
+  for (const { id, ...names } of rn.items) {
+    const h = herbs.find((x) => x.id === id); if (!h) throw new Error('regional-names.json: unknown herb ' + id);
+    h.names.regional = names; h.names.regionalVerified = false;
+  }
+} catch (e) { if (e.code !== 'ENOENT') throw e; }
+
 // --- Formulations (derived from the medicine tables)
 const forms = [...formulations.values()].map((f) => ({ ...f, cautions: [...f.cautions], usedIn: [...new Set(f.usedIn)], combinedIn: [...f.combinedIn], aliases: [...f.aliases],
   herbs: herbs.filter((h) => h.formulations.includes(f.id)).map((h) => h.id),

@@ -8,7 +8,7 @@ let index = null;
 function aliasesFor(mod, x) {
   switch (mod.id) {
     case 'conditions': return [x.names.iast, x.names.sa, ...x.keywords];
-    case 'herbs': return [x.names.botanical, ...x.names.common, ...x.matchKeywords];
+    case 'herbs': return [x.names.botanical, ...x.names.common, ...x.matchKeywords, ...Object.values(x.names.regional || {})];
     case 'formulations': return [x.form, ...(x.aliases || [])];
     case 'therapies': return [x.english, x.category];
     case 'ailments': return x.keywords;

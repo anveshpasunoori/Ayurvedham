@@ -8,13 +8,23 @@ import { herbView, formulationView, therapyView, yogaView, ailmentView, textView
 import { listView } from './views/lists.js';
 import { homeView, searchView, safetyView, aboutView, savedView } from './views/pages.js';
 import { academyView } from './views/academy.js';
+import { LANGS, lang, setLang, t } from './i18n.js';
 import { toolsView } from './views/tools.js';
 
 const $ = (id) => document.getElementById(id);
 const main = $('main');
 const DETAIL = { learn: topicView, conditions: conditionView, herbs: herbView, formulations: formulationView, therapies: therapyView, yoga: yogaView, ailments: ailmentView, texts: textView, dictionary: termView, branches: branchView, centres: centreView };
 const PAGES = { '': homeView, search: (p) => searchView(p), safety: safetyView, about: aboutView, saved: savedView };
-const NAV = [['learn', 'Learn'], ['conditions', 'Conditions'], ['herbs', 'Plants'], ['formulations', 'Formulations'], ['therapies', 'Therapies'], ['ailments', 'Everyday'], ['yoga', 'Yoga'], ['branches', 'Branches'], ['texts', 'Library'], ['dictionary', 'Dictionary'], ['tools', 'Tools'], ['academy', 'Academy'], ['safety', 'Safety']];
+const NAV = ['learn', 'conditions', 'herbs', 'formulations', 'therapies', 'ailments', 'yoga', 'branches', 'texts', 'dictionary', 'tools', 'academy', 'safety'];
+const EN_NOTICE = 'Educational reference, not a prescription. Never stop prescribed medicine. For chest pain, breathlessness, stroke signs, heavy bleeding or loss of consciousness, call emergency services now.';
+function applyLang() {
+  document.documentElement.lang = lang;
+  $('mainnav').replaceChildren(...NAV.map((seg) => h('a', { href: '#/' + seg, 'data-seg': seg }, t(seg))));
+  [...$('mode').options].forEach((o) => { o.textContent = t(o.value); });
+  $('q').placeholder = t('search');
+  $('notice').replaceChildren(t('notice'), lang === 'en' ? '' : h('span', { class: 'en', lang: 'en' }, EN_NOTICE));
+  const ln = $('langnote'); ln.hidden = lang === 'en'; ln.textContent = lang === 'en' ? '' : `${t('unverified')} ${t('englishOnly')}`;
+}
 // Hashes used by the original reference and the first prototype, kept working.
 const LEGACY = { 'reading-evidence': '#/about', 'urgent-care': '#/safety', library: '#/texts', herbs: '#/herbs', everyday: '#/everyday', safety: '#/safety', centres: '#/centres', healers: '#/centres', az: '#/dictionary', medicines: '#/formulations', home: '#/', routine: '#/tools/routine', prevention: '#/learn/swasthavritta', origins: '#/texts', how: '#/learn/pathya-kalpana', finder: '#/tools/finder' };
 
@@ -57,7 +67,9 @@ async function route() {
 }
 
 function setupHeader() {
-  $('mainnav').append(...NAV.map(([seg, label]) => h('a', { href: '#/' + seg, 'data-seg': seg }, label)));
+  const ls = $('lang'); ls.append(...LANGS.map(([v, l]) => h('option', { value: v, lang: v, selected: v === lang || null }, l)));
+  ls.onchange = () => { setLang(ls.value); applyLang(); route(); };
+  applyLang();
   const mode = $('mode'); mode.value = state.mode;
   mode.onchange = () => { state.mode = mode.value; store.set('mode', mode.value); route(); };
   $('theme').onclick = () => {

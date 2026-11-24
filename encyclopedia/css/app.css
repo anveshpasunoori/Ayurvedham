@@ -10,7 +10,7 @@
 :root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
 *{box-sizing:border-box;min-width:0}
 html{scroll-padding-top:140px}
-body{margin:0;background:var(--bg);color:var(--ink);font:16.5px/1.6 system-ui,-apple-system,"Segoe UI","Noto Sans",sans-serif}
+body{margin:0;background:var(--bg);color:var(--ink);font:16.5px/1.6 system-ui,-apple-system,"Segoe UI","Noto Sans","Noto Sans Devanagari","Noto Sans Telugu","Noto Sans Tamil","Noto Sans Malayalam","Noto Sans Kannada","Nirmala UI","Kohinoor Telugu","Tamil Sangam MN","Malayalam Sangam MN","Kannada Sangam MN",sans-serif}
 a{color:var(--green2)}
 h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.15;margin:1.3em 0 .45em;text-wrap:balance}
 h1{font-size:clamp(28px,4.4vw,42px);margin-top:.2em}h2{font-size:clamp(22px,3vw,28px)}h3{font-size:19px}
@@ -97,3 +97,4 @@ dl.kv{display:grid;grid-template-columns:max-content 1fr;gap:6px 16px}dl.kv dt{f
 .field input,.field select{padding:9px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);min-height:44px}
 fieldset{border:1px solid var(--line);border-radius:10px;padding:10px 14px;margin:12px 0}legend{font-weight:600;padding:0 6px}
 .planner .two{gap:12px}
+.langnote{background:var(--bluebg);border-bottom:1px solid var(--line);font-size:14px;padding:6px 16px;text-align:center}.notice .en{display:block;font-size:13px;opacity:.85}

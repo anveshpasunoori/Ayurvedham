@@ -11,6 +11,8 @@ export async function herbView(id) {
   const route = '#/herbs/' + id;
   const head = [crumbs(['Medicinal plants', '#/herbs'], [x.names.sa]),
     h('h1', null, x.names.sa), h('div', { class: 'names' }, h('i', null, x.names.botanical), x.names.common.length ? h('span', null, x.names.common.join(' · ')) : null),
+    x.names.regional ? h('dl', { class: 'kv regional' }, Object.entries(x.names.regional).flatMap(([l, n]) => [h('dt', null, { hi: 'Hindi', te: 'Telugu', ta: 'Tamil', ml: 'Malayalam', kn: 'Kannada' }[l]), h('dd', { lang: l }, n)]),
+      h('dt', null, ''), h('dd', { class: 'muted' }, 'Regional names: draft, not yet verified by native speakers or the Pharmacopoeia.')) : null,
     h('div', { class: 'badges' }, reviewBadge(x.status), h('span', { class: 'badge' }, 'Part used: ' + x.partUsed)), actions(route, x.names.sa), modeNote()];
   const body = [
     x.images.length ? section('Identification photographs', h('div', { class: 'gallery' }, x.images.map(figure))) : panel('', null, h('p', { class: 'muted' }, 'No verified photograph yet. Images are added only with a confirmed species, author, licence and source.')),

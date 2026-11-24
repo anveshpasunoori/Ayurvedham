@@ -14,7 +14,15 @@
     "common": [
      "Winter cherry",
      "Asgandh"
-    ]
+    ],
+    "regional": {
+     "hi": "अश्वगंधा",
+     "te": "పెన్నేరు",
+     "ta": "அமுக்கரா",
+     "ml": "അമുക്കുരം",
+     "kn": "ಅಶ್ವಗಂಧ"
+    },
+    "regionalVerified": false
    },
    "partUsed": "Root",
    "rasa": "Tikta, Kashaya, Madhura",
@@ -75,7 +83,13 @@
     "botanical": "Bacopa monnieri",
     "common": [
      "Water hyssop"
-    ]
+    ],
+    "regional": {
+     "hi": "ब्राह्मी",
+     "ta": "நீர்ப்பிரமி",
+     "ml": "ബ്രഹ്മി"
+    },
+    "regionalVerified": false
    },
    "partUsed": "Whole plant",
    "rasa": "Tikta, Kashaya, Madhura",
@@ -129,7 +143,15 @@
     "botanical": "Tinospora cordifolia",
     "common": [
      "Giloy"
-    ]
+    ],
+    "regional": {
+     "hi": "गिलोय",
+     "te": "తిప్పతీగ",
+     "ta": "சீந்தில்",
+     "ml": "ചിറ്റമൃത്",
+     "kn": "ಅಮೃತಬಳ್ಳಿ"
+    },
+    "regionalVerified": false
    },
    "partUsed": "Stem",
    "rasa": "Tikta, Kashaya",
@@ -194,7 +216,15 @@
     "common": [
      "Turmeric",
      "Haldi"
-    ]
+    ],
+    "regional": {
+     "hi": "हल्दी",
+     "te": "పసుపు",
+     "ta": "மஞ்சள்",
+     "ml": "മഞ്ഞൾ",
+     "kn": "ಅರಿಶಿನ"
+    },
+    "regionalVerified": false
    },
    "partUsed": "Rhizome",
    "rasa": "Tikta, Katu",
@@ -253,7 +283,15 @@
     "common": [
      "Indian gooseberry",
      "Amla"
-    ]
+    ],
+    "regional": {
+     "hi": "आँवला",
+     "te": "ఉసిరి",
+     "ta": "நெல்லிக்காய்",
+     "ml": "നെല്ലിക്ക",
+     "kn": "ನೆಲ್ಲಿಕಾಯಿ"
+    },
+    "regionalVerified": false
    },
    "partUsed": "Fruit",
    "rasa": "Five tastes except salt; mainly sour",
@@ -340,7 +378,15 @@
     "common": [
      "Chebulic myrobalan",
      "Harad"
-    ]
+    ],
+    "regional": {
+     "hi": "हरड़",
+     "te": "కరక్కాయ",
+     "ta": "கடுக்காய்",
+     "ml": "കടുക്ക",
+     "kn": "ಅಳಲೆಕಾಯಿ"
+    },
+    "regionalVerified": false
    },
    "partUsed": "Fruit",
    "rasa": "Five tastes except salt; mainly astringent",
@@ -400,7 +446,22 @@
     "dantaveshta",
     "mukhapaka"
    ],
-   "images": [],
+   "images": [
+    {
+     "id": "img-terminalia-chebula-1",
+     "kind": "photograph",
+     "depicts": "Terminalia chebula (dried fruits)",
+     "identification": "commons-description",
+     "author": "Salil Kumar Mukherjee",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Haritaki_(Terminalia_chebula)_fruits.jpg",
+     "alt": "Dried, wrinkled brown Haritaki (Terminalia chebula) fruits",
+     "caption": "Dried Haritaki fruits, the part used, Kolkata.",
+     "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Haritaki_(Terminalia_chebula)_fruits.jpg?width=960",
+     "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Haritaki_(Terminalia_chebula)_fruits.jpg?width=480"
+    }
+   ],
    "review": {
     "status": "legacy-unreviewed",
     "reviewer": null,
@@ -417,7 +478,15 @@
     "common": [
      "Beleric myrobalan",
      "Baheda"
-    ]
+    ],
+    "regional": {
+     "hi": "बहेड़ा",
+     "te": "తానికాయ",
+     "ta": "தான்றிக்காய்",
+     "ml": "താന്നിക്ക",
+     "kn": "ತಾರೆಕಾಯಿ"
+    },
+    "regionalVerified": false
    },
    "partUsed": "Fruit",
    "rasa": "Kashaya",
@@ -476,7 +545,15 @@
     "botanical": "Piper longum",
     "common": [
      "Long pepper"
-    ]
+    ],
+    "regional": {
+     "hi": "पिप्पली",
+     "te": "పిప్పళ్ళు",
+     "ta": "திப்பிலி",
+     "ml": "തിപ്പലി",
+     "kn": "ಹಿಪ್ಪಲಿ"
+    },
+    "regionalVerified": false
    },
    "partUsed": "Fruit, root",
    "rasa": "Katu",
@@ -513,7 +590,22 @@
     "aruchi",
     "katigraha"
    ],
-   "images": [],
+   "images": [
+    {
+     "id": "img-piper-longum-1",
+     "kind": "photograph",
+     "depicts": "Piper longum (plant)",
+     "identification": "commons-description",
+     "author": "Delince",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Long_pepper_plant(Piper_longum).JPG",
+     "alt": "Long pepper (Piper longum) plant with heart-shaped leaves and slender fruit spikes",
+     "caption": "Pippali plant.",
+     "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Long_pepper_plant(Piper_longum).JPG?width=960",
+     "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Long_pepper_plant(Piper_longum).JPG?width=480"
+    }
+   ],
    "review": {
     "status": "legacy-unreviewed",
     "reviewer": null,
@@ -530,7 +622,15 @@
     "common": [
      "Dry ginger",
      "Saunth"
-    ]
+    ],
+    "regional": {
+     "hi": "सोंठ",
+     "te": "శొంఠి",
+     "ta": "சுக்கு",
+     "ml": "ചുക്ക്",
+     "kn": "ಶುಂಠಿ"
+    },
+    "regionalVerified": false
    },
    "partUsed": "Rhizome",
    "rasa": "Katu",
@@ -588,7 +688,15 @@
     "botanical": "Piper nigrum",
     "common": [
      "Black pepper"
-    ]
+    ],
+    "regional": {
+     "hi": "काली मिर्च",
+     "te": "మిరియాలు",
+     "ta": "மிளகு",
+     "ml": "കുരുമുളക്",
+     "kn": "ಮೆಣಸು"
+    },
+    "regionalVerified": false
    },
    "partUsed": "Fruit",
    "rasa": "Katu",
@@ -631,7 +739,15 @@
     "common": [
      "Liquorice",
      "Mulethi"
-    ]
+    ],
+    "regional": {
+     "hi": "मुलेठी",
+     "te": "అతిమధురం",
+     "ta": "அதிமதுரம்",
+     "ml": "ഇരട്ടിമധുരം",
+     "kn": "ಅತಿಮಧುರ"
+    },
+    "regionalVerified": false
    },
    "partUsed": "Root",
    "rasa": "Madhura",
@@ -672,7 +788,15 @@
     "botanical": "Asparagus racemosus",
     "common": [
      "Wild asparagus"
-    ]
+    ],
+    "regional": {
+     "hi": "शतावरी",
+     "te": "పిల్లిపీచర",
+     "ta": "தண்ணீர்விட்டான்",
+     "ml": "ശതാവരി",
+     "kn": "ಶತಾವರಿ"
+    },
+    "regionalVerified": false
    },
    "partUsed": "Root",
    "rasa": "Madhura, Tikta",
@@ -696,7 +820,22 @@
     "adhimantha",
     "fibromyalgia"
    ],
-   "images": [],
+   "images": [
+    {
+     "id": "img-asparagus-racemosus-1",
+     "kind": "photograph",
+     "depicts": "Asparagus racemosus",
+     "identification": "commons-description",
+     "author": "Dinesh Valke, Thane, India",
+     "license": "CC BY-SA 2.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Asparagus_racemosus_Willd._(5780788233).jpg",
+     "alt": "Shatavari (Asparagus racemosus) climbing plant with fine needle-like leaves",
+     "caption": "Shatavari plant.",
+     "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Asparagus_racemosus_Willd._(5780788233).jpg?width=960",
+     "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Asparagus_racemosus_Willd._(5780788233).jpg?width=480"
+    }
+   ],
    "review": {
     "status": "legacy-unreviewed",
     "reviewer": null,
@@ -713,7 +852,15 @@
     "common": [
      "Puncture vine",
      "Gokhru"
-    ]
+    ],
+    "regional": {
+     "hi": "गोखरू",
+     "te": "పల్లేరు",
+     "ta": "நெருஞ்சில்",
+     "ml": "ഞെരിഞ്ഞിൽ",
+     "kn": "ನೆಗ್ಗಿಲು"
+    },
+    "regionalVerified": false
    },
    "partUsed": "Fruit",
    "rasa": "Madhura",
@@ -755,7 +902,15 @@
     "common": [
      "Hogweed",
      "Gadahpurna"
-    ]
+    ],
+    "regional": {
+     "hi": "पुनर्नवा",
+     "te": "అటికమామిడి",
+     "ta": "மூக்கிரட்டை",
+     "ml": "തഴുതാമ",
+     "kn": "ಕೊಮ್ಮೆ"
+    },
+    "regionalVerified": false
    },
    "partUsed": "Root, whole plant",
    "rasa": "Madhura, Tikta, Kashaya",
@@ -904,7 +1059,15 @@
     "botanical": "Terminalia arjuna",
     "common": [
      "Arjun tree"
-    ]
+    ],
+    "regional": {
+     "hi": "अर्जुन",
+     "te": "తెల్లమద్ది",
+     "ta": "மருதம்",
+     "ml": "നീർമരുത്",
+     "kn": "ಬಿಳಿಮತ್ತಿ"
+    },
+    "regionalVerified": false
    },
    "partUsed": "Bark",
    "rasa": "Kashaya",
@@ -920,7 +1083,22 @@
    ],
    "formulations": [],
    "conditions": [],
-   "images": [],
+   "images": [
+    {
+     "id": "img-terminalia-arjuna-1",
+     "kind": "photograph",
+     "depicts": "Terminalia arjuna (bark)",
+     "identification": "commons-description",
+     "author": "S. K. Gawali",
+     "license": "Public domain",
+     "licenseUrl": "https://commons.wikimedia.org/wiki/File:Bark_of_Terminalia_arjuna.jpg",
+     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bark_of_Terminalia_arjuna.jpg",
+     "alt": "Smooth, pale, patchy bark of an Arjuna (Terminalia arjuna) tree trunk",
+     "caption": "Arjuna bark, the part used, Maharashtra.",
+     "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Bark_of_Terminalia_arjuna.jpg?width=960",
+     "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Bark_of_Terminalia_arjuna.jpg?width=480"
+    }
+   ],
    "review": {
     "status": "legacy-unreviewed",
     "reviewer": null,
@@ -936,7 +1114,15 @@
     "botanical": "Ocimum tenuiflorum",
     "common": [
      "Holy basil"
-    ]
+    ],
+    "regional": {
+     "hi": "तुलसी",
+     "te": "తులసి",
+     "ta": "துளசி",
+     "ml": "തുളസി",
+     "kn": "ತುಳಸಿ"
+    },
+    "regionalVerified": false
    },
    "partUsed": "Leaf",
    "rasa": "Katu, Tikta",
@@ -984,7 +1170,15 @@
     "common": [
      "Malabar nut",
      "Adulsa"
-    ]
+    ],
+    "regional": {
+     "hi": "अडूसा",
+     "te": "అడ్డసరం",
+     "ta": "ஆடாதோடை",
+     "ml": "ആടലോടകം",
+     "kn": "ಆಡುಸೋಗೆ"
+    },
+    "regionalVerified": false
    },
    "partUsed": "Leaf",
    "rasa": "Tikta, Kashaya",
@@ -1065,7 +1259,15 @@
     "botanical": "Azadirachta indica",
     "common": [
      "Neem"
-    ]
+    ],
+    "regional": {
+     "hi": "नीम",
+     "te": "వేప",
+     "ta": "வேம்பு",
+     "ml": "ആര്യവേപ്പ്",
+     "kn": "ಬೇವು"
+    },
+    "regionalVerified": false
    },
    "partUsed": "Leaf, bark",
    "rasa": "Tikta, Kashaya",
@@ -1253,7 +1455,15 @@
     "botanical": "Aegle marmelos",
     "common": [
      "Bael"
-    ]
+    ],
+    "regional": {
+     "hi": "बेल",
+     "te": "మారేడు",
+     "ta": "வில்வம்",
+     "ml": "കൂവളം",
+     "kn": "ಬಿಲ್ವ"
+    },
+    "regionalVerified": false
    },
    "partUsed": "Unripe fruit, root",
    "rasa": "Kashaya, Tikta",
@@ -1647,7 +1857,15 @@
     "botanical": "Ricinus communis",
     "common": [
      "Castor"
-    ]
+    ],
+    "regional": {
+     "hi": "अरंडी",
+     "te": "ఆముదం",
+     "ta": "ஆமணக்கு",
+     "ml": "ആവണക്ക്",
+     "kn": "ಹರಳು"
+    },
+    "regionalVerified": false
    },
    "partUsed": "Root, seed oil",
    "rasa": "Madhura, Katu, Kashaya",
@@ -1791,7 +2009,15 @@
     "botanical": "Trachyspermum ammi",
     "common": [
      "Ajwain"
-    ]
+    ],
+    "regional": {
+     "hi": "अजवाइन",
+     "te": "వాము",
+     "ta": "ஓமம்",
+     "ml": "അയമോദകം",
+     "kn": "ಓಮ"
+    },
+    "regionalVerified": false
    },
    "partUsed": "Fruit",
    "rasa": "Katu, Tikta",
@@ -1829,7 +2055,15 @@
     "common": [
      "Cumin",
      "Jeera"
-    ]
+    ],
+    "regional": {
+     "hi": "जीरा",
+     "te": "జీలకర్ర",
+     "ta": "சீரகம்",
+     "ml": "ജീരകം",
+     "kn": "ಜೀರಿಗೆ"
+    },
+    "regionalVerified": false
    },
    "partUsed": "Fruit",
    "rasa": "Katu",
@@ -1866,7 +2100,15 @@
     "common": [
      "Asafoetida",
      "Hing"
-    ]
+    ],
+    "regional": {
+     "hi": "हींग",
+     "te": "ఇంగువ",
+     "ta": "பெருங்காயம்",
+     "ml": "കായം",
+     "kn": "ಇಂಗು"
+    },
+    "regionalVerified": false
    },
    "partUsed": "Resin",
    "rasa": "Katu",
@@ -1907,7 +2149,15 @@
     "botanical": "Allium sativum",
     "common": [
      "Garlic"
-    ]
+    ],
+    "regional": {
+     "hi": "लहसुन",
+     "te": "వెల్లుల్లి",
+     "ta": "பூண்டு",
+     "ml": "വെളുത്തുള്ളി",
+     "kn": "ಬೆಳ್ಳುಳ್ಳಿ"
+    },
+    "regionalVerified": false
    },
    "partUsed": "Bulb",
    "rasa": "Five tastes except sour; mainly pungent",
@@ -1947,7 +2197,15 @@
     "common": [
      "Aloe",
      "Ghritkumari"
-    ]
+    ],
+    "regional": {
+     "hi": "घृतकुमारी",
+     "te": "కలబంద",
+     "ta": "சோற்றுக்கற்றாழை",
+     "ml": "കറ്റാർവാഴ",
+     "kn": "ಲೋಳೆಸರ"
+    },
+    "regionalVerified": false
    },
    "partUsed": "Leaf pulp",
    "rasa": "Tikta, Madhura",
@@ -2165,7 +2423,15 @@
     "botanical": "Plumbago zeylanica",
     "common": [
      "Ceylon leadwort"
-    ]
+    ],
+    "regional": {
+     "hi": "चित्रक",
+     "te": "చిత్రమూలం",
+     "ta": "சித்திரமூலம்",
+     "ml": "കൊടുവേലി",
+     "kn": "ಚಿತ್ರಮೂಲ"
+    },
+    "regionalVerified": false
    },
    "partUsed": "Root",
    "rasa": "Katu",
@@ -2282,7 +2548,15 @@
     "botanical": "Coriandrum sativum",
     "common": [
      "Coriander"
-    ]
+    ],
+    "regional": {
+     "hi": "धनिया",
+     "te": "ధనియాలు",
+     "ta": "கொத்தமல்லி",
+     "ml": "മല്ലി",
+     "kn": "ಕೊತ್ತಂಬರಿ"
+    },
+    "regionalVerified": false
    },
    "partUsed": "Fruit",
    "rasa": "Kashaya, Tikta, Madhura, Katu",
@@ -2318,7 +2592,15 @@
     "botanical": "Vitis vinifera",
     "common": [
      "Raisins"
-    ]
+    ],
+    "regional": {
+     "hi": "मुनक्का",
+     "te": "ద్రాక్ష",
+     "ta": "திராட்சை",
+     "ml": "മുന്തിരി",
+     "kn": "ದ್ರಾಕ್ಷಿ"
+    },
+    "regionalVerified": false
    },
    "partUsed": "Dried fruit",
    "rasa": "Madhura",
@@ -2365,7 +2647,15 @@
     "botanical": "Myristica fragrans",
     "common": [
      "Nutmeg"
-    ]
+    ],
+    "regional": {
+     "hi": "जायफल",
+     "te": "జాజికాయ",
+     "ta": "ஜாதிக்காய்",
+     "ml": "ജാതിക്ക",
+     "kn": "ಜಾಯಿಕಾಯಿ"
+    },
+    "regionalVerified": false
    },
    "partUsed": "Seed",
    "rasa": "Tikta, Katu",
@@ -2547,7 +2837,15 @@
     "botanical": "Vitex negundo",
     "common": [
      "Five-leaved chaste tree"
-    ]
+    ],
+    "regional": {
+     "hi": "निर्गुंडी",
+     "te": "వావిలి",
+     "ta": "நொச்சி",
+     "ml": "കരിനൊച്ചി",
+     "kn": "ಲಕ್ಕಿ"
+    },
+    "regionalVerified": false
    },
    "partUsed": "Leaf",
    "rasa": "Katu, Tikta",
