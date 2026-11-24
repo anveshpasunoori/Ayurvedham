@@ -92,7 +92,11 @@
    ],
    "medicines": [
     {
-     "formulation": "guduchyadi-nagaradi-parpataka-kwatha",
+     "formulations": [
+      "guduchyadi-kwatha",
+      "nagaradi-kwatha",
+      "parpataka-kwatha"
+     ],
      "name": "Guduchyadi / Nagaradi / Parpataka Kwatha",
      "form": "Decoction",
      "dose": "10–30 ml",
@@ -101,10 +105,13 @@
      "duration": "1 week",
      "safetyClass": "herbal",
      "caution": "Very bitter; may cause nausea. Guduchi may lower blood sugar.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": true
     },
     {
-     "formulation": "samshamani-vati",
+     "formulations": [
+      "samshamani-vati"
+     ],
      "name": "Samshamani Vati (Guduchi)",
      "form": "Tablet",
      "dose": "2 tablets (500 mg)",
@@ -113,10 +120,13 @@
      "duration": "1 week",
      "safetyClass": "herbal",
      "caution": "Rare reports of liver injury with Guduchi; stop if urine turns dark or eyes yellow.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "mahasudarshana-churna",
+     "formulations": [
+      "mahasudarshana-churna"
+     ],
      "name": "Mahasudarshana Churna (as infusion)",
      "form": "Powder infusion",
      "dose": "50 ml",
@@ -125,10 +135,13 @@
      "duration": "1 week",
      "safetyClass": "herbal",
      "caution": "Very bitter; can upset the stomach.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "godanti-bhasma",
+     "formulations": [
+      "godanti-bhasma"
+     ],
      "name": "Godanti Bhasma",
      "form": "Mineral ash (gypsum)",
      "dose": "125–250 mg",
@@ -137,10 +150,13 @@
      "duration": "1 week",
      "safetyClass": "herbo-mineral",
      "caution": "Calcium-based; generally mild, but buy only from licensed makers.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "jwaramurari-rasa",
+     "formulations": [
+      "jwaramurari-rasa"
+     ],
      "name": "Jwaramurari Rasa",
      "form": "Herbo-mineral",
      "dose": "125–250 mg",
@@ -149,10 +165,13 @@
      "duration": "1–2 weeks",
      "safetyClass": "herbo-mineral",
      "caution": "Contains processed mercury. Supervision only.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "amritarishta",
+     "formulations": [
+      "amritarishta"
+     ],
      "name": "Amritarishta",
      "form": "Fermented liquid",
      "dose": "10–20 ml",
@@ -161,10 +180,13 @@
      "duration": "As directed",
      "safetyClass": "herbal",
      "caution": "Contains self-generated alcohol (about 5–10%).",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     },
     {
-     "formulation": "sanjivani-vati",
+     "formulations": [
+      "sanjivani-vati"
+     ],
      "name": "Sanjivani Vati",
      "form": "Tablet",
      "dose": "1–2 tablets",
@@ -173,10 +195,13 @@
      "duration": "As directed",
      "safetyClass": "contains-toxic-herb",
      "caution": "Contains Bhallataka and Vatsanabha (aconite). Supervision only.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     },
     {
-     "formulation": "tribhuvanakirti-rasa",
+     "formulations": [
+      "tribhuvanakirti-rasa"
+     ],
      "name": "Tribhuvanakirti Rasa",
      "form": "Herbo-mineral",
      "dose": "125–250 mg",
@@ -185,7 +210,8 @@
      "duration": "As directed",
      "safetyClass": "herbo-mineral",
      "caution": "Contains mercury and aconite. Supervision only.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     }
    ],
    "pathya": [
@@ -282,7 +308,9 @@
    ],
    "medicines": [
     {
-     "formulation": "vasa-leaf-juice",
+     "formulations": [
+      "vasa-leaf-juice"
+     ],
      "name": "Vasa (Adulsa) leaf juice",
      "form": "Fresh juice",
      "dose": "20 ml",
@@ -291,10 +319,13 @@
      "duration": "About 1–2 weeks",
      "safetyClass": "herbal",
      "caution": "Avoid in pregnancy (may stimulate the uterus).",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "sitopaladi-yashtimadhu-churna",
+     "formulations": [
+      "sitopaladi-yashtimadhu-churna"
+     ],
      "name": "Sitopaladi + Yashtimadhu Churna",
      "form": "Powder",
      "dose": "2 g + 1 g",
@@ -303,10 +334,13 @@
      "duration": "About 1–2 weeks",
      "safetyClass": "herbal",
      "caution": "Liquorice raises blood pressure and lowers potassium with long use. Honey: never for babies under 1 year.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "bibhitaki-pippali-churna",
+     "formulations": [
+      "bibhitaki-pippali-churna"
+     ],
      "name": "Bibhitaki + Pippali Churna",
      "form": "Powder",
      "dose": "2 g + 1 g",
@@ -315,10 +349,13 @@
      "duration": "About 1–2 weeks",
      "safetyClass": "herbal",
      "caution": "Pippali is heating; may aggravate acidity.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "talishadi-churna",
+     "formulations": [
+      "talishadi-churna"
+     ],
      "name": "Talishadi Churna",
      "form": "Powder",
      "dose": "3 g",
@@ -327,10 +364,13 @@
      "duration": "About 1–2 weeks",
      "safetyClass": "herbal",
      "caution": "Contains sugar; diabetics take care.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "agastya-haritaki-avaleha",
+     "formulations": [
+      "agastya-haritaki-avaleha"
+     ],
      "name": "Agastya Haritaki Avaleha",
      "form": "Herbal jam",
      "dose": "6–12 g",
@@ -339,10 +379,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Mildly laxative; sugar-based.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "drakshadi-leha",
+     "formulations": [
+      "drakshadi-leha"
+     ],
      "name": "Drakshadi Leha (Pitta type)",
      "form": "Herbal jam",
      "dose": "6–12 g",
@@ -351,10 +394,14 @@
      "duration": "As directed",
      "safetyClass": "herbal",
      "caution": "Sugar-based.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "lavangadi-khadiradi-vati",
+     "formulations": [
+      "lavangadi-vati",
+      "khadiradi-vati"
+     ],
      "name": "Lavangadi / Khadiradi Vati",
      "form": "Lozenge",
      "dose": "1 lozenge",
@@ -363,10 +410,13 @@
      "duration": "As directed",
      "safetyClass": "herbal",
      "caution": "Generally safe.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": true
     },
     {
-     "formulation": "vyaghri-haritaki-avaleha",
+     "formulations": [
+      "vyaghri-haritaki-avaleha"
+     ],
      "name": "Vyaghri Haritaki Avaleha",
      "form": "Herbal jam",
      "dose": "10 g",
@@ -375,10 +425,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Mildly laxative; sugar-based.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     },
     {
-     "formulation": "draksharishta",
+     "formulations": [
+      "draksharishta"
+     ],
      "name": "Draksharishta",
      "form": "Fermented liquid",
      "dose": "10–20 ml",
@@ -387,10 +440,15 @@
      "duration": "2 weeks",
      "safetyClass": "herbal",
      "caution": "Contains self-generated alcohol.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     },
     {
-     "formulation": "kaphaketu-chandramrita-shwasakuthara-rasa",
+     "formulations": [
+      "kaphaketu-rasa",
+      "chandramrita-rasa",
+      "shwasakuthara-rasa"
+     ],
      "name": "Kaphaketu / Chandramrita / Shwasakuthara Rasa",
      "form": "Herbo-mineral",
      "dose": "125–250 mg",
@@ -399,7 +457,8 @@
      "duration": "1–2 weeks",
      "safetyClass": "herbo-mineral",
      "caution": "Contain mercury/sulphur, some aconite. Supervision only.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": true
     }
    ],
    "pathya": [
@@ -500,7 +559,9 @@
    ],
    "medicines": [
     {
-     "formulation": "avipattikara-churna",
+     "formulations": [
+      "avipattikara-churna"
+     ],
      "name": "Avipattikara Churna",
      "form": "Powder",
      "dose": "4–6 g",
@@ -509,10 +570,13 @@
      "duration": "1–2 weeks",
      "safetyClass": "herbal",
      "caution": "Contains trivrit (laxative), so loose stools are common. Contains sugar.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "amalaki-churna",
+     "formulations": [
+      "amalaki-churna"
+     ],
      "name": "Amalaki Churna",
      "form": "Powder",
      "dose": "2–3 g",
@@ -521,10 +585,13 @@
      "duration": "1–2 weeks",
      "safetyClass": "herbal",
      "caution": "Generally safe; may loosen stools.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "yashtimadhu-churna",
+     "formulations": [
+      "yashtimadhu-churna"
+     ],
      "name": "Yashtimadhu (liquorice) Churna",
      "form": "Powder",
      "dose": "2–3 g",
@@ -533,10 +600,13 @@
      "duration": "1–2 weeks",
      "safetyClass": "herbal",
      "caution": "Raises blood pressure, lowers potassium; avoid in hypertension, heart or kidney disease and pregnancy.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "kamadudha-rasa",
+     "formulations": [
+      "kamadudha-rasa"
+     ],
      "name": "Kamadudha Rasa",
      "form": "Herbo-mineral (mineral-based, no mercury)",
      "dose": "1–2 tablets (125–250 mg)",
@@ -545,10 +615,15 @@
      "duration": "1–2 weeks",
      "safetyClass": "herbo-mineral",
      "caution": "Coral, pearl and mineral based. Buy from licensed makers.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "shankha-pravala-kapardika-bhasma",
+     "formulations": [
+      "shankha-bhasma",
+      "pravala-bhasma",
+      "kapardika-bhasma"
+     ],
      "name": "Shankha / Pravala / Kapardika Bhasma",
      "form": "Calcium ash (conch, coral, cowrie)",
      "dose": "125–500 mg a day",
@@ -557,10 +632,13 @@
      "duration": "As directed",
      "safetyClass": "herbo-mineral",
      "caution": "Calcium-based antacids; check purity.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": true
     },
     {
-     "formulation": "sutashekhara-rasa",
+     "formulations": [
+      "sutashekhara-rasa"
+     ],
      "name": "Sutashekhara Rasa",
      "form": "Herbo-mineral",
      "dose": "125–250 mg",
@@ -569,10 +647,13 @@
      "duration": "As directed",
      "safetyClass": "herbo-mineral",
      "caution": "Contains mercury. Supervision only.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     },
     {
-     "formulation": "patoladi-kwatha",
+     "formulations": [
+      "patoladi-kwatha"
+     ],
      "name": "Patoladi Kwatha",
      "form": "Decoction",
      "dose": "10–15 ml",
@@ -581,7 +662,8 @@
      "duration": "As directed",
      "safetyClass": "herbal",
      "caution": "Bitter; may cause nausea.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     }
    ],
    "pathya": [
@@ -683,7 +765,9 @@
    ],
    "medicines": [
     {
-     "formulation": "shunthi-churna",
+     "formulations": [
+      "shunthi-churna"
+     ],
      "name": "Shunthi (dry ginger) Churna",
      "form": "Powder",
      "dose": "1–2 g",
@@ -692,10 +776,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Heating; may cause acidity.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "ajmodadi-churna",
+     "formulations": [
+      "ajmodadi-churna"
+     ],
      "name": "Ajmodadi Churna",
      "form": "Powder",
      "dose": "2–3 g",
@@ -704,10 +791,14 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Heating; avoid in acidity and pregnancy.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "amritadi-dashamoola-kwatha",
+     "formulations": [
+      "amritadi-kwatha",
+      "dashamoola-kwatha"
+     ],
      "name": "Amritadi / Dashamoola Kwatha",
      "form": "Decoction",
      "dose": "12–24 ml",
@@ -716,10 +807,14 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Generally well tolerated.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": true
     },
     {
-     "formulation": "amapachana-gomutra-haritaki-vati",
+     "formulations": [
+      "amapachana-vati",
+      "gomutra-haritaki-vati"
+     ],
      "name": "Amapachana / Gomutra Haritaki Vati",
      "form": "Tablet",
      "dose": "1–2 tablets",
@@ -728,10 +823,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Haritaki is laxative.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": true
     },
     {
-     "formulation": "eranda-taila",
+     "formulations": [
+      "eranda-taila"
+     ],
      "name": "Eranda Taila (castor oil)",
      "form": "Oil",
      "dose": "15–30 ml",
@@ -740,10 +838,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Strong laxative: cramps, diarrhoea. Avoid in pregnancy.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "simhanada-guggulu",
+     "formulations": [
+      "simhanada-guggulu"
+     ],
      "name": "Simhanada Guggulu",
      "form": "Tablet",
      "dose": "1–2 tablets",
@@ -752,10 +853,14 @@
      "duration": "As directed",
      "safetyClass": "herbal",
      "caution": "Guggulu can cause stomach upset or rash, and may interact with thyroid and blood-thinning drugs. Avoid in pregnancy.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     },
     {
-     "formulation": "rasnapanchaka-rasnasaptaka-kwatha",
+     "formulations": [
+      "rasnapanchaka-kwatha",
+      "rasnasaptaka-kwatha"
+     ],
      "name": "Rasnapanchaka / Rasnasaptaka Kwatha",
      "form": "Decoction",
      "dose": "12–24 ml",
@@ -764,10 +869,13 @@
      "duration": "As directed",
      "safetyClass": "herbal",
      "caution": "Generally well tolerated.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": true
     },
     {
-     "formulation": "agnitundi-vati",
+     "formulations": [
+      "agnitundi-vati"
+     ],
      "name": "Agnitundi Vati",
      "form": "Tablet",
      "dose": "1–2 tablets",
@@ -776,10 +884,13 @@
      "duration": "As directed",
      "safetyClass": "contains-toxic-herb",
      "caution": "Contains nux vomica (strychnine). Supervision only.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     },
     {
-     "formulation": "amavatari-rasa",
+     "formulations": [
+      "amavatari-rasa"
+     ],
      "name": "Amavatari Rasa",
      "form": "Herbo-mineral",
      "dose": "1–2 tablets",
@@ -788,7 +899,8 @@
      "duration": "As directed",
      "safetyClass": "herbo-mineral",
      "caution": "Contains mercury and sulphur. Supervision only.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     }
    ],
    "pathya": [
@@ -887,7 +999,9 @@
    ],
    "medicines": [
     {
-     "formulation": "ashwagandha-churna",
+     "formulations": [
+      "ashwagandha-churna"
+     ],
      "name": "Ashwagandha Churna",
      "form": "Powder",
      "dose": "3–5 g",
@@ -896,10 +1010,13 @@
      "duration": "2–3 months",
      "safetyClass": "herbal",
      "caution": "Rare liver injury reported; may affect thyroid levels; avoid in pregnancy.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "yogaraja-guggulu",
+     "formulations": [
+      "yogaraja-guggulu"
+     ],
      "name": "Yogaraja Guggulu",
      "form": "Tablet",
      "dose": "1–2 tablets (500 mg)",
@@ -908,10 +1025,14 @@
      "duration": "15 days–1 month",
      "safetyClass": "herbal",
      "caution": "Stomach upset, rash; interactions with thyroid and blood-thinning drugs; avoid in pregnancy.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "rasnadi-dashamula-kwatha",
+     "formulations": [
+      "rasnadi-kwatha",
+      "dashamoola-kwatha"
+     ],
      "name": "Rasnadi / Dashamula Kwatha",
      "form": "Decoction",
      "dose": "30–40 ml",
@@ -920,10 +1041,13 @@
      "duration": "15 days–1 month",
      "safetyClass": "herbal",
      "caution": "Generally well tolerated.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": true
     },
     {
-     "formulation": "shunthi-haritaki-churna",
+     "formulations": [
+      "shunthi-haritaki-churna"
+     ],
      "name": "Shunthi-Haritaki Churna",
      "form": "Powder",
      "dose": "3–5 g",
@@ -932,10 +1056,13 @@
      "duration": "1 month",
      "safetyClass": "herbal",
      "caution": "Mildly laxative; heating.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "shuddha-vishatinduka-churna",
+     "formulations": [
+      "shuddha-vishatinduka-churna"
+     ],
      "name": "Shuddha Vishatinduka Churna",
      "form": "Powder",
      "dose": "250 mg",
@@ -944,10 +1071,14 @@
      "duration": "2 weeks max",
      "safetyClass": "contains-toxic-herb",
      "caution": "Nux vomica (strychnine). Overdose causes spasms and can be fatal. Specialist only.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "kaishora-maha-yogaraja-guggulu",
+     "formulations": [
+      "kaishora-guggulu",
+      "maha-yogaraja-guggulu"
+     ],
      "name": "Kaishora / Maha Yogaraja Guggulu",
      "form": "Tablet",
      "dose": "500 mg–1 g",
@@ -956,10 +1087,14 @@
      "duration": "15 days–1 month",
      "safetyClass": "herbo-mineral",
      "caution": "Maha Yogaraja contains mineral bhasmas. Guggulu cautions apply.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": true
     },
     {
-     "formulation": "dashamoolarishta-ashwagandharishta",
+     "formulations": [
+      "dashamoolarishta",
+      "ashwagandharishta"
+     ],
      "name": "Dashamoolarishta / Ashwagandharishta",
      "form": "Fermented liquid",
      "dose": "15–30 ml",
@@ -968,10 +1103,13 @@
      "duration": "1 month",
      "safetyClass": "herbal",
      "caution": "Contain self-generated alcohol.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": true
     },
     {
-     "formulation": "mahanarayana-taila",
+     "formulations": [
+      "mahanarayana-taila"
+     ],
      "name": "Mahanarayana Taila (external)",
      "form": "Oil",
      "dose": "For massage",
@@ -980,7 +1118,8 @@
      "duration": "As directed",
      "safetyClass": "herbal",
      "caution": "External only.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     }
    ],
    "pathya": [
@@ -1079,7 +1218,9 @@
    ],
    "medicines": [
     {
-     "formulation": "nisha-amalaki",
+     "formulations": [
+      "nisha-amalaki"
+     ],
      "name": "Nisha-Amalaki (turmeric + amla)",
      "form": "Powder",
      "dose": "6 g",
@@ -1088,10 +1229,14 @@
      "duration": "Long-term with monitoring",
      "safetyClass": "herbal",
      "caution": "Turmeric may interact with blood thinners.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "vijayasaradi-phalatrikadi-kwatha",
+     "formulations": [
+      "vijayasaradi-kwatha",
+      "phalatrikadi-kwatha"
+     ],
      "name": "Vijayasaradi / Phalatrikadi Kwatha",
      "form": "Decoction",
      "dose": "10–15 ml",
@@ -1100,10 +1245,13 @@
      "duration": "Long-term with monitoring",
      "safetyClass": "herbal",
      "caution": "Can lower sugar further alongside other drugs.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": true
     },
     {
-     "formulation": "mamajjaka-ghana-vati",
+     "formulations": [
+      "mamajjaka-ghana-vati"
+     ],
      "name": "Mamajjaka Ghana Vati",
      "form": "Tablet",
      "dose": "2–3 tablets",
@@ -1112,10 +1260,13 @@
      "duration": "Long-term with monitoring",
      "safetyClass": "herbal",
      "caution": "Risk of low sugar with insulin or sulfonylureas.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "triphala",
+     "formulations": [
+      "triphala"
+     ],
      "name": "Triphala",
      "form": "Powder / tablet",
      "dose": "3–6 g / 2–3 tablets",
@@ -1124,10 +1275,13 @@
      "duration": "Long-term with monitoring",
      "safetyClass": "herbal",
      "caution": "Loose stools.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "gokshuradi-guggulu",
+     "formulations": [
+      "gokshuradi-guggulu"
+     ],
      "name": "Gokshuradi Guggulu",
      "form": "Tablet",
      "dose": "2–3 tablets",
@@ -1136,10 +1290,13 @@
      "duration": "As directed",
      "safetyClass": "herbal",
      "caution": "Guggulu cautions; used when there is urinary infection.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "chandraprabha-vati",
+     "formulations": [
+      "chandraprabha-vati"
+     ],
      "name": "Chandraprabha Vati",
      "form": "Tablet",
      "dose": "2–3 tablets",
@@ -1148,10 +1305,13 @@
      "duration": "As directed",
      "safetyClass": "herbo-mineral",
      "caution": "Contains shilajit and small amounts of mineral; used in kidney involvement.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     },
     {
-     "formulation": "vasanta-kusumakara-rasa",
+     "formulations": [
+      "vasanta-kusumakara-rasa"
+     ],
      "name": "Vasanta Kusumakara Rasa",
      "form": "Herbo-mineral",
      "dose": "125–250 mg",
@@ -1160,10 +1320,14 @@
      "duration": "As directed",
      "safetyClass": "herbo-mineral",
      "caution": "Contains gold, mercury and other metals; for neuropathy. Supervision only.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     },
     {
-     "formulation": "vanga-trivanga-bhasma",
+     "formulations": [
+      "vanga-bhasma",
+      "trivanga-bhasma"
+     ],
      "name": "Vanga / Trivanga Bhasma",
      "form": "Metal ash (tin, lead, zinc)",
      "dose": "125–250 mg",
@@ -1172,7 +1336,8 @@
      "duration": "As directed",
      "safetyClass": "herbo-mineral",
      "caution": "Trivanga contains lead. Supervision only; kidney monitoring.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": true
     }
    ],
    "pathya": [
@@ -1273,7 +1438,9 @@
    ],
    "medicines": [
     {
-     "formulation": "triphala-churna",
+     "formulations": [
+      "triphala-churna"
+     ],
      "name": "Triphala Churna",
      "form": "Powder",
      "dose": "2–4 g",
@@ -1282,10 +1449,13 @@
      "duration": "1–2 weeks",
      "safetyClass": "herbal",
      "caution": "Loose stools.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "haritaki-churna",
+     "formulations": [
+      "haritaki-churna"
+     ],
      "name": "Haritaki Churna",
      "form": "Powder",
      "dose": "2–4 g",
@@ -1294,10 +1464,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Laxative; avoid in pregnancy.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "draksha",
+     "formulations": [
+      "draksha"
+     ],
      "name": "Draksha (raisins)",
      "form": "Dried fruit",
      "dose": "10–20 g",
@@ -1306,10 +1479,14 @@
      "duration": "1–2 weeks",
      "safetyClass": "herbal",
      "caution": "Safe; sugar content.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "abhayarishta-takrarishta",
+     "formulations": [
+      "abhayarishta",
+      "takrarishta"
+     ],
      "name": "Abhayarishta / Takrarishta",
      "form": "Fermented liquid",
      "dose": "10–20 ml",
@@ -1318,10 +1495,13 @@
      "duration": "1–2 weeks",
      "safetyClass": "herbal",
      "caution": "Contain self-generated alcohol.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": true
     },
     {
-     "formulation": "surana-vataka",
+     "formulations": [
+      "surana-vataka"
+     ],
      "name": "Surana Vataka",
      "form": "Tablet",
      "dose": "500 mg",
@@ -1330,10 +1510,13 @@
      "duration": "1–2 weeks",
      "safetyClass": "herbal",
      "caution": "Generally safe.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "sitz-bath-with-triphala-or-panchavalkala-decoction",
+     "formulations": [
+      "sitz-bath-with-triphala-or-panchavalkala-decoction"
+     ],
      "name": "Sitz bath with Triphala or Panchavalkala decoction",
      "form": "Local",
      "dose": "Sit in warm decoction 10–15 min",
@@ -1342,10 +1525,13 @@
      "duration": "1–2 weeks",
      "safetyClass": "herbal",
      "caution": "External; use warm, not hot.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "jatyadi-taila",
+     "formulations": [
+      "jatyadi-taila"
+     ],
      "name": "Jatyadi Taila (local)",
      "form": "Oil",
      "dose": "Apply locally",
@@ -1354,10 +1540,13 @@
      "duration": "As directed",
      "safetyClass": "herbal",
      "caution": "External only.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "kankayana-vati",
+     "formulations": [
+      "kankayana-vati"
+     ],
      "name": "Kankayana Vati",
      "form": "Tablet",
      "dose": "1–2 tablets",
@@ -1366,10 +1555,13 @@
      "duration": "1–2 weeks",
      "safetyClass": "herbal",
      "caution": "Contains bhallataka in some versions. Check label.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     },
     {
-     "formulation": "arshakuthara-rasa",
+     "formulations": [
+      "arshakuthara-rasa"
+     ],
      "name": "Arshakuthara Rasa",
      "form": "Herbo-mineral",
      "dose": "1–2 tablets",
@@ -1378,7 +1570,8 @@
      "duration": "1–2 weeks",
      "safetyClass": "herbo-mineral",
      "caution": "Contains mercury. Supervision only.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     }
    ],
    "pathya": [
@@ -1475,7 +1668,13 @@
    ],
    "medicines": [
     {
-     "formulation": "guduchi-manjishtha-khadira-haridra-sariva-churna",
+     "formulations": [
+      "guduchi-churna",
+      "manjishtha-churna",
+      "khadira-churna",
+      "haridra-churna",
+      "sariva-churna"
+     ],
      "name": "Guduchi / Manjishtha / Khadira / Haridra / Sariva Churna",
      "form": "Powder",
      "dose": "3–6 g",
@@ -1484,10 +1683,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Choose 2 or more by dosha; Guduchi has rare liver-injury reports.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": true
     },
     {
-     "formulation": "manjishthadi-kwatha",
+     "formulations": [
+      "manjishthadi-kwatha"
+     ],
      "name": "Manjishthadi Kwatha",
      "form": "Decoction",
      "dose": "20–40 ml",
@@ -1496,10 +1698,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Generally well tolerated.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "mahatiktaka-kwatha",
+     "formulations": [
+      "mahatiktaka-kwatha"
+     ],
      "name": "Mahatiktaka Kwatha",
      "form": "Decoction",
      "dose": "20–40 ml",
@@ -1508,10 +1713,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Very bitter.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "panchatiktaka-ghrita",
+     "formulations": [
+      "panchatiktaka-ghrita"
+     ],
      "name": "Panchatiktaka Ghrita",
      "form": "Medicated ghee",
      "dose": "15 ml",
@@ -1520,10 +1728,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "High fat; caution with high cholesterol or gallstones.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "kaishora-guggulu",
+     "formulations": [
+      "kaishora-guggulu"
+     ],
      "name": "Kaishora Guggulu",
      "form": "Tablet",
      "dose": "1–2 tablets",
@@ -1532,10 +1743,15 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Guggulu cautions.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "karanja-jatyadi-mahamarichadi-taila",
+     "formulations": [
+      "karanja-taila",
+      "jatyadi-taila",
+      "mahamarichadi-taila"
+     ],
      "name": "Karanja / Jatyadi / Mahamarichadi Taila",
      "form": "Oil (external)",
      "dose": "Apply to plaques",
@@ -1544,10 +1760,14 @@
      "duration": "As directed",
      "safetyClass": "herbal",
      "caution": "External; test a small area first.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": true
     },
     {
-     "formulation": "khadirarishta-aragvadharishta",
+     "formulations": [
+      "khadirarishta",
+      "aragvadharishta"
+     ],
      "name": "Khadirarishta / Aragvadharishta",
      "form": "Fermented liquid",
      "dose": "10–20 ml",
@@ -1556,10 +1776,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Contain self-generated alcohol, which can itself worsen psoriasis.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": true
     },
     {
-     "formulation": "gandhaka-rasayana",
+     "formulations": [
+      "gandhaka-rasayana"
+     ],
      "name": "Gandhaka Rasayana",
      "form": "Purified sulphur",
      "dose": "125–250 mg",
@@ -1568,10 +1791,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbo-mineral",
      "caution": "Sulphur-based; supervision.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     },
     {
-     "formulation": "arogyavardhini-vati",
+     "formulations": [
+      "arogyavardhini-vati"
+     ],
      "name": "Arogyavardhini Vati",
      "form": "Herbo-mineral",
      "dose": "500 mg–1 g",
@@ -1580,7 +1806,8 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbo-mineral",
      "caution": "Contains mercury and copper. Supervision only.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     }
    ],
    "pathya": [
@@ -1675,7 +1902,9 @@
    ],
    "medicines": [
     {
-     "formulation": "ashwagandhadi-churna",
+     "formulations": [
+      "ashwagandhadi-churna"
+     ],
      "name": "Ashwagandhadi Churna",
      "form": "Powder",
      "dose": "3–6 g",
@@ -1684,10 +1913,13 @@
      "duration": "15 days–1 month",
      "safetyClass": "herbal",
      "caution": "Rare liver injury; avoid in pregnancy and hyperthyroidism.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "jatiphala-churna",
+     "formulations": [
+      "jatiphala-churna"
+     ],
      "name": "Jatiphala (nutmeg) Churna",
      "form": "Powder",
      "dose": "1–2 g",
@@ -1696,10 +1928,13 @@
      "duration": "15 days–1 month",
      "safetyClass": "herbal",
      "caution": "Do not exceed dose: above about 5 g nutmeg causes palpitations, confusion and hallucinations.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "tagara-churna",
+     "formulations": [
+      "tagara-churna"
+     ],
      "name": "Tagara Churna",
      "form": "Powder",
      "dose": "1–3 g",
@@ -1708,10 +1943,13 @@
      "duration": "15 days–1 month",
      "safetyClass": "herbal",
      "caution": "Sedating (valerian family); avoid with alcohol or sleeping pills.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "saraswata-churna",
+     "formulations": [
+      "saraswata-churna"
+     ],
      "name": "Saraswata Churna",
      "form": "Powder",
      "dose": "3–5 g",
@@ -1720,10 +1958,13 @@
      "duration": "15 days–1 month",
      "safetyClass": "herbal",
      "caution": "Contains vacha. Short-term only.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "sarpagandha-ghana-vati",
+     "formulations": [
+      "sarpagandha-ghana-vati"
+     ],
      "name": "Sarpagandha Ghana Vati",
      "form": "Tablet",
      "dose": "1–2 tablets (500 mg)",
@@ -1732,10 +1973,13 @@
      "duration": "15 days–1 month",
      "safetyClass": "herbal",
      "caution": "Contains reserpine: lowers blood pressure, can cause depression, stuffy nose, stomach ulcer. Avoid if depressed, pregnant or on BP drugs.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "saraswatarishta",
+     "formulations": [
+      "saraswatarishta"
+     ],
      "name": "Saraswatarishta",
      "form": "Fermented liquid",
      "dose": "10–15 ml",
@@ -1744,10 +1988,13 @@
      "duration": "15–30 days",
      "safetyClass": "herbal",
      "caution": "Contains self-generated alcohol.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     },
     {
-     "formulation": "mamsyadi-kwatha",
+     "formulations": [
+      "mamsyadi-kwatha"
+     ],
      "name": "Mamsyadi Kwatha",
      "form": "Decoction",
      "dose": "20–40 ml",
@@ -1756,10 +2003,13 @@
      "duration": "15–30 days",
      "safetyClass": "herbal",
      "caution": "Jatamansi is sedating.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     },
     {
-     "formulation": "head-and-foot-oil-massage",
+     "formulations": [
+      "head-and-foot-oil-massage"
+     ],
      "name": "Head and foot oil massage (Shiro / Pada Abhyanga)",
      "form": "External",
      "dose": "Warm Ksheerabala or Chandanadi taila",
@@ -1768,7 +2018,8 @@
      "duration": "Ongoing",
      "safetyClass": "herbal",
      "caution": "Safe.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     }
    ],
    "pathya": [
@@ -1867,7 +2118,9 @@
    ],
    "medicines": [
     {
-     "formulation": "brahmi-churna",
+     "formulations": [
+      "brahmi-churna"
+     ],
      "name": "Brahmi Churna",
      "form": "Powder",
      "dose": "3–6 g",
@@ -1876,10 +2129,13 @@
      "duration": "4–8 weeks",
      "safetyClass": "herbal",
      "caution": "Stomach upset; may slow heart rate; may interact with thyroid drugs.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "ashwagandha-churna",
+     "formulations": [
+      "ashwagandha-churna"
+     ],
      "name": "Ashwagandha Churna",
      "form": "Powder",
      "dose": "3–6 g",
@@ -1888,10 +2144,13 @@
      "duration": "4–8 weeks",
      "safetyClass": "herbal",
      "caution": "Rare liver injury; avoid in pregnancy and hyperthyroidism.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "shankhapushpi-churna",
+     "formulations": [
+      "shankhapushpi-churna"
+     ],
      "name": "Shankhapushpi Churna",
      "form": "Powder",
      "dose": "3–6 g",
@@ -1900,10 +2159,13 @@
      "duration": "4–8 weeks",
      "safetyClass": "herbal",
      "caution": "May lower blood pressure; sedating.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "kushmanda-juice",
+     "formulations": [
+      "kushmanda-juice"
+     ],
      "name": "Kushmanda (ash gourd) juice",
      "form": "Fresh juice",
      "dose": "50 ml",
@@ -1912,10 +2174,13 @@
      "duration": "1 month",
      "safetyClass": "herbal",
      "caution": "Safe; cooling.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "saraswatarishta",
+     "formulations": [
+      "saraswatarishta"
+     ],
      "name": "Saraswatarishta",
      "form": "Fermented liquid",
      "dose": "10–20 ml",
@@ -1924,10 +2189,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Contains self-generated alcohol; avoid if alcohol is a concern.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "vacha-churna",
+     "formulations": [
+      "vacha-churna"
+     ],
      "name": "Vacha Churna",
      "form": "Powder",
      "dose": "1–2 g",
@@ -1936,10 +2204,15 @@
      "duration": "4–8 weeks max",
      "safetyClass": "herbal",
      "caution": "Contains beta-asarone (toxic in animal studies); short-term only, never in pregnancy or children.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "brahmi-kalyanaka-panchagavya-ghrita",
+     "formulations": [
+      "brahmi-ghrita",
+      "kalyanaka-ghrita",
+      "panchagavya-ghrita"
+     ],
      "name": "Brahmi / Kalyanaka / Panchagavya Ghrita",
      "form": "Medicated ghee",
      "dose": "10–30 ml",
@@ -1948,10 +2221,13 @@
      "duration": "1 month",
      "safetyClass": "herbal",
      "caution": "High fat; caution with cholesterol or gallstones.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": true
     },
     {
-     "formulation": "unmadagaja-keshari-rasa",
+     "formulations": [
+      "unmadagaja-keshari-rasa"
+     ],
      "name": "Unmadagaja Keshari Rasa",
      "form": "Herbo-mineral",
      "dose": "1–2 tablets (250–500 mg)",
@@ -1960,7 +2236,8 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbo-mineral",
      "caution": "Contains mercury. Supervision only.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     }
    ],
    "pathya": [
@@ -2060,7 +2337,9 @@
    ],
    "medicines": [
     {
-     "formulation": "sitopaladi-churna",
+     "formulations": [
+      "sitopaladi-churna"
+     ],
      "name": "Sitopaladi Churna",
      "form": "Powder",
      "dose": "2–3 g",
@@ -2069,10 +2348,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Contains sugar.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "talishadi-churna",
+     "formulations": [
+      "talishadi-churna"
+     ],
      "name": "Talishadi Churna",
      "form": "Powder",
      "dose": "2–3 g",
@@ -2081,10 +2363,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Contains sugar.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "trikatu-churna",
+     "formulations": [
+      "trikatu-churna"
+     ],
      "name": "Trikatu Churna",
      "form": "Powder",
      "dose": "2–3 g",
@@ -2093,10 +2378,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Very heating; avoid in acidity, ulcers, pregnancy.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "vyoshadi-vati",
+     "formulations": [
+      "vyoshadi-vati"
+     ],
      "name": "Vyoshadi Vati",
      "form": "Tablet",
      "dose": "2 tablets",
@@ -2105,10 +2393,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Heating.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "lavangadi-vati",
+     "formulations": [
+      "lavangadi-vati"
+     ],
      "name": "Lavangadi Vati",
      "form": "Lozenge",
      "dose": "1 lozenge",
@@ -2117,10 +2408,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Generally safe.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "haridra-khanda",
+     "formulations": [
+      "haridra-khanda"
+     ],
      "name": "Haridra Khanda (allergic rhinitis)",
      "form": "Granules",
      "dose": "6 g",
@@ -2129,10 +2423,13 @@
      "duration": "2 months",
      "safetyClass": "herbal",
      "caution": "Contains sugar; turmeric interacts with blood thinners.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "chitraka-haritaki-avaleha",
+     "formulations": [
+      "chitraka-haritaki-avaleha"
+     ],
      "name": "Chitraka Haritaki Avaleha",
      "form": "Herbal jam",
      "dose": "5–10 g",
@@ -2141,10 +2438,14 @@
      "duration": "1 month",
      "safetyClass": "herbal",
      "caution": "Mildly laxative; avoid in pregnancy (chitraka).",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "naradiya-lakshmivilasa-rasa-abhraka-bhasma",
+     "formulations": [
+      "naradiya-lakshmivilasa-rasa",
+      "abhraka-bhasma"
+     ],
      "name": "Naradiya Lakshmivilasa Rasa / Abhraka Bhasma",
      "form": "Herbo-mineral",
      "dose": "125–250 mg",
@@ -2153,7 +2454,8 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbo-mineral",
      "caution": "Contain mercury or mica ash. Supervision only.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": true
     }
    ],
    "pathya": [
@@ -2250,7 +2552,9 @@
    ],
    "medicines": [
     {
-     "formulation": "pathyadi-kwatha",
+     "formulations": [
+      "pathyadi-kwatha"
+     ],
      "name": "Pathyadi Kwatha",
      "form": "Decoction",
      "dose": "20 ml",
@@ -2259,10 +2563,13 @@
      "duration": "5 days",
      "safetyClass": "herbal",
      "caution": "Bitter; generally well tolerated.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "ghee-nasal-drops",
+     "formulations": [
+      "ghee-nasal-drops"
+     ],
      "name": "Ghee nasal drops (Go Ghrita Nasya)",
      "form": "Lukewarm cow ghee",
      "dose": "3 drops each nostril",
@@ -2271,10 +2578,13 @@
      "duration": "5 days",
      "safetyClass": "herbal",
      "caution": "Do not use with a cold or blocked nose, or right after meals.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "shadbindu-taila-nasya",
+     "formulations": [
+      "shadbindu-taila-nasya"
+     ],
      "name": "Shadbindu Taila Nasya",
      "form": "Medicated oil",
      "dose": "3 drops each nostril",
@@ -2283,10 +2593,13 @@
      "duration": "7 days",
      "safetyClass": "herbal",
      "caution": "Brief sneezing and watery eyes are normal; best learnt from a practitioner.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     },
     {
-     "formulation": "dashamoola-taila",
+     "formulations": [
+      "dashamoola-taila"
+     ],
      "name": "Dashamoola Taila (scalp massage)",
      "form": "Oil",
      "dose": "15 ml",
@@ -2295,10 +2608,13 @@
      "duration": "15 days",
      "safetyClass": "herbal",
      "caution": "External only.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     },
     {
-     "formulation": "shirahshuladi-vajra-rasa",
+     "formulations": [
+      "shirahshuladi-vajra-rasa"
+     ],
      "name": "Shirahshuladi Vajra Rasa",
      "form": "Herbo-mineral",
      "dose": "2 tablets",
@@ -2307,7 +2623,8 @@
      "duration": "5 days",
      "safetyClass": "herbo-mineral",
      "caution": "Contains mercury, sulphur and metals. Supervision only.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     }
    ],
    "pathya": [
@@ -2405,7 +2722,9 @@
    ],
    "medicines": [
     {
-     "formulation": "sitopaladi-churna",
+     "formulations": [
+      "sitopaladi-churna"
+     ],
      "name": "Sitopaladi Churna",
      "form": "Powder",
      "dose": "2–3 g",
@@ -2414,10 +2733,13 @@
      "duration": "15 days–1 month",
      "safetyClass": "herbal",
      "caution": "Contains sugar.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "talishadi-churna",
+     "formulations": [
+      "talishadi-churna"
+     ],
      "name": "Talishadi Churna",
      "form": "Powder",
      "dose": "2–3 g",
@@ -2426,10 +2748,13 @@
      "duration": "15 days–1 month",
      "safetyClass": "herbal",
      "caution": "Contains sugar.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "dashamoola-kwatha",
+     "formulations": [
+      "dashamoola-kwatha"
+     ],
      "name": "Dashamoola Kwatha",
      "form": "Decoction",
      "dose": "60 ml",
@@ -2438,10 +2763,14 @@
      "duration": "15 days–1 month",
      "safetyClass": "herbal",
      "caution": "Generally well tolerated.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "vasavaleha-agastya-rasayana",
+     "formulations": [
+      "vasavaleha",
+      "agastya-rasayana"
+     ],
      "name": "Vasavaleha / Agastya Rasayana",
      "form": "Herbal jam",
      "dose": "3–5 g",
@@ -2450,10 +2779,13 @@
      "duration": "15 days–1 month",
      "safetyClass": "herbal",
      "caution": "Sugar-based; Agastya Rasayana is laxative. Vasa: avoid in pregnancy.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": true
     },
     {
-     "formulation": "shunthi-water",
+     "formulations": [
+      "shunthi-water"
+     ],
      "name": "Shunthi (dry ginger) water",
      "form": "Infusion",
      "dose": "To drink",
@@ -2462,10 +2794,13 @@
      "duration": "15 days–1 month",
      "safetyClass": "herbal",
      "caution": "Safe.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "kantakari-ghrita",
+     "formulations": [
+      "kantakari-ghrita"
+     ],
      "name": "Kantakari Ghrita (Vata type)",
      "form": "Medicated ghee",
      "dose": "3–5 g",
@@ -2474,10 +2809,13 @@
      "duration": "15 days–1 month",
      "safetyClass": "herbal",
      "caution": "High fat.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "swasakuthara-rasa",
+     "formulations": [
+      "swasakuthara-rasa"
+     ],
      "name": "Swasakuthara Rasa",
      "form": "Herbo-mineral",
      "dose": "125–250 mg",
@@ -2486,10 +2824,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbo-mineral",
      "caution": "Contains mercury, sulphur and aconite. Supervision only.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "kanakasava",
+     "formulations": [
+      "kanakasava"
+     ],
      "name": "Kanakasava",
      "form": "Fermented liquid",
      "dose": "10–20 ml",
@@ -2498,10 +2839,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "contains-toxic-herb",
      "caution": "Contains Dhattura (datura), which is toxic in excess. Supervision only.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     },
     {
-     "formulation": "vyaghri-haritaki-avaleha",
+     "formulations": [
+      "vyaghri-haritaki-avaleha"
+     ],
      "name": "Vyaghri Haritaki Avaleha",
      "form": "Herbal jam",
      "dose": "5–10 g",
@@ -2510,7 +2854,8 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Laxative; sugar-based.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     }
    ],
    "pathya": [
@@ -2610,7 +2955,9 @@
    ],
    "medicines": [
     {
-     "formulation": "bhumyamalaki-churna",
+     "formulations": [
+      "bhumyamalaki-churna"
+     ],
      "name": "Bhumyamalaki Churna",
      "form": "Powder",
      "dose": "3–6 g",
@@ -2619,10 +2966,14 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Generally well tolerated.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "punarnavadi-churna-punarnavashtaka-kwatha",
+     "formulations": [
+      "punarnavadi-churna",
+      "punarnavashtaka-kwatha"
+     ],
      "name": "Punarnavadi Churna / Punarnavashtaka Kwatha",
      "form": "Powder / decoction",
      "dose": "3–6 g / 12–24 ml",
@@ -2631,10 +2982,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Diuretic; can lower potassium.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": true
     },
     {
-     "formulation": "kumari-juice",
+     "formulations": [
+      "kumari-juice"
+     ],
      "name": "Kumari (aloe) juice",
      "form": "Fresh juice",
      "dose": "10–20 ml",
@@ -2643,10 +2997,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Aloe latex causes diarrhoea and potassium loss; avoid in pregnancy.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "gomutra-haritaki-churna",
+     "formulations": [
+      "gomutra-haritaki-churna"
+     ],
      "name": "Gomutra Haritaki Churna",
      "form": "Powder",
      "dose": "3–6 g",
@@ -2655,10 +3012,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Laxative.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "narayana-churna",
+     "formulations": [
+      "narayana-churna"
+     ],
      "name": "Narayana Churna",
      "form": "Powder",
      "dose": "3–5 g",
@@ -2667,10 +3027,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Purgative.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     },
     {
-     "formulation": "arogyavardhini-rasa",
+     "formulations": [
+      "arogyavardhini-rasa"
+     ],
      "name": "Arogyavardhini Rasa",
      "form": "Herbo-mineral",
      "dose": "250–500 mg",
@@ -2679,7 +3042,8 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbo-mineral",
      "caution": "Contains mercury and copper. Supervision only.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     }
    ],
    "pathya": [
@@ -2776,7 +3140,9 @@
    ],
    "medicines": [
     {
-     "formulation": "punarnava-mandura",
+     "formulations": [
+      "punarnava-mandura"
+     ],
      "name": "Punarnava Mandura",
      "form": "Iron-based tablet",
      "dose": "250–500 mg",
@@ -2785,10 +3151,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbo-mineral",
      "caution": "Iron oxide (mandura) preparation: dark stools, constipation. Keep from children (iron overdose).",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "amalaki-churna",
+     "formulations": [
+      "amalaki-churna"
+     ],
      "name": "Amalaki Churna",
      "form": "Powder",
      "dose": "3 g",
@@ -2797,10 +3166,13 @@
      "duration": "2–3 months",
      "safetyClass": "herbal",
      "caution": "Vitamin C helps iron absorption.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "pippali-churna",
+     "formulations": [
+      "pippali-churna"
+     ],
      "name": "Pippali Churna",
      "form": "Powder",
      "dose": "1 g",
@@ -2809,10 +3181,13 @@
      "duration": "2–3 months",
      "safetyClass": "herbal",
      "caution": "Heating; may aggravate acidity.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "drakshavaleha",
+     "formulations": [
+      "drakshavaleha"
+     ],
      "name": "Drakshavaleha",
      "form": "Herbal jam",
      "dose": "5–10 g",
@@ -2821,10 +3196,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Sugar-based.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "dadimadya-ghrita",
+     "formulations": [
+      "dadimadya-ghrita"
+     ],
      "name": "Dadimadya Ghrita",
      "form": "Medicated ghee",
      "dose": "5–10 ml",
@@ -2833,10 +3211,14 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "High fat.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "dhatri-lauha-navayasa-lauha",
+     "formulations": [
+      "dhatri-lauha",
+      "navayasa-lauha"
+     ],
      "name": "Dhatri Lauha / Navayasa Lauha",
      "form": "Iron-based tablet",
      "dose": "250–500 mg",
@@ -2845,10 +3227,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbo-mineral",
      "caution": "Iron bhasma: dark stools, constipation.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": true
     },
     {
-     "formulation": "lohasava",
+     "formulations": [
+      "lohasava"
+     ],
      "name": "Lohasava",
      "form": "Fermented liquid",
      "dose": "10–20 ml",
@@ -2857,7 +3242,8 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbo-mineral",
      "caution": "Contains iron; self-generated alcohol.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     }
    ],
    "pathya": [
@@ -2952,7 +3338,9 @@
    ],
    "medicines": [
     {
-     "formulation": "bhumyamalaki-churna-or-juice",
+     "formulations": [
+      "bhumyamalaki-churna-or-juice"
+     ],
      "name": "Bhumyamalaki (Phyllanthus) Churna or juice",
      "form": "Powder / juice",
      "dose": "3–6 g / 10–20 ml",
@@ -2961,10 +3349,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Generally well tolerated.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "katuki-churna",
+     "formulations": [
+      "katuki-churna"
+     ],
      "name": "Katuki Churna",
      "form": "Powder",
      "dose": "3–6 g",
@@ -2973,10 +3364,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Bitter; laxative in higher doses.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "kalamegha-churna",
+     "formulations": [
+      "kalamegha-churna"
+     ],
      "name": "Kalamegha Churna",
      "form": "Powder",
      "dose": "3–6 g",
@@ -2985,10 +3379,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Bitter; may cause nausea.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "kumari-juice",
+     "formulations": [
+      "kumari-juice"
+     ],
      "name": "Kumari (aloe) juice",
      "form": "Fresh juice",
      "dose": "10–20 ml",
@@ -2997,10 +3394,14 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Diarrhoea, potassium loss; avoid in pregnancy.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "phalatrikadi-vasaguduchyadi-kwatha",
+     "formulations": [
+      "phalatrikadi-kwatha",
+      "vasaguduchyadi-kwatha"
+     ],
      "name": "Phalatrikadi / Vasaguduchyadi Kwatha",
      "form": "Decoction",
      "dose": "20–40 ml",
@@ -3009,10 +3410,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Guduchi: rare reports of liver injury, so stop if jaundice worsens.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": true
     },
     {
-     "formulation": "arogyavardhini-vati",
+     "formulations": [
+      "arogyavardhini-vati"
+     ],
      "name": "Arogyavardhini Vati",
      "form": "Herbo-mineral",
      "dose": "500 mg–1 g",
@@ -3021,10 +3425,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbo-mineral",
      "caution": "Contains mercury and copper. Supervision only.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "punarnava-mandura",
+     "formulations": [
+      "punarnava-mandura"
+     ],
      "name": "Punarnava Mandura",
      "form": "Iron-based tablet",
      "dose": "500 mg–1 g",
@@ -3033,7 +3440,8 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbo-mineral",
      "caution": "Iron preparation.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     }
    ],
    "pathya": [
@@ -3129,7 +3537,9 @@
    ],
    "medicines": [
     {
-     "formulation": "kanchanara-guggulu",
+     "formulations": [
+      "kanchanara-guggulu"
+     ],
      "name": "Kanchanara Guggulu",
      "form": "Tablet",
      "dose": "2–3 tablets",
@@ -3138,10 +3548,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Guggulu may change thyroid test results and interact with thyroxine; separate doses and recheck TSH.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "trikatu-churna",
+     "formulations": [
+      "trikatu-churna"
+     ],
      "name": "Trikatu Churna",
      "form": "Powder",
      "dose": "2–3 g",
@@ -3150,10 +3563,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Very heating; avoid in acidity and pregnancy.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "vyoshadi-guggulu",
+     "formulations": [
+      "vyoshadi-guggulu"
+     ],
      "name": "Vyoshadi Guggulu",
      "form": "Tablet",
      "dose": "2–3 tablets",
@@ -3162,10 +3578,14 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Guggulu cautions.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "varuna-shigru-dashamoola-kwatha",
+     "formulations": [
+      "varuna-shigru-kwatha",
+      "dashamoola-kwatha"
+     ],
      "name": "Varuna-Shigru / Dashamoola Kwatha",
      "form": "Decoction",
      "dose": "12–24 ml",
@@ -3174,10 +3594,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Generally well tolerated.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": true
     },
     {
-     "formulation": "arogyavardhini-rasa",
+     "formulations": [
+      "arogyavardhini-rasa"
+     ],
      "name": "Arogyavardhini Rasa",
      "form": "Herbo-mineral",
      "dose": "1–2 tablets",
@@ -3186,7 +3609,8 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbo-mineral",
      "caution": "Contains mercury and copper. Supervision only.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     }
    ],
    "pathya": [
@@ -3282,7 +3706,9 @@
    ],
    "medicines": [
     {
-     "formulation": "triphala-churna",
+     "formulations": [
+      "triphala-churna"
+     ],
      "name": "Triphala Churna",
      "form": "Powder",
      "dose": "3–6 g",
@@ -3291,10 +3717,15 @@
      "duration": "4–8 weeks",
      "safetyClass": "herbal",
      "caution": "Loose stools.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "musta-vidanga-haritaki-churna",
+     "formulations": [
+      "musta-churna",
+      "vidanga-churna",
+      "haritaki-churna"
+     ],
      "name": "Musta / Vidanga / Haritaki Churna",
      "form": "Powder",
      "dose": "3–6 g",
@@ -3303,10 +3734,14 @@
      "duration": "4–8 weeks",
      "safetyClass": "herbal",
      "caution": "Haritaki is laxative; avoid in pregnancy.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": true
     },
     {
-     "formulation": "triphala-guggulu-medohara-guggulu",
+     "formulations": [
+      "triphala-guggulu",
+      "medohara-guggulu"
+     ],
      "name": "Triphala Guggulu / Medohara Guggulu",
      "form": "Tablet",
      "dose": "0.5–1 g",
@@ -3315,10 +3750,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Guggulu cautions.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": true
     },
     {
-     "formulation": "phalatrikadi-kwatha",
+     "formulations": [
+      "phalatrikadi-kwatha"
+     ],
      "name": "Phalatrikadi Kwatha",
      "form": "Decoction",
      "dose": "20–40 ml",
@@ -3327,10 +3765,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Generally well tolerated.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "warm-water-with-honey",
+     "formulations": [
+      "warm-water-with-honey"
+     ],
      "name": "Warm water with honey",
      "form": "Drink",
      "dose": "1 glass",
@@ -3339,10 +3780,13 @@
      "duration": "Ongoing",
      "safetyClass": "herbal",
      "caution": "Honey is still sugar; keep to a teaspoon.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "shilajatu",
+     "formulations": [
+      "shilajatu"
+     ],
      "name": "Shilajatu",
      "form": "Mineral pitch",
      "dose": "500 mg",
@@ -3351,7 +3795,8 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbo-mineral",
      "caution": "Must be purified; raw shilajit can contain heavy metals.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     }
    ],
    "pathya": [
@@ -3448,7 +3893,9 @@
    ],
    "medicines": [
     {
-     "formulation": "oral-rehydration-solution",
+     "formulations": [
+      "oral-rehydration-solution"
+     ],
      "name": "Oral rehydration solution (ORS)",
      "form": "Drink",
      "dose": "After every loose stool",
@@ -3457,10 +3904,13 @@
      "duration": "Until stools settle",
      "safetyClass": "herbal",
      "caution": "The most important treatment for diarrhoea at any age.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "shunthi-churna",
+     "formulations": [
+      "shunthi-churna"
+     ],
      "name": "Shunthi Churna",
      "form": "Powder",
      "dose": "2–3 g",
@@ -3469,10 +3919,14 @@
      "duration": "1–2 days",
      "safetyClass": "herbal",
      "caution": "Heating.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "kutaja-churna-kutaja-ghana-vati",
+     "formulations": [
+      "kutaja-churna",
+      "kutaja-ghana-vati"
+     ],
      "name": "Kutaja Churna / Kutaja Ghana Vati",
      "form": "Powder / tablet",
      "dose": "3–6 g / 1–2 tablets",
@@ -3481,10 +3935,13 @@
      "duration": "Until symptoms settle",
      "safetyClass": "herbal",
      "caution": "Generally well tolerated.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": true
     },
     {
-     "formulation": "bilwa-root-churna",
+     "formulations": [
+      "bilwa-root-churna"
+     ],
      "name": "Bilwa (bael) root Churna",
      "form": "Powder",
      "dose": "1–2 g",
@@ -3493,10 +3950,13 @@
      "duration": "Until symptoms settle",
      "safetyClass": "herbal",
      "caution": "Generally well tolerated.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "dadimashtaka-churna",
+     "formulations": [
+      "dadimashtaka-churna"
+     ],
      "name": "Dadimashtaka Churna",
      "form": "Powder",
      "dose": "3–6 g",
@@ -3505,10 +3965,13 @@
      "duration": "Until symptoms settle",
      "safetyClass": "herbal",
      "caution": "Contains sugar.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "musta-churna",
+     "formulations": [
+      "musta-churna"
+     ],
      "name": "Musta Churna",
      "form": "Powder",
      "dose": "3–6 g",
@@ -3517,10 +3980,13 @@
      "duration": "Until symptoms settle",
      "safetyClass": "herbal",
      "caution": "Generally well tolerated.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "sanjivani-vati",
+     "formulations": [
+      "sanjivani-vati"
+     ],
      "name": "Sanjivani Vati",
      "form": "Tablet",
      "dose": "1–2 tablets",
@@ -3529,10 +3995,13 @@
      "duration": "Until symptoms settle",
      "safetyClass": "contains-toxic-herb",
      "caution": "Contains Bhallataka and Vatsanabha (aconite). Supervision only.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "bruhat-gangadhara-churna",
+     "formulations": [
+      "bruhat-gangadhara-churna"
+     ],
      "name": "Bruhat Gangadhara Churna",
      "form": "Powder",
      "dose": "0.5–2 g",
@@ -3541,10 +4010,13 @@
      "duration": "Until symptoms settle",
      "safetyClass": "herbal",
      "caution": "Constipating; generally well tolerated.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     },
     {
-     "formulation": "anandabhairava-rasa",
+     "formulations": [
+      "anandabhairava-rasa"
+     ],
      "name": "Anandabhairava Rasa",
      "form": "Herbo-mineral",
      "dose": "250–500 mg",
@@ -3553,7 +4025,8 @@
      "duration": "Until symptoms settle",
      "safetyClass": "herbo-mineral",
      "caution": "Contains mercury and aconite. Supervision only.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     }
    ],
    "pathya": [
@@ -3649,7 +4122,9 @@
    ],
    "medicines": [
     {
-     "formulation": "triphala-guggulu",
+     "formulations": [
+      "triphala-guggulu"
+     ],
      "name": "Triphala Guggulu",
      "form": "Tablet",
      "dose": "500 mg (2 tablets)",
@@ -3658,10 +4133,13 @@
      "duration": "1–2 weeks",
      "safetyClass": "herbal",
      "caution": "Guggulu cautions.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "triphala-churna",
+     "formulations": [
+      "triphala-churna"
+     ],
      "name": "Triphala Churna",
      "form": "Powder",
      "dose": "2–4 g",
@@ -3670,10 +4148,13 @@
      "duration": "1–2 weeks",
      "safetyClass": "herbal",
      "caution": "Loose stools.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "abhayarishta",
+     "formulations": [
+      "abhayarishta"
+     ],
      "name": "Abhayarishta",
      "form": "Fermented liquid",
      "dose": "10–20 ml",
@@ -3682,10 +4163,13 @@
      "duration": "1–2 weeks",
      "safetyClass": "herbal",
      "caution": "Self-generated alcohol; laxative.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "hot-sitz-bath-with-triphala-or-panchavalkala-decoction",
+     "formulations": [
+      "hot-sitz-bath-with-triphala-or-panchavalkala-decoction"
+     ],
      "name": "Hot sitz bath with Triphala or Panchavalkala decoction",
      "form": "Local",
      "dose": "100 ml decoction in warm water",
@@ -3694,10 +4178,13 @@
      "duration": "Ongoing",
      "safetyClass": "herbal",
      "caution": "External.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "jatyadi-taila",
+     "formulations": [
+      "jatyadi-taila"
+     ],
      "name": "Jatyadi Taila (local)",
      "form": "Oil",
      "dose": "5–10 ml in the anal canal",
@@ -3706,10 +4193,13 @@
      "duration": "Ongoing",
      "safetyClass": "herbal",
      "caution": "External.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "trayodashanga-guggulu",
+     "formulations": [
+      "trayodashanga-guggulu"
+     ],
      "name": "Trayodashanga Guggulu",
      "form": "Tablet",
      "dose": "2–3 tablets",
@@ -3718,10 +4208,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Guggulu cautions.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     },
     {
-     "formulation": "arshakuthara-rasa",
+     "formulations": [
+      "arshakuthara-rasa"
+     ],
      "name": "Arshakuthara Rasa",
      "form": "Herbo-mineral",
      "dose": "1–2 tablets",
@@ -3730,7 +4223,8 @@
      "duration": "1–2 weeks",
      "safetyClass": "herbo-mineral",
      "caution": "Contains mercury. Supervision only.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     }
    ],
    "pathya": [
@@ -3824,7 +4318,9 @@
    ],
    "medicines": [
     {
-     "formulation": "vidangadi-churna",
+     "formulations": [
+      "vidangadi-churna"
+     ],
      "name": "Vidangadi Churna",
      "form": "Powder",
      "dose": "0.5–2 g",
@@ -3833,10 +4329,13 @@
      "duration": "28 days",
      "safetyClass": "herbal",
      "caution": "Generally well tolerated.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "palasha-beejadi-churna",
+     "formulations": [
+      "palasha-beejadi-churna"
+     ],
      "name": "Palasha Beejadi Churna",
      "form": "Powder",
      "dose": "250–500 mg",
@@ -3845,10 +4344,13 @@
      "duration": "28 days",
      "safetyClass": "herbal",
      "caution": "Palasha seed is toxic in overdose; keep to dose.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "krimighna-vati",
+     "formulations": [
+      "krimighna-vati"
+     ],
      "name": "Krimighna Vati",
      "form": "Tablet",
      "dose": "1–2 tablets",
@@ -3857,10 +4359,13 @@
      "duration": "1 month",
      "safetyClass": "herbal",
      "caution": "Check label for mineral content.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "vidangarishta",
+     "formulations": [
+      "vidangarishta"
+     ],
      "name": "Vidangarishta",
      "form": "Fermented liquid",
      "dose": "10–30 ml",
@@ -3869,10 +4374,14 @@
      "duration": "1 month",
      "safetyClass": "herbal",
      "caution": "Self-generated alcohol.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "krimimudgara-krimikuthara-rasa",
+     "formulations": [
+      "krimimudgara-rasa",
+      "krimikuthara-rasa"
+     ],
      "name": "Krimimudgara / Krimikuthara Rasa",
      "form": "Herbo-mineral",
      "dose": "250–500 mg",
@@ -3881,10 +4390,13 @@
      "duration": "28 days",
      "safetyClass": "herbo-mineral",
      "caution": "Contain mercury and sulphur. Supervision only; not for children.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": true
     },
     {
-     "formulation": "haridra-khanda",
+     "formulations": [
+      "haridra-khanda"
+     ],
      "name": "Haridra Khanda",
      "form": "Granules",
      "dose": "5–10 g",
@@ -3893,7 +4405,8 @@
      "duration": "1 month",
      "safetyClass": "herbal",
      "caution": "Sugar-based.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     }
    ],
    "pathya": [
@@ -3982,7 +4495,9 @@
    ],
    "medicines": [
     {
-     "formulation": "triphala-churna",
+     "formulations": [
+      "triphala-churna"
+     ],
      "name": "Triphala Churna",
      "form": "Powder",
      "dose": "2–4 g",
@@ -3991,10 +4506,13 @@
      "duration": "1–2 weeks",
      "safetyClass": "herbal",
      "caution": "Loose stools.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "haritaki-churna",
+     "formulations": [
+      "haritaki-churna"
+     ],
      "name": "Haritaki Churna",
      "form": "Powder",
      "dose": "2–4 g",
@@ -4003,10 +4521,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Laxative; avoid in pregnancy.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "draksha",
+     "formulations": [
+      "draksha"
+     ],
      "name": "Draksha (raisins)",
      "form": "Dried fruit",
      "dose": "10–20 g",
@@ -4015,10 +4536,13 @@
      "duration": "1–2 weeks",
      "safetyClass": "herbal",
      "caution": "Safe.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "castor-oil",
+     "formulations": [
+      "castor-oil"
+     ],
      "name": "Castor oil",
      "form": "Oil",
      "dose": "10–20 ml",
@@ -4027,10 +4551,13 @@
      "duration": "1–2 weeks",
      "safetyClass": "herbal",
      "caution": "Cramps, diarrhoea; avoid in pregnancy.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "sitz-bath-with-triphala-or-panchavalkala-decoction",
+     "formulations": [
+      "sitz-bath-with-triphala-or-panchavalkala-decoction"
+     ],
      "name": "Sitz bath with Triphala or Panchavalkala decoction",
      "form": "Local",
      "dose": "Warm decoction 10–15 min",
@@ -4039,10 +4566,13 @@
      "duration": "Ongoing",
      "safetyClass": "herbal",
      "caution": "External.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "jatyadi-taila",
+     "formulations": [
+      "jatyadi-taila"
+     ],
      "name": "Jatyadi Taila (local)",
      "form": "Oil",
      "dose": "Apply locally",
@@ -4051,10 +4581,13 @@
      "duration": "Ongoing",
      "safetyClass": "herbal",
      "caution": "External.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "kankayana-vati",
+     "formulations": [
+      "kankayana-vati"
+     ],
      "name": "Kankayana Vati",
      "form": "Tablet",
      "dose": "1–2 tablets",
@@ -4063,7 +4596,8 @@
      "duration": "1–2 weeks",
      "safetyClass": "herbal",
      "caution": "Some versions contain bhallataka; check label.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     }
    ],
    "pathya": [
@@ -4154,7 +4688,9 @@
    ],
    "medicines": [
     {
-     "formulation": "brahmi-ghrita",
+     "formulations": [
+      "brahmi-ghrita"
+     ],
      "name": "Brahmi Ghrita",
      "form": "Medicated ghee",
      "dose": "10–20 g",
@@ -4163,10 +4699,13 @@
      "duration": "15 days–1 month",
      "safetyClass": "herbal",
      "caution": "High fat.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "kalyanaka-ghrita",
+     "formulations": [
+      "kalyanaka-ghrita"
+     ],
      "name": "Kalyanaka Ghrita",
      "form": "Medicated ghee",
      "dose": "10–15 ml",
@@ -4175,10 +4714,13 @@
      "duration": "15 days–1 month",
      "safetyClass": "herbal",
      "caution": "High fat.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "mansyadi-kwatha",
+     "formulations": [
+      "mansyadi-kwatha"
+     ],
      "name": "Mansyadi Kwatha",
      "form": "Decoction",
      "dose": "30–40 ml",
@@ -4187,10 +4729,13 @@
      "duration": "15 days–1 month",
      "safetyClass": "herbal",
      "caution": "Jatamansi is sedating.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "shatavari-churna",
+     "formulations": [
+      "shatavari-churna"
+     ],
      "name": "Shatavari Churna",
      "form": "Powder",
      "dose": "5 g",
@@ -4199,10 +4744,13 @@
      "duration": "15 days–1 month",
      "safetyClass": "herbal",
      "caution": "Generally well tolerated.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "saraswatarishta",
+     "formulations": [
+      "saraswatarishta"
+     ],
      "name": "Saraswatarishta",
      "form": "Fermented liquid",
      "dose": "10–20 ml",
@@ -4211,10 +4759,13 @@
      "duration": "15 days–1 month",
      "safetyClass": "herbal",
      "caution": "Self-generated alcohol; alcohol can trigger seizures.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "vacha-churna",
+     "formulations": [
+      "vacha-churna"
+     ],
      "name": "Vacha Churna",
      "form": "Powder",
      "dose": "1–2 g",
@@ -4223,10 +4774,13 @@
      "duration": "15 days–1 month",
      "safetyClass": "herbal",
      "caution": "Beta-asarone toxicity; short-term only; never in pregnancy or children.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "manasmitra-vati",
+     "formulations": [
+      "manasmitra-vati"
+     ],
      "name": "Manasmitra Vati",
      "form": "Tablet",
      "dose": "1–2 tablets (500 mg)",
@@ -4235,10 +4789,13 @@
      "duration": "15 days–1 month",
      "safetyClass": "herbo-mineral",
      "caution": "Contains gold, silver and other minerals. Supervision only.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     },
     {
-     "formulation": "smritisagara-rasa",
+     "formulations": [
+      "smritisagara-rasa"
+     ],
      "name": "Smritisagara Rasa",
      "form": "Herbo-mineral",
      "dose": "125–250 mg",
@@ -4247,7 +4804,8 @@
      "duration": "15 days–1 month",
      "safetyClass": "herbo-mineral",
      "caution": "Contains mercury and arsenic compounds. Supervision only.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     }
    ],
    "pathya": [
@@ -4342,7 +4900,9 @@
    ],
    "medicines": [
     {
-     "formulation": "gokshura-churna",
+     "formulations": [
+      "gokshura-churna"
+     ],
      "name": "Gokshura Churna",
      "form": "Powder",
      "dose": "3–6 g",
@@ -4351,10 +4911,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Generally well tolerated.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "pashanabheda-churna",
+     "formulations": [
+      "pashanabheda-churna"
+     ],
      "name": "Pashanabheda Churna",
      "form": "Powder",
      "dose": "3–6 g",
@@ -4363,10 +4926,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Generally well tolerated.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "punarnava-churna",
+     "formulations": [
+      "punarnava-churna"
+     ],
      "name": "Punarnava Churna",
      "form": "Powder",
      "dose": "2–3 g",
@@ -4375,10 +4941,14 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Diuretic.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "varuna-shigru-ashmarihara-kwatha",
+     "formulations": [
+      "varuna-shigru-kwatha",
+      "ashmarihara-kwatha"
+     ],
      "name": "Varuna-Shigru / Ashmarihara Kwatha",
      "form": "Decoction",
      "dose": "12–24 ml",
@@ -4387,10 +4957,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Generally well tolerated.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": true
     },
     {
-     "formulation": "gokshuradi-guggulu",
+     "formulations": [
+      "gokshuradi-guggulu"
+     ],
      "name": "Gokshuradi Guggulu",
      "form": "Tablet",
      "dose": "1–2 tablets",
@@ -4399,10 +4972,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Guggulu cautions.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "chandraprabha-vati",
+     "formulations": [
+      "chandraprabha-vati"
+     ],
      "name": "Chandraprabha Vati",
      "form": "Tablet",
      "dose": "1–2 tablets",
@@ -4411,10 +4987,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbo-mineral",
      "caution": "Contains shilajit and small amounts of mineral.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "palasha-kshara",
+     "formulations": [
+      "palasha-kshara"
+     ],
      "name": "Palasha Kshara",
      "form": "Plant alkali",
      "dose": "250–500 mg",
@@ -4423,10 +5002,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Alkaline; may irritate the stomach.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     },
     {
-     "formulation": "ushirasava",
+     "formulations": [
+      "ushirasava"
+     ],
      "name": "Ushirasava",
      "form": "Fermented liquid",
      "dose": "10–20 ml",
@@ -4435,7 +5017,8 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Self-generated alcohol.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     }
    ],
    "pathya": [
@@ -4535,7 +5118,9 @@
    ],
    "medicines": [
     {
-     "formulation": "punarnava-churna",
+     "formulations": [
+      "punarnava-churna"
+     ],
      "name": "Punarnava Churna",
      "form": "Powder",
      "dose": "2–3 g",
@@ -4544,10 +5129,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Diuretic; can change potassium; needs blood-test monitoring.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "gokshura-churna",
+     "formulations": [
+      "gokshura-churna"
+     ],
      "name": "Gokshura Churna",
      "form": "Powder",
      "dose": "3–6 g",
@@ -4556,10 +5144,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Monitor potassium.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "bhumyamalaki-churna",
+     "formulations": [
+      "bhumyamalaki-churna"
+     ],
      "name": "Bhumyamalaki Churna",
      "form": "Powder",
      "dose": "3–6 g",
@@ -4568,10 +5159,14 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Generally well tolerated.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "punarnavashtaka-varunadi-kwatha",
+     "formulations": [
+      "punarnavashtaka-kwatha",
+      "varunadi-kwatha"
+     ],
      "name": "Punarnavashtaka / Varunadi Kwatha",
      "form": "Decoction",
      "dose": "12–24 ml",
@@ -4580,10 +5175,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Fluid intake counts toward the daily limit.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": true
     },
     {
-     "formulation": "shilajatu",
+     "formulations": [
+      "shilajatu"
+     ],
      "name": "Shilajatu (purified)",
      "form": "Mineral pitch",
      "dose": "2–3 g",
@@ -4592,7 +5190,8 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbo-mineral",
      "caution": "Raw shilajit can contain heavy metals; kidneys clear these poorly.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     }
    ],
    "pathya": [
@@ -4690,7 +5289,9 @@
    ],
    "medicines": [
     {
-     "formulation": "gokshura-churna",
+     "formulations": [
+      "gokshura-churna"
+     ],
      "name": "Gokshura Churna",
      "form": "Powder",
      "dose": "3–6 g",
@@ -4699,10 +5300,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Generally well tolerated.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "punarnava-churna",
+     "formulations": [
+      "punarnava-churna"
+     ],
      "name": "Punarnava Churna",
      "form": "Powder",
      "dose": "2–3 g",
@@ -4711,10 +5315,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Diuretic; may increase frequency.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "kanchanara-guggulu",
+     "formulations": [
+      "kanchanara-guggulu"
+     ],
      "name": "Kanchanara Guggulu",
      "form": "Tablet",
      "dose": "1–2 tablets",
@@ -4723,10 +5330,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Guggulu cautions.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "gokshuradi-guggulu",
+     "formulations": [
+      "gokshuradi-guggulu"
+     ],
      "name": "Gokshuradi Guggulu",
      "form": "Tablet",
      "dose": "1–2 tablets",
@@ -4735,10 +5345,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Guggulu cautions.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "varuna-kwatha",
+     "formulations": [
+      "varuna-kwatha"
+     ],
      "name": "Varuna Kwatha",
      "form": "Decoction",
      "dose": "20–40 ml",
@@ -4747,10 +5360,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Generally well tolerated.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "dhanyaka-cold-infusion",
+     "formulations": [
+      "dhanyaka-cold-infusion"
+     ],
      "name": "Dhanyaka (coriander) cold infusion",
      "form": "Infusion",
      "dose": "10–20 ml",
@@ -4759,10 +5375,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Safe.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "chandraprabha-vati",
+     "formulations": [
+      "chandraprabha-vati"
+     ],
      "name": "Chandraprabha Vati",
      "form": "Tablet",
      "dose": "1–2 tablets",
@@ -4771,7 +5390,8 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbo-mineral",
      "caution": "Contains shilajit and small amounts of mineral.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     }
    ],
    "pathya": [
@@ -4866,7 +5486,9 @@
    ],
    "medicines": [
     {
-     "formulation": "ashokarishta",
+     "formulations": [
+      "ashokarishta"
+     ],
      "name": "Ashokarishta",
      "form": "Fermented liquid",
      "dose": "12–24 ml",
@@ -4875,10 +5497,13 @@
      "duration": "2–3 months",
      "safetyClass": "herbal",
      "caution": "Self-generated alcohol.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "lodhra-churna",
+     "formulations": [
+      "lodhra-churna"
+     ],
      "name": "Lodhra Churna",
      "form": "Powder",
      "dose": "3–5 g",
@@ -4887,10 +5512,16 @@
      "duration": "2–3 months",
      "safetyClass": "herbal",
      "caution": "Constipating.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "nagakesara-mocharasa-lodhra-shunthi-churna",
+     "formulations": [
+      "nagakesara-churna",
+      "mocharasa",
+      "lodhra-churna",
+      "shunthi-churna"
+     ],
      "name": "Nagakesara / Mocharasa / Lodhra / Shunthi Churna",
      "form": "Powder",
      "dose": "3–6 g",
@@ -4899,10 +5530,13 @@
      "duration": "2–3 months",
      "safetyClass": "herbal",
      "caution": "Generally well tolerated.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": true
     },
     {
-     "formulation": "amalaki-churna",
+     "formulations": [
+      "amalaki-churna"
+     ],
      "name": "Amalaki Churna",
      "form": "Powder",
      "dose": "3–6 g",
@@ -4911,10 +5545,13 @@
      "duration": "2–3 months",
      "safetyClass": "herbal",
      "caution": "Generally safe.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "ashoka-bark-milk-decoction",
+     "formulations": [
+      "ashoka-bark-milk-decoction"
+     ],
      "name": "Ashoka bark milk decoction",
      "form": "Milk decoction",
      "dose": "20 ml",
@@ -4923,10 +5560,13 @@
      "duration": "2–3 months",
      "safetyClass": "herbal",
      "caution": "Generally well tolerated.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "yashtimadhu-churna",
+     "formulations": [
+      "yashtimadhu-churna"
+     ],
      "name": "Yashtimadhu Churna",
      "form": "Powder",
      "dose": "2–4 g",
@@ -4935,10 +5575,13 @@
      "duration": "2–3 months",
      "safetyClass": "herbal",
      "caution": "Raises blood pressure with long use.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "kamadudha-rasa",
+     "formulations": [
+      "kamadudha-rasa"
+     ],
      "name": "Kamadudha Rasa",
      "form": "Herbo-mineral (no mercury)",
      "dose": "125–500 mg",
@@ -4947,10 +5590,13 @@
      "duration": "2–3 months",
      "safetyClass": "herbo-mineral",
      "caution": "Coral and mineral based.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "pushyanuga-churna",
+     "formulations": [
+      "pushyanuga-churna"
+     ],
      "name": "Pushyanuga Churna",
      "form": "Powder",
      "dose": "3–5 g",
@@ -4959,10 +5605,13 @@
      "duration": "2–3 months",
      "safetyClass": "herbal",
      "caution": "Generally well tolerated.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     },
     {
-     "formulation": "bola-parpati",
+     "formulations": [
+      "bola-parpati"
+     ],
      "name": "Bola Parpati",
      "form": "Herbo-mineral",
      "dose": "125–250 mg",
@@ -4971,7 +5620,8 @@
      "duration": "1 month",
      "safetyClass": "herbo-mineral",
      "caution": "Contains mercury and sulphur. Supervision only.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     }
    ],
    "pathya": [
@@ -5065,7 +5715,9 @@
    ],
    "medicines": [
     {
-     "formulation": "hingvadi-churna",
+     "formulations": [
+      "hingvadi-churna"
+     ],
      "name": "Hingvadi Churna",
      "form": "Powder",
      "dose": "2–4 g",
@@ -5074,10 +5726,13 @@
      "duration": "During periods, until pain settles",
      "safetyClass": "herbal",
      "caution": "Heating.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "shankha-vati",
+     "formulations": [
+      "shankha-vati"
+     ],
      "name": "Shankha Vati",
      "form": "Tablet",
      "dose": "250–500 mg",
@@ -5086,10 +5741,13 @@
      "duration": "During periods, until pain settles",
      "safetyClass": "herbo-mineral",
      "caution": "Classical formula contains mercury, sulphur and aconite. Supervision only.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "eranda-bhrishta-haritaki",
+     "formulations": [
+      "eranda-bhrishta-haritaki"
+     ],
      "name": "Eranda Bhrishta Haritaki",
      "form": "Powder",
      "dose": "3–6 g",
@@ -5098,10 +5756,13 @@
      "duration": "From 8 days before the period",
      "safetyClass": "herbal",
      "caution": "Laxative.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "dashamoola-kwatha-with-sesame-oil",
+     "formulations": [
+      "dashamoola-kwatha-with-sesame-oil"
+     ],
      "name": "Dashamoola Kwatha with sesame oil",
      "form": "Decoction",
      "dose": "30–40 ml",
@@ -5110,10 +5771,13 @@
      "duration": "2–3 days",
      "safetyClass": "herbal",
      "caution": "Generally well tolerated.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "abhayarishta",
+     "formulations": [
+      "abhayarishta"
+     ],
      "name": "Abhayarishta",
      "form": "Fermented liquid",
      "dose": "12–24 ml",
@@ -5122,10 +5786,13 @@
      "duration": "2–3 months",
      "safetyClass": "herbal",
      "caution": "Laxative; self-generated alcohol.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "castor-oil",
+     "formulations": [
+      "castor-oil"
+     ],
      "name": "Castor oil",
      "form": "Oil",
      "dose": "10–25 ml, one dose",
@@ -5134,10 +5801,13 @@
      "duration": "Single dose",
      "safetyClass": "herbal",
      "caution": "Strong laxative.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "rajahpravartini-vati",
+     "formulations": [
+      "rajahpravartini-vati"
+     ],
      "name": "Rajahpravartini Vati",
      "form": "Tablet",
      "dose": "1–2 tablets (250 mg)",
@@ -5146,7 +5816,8 @@
      "duration": "Until period starts",
      "safetyClass": "herbo-mineral",
      "caution": "Contains borax and minerals; never if pregnancy is possible.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     }
    ],
    "pathya": [
@@ -5242,7 +5913,9 @@
    ],
    "medicines": [
     {
-     "formulation": "amalaki-churna",
+     "formulations": [
+      "amalaki-churna"
+     ],
      "name": "Amalaki Churna",
      "form": "Powder",
      "dose": "3–6 g",
@@ -5251,10 +5924,13 @@
      "duration": "2–3 months",
      "safetyClass": "herbal",
      "caution": "Generally safe.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "lodhra-churna",
+     "formulations": [
+      "lodhra-churna"
+     ],
      "name": "Lodhra Churna",
      "form": "Powder",
      "dose": "3–5 g",
@@ -5263,10 +5939,13 @@
      "duration": "2–3 months",
      "safetyClass": "herbal",
      "caution": "Constipating.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "chopachini-churna",
+     "formulations": [
+      "chopachini-churna"
+     ],
      "name": "Chopachini Churna",
      "form": "Powder",
      "dose": "2–3 g",
@@ -5275,10 +5954,13 @@
      "duration": "2–3 months",
      "safetyClass": "herbal",
      "caution": "Generally well tolerated.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "darvyadi-kwatha",
+     "formulations": [
+      "darvyadi-kwatha"
+     ],
      "name": "Darvyadi Kwatha",
      "form": "Decoction",
      "dose": "30–40 ml",
@@ -5287,10 +5969,13 @@
      "duration": "2–3 months",
      "safetyClass": "herbal",
      "caution": "Bitter.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "chandraprabha-vati",
+     "formulations": [
+      "chandraprabha-vati"
+     ],
      "name": "Chandraprabha Vati",
      "form": "Tablet",
      "dose": "2 tablets",
@@ -5299,10 +5984,13 @@
      "duration": "2–3 months",
      "safetyClass": "herbo-mineral",
      "caution": "Contains shilajit and small amounts of mineral.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "pradarari-lauha",
+     "formulations": [
+      "pradarari-lauha"
+     ],
      "name": "Pradarari Lauha",
      "form": "Iron-based tablet",
      "dose": "1–2 tablets",
@@ -5311,10 +5999,13 @@
      "duration": "2–3 months",
      "safetyClass": "herbo-mineral",
      "caution": "Iron preparation.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "triphala-guggulu",
+     "formulations": [
+      "triphala-guggulu"
+     ],
      "name": "Triphala Guggulu",
      "form": "Tablet",
      "dose": "2–3 tablets",
@@ -5323,10 +6014,13 @@
      "duration": "2–3 months",
      "safetyClass": "herbal",
      "caution": "Guggulu cautions.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     },
     {
-     "formulation": "vaginal-wash-with-triphala-or-panchavalkala-decoction",
+     "formulations": [
+      "vaginal-wash-with-triphala-or-panchavalkala-decoction"
+     ],
      "name": "Vaginal wash with Triphala or Panchavalkala decoction",
      "form": "Local",
      "dose": "400–500 ml",
@@ -5335,7 +6029,8 @@
      "duration": "8–10 days",
      "safetyClass": "herbal",
      "caution": "Use only if a doctor has excluded infection; douching can upset normal vaginal flora.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     }
    ],
    "pathya": [
@@ -5425,7 +6120,9 @@
    ],
    "medicines": [
     {
-     "formulation": "ashwagandha-churna",
+     "formulations": [
+      "ashwagandha-churna"
+     ],
      "name": "Ashwagandha Churna",
      "form": "Powder",
      "dose": "3–5 g",
@@ -5434,10 +6131,14 @@
      "duration": "2–4 weeks",
      "safetyClass": "herbal",
      "caution": "Rare liver injury; avoid in pregnancy.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "bala-rasna-churna",
+     "formulations": [
+      "bala-churna",
+      "rasna-churna"
+     ],
      "name": "Bala / Rasna Churna",
      "form": "Powder",
      "dose": "3–5 g",
@@ -5446,10 +6147,13 @@
      "duration": "2–4 weeks",
      "safetyClass": "herbal",
      "caution": "Generally well tolerated.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": true
     },
     {
-     "formulation": "dashamoola-kashaya",
+     "formulations": [
+      "dashamoola-kwatha"
+     ],
      "name": "Dashamoola Kashaya",
      "form": "Decoction",
      "dose": "10–15 ml",
@@ -5458,10 +6162,13 @@
      "duration": "2–4 weeks",
      "safetyClass": "herbal",
      "caution": "Generally well tolerated.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "yogaraja-guggulu",
+     "formulations": [
+      "yogaraja-guggulu"
+     ],
      "name": "Yogaraja Guggulu",
      "form": "Tablet",
      "dose": "1–2 tablets",
@@ -5470,10 +6177,13 @@
      "duration": "2–4 weeks",
      "safetyClass": "herbal",
      "caution": "Guggulu cautions.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "anu-taila-nasal-drops",
+     "formulations": [
+      "anu-taila-nasal-drops"
+     ],
      "name": "Anu Taila nasal drops",
      "form": "Oil",
      "dose": "1 ml (Pratimarsha Nasya)",
@@ -5482,10 +6192,13 @@
      "duration": "2 weeks",
      "safetyClass": "herbal",
      "caution": "Do not use with a cold or blocked nose.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "ksheerabala-101-taila",
+     "formulations": [
+      "ksheerabala-101-taila"
+     ],
      "name": "Ksheerabala 101 Taila",
      "form": "Oil (internal)",
      "dose": "15 drops",
@@ -5494,10 +6207,13 @@
      "duration": "2–4 weeks",
      "safetyClass": "herbal",
      "caution": "Generally well tolerated.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     },
     {
-     "formulation": "guggulu-tiktaka-ghrita",
+     "formulations": [
+      "guggulu-tiktaka-ghrita"
+     ],
      "name": "Guggulu Tiktaka Ghrita",
      "form": "Medicated ghee",
      "dose": "15–30 ml",
@@ -5506,10 +6222,13 @@
      "duration": "2–4 weeks",
      "safetyClass": "herbal",
      "caution": "High fat.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     },
     {
-     "formulation": "vatagajankusha-rasa",
+     "formulations": [
+      "vatagajankusha-rasa"
+     ],
      "name": "Vatagajankusha Rasa",
      "form": "Herbo-mineral",
      "dose": "60–125 mg",
@@ -5518,7 +6237,8 @@
      "duration": "2–4 weeks",
      "safetyClass": "herbo-mineral",
      "caution": "Contains mercury and aconite. Supervision only.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     }
    ],
    "pathya": [
@@ -5611,7 +6331,9 @@
    ],
    "medicines": [
     {
-     "formulation": "ashwagandha-pippalimoola-churna",
+     "formulations": [
+      "ashwagandha-pippalimoola-churna"
+     ],
      "name": "Ashwagandha + Pippalimoola Churna",
      "form": "Powder",
      "dose": "3–5 g",
@@ -5620,10 +6342,14 @@
      "duration": "1–2 weeks",
      "safetyClass": "herbal",
      "caution": "Avoid in pregnancy.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "rasna-shunthi-churna",
+     "formulations": [
+      "rasna-churna",
+      "shunthi-churna"
+     ],
      "name": "Rasna / Shunthi Churna",
      "form": "Powder",
      "dose": "3–5 g",
@@ -5632,10 +6358,15 @@
      "duration": "1–2 weeks",
      "safetyClass": "herbal",
      "caution": "Shunthi is heating.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": true
     },
     {
-     "formulation": "rasnasaptaka-dashamoola-erandamoola-kashaya",
+     "formulations": [
+      "rasnasaptaka-kwatha",
+      "dashamoola-kwatha",
+      "erandamoola-kwatha"
+     ],
      "name": "Rasnasaptaka / Dashamoola / Erandamoola Kashaya",
      "form": "Decoction",
      "dose": "12–24 ml",
@@ -5644,10 +6375,14 @@
      "duration": "1–2 weeks",
      "safetyClass": "herbal",
      "caution": "Generally well tolerated.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": true
     },
     {
-     "formulation": "yogaraja-simhanada-guggulu",
+     "formulations": [
+      "yogaraja-guggulu",
+      "simhanada-guggulu"
+     ],
      "name": "Yogaraja / Simhanada Guggulu",
      "form": "Tablet",
      "dose": "1–2 tablets",
@@ -5656,10 +6391,13 @@
      "duration": "1–2 weeks",
      "safetyClass": "herbal",
      "caution": "Guggulu cautions.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": true
     },
     {
-     "formulation": "castor-oil",
+     "formulations": [
+      "castor-oil"
+     ],
      "name": "Castor oil",
      "form": "Oil",
      "dose": "15–50 ml",
@@ -5668,10 +6406,13 @@
      "duration": "As needed for constipation",
      "safetyClass": "herbal",
      "caution": "Strong laxative; avoid in pregnancy.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "castor-seeds-boiled-in-milk",
+     "formulations": [
+      "castor-seeds-boiled-in-milk"
+     ],
      "name": "Castor seeds boiled in milk (Eranda Beeja Kshirapaka)",
      "form": "Seeds in milk",
      "dose": "7 seeds a day",
@@ -5680,10 +6421,14 @@
      "duration": "1 week",
      "safetyClass": "contains-toxic-herb",
      "caution": "Castor seeds contain ricin, a deadly poison. Only from a practitioner, prepared exactly; never chew raw seeds.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "agnitundi-sanjivani-vati",
+     "formulations": [
+      "agnitundi-vati",
+      "sanjivani-vati"
+     ],
      "name": "Agnitundi / Sanjivani Vati",
      "form": "Tablet",
      "dose": "125–250 mg",
@@ -5692,10 +6437,14 @@
      "duration": "1–2 weeks",
      "safetyClass": "contains-toxic-herb",
      "caution": "Contain nux vomica, bhallataka or aconite. Supervision only.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": true
     },
     {
-     "formulation": "murivenna-dhanwantaram-taila",
+     "formulations": [
+      "murivenna-taila",
+      "dhanwantaram-taila"
+     ],
      "name": "Murivenna / Dhanwantaram Taila (external)",
      "form": "Oil",
      "dose": "For massage or Kati Basti",
@@ -5704,7 +6453,8 @@
      "duration": "1–2 weeks",
      "safetyClass": "herbal",
      "caution": "External.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": true
     }
    ],
    "pathya": [
@@ -5802,7 +6552,11 @@
    ],
    "medicines": [
     {
-     "formulation": "rasna-ashwagandha-shunthi-churna",
+     "formulations": [
+      "rasna-churna",
+      "ashwagandha-churna",
+      "shunthi-churna"
+     ],
      "name": "Rasna / Ashwagandha / Shunthi Churna",
      "form": "Powder",
      "dose": "3–5 g",
@@ -5811,10 +6565,15 @@
      "duration": "1–2 weeks",
      "safetyClass": "herbal",
      "caution": "Ashwagandha: avoid in pregnancy.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": true
     },
     {
-     "formulation": "rasnasaptaka-sahacharadi-maharasnadi-kashaya",
+     "formulations": [
+      "rasnasaptaka-kwatha",
+      "sahacharadi-kwatha",
+      "maharasnadi-kwatha"
+     ],
      "name": "Rasnasaptaka / Sahacharadi / Maharasnadi Kashaya",
      "form": "Decoction",
      "dose": "12–24 ml",
@@ -5823,10 +6582,14 @@
      "duration": "1–2 weeks",
      "safetyClass": "herbal",
      "caution": "Generally well tolerated.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": true
     },
     {
-     "formulation": "yogaraja-trayodashanga-guggulu",
+     "formulations": [
+      "yogaraja-guggulu",
+      "trayodashanga-guggulu"
+     ],
      "name": "Yogaraja / Trayodashanga Guggulu",
      "form": "Tablet",
      "dose": "1–2 tablets",
@@ -5835,10 +6598,13 @@
      "duration": "1–2 weeks",
      "safetyClass": "herbal",
      "caution": "Guggulu cautions.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": true
     },
     {
-     "formulation": "parijata-leaf-juice",
+     "formulations": [
+      "parijata-leaf-juice"
+     ],
      "name": "Parijata (night jasmine) leaf juice",
      "form": "Fresh juice",
      "dose": "15 ml",
@@ -5847,10 +6613,13 @@
      "duration": "1–2 weeks",
      "safetyClass": "herbal",
      "caution": "Bitter; may upset the stomach.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "castor-oil",
+     "formulations": [
+      "castor-oil"
+     ],
      "name": "Castor oil",
      "form": "Oil",
      "dose": "15–50 ml",
@@ -5859,10 +6628,13 @@
      "duration": "As needed",
      "safetyClass": "herbal",
      "caution": "Strong laxative; avoid in pregnancy.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "castor-seeds-boiled-in-milk",
+     "formulations": [
+      "castor-seeds-boiled-in-milk"
+     ],
      "name": "Castor seeds boiled in milk",
      "form": "Seeds in milk",
      "dose": "5 seeds",
@@ -5871,10 +6643,14 @@
      "duration": "1–2 weeks",
      "safetyClass": "contains-toxic-herb",
      "caution": "Castor seeds contain ricin, a deadly poison. Only from a practitioner; never chew raw seeds.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "ashwagandharishta-balarishta",
+     "formulations": [
+      "ashwagandharishta",
+      "balarishta"
+     ],
      "name": "Ashwagandharishta / Balarishta",
      "form": "Fermented liquid",
      "dose": "10–20 ml",
@@ -5883,10 +6659,13 @@
      "duration": "As directed",
      "safetyClass": "herbal",
      "caution": "Self-generated alcohol.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": true
     },
     {
-     "formulation": "vatagajankusha-rasa",
+     "formulations": [
+      "vatagajankusha-rasa"
+     ],
      "name": "Vatagajankusha Rasa",
      "form": "Herbo-mineral",
      "dose": "60–125 mg",
@@ -5895,7 +6674,8 @@
      "duration": "As directed",
      "safetyClass": "herbo-mineral",
      "caution": "Contains mercury and aconite. Supervision only.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     }
    ],
    "pathya": [
@@ -5992,7 +6772,11 @@
    ],
    "medicines": [
     {
-     "formulation": "ashwagandha-bala-rasna-churna",
+     "formulations": [
+      "ashwagandha-churna",
+      "bala-churna",
+      "rasna-churna"
+     ],
      "name": "Ashwagandha / Bala / Rasna Churna",
      "form": "Powder",
      "dose": "3–5 g",
@@ -6001,10 +6785,15 @@
      "duration": "3–4 months",
      "safetyClass": "herbal",
      "caution": "Ashwagandha: rare liver injury.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": true
     },
     {
-     "formulation": "maharasnadi-dashamula-gandharvahastadi-kashaya",
+     "formulations": [
+      "maharasnadi-kwatha",
+      "dashamoola-kwatha",
+      "gandharvahastadi-kwatha"
+     ],
      "name": "Maharasnadi / Dashamula / Gandharvahastadi Kashaya",
      "form": "Decoction",
      "dose": "12–24 ml",
@@ -6013,10 +6802,13 @@
      "duration": "3–4 months",
      "safetyClass": "herbal",
      "caution": "Generally well tolerated.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": true
     },
     {
-     "formulation": "yogaraja-guggulu",
+     "formulations": [
+      "yogaraja-guggulu"
+     ],
      "name": "Yogaraja Guggulu",
      "form": "Tablet",
      "dose": "1–2 tablets",
@@ -6025,10 +6817,13 @@
      "duration": "3–4 months",
      "safetyClass": "herbal",
      "caution": "Guggulu may interact with blood thinners and antiplatelets.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "haritaki-churna",
+     "formulations": [
+      "haritaki-churna"
+     ],
      "name": "Haritaki Churna",
      "form": "Powder",
      "dose": "5–10 g",
@@ -6037,10 +6832,13 @@
      "duration": "3–4 months",
      "safetyClass": "herbal",
      "caution": "Laxative.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "garlic-paste",
+     "formulations": [
+      "garlic-paste"
+     ],
      "name": "Garlic paste (Rasona Pinda)",
      "form": "Paste",
      "dose": "5–20 g",
@@ -6049,10 +6847,15 @@
      "duration": "3–4 months",
      "safetyClass": "herbal",
      "caution": "Garlic increases bleeding risk with aspirin, clopidogrel or warfarin; tell your doctor.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "karpasasthyadi-dhanwantaram-bala-taila",
+     "formulations": [
+      "karpasasthyadi-taila",
+      "dhanwantaram-taila",
+      "bala-taila"
+     ],
      "name": "Karpasasthyadi / Dhanwantaram / Bala Taila (external)",
      "form": "Oil",
      "dose": "Self-massage",
@@ -6061,10 +6864,14 @@
      "duration": "Ongoing",
      "safetyClass": "herbal",
      "caution": "External.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": true
     },
     {
-     "formulation": "ashwagandharishta-balarishta",
+     "formulations": [
+      "ashwagandharishta",
+      "balarishta"
+     ],
      "name": "Ashwagandharishta / Balarishta",
      "form": "Fermented liquid",
      "dose": "30 ml",
@@ -6073,10 +6880,13 @@
      "duration": "As directed",
      "safetyClass": "herbal",
      "caution": "Self-generated alcohol.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": true
     },
     {
-     "formulation": "brihat-vatachintamani-rasa",
+     "formulations": [
+      "brihat-vatachintamani-rasa"
+     ],
      "name": "Brihat Vatachintamani Rasa",
      "form": "Herbo-mineral",
      "dose": "60–125 mg",
@@ -6085,7 +6895,8 @@
      "duration": "As directed",
      "safetyClass": "herbo-mineral",
      "caution": "Contains gold, silver, mercury. Supervision only.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     }
    ],
    "pathya": [
@@ -6182,7 +6993,9 @@
    ],
    "medicines": [
     {
-     "formulation": "guduchi-juice-or-powder",
+     "formulations": [
+      "guduchi-juice-or-powder"
+     ],
      "name": "Guduchi juice or powder",
      "form": "Juice / powder",
      "dose": "10–20 ml / 3–5 g",
@@ -6191,10 +7004,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Rare liver injury reports; may lower blood sugar.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "kaishora-guggulu",
+     "formulations": [
+      "kaishora-guggulu"
+     ],
      "name": "Kaishora Guggulu",
      "form": "Tablet",
      "dose": "1–2 tablets (500 mg)",
@@ -6203,10 +7019,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Guggulu cautions.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "punarnava-guggulu",
+     "formulations": [
+      "punarnava-guggulu"
+     ],
      "name": "Punarnava Guggulu",
      "form": "Tablet",
      "dose": "1–2 tablets (500 mg)",
@@ -6215,10 +7034,15 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Guggulu cautions; diuretic.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "kokilaksha-amritadi-laghu-manjishthadi-kwatha",
+     "formulations": [
+      "kokilaksha-kwatha",
+      "amritadi-kwatha",
+      "laghu-manjishthadi-kwatha"
+     ],
      "name": "Kokilaksha / Amritadi / Laghu Manjishthadi Kwatha",
      "form": "Decoction",
      "dose": "20–40 ml",
@@ -6227,10 +7051,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Generally well tolerated.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": true
     },
     {
-     "formulation": "triphala-kwatha",
+     "formulations": [
+      "triphala-kwatha"
+     ],
      "name": "Triphala Kwatha",
      "form": "Decoction",
      "dose": "20–40 ml",
@@ -6239,10 +7066,14 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Loose stools.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "pinda-taila-ksheerabala-taila",
+     "formulations": [
+      "pinda-taila",
+      "ksheerabala-taila"
+     ],
      "name": "Pinda Taila / Ksheerabala Taila (external)",
      "form": "Oil",
      "dose": "Apply to joints",
@@ -6251,10 +7082,13 @@
      "duration": "1 month",
      "safetyClass": "herbal",
      "caution": "External.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": true
     },
     {
-     "formulation": "panchatikta-guggulu-ghrita",
+     "formulations": [
+      "panchatikta-guggulu-ghrita"
+     ],
      "name": "Panchatikta Guggulu Ghrita",
      "form": "Medicated ghee",
      "dose": "12 g",
@@ -6263,7 +7097,8 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "High fat.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     }
    ],
    "pathya": [
@@ -6361,7 +7196,9 @@
    ],
    "medicines": [
     {
-     "formulation": "triphala-guggulu",
+     "formulations": [
+      "triphala-guggulu"
+     ],
      "name": "Triphala Guggulu",
      "form": "Tablet",
      "dose": "2 tablets",
@@ -6370,10 +7207,13 @@
      "duration": "7 days",
      "safetyClass": "herbal",
      "caution": "Guggulu cautions.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "amapachana-vati",
+     "formulations": [
+      "amapachana-vati"
+     ],
      "name": "Amapachana Vati",
      "form": "Tablet",
      "dose": "2 tablets",
@@ -6382,10 +7222,15 @@
      "duration": "7 days",
      "safetyClass": "herbal",
      "caution": "Generally well tolerated.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "vasakadi-patoladi-manjishthadi-kwatha",
+     "formulations": [
+      "vasakadi-kwatha",
+      "patoladi-kwatha",
+      "manjishthadi-kwatha"
+     ],
      "name": "Vasakadi / Patoladi / Manjishthadi Kwatha",
      "form": "Decoction",
      "dose": "20 ml",
@@ -6394,10 +7239,13 @@
      "duration": "7 days",
      "safetyClass": "herbal",
      "caution": "Bitter.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": true
     },
     {
-     "formulation": "nayanamrita-eye-drops",
+     "formulations": [
+      "nayanamrita-eye-drops"
+     ],
      "name": "Nayanamrita eye drops (licensed product)",
      "form": "Eye drops",
      "dose": "1 drop",
@@ -6406,10 +7254,13 @@
      "duration": "7 days",
      "safetyClass": "herbal",
      "caution": "Use only sealed, sterile, licensed drops; stop if pain increases.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "tiktaka-ghrita",
+     "formulations": [
+      "tiktaka-ghrita"
+     ],
      "name": "Tiktaka Ghrita",
      "form": "Medicated ghee",
      "dose": "10 ml",
@@ -6418,10 +7269,14 @@
      "duration": "7 days",
      "safetyClass": "herbal",
      "caution": "High fat.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     },
     {
-     "formulation": "sutashekhara-kaphaketu-rasa",
+     "formulations": [
+      "sutashekhara-rasa",
+      "kaphaketu-rasa"
+     ],
      "name": "Sutashekhara / Kaphaketu Rasa",
      "form": "Herbo-mineral",
      "dose": "125–250 mg",
@@ -6430,7 +7285,8 @@
      "duration": "7 days",
      "safetyClass": "herbo-mineral",
      "caution": "Contain mercury. Supervision only.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": true
     }
    ],
    "pathya": [
@@ -6524,7 +7380,10 @@
    ],
    "medicines": [
     {
-     "formulation": "triphala-gokshuradi-guggulu",
+     "formulations": [
+      "triphala-guggulu",
+      "gokshuradi-guggulu"
+     ],
      "name": "Triphala / Gokshuradi Guggulu",
      "form": "Tablet",
      "dose": "2–3 tablets",
@@ -6533,10 +7392,13 @@
      "duration": "15–20 days",
      "safetyClass": "herbal",
      "caution": "Guggulu cautions.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": true
     },
     {
-     "formulation": "punarnavashtaka-kwatha",
+     "formulations": [
+      "punarnavashtaka-kwatha"
+     ],
      "name": "Punarnavashtaka Kwatha",
      "form": "Decoction",
      "dose": "20 ml",
@@ -6545,10 +7407,13 @@
      "duration": "15–20 days",
      "safetyClass": "herbal",
      "caution": "Diuretic.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     },
     {
-     "formulation": "sahacharadi-ghrita",
+     "formulations": [
+      "sahacharadi-ghrita"
+     ],
      "name": "Sahacharadi Ghrita",
      "form": "Medicated ghee",
      "dose": "10 ml",
@@ -6557,10 +7422,14 @@
      "duration": "15–20 days",
      "safetyClass": "herbal",
      "caution": "High fat.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     },
     {
-     "formulation": "brihat-kushmanda-avaleha-shatavari-paka",
+     "formulations": [
+      "brihat-kushmanda-avaleha",
+      "shatavari-paka"
+     ],
      "name": "Brihat Kushmanda Avaleha / Shatavari Paka",
      "form": "Herbal jam",
      "dose": "5–10 g",
@@ -6569,7 +7438,8 @@
      "duration": "15–20 days",
      "safetyClass": "herbal",
      "caution": "Sugar-based.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": true
     }
    ],
    "pathya": [
@@ -6661,7 +7531,9 @@
    ],
    "medicines": [
     {
-     "formulation": "triphala-decoction-mouthwash",
+     "formulations": [
+      "triphala-decoction-mouthwash"
+     ],
      "name": "Triphala decoction mouthwash",
      "form": "Gargle",
      "dose": "40 ml",
@@ -6670,10 +7542,14 @@
      "duration": "5–7 days",
      "safetyClass": "herbal",
      "caution": "Do not swallow large amounts.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "panchavalkala-kshirivriksha-kashaya-gargle",
+     "formulations": [
+      "panchavalkala-kwatha-gargle",
+      "kshirivriksha-kwatha-gargle"
+     ],
      "name": "Panchavalkala / Kshirivriksha Kashaya gargle",
      "form": "Gargle",
      "dose": "40 ml, held 10 min",
@@ -6682,10 +7558,13 @@
      "duration": "5–7 days",
      "safetyClass": "herbal",
      "caution": "Astringent.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": true
     },
     {
-     "formulation": "dashana-samskara-churna",
+     "formulations": [
+      "dashana-samskara-churna"
+     ],
      "name": "Dashana Samskara Churna",
      "form": "Tooth powder",
      "dose": "1 g",
@@ -6694,10 +7573,13 @@
      "duration": "5–7 days",
      "safetyClass": "herbal",
      "caution": "Use gently; abrasive powders can wear enamel.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "irimedadi-taila",
+     "formulations": [
+      "irimedadi-taila"
+     ],
      "name": "Irimedadi Taila",
      "form": "Oil",
      "dose": "10–20 ml",
@@ -6706,10 +7588,13 @@
      "duration": "10 days",
      "safetyClass": "herbal",
      "caution": "Do not swallow.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     },
     {
-     "formulation": "khadiradi-gutika",
+     "formulations": [
+      "khadiradi-gutika"
+     ],
      "name": "Khadiradi Gutika",
      "form": "Lozenge",
      "dose": "1 lozenge",
@@ -6718,7 +7603,8 @@
      "duration": "10 days",
      "safetyClass": "herbal",
      "caution": "Generally safe.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     }
    ],
    "pathya": [
@@ -6810,7 +7696,9 @@
    ],
    "medicines": [
     {
-     "formulation": "honey-gargle",
+     "formulations": [
+      "honey-gargle"
+     ],
      "name": "Honey gargle",
      "form": "Gargle",
      "dose": "1 tsp in water",
@@ -6819,10 +7707,13 @@
      "duration": "5–7 days",
      "safetyClass": "herbal",
      "caution": "Not for babies under 1 year.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "yashtimadhu-gairika-powder",
+     "formulations": [
+      "yashtimadhu-gairika-powder"
+     ],
      "name": "Yashtimadhu + Gairika powder (local)",
      "form": "Powder paste",
      "dose": "1 g each",
@@ -6831,10 +7722,13 @@
      "duration": "5–7 days",
      "safetyClass": "herbal",
      "caution": "External; Gairika is red ochre, a mineral.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "jasmine-leaf-paste-or-chewing",
+     "formulations": [
+      "jasmine-leaf-paste-or-chewing"
+     ],
      "name": "Jasmine (jati) leaf paste or chewing",
      "form": "Leaf paste",
      "dose": "5 g",
@@ -6843,10 +7737,13 @@
      "duration": "5–7 days",
      "safetyClass": "herbal",
      "caution": "Safe.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "triphala-decoction-gargle",
+     "formulations": [
+      "triphala-decoction-gargle"
+     ],
      "name": "Triphala decoction gargle",
      "form": "Gargle",
      "dose": "100 ml",
@@ -6855,10 +7752,13 @@
      "duration": "5 days",
      "safetyClass": "herbal",
      "caution": "Safe.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "samshamani-vati",
+     "formulations": [
+      "samshamani-vati"
+     ],
      "name": "Samshamani Vati",
      "form": "Tablet",
      "dose": "2 tablets",
@@ -6867,10 +7767,13 @@
      "duration": "5–7 days",
      "safetyClass": "herbal",
      "caution": "Guduchi: rare liver-injury reports.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "swadishta-virechana-churna",
+     "formulations": [
+      "swadishta-virechana-churna"
+     ],
      "name": "Swadishta Virechana Churna",
      "form": "Powder (laxative)",
      "dose": "4 g",
@@ -6879,10 +7782,13 @@
      "duration": "5–7 days",
      "safetyClass": "herbal",
      "caution": "Laxative.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "borax-application",
+     "formulations": [
+      "borax-application"
+     ],
      "name": "Borax (Tankana) application",
      "form": "Mineral powder",
      "dose": "1 g",
@@ -6891,7 +7797,8 @@
      "duration": "5–7 days",
      "safetyClass": "herbo-mineral",
      "caution": "Borax is toxic if swallowed, especially for children. Avoid in children.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     }
    ],
    "pathya": [
@@ -6983,7 +7890,9 @@
    ],
    "medicines": [
     {
-     "formulation": "sarpagandha-mishran",
+     "formulations": [
+      "sarpagandha-mishran"
+     ],
      "name": "Sarpagandha Mishran (Sarpagandha, Jatamansi, Vacha, Punarnava, Brahmi, Shankhapushpi, Guduchi)",
      "form": "Tablet / capsule",
      "dose": "250 mg",
@@ -6992,10 +7901,13 @@
      "duration": "6 months, with BP monitoring",
      "safetyClass": "herbal",
      "caution": "Sarpagandha contains reserpine: can cause depression, stuffy nose, stomach ulcer, low pulse. Avoid in depression and pregnancy. Can add to blood-pressure medicines, so monitor for low BP.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "pravala-pishti",
+     "formulations": [
+      "pravala-pishti"
+     ],
      "name": "Pravala Pishti",
      "form": "Coral powder",
      "dose": "250 mg",
@@ -7004,7 +7916,8 @@
      "duration": "6 months",
      "safetyClass": "herbo-mineral",
      "caution": "Calcium-based mineral; buy from licensed makers.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     }
    ],
    "pathya": [
@@ -7103,7 +8016,9 @@
    ],
    "medicines": [
     {
-     "formulation": "triphala-churna",
+     "formulations": [
+      "triphala-churna"
+     ],
      "name": "Triphala Churna",
      "form": "Powder",
      "dose": "3–5 g",
@@ -7112,10 +8027,13 @@
      "duration": "1–3 months",
      "safetyClass": "herbal",
      "caution": "Loose stools.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "shunthi-churna",
+     "formulations": [
+      "shunthi-churna"
+     ],
      "name": "Shunthi (dry ginger) Churna",
      "form": "Powder",
      "dose": "2–3 g a day, divided",
@@ -7124,10 +8042,13 @@
      "duration": "1–3 months",
      "safetyClass": "herbal",
      "caution": "Heating.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "musta-churna",
+     "formulations": [
+      "musta-churna"
+     ],
      "name": "Musta Churna",
      "form": "Powder",
      "dose": "3–6 g",
@@ -7136,10 +8057,13 @@
      "duration": "1–3 months",
      "safetyClass": "herbal",
      "caution": "Generally well tolerated.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "vrikshamla-churna",
+     "formulations": [
+      "vrikshamla-churna"
+     ],
      "name": "Vrikshamla (Garcinia) Churna",
      "form": "Powder",
      "dose": "3–5 g",
@@ -7148,10 +8072,14 @@
      "duration": "1–3 months",
      "safetyClass": "herbal",
      "caution": "Concentrated Garcinia extracts have been linked to liver injury; stop if jaundice develops.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "medohara-triphala-guggulu",
+     "formulations": [
+      "medohara-guggulu",
+      "triphala-guggulu"
+     ],
      "name": "Medohara / Triphala Guggulu",
      "form": "Tablet",
      "dose": "1 g a day / 1–3 g a day, divided",
@@ -7160,10 +8088,13 @@
      "duration": "1–3 months",
      "safetyClass": "herbal",
      "caution": "Guggulu: stomach upset, rash; may interact with thyroid and blood-thinning drugs; avoid in pregnancy.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": true
     },
     {
-     "formulation": "phalatrikadi-kwatha",
+     "formulations": [
+      "phalatrikadi-kwatha"
+     ],
      "name": "Phalatrikadi Kwatha",
      "form": "Decoction",
      "dose": "25–50 ml",
@@ -7172,10 +8103,13 @@
      "duration": "1–3 months",
      "safetyClass": "herbal",
      "caution": "Generally well tolerated.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "lashunadi-vati",
+     "formulations": [
+      "lashunadi-vati"
+     ],
      "name": "Lashunadi Vati (garlic)",
      "form": "Tablet",
      "dose": "500 mg",
@@ -7184,10 +8118,13 @@
      "duration": "1 month",
      "safetyClass": "herbal",
      "caution": "Garlic increases bleeding risk with blood thinners.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     },
     {
-     "formulation": "arogyavardhini-vati",
+     "formulations": [
+      "arogyavardhini-vati"
+     ],
      "name": "Arogyavardhini Vati",
      "form": "Herbo-mineral",
      "dose": "250–500 mg",
@@ -7196,7 +8133,8 @@
      "duration": "1 month",
      "safetyClass": "herbo-mineral",
      "caution": "Contains mercury and copper. Supervision only.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     }
    ],
    "pathya": [
@@ -7293,7 +8231,9 @@
    ],
    "medicines": [
     {
-     "formulation": "triphala-churna",
+     "formulations": [
+      "triphala-churna"
+     ],
      "name": "Triphala Churna",
      "form": "Powder",
      "dose": "3–5 g",
@@ -7302,10 +8242,13 @@
      "duration": "15 days (up to 3 months)",
      "safetyClass": "herbal",
      "caution": "Loose stools.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "eranda-bhrishta-haritaki-churna",
+     "formulations": [
+      "eranda-bhrishta-haritaki-churna"
+     ],
      "name": "Eranda Bhrishta Haritaki Churna",
      "form": "Powder",
      "dose": "5 g",
@@ -7314,10 +8257,13 @@
      "duration": "15 days",
      "safetyClass": "herbal",
      "caution": "Laxative; avoid in pregnancy.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "vasa-guduchyadi-kashaya",
+     "formulations": [
+      "vasa-guduchyadi-kwatha"
+     ],
      "name": "Vasa-Guduchyadi Kashaya",
      "form": "Decoction",
      "dose": "25–50 ml",
@@ -7326,10 +8272,13 @@
      "duration": "15 days",
      "safetyClass": "herbal",
      "caution": "Guduchi: rare liver-injury reports in some people; get liver tests rechecked.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "phalatrikadi-kashaya",
+     "formulations": [
+      "phalatrikadi-kwatha"
+     ],
      "name": "Phalatrikadi Kashaya",
      "form": "Decoction",
      "dose": "25–50 ml",
@@ -7338,10 +8287,13 @@
      "duration": "15 days",
      "safetyClass": "herbal",
      "caution": "Generally well tolerated.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "drakshavaleha",
+     "formulations": [
+      "drakshavaleha"
+     ],
      "name": "Drakshavaleha",
      "form": "Herbal jam",
      "dose": "6–12 g",
@@ -7350,10 +8302,13 @@
      "duration": "15 days",
      "safetyClass": "herbal",
      "caution": "Sugar-based: unsuitable in diabetes.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "triphala-guggulu",
+     "formulations": [
+      "triphala-guggulu"
+     ],
      "name": "Triphala Guggulu",
      "form": "Tablet",
      "dose": "1–3 g a day",
@@ -7362,10 +8317,13 @@
      "duration": "15–30 days",
      "safetyClass": "herbal",
      "caution": "Guggulu cautions.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "arogyavardhini-vati",
+     "formulations": [
+      "arogyavardhini-vati"
+     ],
      "name": "Arogyavardhini Vati",
      "form": "Herbo-mineral",
      "dose": "250–500 mg",
@@ -7374,10 +8332,13 @@
      "duration": "15 days",
      "safetyClass": "herbo-mineral",
      "caution": "Contains mercury and copper. Supervision only, with liver tests.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "katuki-churna",
+     "formulations": [
+      "katuki-churna"
+     ],
      "name": "Katuki Churna",
      "form": "Powder",
      "dose": "3–5 g",
@@ -7386,10 +8347,14 @@
      "duration": "15 days",
      "safetyClass": "herbal",
      "caution": "Bitter; laxative.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     },
     {
-     "formulation": "kankayana-agnitundi-vati",
+     "formulations": [
+      "kankayana-vati",
+      "agnitundi-vati"
+     ],
      "name": "Kankayana / Agnitundi Vati",
      "form": "Tablet",
      "dose": "250 mg–1 g",
@@ -7398,7 +8363,8 @@
      "duration": "15 days",
      "safetyClass": "contains-toxic-herb",
      "caution": "Agnitundi contains nux vomica (strychnine). Supervision only. The Ayurvedic Formulary of India limits Agnitundi to 125–250 mg per dose.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": true
     }
    ],
    "pathya": [
@@ -7499,7 +8465,9 @@
    ],
    "medicines": [
     {
-     "formulation": "rasnasaptaka-kwatha",
+     "formulations": [
+      "rasnasaptaka-kwatha"
+     ],
      "name": "Rasnasaptaka Kwatha",
      "form": "Decoction",
      "dose": "60–80 ml a day, in 2 doses",
@@ -7508,10 +8476,13 @@
      "duration": "7–14 days",
      "safetyClass": "herbal",
      "caution": "Generally well tolerated.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "dashamula-katutrayam-kwatha",
+     "formulations": [
+      "dashamoola-katutrayam-kwatha"
+     ],
      "name": "Dashamula Katutrayam Kwatha",
      "form": "Decoction",
      "dose": "60–80 ml a day, in 2 doses",
@@ -7520,10 +8491,13 @@
      "duration": "7–14 days",
      "safetyClass": "herbal",
      "caution": "Generally well tolerated.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "yogaraja-guggulu",
+     "formulations": [
+      "yogaraja-guggulu"
+     ],
      "name": "Yogaraja Guggulu",
      "form": "Tablet (500 mg)",
      "dose": "1–3 g a day, in 2–3 doses",
@@ -7532,10 +8506,13 @@
      "duration": "15 days–1 month",
      "safetyClass": "herbal",
      "caution": "Guggulu cautions.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "ashwagandha-churna",
+     "formulations": [
+      "ashwagandha-churna"
+     ],
      "name": "Ashwagandha Churna",
      "form": "Powder",
      "dose": "3–5 g a day, in 2 doses",
@@ -7544,10 +8521,14 @@
      "duration": "15 days–1 month",
      "safetyClass": "herbal",
      "caution": "Rare liver injury; avoid in pregnancy.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "balarishta-dashamoolarishta",
+     "formulations": [
+      "balarishta",
+      "dashamoolarishta"
+     ],
      "name": "Balarishta / Dashamoolarishta",
      "form": "Fermented liquid",
      "dose": "50–80 ml a day, in 2 doses",
@@ -7556,10 +8537,14 @@
      "duration": "7–14 days",
      "safetyClass": "herbal",
      "caution": "Self-generated alcohol. The Ayurvedic Formulary of India gives 12–24 ml per dose; follow your doctor.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": true
     },
     {
-     "formulation": "nirgundi-panchaguna-taila",
+     "formulations": [
+      "nirgundi-taila",
+      "panchaguna-taila"
+     ],
      "name": "Nirgundi / Panchaguna Taila (external)",
      "form": "Oil",
      "dose": "5–10 ml",
@@ -7568,10 +8553,13 @@
      "duration": "15 days–1 month",
      "safetyClass": "herbal",
      "caution": "External.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": true
     },
     {
-     "formulation": "shallaki-extract",
+     "formulations": [
+      "shallaki-extract"
+     ],
      "name": "Shallaki (Boswellia) extract",
      "form": "Capsule",
      "dose": "1–3 g a day, in 3 doses",
@@ -7580,10 +8568,13 @@
      "duration": "15 days–1 month",
      "safetyClass": "herbal",
      "caution": "Mild stomach upset.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     },
     {
-     "formulation": "guggulu-tiktaka-ghrita",
+     "formulations": [
+      "guggulu-tiktaka-ghrita"
+     ],
      "name": "Guggulu Tiktaka Ghrita",
      "form": "Medicated ghee",
      "dose": "10 g",
@@ -7592,7 +8583,8 @@
      "duration": "7 days–1 month",
      "safetyClass": "herbal",
      "caution": "High fat.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     }
    ],
    "pathya": [
@@ -7690,7 +8682,10 @@
    ],
    "medicines": [
     {
-     "formulation": "rasnasaptaka-rasnapanchaka-kashaya",
+     "formulations": [
+      "rasnasaptaka-kwatha",
+      "rasnapanchaka-kwatha"
+     ],
      "name": "Rasnasaptaka / Rasnapanchaka Kashaya",
      "form": "Decoction",
      "dose": "60–80 ml a day, in 2 doses",
@@ -7699,10 +8694,14 @@
      "duration": "15 days–1 month",
      "safetyClass": "herbal",
      "caution": "Generally well tolerated.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": true
     },
     {
-     "formulation": "brahmi-drakshadi-shatavaryadi-kashaya",
+     "formulations": [
+      "brahmi-drakshadi-kwatha",
+      "shatavaryadi-kwatha"
+     ],
      "name": "Brahmi-Drakshadi / Shatavaryadi Kashaya",
      "form": "Decoction",
      "dose": "60–80 ml a day, in 2 doses",
@@ -7711,10 +8710,13 @@
      "duration": "15 days–1 month",
      "safetyClass": "herbal",
      "caution": "Generally well tolerated.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": true
     },
     {
-     "formulation": "ashwagandha-churna",
+     "formulations": [
+      "ashwagandha-churna"
+     ],
      "name": "Ashwagandha Churna",
      "form": "Powder",
      "dose": "3–5 g",
@@ -7723,10 +8725,13 @@
      "duration": "30 days",
      "safetyClass": "herbal",
      "caution": "Rare liver injury; avoid in pregnancy.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "mahakalyanaka-ghrita",
+     "formulations": [
+      "mahakalyanaka-ghrita"
+     ],
      "name": "Mahakalyanaka Ghrita",
      "form": "Medicated ghee",
      "dose": "10 ml",
@@ -7735,10 +8740,13 @@
      "duration": "45 days",
      "safetyClass": "herbal",
      "caution": "High fat.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "manasamitra-vatakam",
+     "formulations": [
+      "manasamitra-vatakam"
+     ],
      "name": "Manasamitra Vatakam",
      "form": "Tablet",
      "dose": "1 tablet",
@@ -7747,10 +8755,14 @@
      "duration": "15 days",
      "safetyClass": "herbo-mineral",
      "caution": "Contains gold, silver and other minerals. Supervision only.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "ashwagandharishta-balarishta",
+     "formulations": [
+      "ashwagandharishta",
+      "balarishta"
+     ],
      "name": "Ashwagandharishta / Balarishta",
      "form": "Fermented liquid",
      "dose": "60 ml a day, in 2 doses",
@@ -7759,10 +8771,14 @@
      "duration": "30 days",
      "safetyClass": "herbal",
      "caution": "Self-generated alcohol.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": true
     },
     {
-     "formulation": "ksheerabala-mahamasha-taila",
+     "formulations": [
+      "ksheerabala-taila",
+      "mahamasha-taila"
+     ],
      "name": "Ksheerabala / Mahamasha Taila (external)",
      "form": "Oil",
      "dose": "For massage",
@@ -7771,7 +8787,8 @@
      "duration": "45 days",
      "safetyClass": "herbal",
      "caution": "External.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": true
     }
    ],
    "pathya": [
@@ -7870,7 +8887,9 @@
    ],
    "medicines": [
     {
-     "formulation": "isabgol",
+     "formulations": [
+      "isabgol"
+     ],
      "name": "Isabgol (psyllium husk)",
      "form": "Husk",
      "dose": "5–10 g (1–2 teaspoons) in a full glass of water",
@@ -7879,10 +8898,13 @@
      "duration": "As needed",
      "safetyClass": "herbal",
      "caution": "Must be taken with plenty of water; can cause bloating at first.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "triphala-churna",
+     "formulations": [
+      "triphala-churna"
+     ],
      "name": "Triphala Churna",
      "form": "Powder",
      "dose": "2–4 g",
@@ -7891,10 +8913,13 @@
      "duration": "1–2 weeks",
      "safetyClass": "herbal",
      "caution": "Loose stools.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "haritaki-churna",
+     "formulations": [
+      "haritaki-churna"
+     ],
      "name": "Haritaki Churna",
      "form": "Powder",
      "dose": "2–4 g",
@@ -7903,10 +8928,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Avoid in pregnancy.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "draksha-soaked",
+     "formulations": [
+      "draksha-soaked"
+     ],
      "name": "Draksha (raisins), soaked",
      "form": "Dried fruit",
      "dose": "10–20 g",
@@ -7915,10 +8943,13 @@
      "duration": "1–2 weeks",
      "safetyClass": "herbal",
      "caution": "Safe; sugar content.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "abhayarishta",
+     "formulations": [
+      "abhayarishta"
+     ],
      "name": "Abhayarishta",
      "form": "Fermented liquid",
      "dose": "10–20 ml",
@@ -7927,10 +8958,13 @@
      "duration": "1–2 weeks",
      "safetyClass": "herbal",
      "caution": "Self-generated alcohol.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "aragvadha-churna",
+     "formulations": [
+      "aragvadha-churna"
+     ],
      "name": "Aragvadha (Cassia fistula) Churna",
      "form": "Powder",
      "dose": "2–4 g",
@@ -7939,10 +8973,13 @@
      "duration": "1–2 weeks",
      "safetyClass": "herbal",
      "caution": "Cramps in higher doses.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "castor-oil",
+     "formulations": [
+      "castor-oil"
+     ],
      "name": "Castor oil",
      "form": "Oil",
      "dose": "10–20 ml",
@@ -7951,10 +8988,13 @@
      "duration": "Short term only",
      "safetyClass": "herbal",
      "caution": "Strong laxative: cramps, dehydration with regular use. Avoid in pregnancy.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     },
     {
-     "formulation": "avipattikara-churna",
+     "formulations": [
+      "avipattikara-churna"
+     ],
      "name": "Avipattikara Churna",
      "form": "Powder",
      "dose": "5–10 g",
@@ -7963,7 +9003,8 @@
      "duration": "2–5 days",
      "safetyClass": "herbal",
      "caution": "Purgative; contains sugar. Higher than the usual 3–6 g dose in the Ayurvedic Formulary of India: only for short purgation under supervision.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     }
    ],
    "pathya": [
@@ -8062,7 +9103,9 @@
    ],
    "medicines": [
     {
-     "formulation": "hingvashtaka-churna",
+     "formulations": [
+      "hingvashtaka-churna"
+     ],
      "name": "Hingvashtaka Churna",
      "form": "Powder",
      "dose": "2–3 g",
@@ -8071,10 +9114,13 @@
      "duration": "Until digestion settles",
      "safetyClass": "herbal",
      "caution": "Heating; avoid in acidity, ulcers and pregnancy.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "shunthi-churna",
+     "formulations": [
+      "shunthi-churna"
+     ],
      "name": "Shunthi (dry ginger) Churna",
      "form": "Powder",
      "dose": "1–2 g",
@@ -8083,10 +9129,13 @@
      "duration": "1–2 weeks",
      "safetyClass": "herbal",
      "caution": "Heating.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "amapachana-vati",
+     "formulations": [
+      "amapachana-vati"
+     ],
      "name": "Amapachana Vati",
      "form": "Tablet",
      "dose": "1–2 tablets",
@@ -8095,10 +9144,13 @@
      "duration": "1–2 weeks",
      "safetyClass": "herbal",
      "caution": "Generally well tolerated.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "chitrakadi-vati",
+     "formulations": [
+      "chitrakadi-vati"
+     ],
      "name": "Chitrakadi Vati",
      "form": "Tablet",
      "dose": "500 mg",
@@ -8107,10 +9159,13 @@
      "duration": "Up to 1 month",
      "safetyClass": "herbal",
      "caution": "Heating; avoid in pregnancy.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "fresh-ginger-with-rock-salt",
+     "formulations": [
+      "fresh-ginger-with-rock-salt"
+     ],
      "name": "Fresh ginger with rock salt",
      "form": "Food",
      "dose": "A thin slice",
@@ -8119,7 +9174,8 @@
      "duration": "Ongoing",
      "safetyClass": "herbal",
      "caution": "Classical appetiser; avoid with acidity.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     }
    ],
    "pathya": [
@@ -8220,7 +9276,9 @@
    ],
    "medicines": [
     {
-     "formulation": "fresh-ginger-with-rock-salt",
+     "formulations": [
+      "fresh-ginger-with-rock-salt"
+     ],
      "name": "Fresh ginger with rock salt",
      "form": "Food",
      "dose": "A thin slice",
@@ -8229,10 +9287,13 @@
      "duration": "Ongoing",
      "safetyClass": "herbal",
      "caution": "Avoid with acidity.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "chitrakadi-vati",
+     "formulations": [
+      "chitrakadi-vati"
+     ],
      "name": "Chitrakadi Vati",
      "form": "Tablet",
      "dose": "500 mg",
@@ -8241,10 +9302,13 @@
      "duration": "Up to 1 month",
      "safetyClass": "herbal",
      "caution": "Heating; avoid in pregnancy.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "hingvashtaka-churna",
+     "formulations": [
+      "hingvashtaka-churna"
+     ],
      "name": "Hingvashtaka Churna",
      "form": "Powder",
      "dose": "2–3 g",
@@ -8253,10 +9317,13 @@
      "duration": "Up to 2 weeks",
      "safetyClass": "herbal",
      "caution": "Heating.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "pippali-churna",
+     "formulations": [
+      "pippali-churna"
+     ],
      "name": "Pippali Churna",
      "form": "Powder",
      "dose": "1 g",
@@ -8265,10 +9332,13 @@
      "duration": "2–4 weeks",
      "safetyClass": "herbal",
      "caution": "Heating; may aggravate acidity.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "drakshavaleha",
+     "formulations": [
+      "drakshavaleha"
+     ],
      "name": "Drakshavaleha",
      "form": "Herbal jam",
      "dose": "5–10 g",
@@ -8277,10 +9347,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Sugar-based.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "arogyavardhini-vati",
+     "formulations": [
+      "arogyavardhini-vati"
+     ],
      "name": "Arogyavardhini Vati",
      "form": "Herbo-mineral",
      "dose": "1–2 tablets",
@@ -8289,7 +9362,8 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbo-mineral",
      "caution": "Contains mercury and copper. Supervision only.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     }
    ],
    "pathya": [
@@ -8389,7 +9463,9 @@
    ],
    "medicines": [
     {
-     "formulation": "takra-with-roasted-cumin",
+     "formulations": [
+      "takra-with-roasted-cumin"
+     ],
      "name": "Takra (fresh buttermilk) with roasted cumin",
      "form": "Food",
      "dose": "1 glass",
@@ -8398,10 +9474,13 @@
      "duration": "Ongoing",
      "safetyClass": "herbal",
      "caution": "Use fresh, thin, non-sour buttermilk.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "kutaja-ghana-vati",
+     "formulations": [
+      "kutaja-ghana-vati"
+     ],
      "name": "Kutaja Ghana Vati",
      "form": "Tablet",
      "dose": "1–2 tablets",
@@ -8410,10 +9489,13 @@
      "duration": "Until symptoms settle",
      "safetyClass": "herbal",
      "caution": "Generally well tolerated.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "bilva-churna",
+     "formulations": [
+      "bilva-churna"
+     ],
      "name": "Bilva (bael) Churna",
      "form": "Powder",
      "dose": "1–2 g",
@@ -8422,10 +9504,13 @@
      "duration": "Until symptoms settle",
      "safetyClass": "herbal",
      "caution": "Can constipate if used for long.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "dadimashtaka-churna",
+     "formulations": [
+      "dadimashtaka-churna"
+     ],
      "name": "Dadimashtaka Churna",
      "form": "Powder",
      "dose": "3–6 g",
@@ -8434,10 +9519,13 @@
      "duration": "Until symptoms settle",
      "safetyClass": "herbal",
      "caution": "Contains sugar.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "musta-churna",
+     "formulations": [
+      "musta-churna"
+     ],
      "name": "Musta Churna",
      "form": "Powder",
      "dose": "3–6 g",
@@ -8446,10 +9534,13 @@
      "duration": "Until symptoms settle",
      "safetyClass": "herbal",
      "caution": "Generally well tolerated.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "kutajarishta",
+     "formulations": [
+      "kutajarishta"
+     ],
      "name": "Kutajarishta",
      "form": "Fermented liquid",
      "dose": "10–20 ml",
@@ -8458,10 +9549,13 @@
      "duration": "Until symptoms settle",
      "safetyClass": "herbal",
      "caution": "Self-generated alcohol.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "hingvashtaka-churna",
+     "formulations": [
+      "hingvashtaka-churna"
+     ],
      "name": "Hingvashtaka Churna (bloating)",
      "form": "Powder",
      "dose": "2–3 g",
@@ -8470,10 +9564,13 @@
      "duration": "Up to 2 weeks",
      "safetyClass": "herbal",
      "caution": "Heating.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     },
     {
-     "formulation": "bruhat-gangadhara-churna",
+     "formulations": [
+      "bruhat-gangadhara-churna"
+     ],
      "name": "Bruhat Gangadhara Churna",
      "form": "Powder",
      "dose": "0.5–2 g",
@@ -8482,7 +9579,8 @@
      "duration": "Until symptoms settle",
      "safetyClass": "herbal",
      "caution": "Constipating.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     }
    ],
    "pathya": [
@@ -8577,7 +9675,9 @@
    ],
    "medicines": [
     {
-     "formulation": "haridra-khanda",
+     "formulations": [
+      "haridra-khanda"
+     ],
      "name": "Haridra Khanda",
      "form": "Granules",
      "dose": "6 g",
@@ -8586,10 +9686,13 @@
      "duration": "Up to 2 months",
      "safetyClass": "herbal",
      "caution": "Sugar-based; turmeric interacts with blood thinners.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "guduchi-churna",
+     "formulations": [
+      "guduchi-churna"
+     ],
      "name": "Guduchi Churna",
      "form": "Powder",
      "dose": "3–6 g",
@@ -8598,10 +9701,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Rare liver-injury reports.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "avipattikara-churna",
+     "formulations": [
+      "avipattikara-churna"
+     ],
      "name": "Avipattikara Churna",
      "form": "Powder",
      "dose": "4–6 g",
@@ -8610,10 +9716,13 @@
      "duration": "1–2 weeks",
      "safetyClass": "herbal",
      "caution": "Laxative; contains sugar.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "manjishthadi-kwatha",
+     "formulations": [
+      "manjishthadi-kwatha"
+     ],
      "name": "Manjishthadi Kwatha",
      "form": "Decoction",
      "dose": "20–40 ml",
@@ -8622,10 +9731,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Generally well tolerated.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "arogyavardhini-vati",
+     "formulations": [
+      "arogyavardhini-vati"
+     ],
      "name": "Arogyavardhini Vati",
      "form": "Herbo-mineral",
      "dose": "500 mg–1 g",
@@ -8634,7 +9746,8 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbo-mineral",
      "caution": "Contains mercury and copper. Supervision only.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     }
    ],
    "pathya": [
@@ -8728,7 +9841,9 @@
    ],
    "medicines": [
     {
-     "formulation": "manjishthadi-kwatha",
+     "formulations": [
+      "manjishthadi-kwatha"
+     ],
      "name": "Manjishthadi Kwatha",
      "form": "Decoction",
      "dose": "20–40 ml",
@@ -8737,10 +9852,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Generally well tolerated.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "mahatiktaka-kwatha",
+     "formulations": [
+      "mahatiktaka-kwatha"
+     ],
      "name": "Mahatiktaka Kwatha",
      "form": "Decoction",
      "dose": "20–40 ml",
@@ -8749,10 +9867,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Very bitter.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "panchatiktaka-ghrita",
+     "formulations": [
+      "panchatiktaka-ghrita"
+     ],
      "name": "Panchatiktaka Ghrita",
      "form": "Medicated ghee",
      "dose": "15 ml",
@@ -8761,10 +9882,14 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "High fat.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "guduchi-haridra-churna",
+     "formulations": [
+      "guduchi-churna",
+      "haridra-churna"
+     ],
      "name": "Guduchi / Haridra Churna",
      "form": "Powder",
      "dose": "3–6 g",
@@ -8773,10 +9898,14 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Guduchi: rare liver-injury reports.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": true
     },
     {
-     "formulation": "jatyadi-karanja-taila",
+     "formulations": [
+      "jatyadi-taila",
+      "karanja-taila"
+     ],
      "name": "Jatyadi / Karanja Taila (external)",
      "form": "Oil",
      "dose": "Apply to patches",
@@ -8785,10 +9914,13 @@
      "duration": "As directed",
      "safetyClass": "herbal",
      "caution": "Test a small area first; avoid on weeping skin.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": true
     },
     {
-     "formulation": "khadirarishta",
+     "formulations": [
+      "khadirarishta"
+     ],
      "name": "Khadirarishta",
      "form": "Fermented liquid",
      "dose": "10–20 ml",
@@ -8797,10 +9929,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Self-generated alcohol.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     },
     {
-     "formulation": "gandhaka-rasayana",
+     "formulations": [
+      "gandhaka-rasayana"
+     ],
      "name": "Gandhaka Rasayana",
      "form": "Purified sulphur",
      "dose": "125–250 mg",
@@ -8809,7 +9944,8 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbo-mineral",
      "caution": "Sulphur-based; supervision.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     }
    ],
    "pathya": [
@@ -8902,7 +10038,9 @@
    ],
    "medicines": [
     {
-     "formulation": "bakuchi-seed-internal-and-external",
+     "formulations": [
+      "bakuchi-seed-internal-and-external"
+     ],
      "name": "Bakuchi (Psoralea) seed, internal and external",
      "form": "Powder / oil",
      "dose": "Set by practitioner",
@@ -8911,10 +10049,13 @@
      "duration": "Months",
      "safetyClass": "contains-toxic-herb",
      "caution": "Causes severe sunburn and blistering with sun exposure; reported liver injury. Never self-medicate.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "khadirarishta",
+     "formulations": [
+      "khadirarishta"
+     ],
      "name": "Khadirarishta",
      "form": "Fermented liquid",
      "dose": "10–20 ml",
@@ -8923,10 +10064,14 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Self-generated alcohol.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "guduchi-manjishtha-churna",
+     "formulations": [
+      "guduchi-churna",
+      "manjishtha-churna"
+     ],
      "name": "Guduchi / Manjishtha Churna",
      "form": "Powder",
      "dose": "3–6 g",
@@ -8935,10 +10080,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "Guduchi: rare liver-injury reports.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": true
     },
     {
-     "formulation": "panchatiktaka-ghrita",
+     "formulations": [
+      "panchatiktaka-ghrita"
+     ],
      "name": "Panchatiktaka Ghrita",
      "form": "Medicated ghee",
      "dose": "15 ml",
@@ -8947,10 +10095,13 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbal",
      "caution": "High fat.",
-     "treatmentLevel": 1
+     "treatmentLevel": 1,
+     "alternatives": false
     },
     {
-     "formulation": "arogyavardhini-vati",
+     "formulations": [
+      "arogyavardhini-vati"
+     ],
      "name": "Arogyavardhini Vati",
      "form": "Herbo-mineral",
      "dose": "500 mg–1 g",
@@ -8959,7 +10110,8 @@
      "duration": "2–3 weeks",
      "safetyClass": "herbo-mineral",
      "caution": "Contains mercury and copper. Supervision only.",
-     "treatmentLevel": 2
+     "treatmentLevel": 2,
+     "alternatives": false
     }
    ],
    "pathya": [

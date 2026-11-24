@@ -29,23 +29,20 @@
    ],
    "formulations": [
     "ashwagandha-churna",
-    "dashamoolarishta-ashwagandharishta",
+    "ashwagandharishta",
     "ashwagandhadi-churna",
-    "ashwagandha-pippalimoola-churna",
-    "rasna-ashwagandha-shunthi-churna",
-    "ashwagandharishta-balarishta",
-    "ashwagandha-bala-rasna-churna"
+    "ashwagandha-pippalimoola-churna"
    ],
    "conditions": [
     "sandhivata",
     "vishada",
     "avabahuka",
+    "gridhrasi",
+    "pakshaghata",
     "cervical",
     "fibromyalgia",
     "anidra",
-    "katigraha",
-    "gridhrasi",
-    "pakshaghata"
+    "katigraha"
    ],
    "images": [
     {
@@ -93,15 +90,12 @@
    ],
    "formulations": [
     "brahmi-churna",
-    "brahmi-kalyanaka-panchagavya-ghrita",
     "brahmi-ghrita",
-    "sarpagandha-mishran",
-    "brahmi-drakshadi-shatavaryadi-kashaya"
+    "brahmi-drakshadi-kwatha"
    ],
    "conditions": [
     "vishada",
     "apasmara",
-    "hypertension",
     "fibromyalgia"
    ],
    "images": [
@@ -154,22 +148,16 @@
    "formulations": [
     "samshamani-vati",
     "amritarishta",
-    "amritadi-dashamoola-kwatha",
-    "guduchi-manjishtha-khadira-haridra-sariva-churna",
-    "guduchi-juice-or-powder",
-    "kokilaksha-amritadi-laghu-manjishthadi-kwatha",
-    "sarpagandha-mishran",
+    "amritadi-kwatha",
     "guduchi-churna",
-    "guduchi-haridra-churna",
-    "guduchi-manjishtha-churna"
+    "guduchi-juice-or-powder"
    ],
    "conditions": [
     "jwara",
     "mukhapaka",
     "amavata",
-    "ekakushtha",
     "vatarakta",
-    "hypertension",
+    "ekakushtha",
     "shitapitta",
     "vicharchika",
     "shvitra"
@@ -222,17 +210,16 @@
    ],
    "formulations": [
     "nisha-amalaki",
-    "guduchi-manjishtha-khadira-haridra-sariva-churna",
-    "haridra-khanda",
-    "guduchi-haridra-churna"
+    "haridra-churna",
+    "haridra-khanda"
    ],
    "conditions": [
     "madhumeha",
     "ekakushtha",
+    "vicharchika",
     "pratishyaya",
     "krimi",
-    "shitapitta",
-    "vicharchika"
+    "shitapitta"
    ],
    "images": [
     {
@@ -290,17 +277,14 @@
     "triphala-churna",
     "sitz-bath-with-triphala-or-panchavalkala-decoction",
     "bhumyamalaki-churna",
-    "dhatri-lauha-navayasa-lauha",
+    "dhatri-lauha",
     "bhumyamalaki-churna-or-juice",
-    "triphala-guggulu-medohara-guggulu",
     "triphala-guggulu",
     "hot-sitz-bath-with-triphala-or-panchavalkala-decoction",
     "vaginal-wash-with-triphala-or-panchavalkala-decoction",
     "triphala-kwatha",
-    "triphala-gokshuradi-guggulu",
     "triphala-decoction-mouthwash",
-    "triphala-decoction-gargle",
-    "medohara-triphala-guggulu"
+    "triphala-decoction-gargle"
    ],
    "conditions": [
     "amlapitta",
@@ -319,8 +303,8 @@
     "mutraghata",
     "kamala",
     "abhishyanda",
-    "vatarakta",
     "adhimantha",
+    "vatarakta",
     "dantaveshta",
     "mukhapaka"
    ],
@@ -374,27 +358,22 @@
    "formulations": [
     "agastya-haritaki-avaleha",
     "vyaghri-haritaki-avaleha",
-    "amapachana-gomutra-haritaki-vati",
+    "gomutra-haritaki-vati",
     "shunthi-haritaki-churna",
     "triphala",
     "triphala-churna",
     "haritaki-churna",
-    "abhayarishta-takrarishta",
+    "abhayarishta",
     "sitz-bath-with-triphala-or-panchavalkala-decoction",
     "chitraka-haritaki-avaleha",
     "gomutra-haritaki-churna",
-    "musta-vidanga-haritaki-churna",
-    "triphala-guggulu-medohara-guggulu",
     "triphala-guggulu",
-    "abhayarishta",
     "hot-sitz-bath-with-triphala-or-panchavalkala-decoction",
     "eranda-bhrishta-haritaki",
     "vaginal-wash-with-triphala-or-panchavalkala-decoction",
     "triphala-kwatha",
-    "triphala-gokshuradi-guggulu",
     "triphala-decoction-mouthwash",
     "triphala-decoction-gargle",
-    "medohara-triphala-guggulu",
     "eranda-bhrishta-haritaki-churna"
    ],
    "conditions": [
@@ -411,13 +390,13 @@
     "fattyliver",
     "vibandha",
     "pakshaghata",
+    "kashtartava",
     "pratishyaya",
     "jalodara",
     "shwetapradara",
     "abhishyanda",
-    "kashtartava",
-    "vatarakta",
     "adhimantha",
+    "vatarakta",
     "dantaveshta",
     "mukhapaka"
    ],
@@ -457,15 +436,12 @@
     "triphala",
     "triphala-churna",
     "sitz-bath-with-triphala-or-panchavalkala-decoction",
-    "triphala-guggulu-medohara-guggulu",
     "triphala-guggulu",
     "hot-sitz-bath-with-triphala-or-panchavalkala-decoction",
     "vaginal-wash-with-triphala-or-panchavalkala-decoction",
     "triphala-kwatha",
-    "triphala-gokshuradi-guggulu",
     "triphala-decoction-mouthwash",
-    "triphala-decoction-gargle",
-    "medohara-triphala-guggulu"
+    "triphala-decoction-gargle"
    ],
    "conditions": [
     "kasa",
@@ -479,8 +455,8 @@
     "vibandha",
     "shwetapradara",
     "abhishyanda",
-    "vatarakta",
     "adhimantha",
+    "vatarakta",
     "dantaveshta",
     "mukhapaka"
    ],
@@ -572,31 +548,28 @@
     "nagaradi"
    ],
    "formulations": [
-    "guduchyadi-nagaradi-parpataka-kwatha",
+    "nagaradi-kwatha",
     "shunthi-churna",
     "shunthi-haritaki-churna",
     "trikatu-churna",
     "vyoshadi-vati",
     "shunthi-water",
     "vyoshadi-guggulu",
-    "nagakesara-mocharasa-lodhra-shunthi-churna",
-    "rasna-shunthi-churna",
-    "rasna-ashwagandha-shunthi-churna",
     "fresh-ginger-with-rock-salt"
    ],
    "conditions": [
     "jwara",
     "amavata",
     "atisara",
+    "asrigdara",
+    "katigraha",
+    "gridhrasi",
     "cholesterol",
     "ajirna",
     "sandhivata",
     "pratishyaya",
     "thyroid",
     "tamaka",
-    "asrigdara",
-    "katigraha",
-    "gridhrasi",
     "aruchi"
    ],
    "images": [],
@@ -631,7 +604,7 @@
     "vyoshadi"
    ],
    "formulations": [
-    "karanja-jatyadi-mahamarichadi-taila",
+    "mahamarichadi-taila",
     "trikatu-churna",
     "vyoshadi-vati",
     "vyoshadi-guggulu"
@@ -715,8 +688,8 @@
    ],
    "formulations": [
     "shatavari-churna",
-    "brihat-kushmanda-avaleha-shatavari-paka",
-    "brahmi-drakshadi-shatavaryadi-kashaya"
+    "shatavari-paka",
+    "shatavaryadi-kwatha"
    ],
    "conditions": [
     "apasmara",
@@ -756,15 +729,14 @@
    ],
    "formulations": [
     "gokshuradi-guggulu",
-    "gokshura-churna",
-    "triphala-gokshuradi-guggulu"
+    "gokshura-churna"
    ],
    "conditions": [
     "madhumeha",
     "ashmari",
     "mutrashtila",
-    "mutraghata",
-    "adhimantha"
+    "adhimantha",
+    "mutraghata"
    ],
    "images": [],
    "review": {
@@ -797,24 +769,21 @@
     "punarnava"
    ],
    "formulations": [
-    "punarnavadi-churna-punarnavashtaka-kwatha",
+    "punarnavadi-churna",
+    "punarnavashtaka-kwatha",
     "punarnava-mandura",
     "punarnava-churna",
-    "punarnavashtaka-varunadi-kwatha",
-    "punarnava-guggulu",
-    "punarnavashtaka-kwatha",
-    "sarpagandha-mishran"
+    "punarnava-guggulu"
    ],
    "conditions": [
     "jalodara",
+    "mutraghata",
+    "adhimantha",
     "pandu",
     "kamala",
     "ashmari",
-    "mutraghata",
     "mutrashtila",
-    "vatarakta",
-    "adhimantha",
-    "hypertension"
+    "vatarakta"
    ],
    "images": [],
    "review": {
@@ -848,43 +817,39 @@
    "formulations": [
     "simhanada-guggulu",
     "yogaraja-guggulu",
-    "kaishora-maha-yogaraja-guggulu",
-    "gokshuradi-guggulu",
     "kaishora-guggulu",
+    "maha-yogaraja-guggulu",
+    "gokshuradi-guggulu",
     "kanchanara-guggulu",
     "vyoshadi-guggulu",
-    "triphala-guggulu-medohara-guggulu",
     "triphala-guggulu",
+    "medohara-guggulu",
     "trayodashanga-guggulu",
     "guggulu-tiktaka-ghrita",
-    "yogaraja-simhanada-guggulu",
-    "yogaraja-trayodashanga-guggulu",
     "punarnava-guggulu",
-    "panchatikta-guggulu-ghrita",
-    "triphala-gokshuradi-guggulu",
-    "medohara-triphala-guggulu"
+    "panchatikta-guggulu-ghrita"
    ],
    "conditions": [
     "amavata",
+    "katigraha",
     "sandhivata",
     "avabahuka",
+    "gridhrasi",
     "pakshaghata",
     "cervical",
+    "ekakushtha",
+    "vatarakta",
     "madhumeha",
     "ashmari",
     "mutrashtila",
-    "ekakushtha",
-    "vatarakta",
+    "adhimantha",
     "thyroid",
     "sthaulya",
     "bhagandara",
     "shwetapradara",
     "abhishyanda",
-    "fattyliver",
-    "katigraha",
-    "gridhrasi",
-    "adhimantha",
-    "cholesterol"
+    "cholesterol",
+    "fattyliver"
    ],
    "images": [],
    "review": {
@@ -1036,10 +1001,10 @@
    "formulations": [
     "vasa-leaf-juice",
     "vasanta-kusumakara-rasa",
-    "vasavaleha-agastya-rasayana",
-    "phalatrikadi-vasaguduchyadi-kwatha",
-    "vasakadi-patoladi-manjishthadi-kwatha",
-    "vasa-guduchyadi-kashaya"
+    "vasavaleha",
+    "vasaguduchyadi-kwatha",
+    "vasakadi-kwatha",
+    "vasa-guduchyadi-kwatha"
    ],
    "conditions": [
     "kasa",
@@ -1177,19 +1142,17 @@
     "manjishtha"
    ],
    "formulations": [
-    "guduchi-manjishtha-khadira-haridra-sariva-churna",
+    "manjishtha-churna",
     "manjishthadi-kwatha",
-    "kokilaksha-amritadi-laghu-manjishthadi-kwatha",
-    "vasakadi-patoladi-manjishthadi-kwatha",
-    "guduchi-manjishtha-churna"
+    "laghu-manjishthadi-kwatha"
    ],
    "conditions": [
     "ekakushtha",
+    "shvitra",
+    "abhishyanda",
     "shitapitta",
     "vicharchika",
-    "vatarakta",
-    "abhishyanda",
-    "shvitra"
+    "vatarakta"
    ],
    "images": [],
    "review": {
@@ -1224,18 +1187,17 @@
     "khadirarishta"
    ],
    "formulations": [
-    "lavangadi-khadiradi-vati",
-    "guduchi-manjishtha-khadira-haridra-sariva-churna",
-    "khadirarishta-aragvadharishta",
-    "khadiradi-gutika",
-    "khadirarishta"
+    "khadiradi-vati",
+    "khadira-churna",
+    "khadirarishta",
+    "khadiradi-gutika"
    ],
    "conditions": [
     "kasa",
     "ekakushtha",
-    "dantaveshta",
     "vicharchika",
-    "shvitra"
+    "shvitra",
+    "dantaveshta"
    ],
    "images": [],
    "review": {
@@ -1267,7 +1229,7 @@
     "kutaja"
    ],
    "formulations": [
-    "kutaja-churna-kutaja-ghana-vati",
+    "kutaja-churna",
     "kutaja-ghana-vati",
     "kutajarishta"
    ],
@@ -1308,33 +1270,26 @@
     "dashamula"
    ],
    "formulations": [
-    "amritadi-dashamoola-kwatha",
-    "rasnadi-dashamula-kwatha",
-    "dashamoolarishta-ashwagandharishta",
-    "dashamoola-taila",
     "dashamoola-kwatha",
-    "varuna-shigru-dashamoola-kwatha",
+    "dashamoolarishta",
+    "dashamoola-taila",
     "bilwa-root-churna",
     "dashamoola-kwatha-with-sesame-oil",
-    "dashamoola-kashaya",
-    "rasnasaptaka-dashamoola-erandamoola-kashaya",
-    "maharasnadi-dashamula-gandharvahastadi-kashaya",
-    "dashamula-katutrayam-kwatha",
-    "balarishta-dashamoolarishta",
+    "dashamoola-katutrayam-kwatha",
     "bilva-churna"
    ],
    "conditions": [
     "amavata",
     "sandhivata",
-    "shiroroga",
     "tamaka",
     "thyroid",
-    "atisara",
-    "kashtartava",
     "avabahuka",
     "katigraha",
     "pakshaghata",
     "cervical",
+    "shiroroga",
+    "atisara",
+    "kashtartava",
     "grahani"
    ],
    "images": [],
@@ -1368,7 +1323,6 @@
     "musta"
    ],
    "formulations": [
-    "musta-vidanga-haritaki-churna",
     "musta-churna"
    ],
    "conditions": [
@@ -1410,13 +1364,11 @@
    ],
    "formulations": [
     "mamsyadi-kwatha",
-    "mansyadi-kwatha",
-    "sarpagandha-mishran"
+    "mansyadi-kwatha"
    ],
    "conditions": [
     "anidra",
-    "apasmara",
-    "hypertension"
+    "apasmara"
    ],
    "images": [],
    "review": {
@@ -1448,12 +1400,10 @@
     "shankhapushpi"
    ],
    "formulations": [
-    "shankhapushpi-churna",
-    "sarpagandha-mishran"
+    "shankhapushpi-churna"
    ],
    "conditions": [
-    "vishada",
-    "hypertension"
+    "vishada"
    ],
    "images": [],
    "review": {
@@ -1489,14 +1439,12 @@
    "formulations": [
     "saraswata-churna",
     "saraswatarishta",
-    "vacha-churna",
-    "sarpagandha-mishran"
+    "vacha-churna"
    ],
    "conditions": [
     "anidra",
     "vishada",
-    "apasmara",
-    "hypertension"
+    "apasmara"
    ],
    "images": [],
    "review": {
@@ -1676,7 +1624,7 @@
     "aragvadha"
    ],
    "formulations": [
-    "khadirarishta-aragvadharishta",
+    "aragvadharishta",
     "aragvadha-churna"
    ],
    "conditions": [
@@ -1717,7 +1665,7 @@
     "eranda-taila",
     "castor-oil",
     "eranda-bhrishta-haritaki",
-    "rasnasaptaka-dashamoola-erandamoola-kashaya",
+    "erandamoola-kwatha",
     "castor-seeds-boiled-in-milk",
     "eranda-bhrishta-haritaki-churna"
    ],
@@ -1764,27 +1712,21 @@
     "rasnapanchaka"
    ],
    "formulations": [
-    "rasnapanchaka-rasnasaptaka-kwatha",
-    "rasnadi-dashamula-kwatha",
-    "bala-rasna-churna",
-    "rasna-shunthi-churna",
-    "rasnasaptaka-dashamoola-erandamoola-kashaya",
-    "rasna-ashwagandha-shunthi-churna",
-    "rasnasaptaka-sahacharadi-maharasnadi-kashaya",
-    "ashwagandha-bala-rasna-churna",
-    "maharasnadi-dashamula-gandharvahastadi-kashaya",
+    "rasnapanchaka-kwatha",
     "rasnasaptaka-kwatha",
-    "rasnasaptaka-rasnapanchaka-kashaya"
+    "rasnadi-kwatha",
+    "rasna-churna",
+    "maharasnadi-kwatha"
    ],
    "conditions": [
     "amavata",
-    "sandhivata",
-    "avabahuka",
+    "fibromyalgia",
     "katigraha",
     "gridhrasi",
-    "pakshaghata",
     "cervical",
-    "fibromyalgia"
+    "sandhivata",
+    "avabahuka",
+    "pakshaghata"
    ],
    "images": [],
    "review": {
@@ -1819,22 +1761,19 @@
     "balarishta"
    ],
    "formulations": [
-    "bala-rasna-churna",
+    "bala-churna",
     "ksheerabala-101-taila",
-    "ashwagandharishta-balarishta",
-    "ashwagandha-bala-rasna-churna",
-    "karpasasthyadi-dhanwantaram-bala-taila",
-    "pinda-taila-ksheerabala-taila",
-    "balarishta-dashamoolarishta",
-    "ksheerabala-mahamasha-taila"
+    "balarishta",
+    "bala-taila",
+    "ksheerabala-taila"
    ],
    "conditions": [
     "avabahuka",
-    "gridhrasi",
     "pakshaghata",
+    "gridhrasi",
+    "cervical",
     "fibromyalgia",
-    "vatarakta",
-    "cervical"
+    "vatarakta"
    ],
    "images": [],
    "review": {
@@ -2097,7 +2036,7 @@
    ],
    "formulations": [
     "kushmanda-juice",
-    "brihat-kushmanda-avaleha-shatavari-paka"
+    "brihat-kushmanda-avaleha"
    ],
    "conditions": [
     "vishada",
@@ -2133,8 +2072,7 @@
     "lodhra"
    ],
    "formulations": [
-    "lodhra-churna",
-    "nagakesara-mocharasa-lodhra-shunthi-churna"
+    "lodhra-churna"
    ],
    "conditions": [
     "asrigdara",
@@ -2283,7 +2221,7 @@
     "vidangarishta"
    ],
    "formulations": [
-    "musta-vidanga-haritaki-churna",
+    "vidanga-churna",
     "vidangadi-churna",
     "vidangarishta"
    ],
@@ -2398,7 +2336,7 @@
     "draksharishta",
     "draksha",
     "drakshavaleha",
-    "brahmi-drakshadi-shatavaryadi-kashaya",
+    "brahmi-drakshadi-kwatha",
     "draksha-soaked"
    ],
    "conditions": [
@@ -2547,9 +2485,8 @@
     "varuna"
    ],
    "formulations": [
-    "varuna-shigru-dashamoola-kwatha",
-    "varuna-shigru-ashmarihara-kwatha",
-    "punarnavashtaka-varunadi-kwatha",
+    "varuna-shigru-kwatha",
+    "varunadi-kwatha",
     "varuna-kwatha"
    ],
    "conditions": [
@@ -2624,7 +2561,7 @@
     "nirgundi"
    ],
    "formulations": [
-    "nirgundi-panchaguna-taila"
+    "nirgundi-taila"
    ],
    "conditions": [
     "cervical"

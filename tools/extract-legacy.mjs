@@ -58,15 +58,38 @@ const E = L('E'), T = L('T'), G = L('G'), G0 = L('G0'), SG = L('SG'), YG = L('YG
 const evidence = { s: 'some', l: 'limited', v: 'very-limited' };
 const tag = { h: 'herbal', r: 'herbo-mineral', t: 'contains-toxic-herb' };
 const formulations = new Map();
+const SEVERITY = ['herbal', 'herbo-mineral', 'contains-toxic-herb'];
+const FORM_WORD = /(churna|vati|vatakam|gutika|kwatha|kashaya|ghrita|taila|rasa|guggulu|avaleha|paka|arishta|asava|bhasma|lauha|mandura|pishti|parpati|rasayana|lepa|ghana)$/i;
+// "Ashwagandha / Bala / Rasna Churna" -> ["Ashwagandha Churna", "Bala Churna", "Rasna Churna"].
+// Slashes inside parentheses are not split; a trailing "(external)" applies to every component.
+function splitCombined(name) {
+  const paren = name.match(/\s*\(([^)]*)\)\s*$/);
+  const base = paren && !paren[1].includes('/') ? name.slice(0, paren.index) : name;
+  const note = paren && !paren[1].includes('/') ? paren[1] : null;
+  const outside = base.replace(/\([^)]*\)/g, (m) => m.replace(/\//g, '\u0000'));
+  if (!outside.includes(' / ')) return [{ name: base.replace(/\u0000/g, '/'), note }];
+  const parts = outside.split(' / ').map((x) => x.replace(/\u0000/g, '/').trim());
+  const last = parts[parts.length - 1].split(' ');
+  const fi = last.findIndex((w) => FORM_WORD.test(w));
+  const suffix = fi > 0 ? last.slice(fi).join(' ') : '';
+  return parts.map((p) => ({ name: !suffix || p.split(' ').some((w) => FORM_WORD.test(w)) ? p : `${p} ${suffix}`, note }));
+}
 const conditions = L('D').map((d) => {
   const meds = (d.m || []).map((x) => {
     const [name, form, dose, when, anupana, duration, tg, caution, level] = x;
-    const id = slug(name.replace(/\(.*?\)/g, ''));
-    if (!formulations.has(id)) formulations.set(id, { id, name, form, safetyClass: tag[tg] || 'herbal', classicalSource: csOf(name), usedIn: [], cautions: new Set() });
-    const f = formulations.get(id);
-    f.usedIn.push(d.id); if (caution) f.cautions.add(caution);
-    return { formulation: id, name, form, dose, timing: when, anupana: anupana === '—' ? null : anupana, duration,
-      safetyClass: tag[tg] || 'herbal', caution, treatmentLevel: level };
+    const cls = tag[tg] || 'herbal';
+    const ids = splitCombined(name).map(({ name: n, note }) => {
+      const id = slug(n.replace(/\(.*?\)/g, '')).replace(/kashaya/g, 'kwatha').replace(/([a-z])mula/g, '$1moola');
+      if (formulations.has(id) && formulations.get(id).name !== n) formulations.get(id).aliases.add(n);
+      if (!formulations.has(id)) formulations.set(id, { id, name: n, aliases: new Set(), form, route: note, safetyClass: cls, classicalSource: csOf(n), usedIn: [], cautions: new Set(), combinedIn: new Set() });
+      const f = formulations.get(id);
+      if (SEVERITY.indexOf(cls) > SEVERITY.indexOf(f.safetyClass)) f.safetyClass = cls;
+      f.usedIn.push(d.id); if (caution) f.cautions.add(caution);
+      if (name.includes(' / ')) f.combinedIn.add(name);
+      return id;
+    });
+    return { formulations: ids, name, form, dose, timing: when, anupana: anupana === '—' ? null : anupana, duration,
+      safetyClass: cls, caution, treatmentLevel: level, alternatives: ids.length > 1 };
   });
   const sg = SG[d.id];
   const group = d.g || G0[d.id] || null;
@@ -117,7 +140,7 @@ try {
 } catch (e) { if (e.code !== 'ENOENT') throw e; }
 
 // --- Formulations (derived from the medicine tables)
-const forms = [...formulations.values()].map((f) => ({ ...f, cautions: [...f.cautions], usedIn: [...new Set(f.usedIn)],
+const forms = [...formulations.values()].map((f) => ({ ...f, cautions: [...f.cautions], usedIn: [...new Set(f.usedIn)], combinedIn: [...f.combinedIn], aliases: [...f.aliases],
   herbs: herbs.filter((h) => h.formulations.includes(f.id)).map((h) => h.id),
   classicalSource: f.classicalSource ? { text: f.classicalSource, verified: false } : null, status: legacyReview.status, review: legacyReview }))
   .sort((a, b) => a.name.localeCompare(b.name));

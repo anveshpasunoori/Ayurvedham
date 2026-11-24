@@ -31,7 +31,6 @@ export async function formulationView(id) {
   const f = F.byId.get(id); if (!f) return null;
   const route = '#/formulations/' + id;
   const danger = f.safetyClass !== 'herbal';
-  const rows = f.usedIn.map((cid) => { const c = C.byId.get(cid); const m = c.medicines.find((m) => m.formulation === id); return [link('#/conditions/' + cid, c.names.en), 'Withheld', 'Withheld', 'Withheld', 'Withheld']; });
   const head = [crumbs(['Formulations', '#/formulations'], [f.name]), h('h1', null, f.name),
     h('div', { class: 'badges' }, reviewBadge(f.status), h('span', { class: 'badge' }, f.form), safetyBadge(f.safetyClass)), actions(route, f.name), modeNote()];
   const body = [
@@ -39,12 +38,14 @@ export async function formulationView(id) {
       ? 'This preparation contains processed metals or minerals (for example mercury, lead, arsenic, iron or calcium compounds). Studies of products sold online have found heavy metals in a substantial share of samples. Use only when prescribed by a qualified physician, only products from licensed GMP manufacturers, and never in pregnancy or for children without specialist advice.'
       : 'This preparation contains a herb that is toxic unless correctly purified (Shodhana) and dosed. Use only when prescribed by a qualified physician.')) : null,
     reviewNotice(f),
+    f.aliases?.length ? h('p', { class: 'muted' }, 'Also written: ' + f.aliases.join(', ')) : null,
+    f.route ? h('p', null, h('strong', null, 'Route: '), f.route) : null,
     f.cautions.length ? section('Cautions', list(f.cautions)) : null,
     section('Classical source', f.classicalSource ? refList([f.classicalSource]) : h('p', { class: 'muted' }, 'Locator not yet recorded.')),
     f.herbs.length ? section('Key ingredients', h('p', { class: 'muted' }, 'Ingredients matched from the plant encyclopedia; a full verified ingredient list is pending.'), list(f.herbs.map((x) => Hs.byId.get(x)).map((x) => [link('#/herbs/' + x.id, x.names.sa), ' — ', h('i', null, x.names.botanical)]))) : null,
-    state.mode === 'patient'
-      ? section('Used for', condCards(C, f.usedIn), h('p', null, 'Unverified dosing is withheld. Take only as prescribed.'))
-      : section('Indications and recorded doses', panel('amb', null, 'Dosing, timing and duration are withheld pending qualified medical review.'), table(['Condition', 'Dose', 'Timing', 'Anupana', 'Duration'], rows, 'Recorded doses')),
+    section('Used for', condCards(C, f.usedIn),
+      panel('amb', null, 'Dose, timing, vehicle (Anupana) and duration are withheld until verified against the Ayurvedic Formulary of India and the classical source by a qualified reviewer. Take only as prescribed by a qualified physician.'),
+      f.combinedIn?.length ? h('p', { class: 'muted' }, 'Listed in the original reference as an alternative within: ' + f.combinedIn.join('; ')) : null),
     section('Quality standard', h('p', { class: 'muted' }, 'Ayurvedic Formulary of India / Pharmacopoeia reference not yet recorded. Buy only from licensed manufacturers; ask for heavy-metal and microbial test results for mineral preparations.')),
   ];
   return { title: f.name, route, node: article(head, body.filter(Boolean)) };

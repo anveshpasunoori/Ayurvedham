@@ -15,7 +15,9 @@ export async function conditionView(id) {
     actions(route, c.names.en, [link(c.legacyUrl, 'Open in original reference', { class: 'btn' })]),
     modeNote(),
   ];
-  const medLink = (m) => link('#/formulations/' + m.formulation, m.name);
+  // A row may list alternatives ("A / B"): link each component formulation.
+  const medLink = (m) => m.formulations.length === 1 ? link('#/formulations/' + m.formulations[0], m.name)
+    : h('span', null, m.formulations.map((fid, i) => [i ? ' / ' : '', link('#/formulations/' + fid, F.byId.get(fid)?.name || fid)]), h('small', { class: 'muted' }, ' (alternatives)'));
   const yogaPr = (c.yoga?.practices || []).map((p) => Y.byId.get(p)).filter(Boolean);
   const body = [
     h('p', { class: 'lead' }, c.summary),

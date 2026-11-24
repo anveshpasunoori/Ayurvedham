@@ -51,7 +51,8 @@ for (const c of data.conditions?.items || []) {
   if (!c.mappingCaution) err(`conditions/${c.id}: missing mapping caution`);
   checkReview('conditions', c); checkImages('conditions', c);
   for (const m of c.medicines || []) {
-    if (!F.has(m.formulation)) err(`conditions/${c.id}: unknown formulation ${m.formulation}`);
+    if (!m.formulations?.length) err(`conditions/${c.id}: medicine row without formulation ids`);
+    for (const fid of m.formulations || []) if (!F.has(fid)) err(`conditions/${c.id}: unknown formulation ${fid}`);
     if (m.safetyClass !== 'herbal' && !m.caution) err(`conditions/${c.id}: ${m.name} is ${m.safetyClass} but has no caution`);
   }
   for (const p of c.yoga?.practices || []) if (!Y.has(p)) err(`conditions/${c.id}: unknown yoga practice ${p}`);
@@ -74,7 +75,7 @@ for (const f of data.formulations?.items || []) {
   if (!f.classicalSource) warn(`formulations/${f.id}: no classical source locator`);
   const n = f.name.toLowerCase().replace(/[^a-z]/g, '');
   if (byNorm.has(n)) warn(`formulations: possible duplicate ${byNorm.get(n)} ~ ${f.id}`); else byNorm.set(n, f.id);
-  if (f.name.includes('/')) warn(`formulations/${f.id}: combined entry "${f.name}" should be split into individual formulations`);
+  if (f.name.replace(/\([^)]*\)/g, '').includes(' / ')) err(`formulations/${f.id}: combined entry "${f.name}" must be split`);
 }
 for (const t of data.therapies?.items || []) {
   for (const r of t.related || []) if (!TH.has(r)) err(`therapies/${t.id}: unknown related therapy ${r}`);
@@ -93,9 +94,9 @@ for (const a of data.ailments?.items || []) {
   if (!a.redFlags.length) err(`ailments/${a.id}: needs red flags`);
 }
 const termNames = new Map();
-for (const t of data.terms?.items || []) { const k = normName(t.term); if (termNames.has(k)) warn(`terms: possible duplicate ${termNames.get(k)} ~ ${t.id}`); termNames.set(k, t.id); }
+for (const t of data.terms?.items || []) { const k = t.term.toLowerCase().replace(/\(.*?\)/g, '').replace(/[^a-z]/g, ''); if (termNames.has(k)) warn(`terms: possible duplicate ${termNames.get(k)} ~ ${t.id}`); termNames.set(k, t.id); }
 
-const group = (list) => { const m = {}; for (const w of list) { const k = w.split(':')[1]?.trim().replace(/\b[a-z0-9-]+\b$/, '').slice(0, 50) || w; m[k] = (m[k] || 0) + 1; } return m; };
+const group = (list) => { const m = {}; for (const w of list) { const k = w.replace(/^[a-z]+(\/[a-z0-9-]+)?: /, '').replace(/ [a-z0-9-]+ ~ [a-z0-9-]+$/, '').replace(/"[^"]*"/g, '…'); m[k] = (m[k] || 0) + 1; } return m; };
 console.log(`Datasets: ${Object.entries(data).map(([k, v]) => `${k}=${v.items.length}`).join(', ')}`);
 console.log(`Errors: ${errors.length}  Warnings: ${warnings.length}`);
 if (verbose) warnings.forEach((w) => console.log('  warn ' + w));
