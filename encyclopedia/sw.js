@@ -1,6 +1,6 @@
 // Offline support: precache the app shell; network-first for data so updates
 // arrive promptly, with the cached copy as the offline fallback.
-const VERSION = 'ayu-v5';
+const VERSION = 'ayu-ecosystem-1';
 const SHELL = ['./', './index.html', './css/app.css', './css/print.css', './js/main.js', './js/util.js', './js/store.js', './js/search.js', './js/translit.js', './js/components.js', './js/i18n.js',
   './js/views/condition.js', './js/views/entities.js', './js/views/lists.js', './js/views/pages.js', './js/views/academy.js', './js/views/tools.js', './img/panchamahabhuta-tridosha.svg', './img/shat-kriyakala.svg', './manifest.webmanifest'];
 self.addEventListener('install', (e) => e.waitUntil(caches.open(VERSION).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting())));
