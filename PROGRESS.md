@@ -91,3 +91,9 @@ Legend: [x] implemented and tested · [~] implemented, content draft or unverifi
 - Trade preview: six business roles, verified-only empty directory, local RFQ draft, proposed SQL schema and tests.
 - Cross-links between encyclopedia, agriculture, trade and membership. No live listings, checkout or procurement transmission.
 - Browser, SQL migration and CI results not independently verified. Medical and agronomic review, image expansion, identity provider and production deployment remain pending.
+
+## Health and clinics
+- Health resource portal and body-system search; external WebMD and MedlinePlus links, no copied content.
+- Practitioner discovery UI using existing API; appointment policies and proposed schema, not live booking.
+- Task-oriented homepage and condition-to-doctor links. Payments disabled.
+- Tests added and lint expanded; execution, browser verification, external link checks and production integration pending.
