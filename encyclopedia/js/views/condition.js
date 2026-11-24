@@ -28,6 +28,7 @@ export async function conditionView(id) {
     h('p', { class: 'lead' }, c.summary),
     panel('red', t('urgent'), list(c.redFlags)),
     reviewNotice(c),
+    section('Need professional care?',h('p',null,'For non-emergency concerns, consult a qualified practitioner. Do not delay urgent medical care.'),link('../clinics/','Find a doctor',{class:'btn'}),link('../health/','Modern health resources',{class:'btn'})),
     h('p', { class: 'muted' }, h('strong', null, 'Naming note. '), c.mappingCaution),
   ];
 
