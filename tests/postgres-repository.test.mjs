@@ -1,0 +1,3 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {postgresRepository} from '../backend/postgres-repository.mjs';
+test('account lookup parameterized',async()=>{const subject="' OR 1=1 --";const repo=postgresRepository({query:async(sql,args)=>{assert.ok(sql.includes('$1'));assert.deepEqual(args,[subject]);return {rows:[]}}});assert.equal(await repo.accountBySubject(subject),null)});
+test('subscription expiry normalized',async()=>{const repo=postgresRepository({query:async()=>({rows:[{plan:'student',status:'active',expires_at:'2030-01-01T00:00:00Z'}]})});assert.equal((await repo.subscriptionByAccount('a')).expiresAt,Date.parse('2030-01-01T00:00:00Z'))});
