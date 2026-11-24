@@ -85,3 +85,9 @@ Legend: [x] implemented and tested · [~] implemented, content draft or unverifi
 ## Visual refinement increment
 - Added homepage quick links, photo-led medicinal plant atlas using existing credited photos, full-size photo links, image error handling, responsive card grids and larger touch targets.
 - Current registry contains 11 photographs; no new photograph identity or license was independently verified in this increment. Browser visual regression testing remains pending.
+
+## Agriculture and trade integration
+- Agriculture preview: six crop profiles, existing credited botanical photos, local farm economics calculator and resource links.
+- Trade preview: six business roles, verified-only empty directory, local RFQ draft, proposed SQL schema and tests.
+- Cross-links between encyclopedia, agriculture, trade and membership. No live listings, checkout or procurement transmission.
+- Browser, SQL migration and CI results not independently verified. Medical and agronomic review, image expansion, identity provider and production deployment remain pending.
