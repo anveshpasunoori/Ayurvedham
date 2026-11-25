@@ -1,0 +1,1 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {validGTIN} from '../quality/policies.mjs';test('GTIN checksum only',()=>{assert.equal(validGTIN('4006381333931'),true);assert.equal(validGTIN('4006381333932'),false);assert.equal(validGTIN('https://example.com'),false)});
