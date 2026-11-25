@@ -9,7 +9,7 @@
     "test": "npm run lint && node tools/validate.mjs && node --test tests/*.test.mjs commerce/*.test.mjs",
     "test:browser": "python3 tests/browser_test.py",
     "serve": "python3 -m http.server 8000",
-    "lint": "for f in encyclopedia/js/*.js encyclopedia/js/views/*.js encyclopedia/sw.js tools/*.mjs health/*.mjs clinics/*.mjs agri/*.mjs trade/*.mjs backend/*.mjs commerce/*.mjs; do node --check \"$f\" || exit 1; done"
+    "lint": "for f in encyclopedia/js/*.js encyclopedia/js/views/*.js encyclopedia/sw.js tools/*.mjs health/*.mjs clinics/*.mjs agri/*.mjs trade/*.mjs backend/*.mjs commerce/*.mjs photos/*.mjs workspace/*.mjs garden/*.mjs quality/*.mjs; do node --check \"$f\" || exit 1; done"
   },
   "devDependencies": {
     "axe-core": "^4.14.1"
