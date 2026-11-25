@@ -1,0 +1,62 @@
+{
+ "category": "nutrition",
+ "label": "Food & nutrition",
+ "items": [
+  {"id": "ahara-principles", "title": "Principles of diet (Ahara)", "english": "How Ayurveda thinks about food",
+   "summary": "Ayurveda treats food as the first medicine. What, how much, when, where and how one eats are all considered.",
+   "sections": [
+    {"h": "Eight factors of diet (Ashta Ahara Vidhi Visheshayatana)", "table": {"head": ["Factor", "Meaning"], "rows": [
+     ["Prakriti", "Natural qualities of the food (heavy, light, hot, cold)"],
+     ["Karana", "Processing: cooking, soaking, roasting change its qualities"],
+     ["Samyoga", "Combination with other foods"],
+     ["Rashi", "Quantity"],
+     ["Desha", "Place of origin and of eating"],
+     ["Kala", "Time: of day, season, state of digestion"],
+     ["Upayoga Samstha", "Rules of eating"],
+     ["Upayokta", "The person who eats: constitution, habit, digestive capacity"]]}},
+    {"h": "Rules of eating (classical)", "list": ["Eat warm, freshly prepared, slightly unctuous food", "Eat the right quantity, after the previous meal is digested", "Avoid incompatible combinations", "Eat in a pleasant place, without hurry, without talking or laughing excessively", "Eat attentively, considering what suits you"]},
+    {"h": "Quantity", "p": ["A classical guideline divides the stomach into thirds: one third solid food, one third liquid, one third left empty for digestion. In modern terms this is advice to stop before feeling full."]},
+    {"h": "Modern nutrition alongside", "p": ["Classical principles fit well with balanced modern diets: plenty of vegetables, pulses and whole grains, limited ultra-processed food, sugar and salt. People with diabetes, kidney disease, coeliac disease, allergies or other medical conditions should follow their clinician's or dietitian's specific advice."]}],
+   "sources": [{"text": "Charaka Samhita, Vimana Sthana 1 and 2", "verified": false}]},
+  {"id": "shad-rasa", "title": "Shad Rasa", "english": "The six tastes",
+   "summary": "Ayurveda classifies foods and medicines by six tastes. Each taste is formed from two elements and affects the doshas in a characteristic way.",
+   "sections": [
+    {"h": "The six tastes", "table": {"head": ["Taste", "Sanskrit", "Elements", "Effect on doshas", "Examples"], "rows": [
+     ["Sweet", "Madhura", "Earth + Water", "Reduces Vata and Pitta; increases Kapha", "Rice, wheat, milk, ghee, dates"],
+     ["Sour", "Amla", "Earth + Fire", "Reduces Vata; increases Pitta and Kapha", "Lemon, tamarind, curd, amla"],
+     ["Salty", "Lavana", "Water + Fire", "Reduces Vata; increases Pitta and Kapha", "Rock salt, sea salt"],
+     ["Pungent", "Katu", "Air + Fire", "Reduces Kapha; increases Vata and Pitta", "Ginger, black pepper, chilli"],
+     ["Bitter", "Tikta", "Air + Space", "Reduces Pitta and Kapha; increases Vata", "Bitter gourd, neem, fenugreek"],
+     ["Astringent", "Kashaya", "Air + Earth", "Reduces Pitta and Kapha; increases Vata", "Pomegranate, lentils, unripe banana"]]}},
+    {"h": "Using the six tastes", "p": ["A balanced meal includes all six tastes, weighted toward those that calm the person's predominant dosha. Excess of any one taste is said to cause disorders; for example, excess salt is linked classically to hair greying, wrinkles and bleeding disorders, which aligns with modern advice to limit salt."]}],
+   "sources": [{"text": "Charaka Samhita, Sutra Sthana 26 (Atreyabhadrakapyiya)", "verified": false}]},
+  {"id": "viruddha-ahara", "title": "Viruddha Ahara", "english": "Incompatible food combinations",
+   "summary": "Charaka lists combinations and practices that are considered harmful even if each food is wholesome alone.",
+   "sections": [
+    {"h": "Commonly cited examples", "list": ["Milk with fish", "Milk with sour fruits or salt", "Honey heated or added to very hot food", "Honey and ghee in equal quantities", "Curd at night, or heated curd", "Heavy food after a large meal (eating before digestion)"]},
+    {"h": "Types of incompatibility", "p": ["Charaka describes eighteen kinds, including incompatibility of place, time, digestive capacity, dose, habit, dosha, processing, potency, bowel state, health state, order of eating, rules of eating, palatability, combination, richness and the person's mental state."]},
+    {"h": "Traditional model and modern science", "p": ["Most of these rules have not been tested in clinical studies. Some align with modern advice (for example, avoiding very large or late meals). Do not avoid nutritious foods such as milk or fish altogether on these grounds alone, particularly for children and pregnant women."]}],
+   "sources": [{"text": "Charaka Samhita, Sutra Sthana 26", "verified": false}]},
+  {"id": "pathya-kalpana", "title": "Pathya Kalpana", "english": "Therapeutic diet preparations",
+   "summary": "Light, easily digested preparations used during illness and recovery, especially after fasting or Panchakarma, in a graded sequence from thin gruel to normal meals.",
+   "sections": [
+    {"h": "Common preparations", "table": {"head": ["Preparation", "Description"], "rows": [
+     ["Manda", "Clear liquid strained from rice cooked in much water"],
+     ["Peya", "Thin rice gruel with a few grains"],
+     ["Vilepi", "Thick rice gruel"],
+     ["Yavagu", "Gruel, often of rice or barley, sometimes cooked with herbs"],
+     ["Yusha", "Soup of pulses, especially green gram (mung)"],
+     ["Krishara", "Rice and pulse cooked together (khichdi)"],
+     ["Takra", "Buttermilk: diluted, churned curd with the fat removed"]]}},
+    {"h": "Graded diet after illness (Samsarjana Krama)", "p": ["After fasting or purification therapy, food is reintroduced gradually from Manda or Peya through Vilepi and Yusha to normal meals over several days, to let digestion recover. The exact sequence is set by the physician."]}],
+   "sources": [{"text": "Sharangadhara Samhita, Madhyama Khanda 2", "verified": false}, {"text": "Charaka Samhita, Siddhi Sthana 1 (Samsarjana Krama)", "verified": false}]},
+  {"id": "recipes", "title": "Simple healthy recipes", "english": "Household recipes from Ayurvedic tradition",
+   "summary": "Easily digested everyday dishes associated with Ayurvedic cooking. These are household recipes, not treatments.",
+   "sections": [
+    {"h": "Mung dal khichdi (Krishara)", "list": ["Rinse ½ cup rice and ½ cup split yellow mung dal", "Warm 1 tablespoon ghee; add ½ teaspoon cumin seeds, a pinch of asafoetida (hing) and 1 teaspoon grated ginger", "Add rice, dal, ½ teaspoon turmeric and 4 cups water; add vegetables if wished", "Simmer until soft (about 25–30 minutes, or 3 whistles in a pressure cooker); add salt to taste", "Serve warm; finish with coriander leaves"]},
+    {"h": "Spiced buttermilk (Takra)", "list": ["Blend 1 part fresh plain curd (yoghurt) with 3–4 parts water", "Add a pinch of roasted cumin powder, a little rock salt and grated ginger", "Drink at room temperature with or after lunch", "Avoid at night; avoid if you have a cold and congestion"]},
+    {"h": "Green gram soup (Mudga Yusha)", "list": ["Soak ½ cup whole green gram for 4–6 hours", "Cook with 4 cups water until very soft", "Temper with ghee, cumin, ginger and a pinch of black pepper", "Add salt and a squeeze of lemon; serve thin"]},
+    {"h": "Notes", "p": ["People with diabetes should be mindful of rice quantity; those with kidney disease should check salt and potassium advice with their doctor; dairy-free versions can use oil instead of ghee."]}],
+   "sources": []}
+ ]
+}

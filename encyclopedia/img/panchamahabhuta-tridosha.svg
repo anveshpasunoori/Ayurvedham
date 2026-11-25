@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 330" role="img" aria-labelledby="t d" font-family="system-ui,sans-serif">
+<title id="t">Five elements and the three doshas</title>
+<desc id="d">Space and Air form Vata; Fire and Water form Pitta; Water and Earth form Kapha.</desc>
+<rect width="640" height="330" rx="14" fill="#fbfaf6"/>
+<g font-size="15" text-anchor="middle" fill="#1b2620">
+<g><circle cx="70" cy="70" r="40" fill="#e6eef7" stroke="#5b7fa6"/><text x="70" y="66">Space</text><text x="70" y="84" font-size="12">Akasha</text></g>
+<g><circle cx="195" cy="70" r="40" fill="#e9f2ea" stroke="#5f8f6a"/><text x="195" y="66">Air</text><text x="195" y="84" font-size="12">Vayu</text></g>
+<g><circle cx="320" cy="70" r="40" fill="#fde8dc" stroke="#c4622d"/><text x="320" y="66">Fire</text><text x="320" y="84" font-size="12">Agni</text></g>
+<g><circle cx="445" cy="70" r="40" fill="#e2f1f6" stroke="#2f8aa6"/><text x="445" y="66">Water</text><text x="445" y="84" font-size="12">Jala</text></g>
+<g><circle cx="570" cy="70" r="40" fill="#f1e8d8" stroke="#8a6a35"/><text x="570" y="66">Earth</text><text x="570" y="84" font-size="12">Prithvi</text></g>
+</g>
+<g stroke="#56635b" stroke-width="2" fill="none">
+<path d="M70 110 L130 210"/><path d="M195 110 L140 210"/>
+<path d="M320 110 L320 210"/><path d="M445 110 L330 210"/>
+<path d="M445 110 L500 210"/><path d="M570 110 L515 210"/>
+</g>
+<g font-size="18" text-anchor="middle" fill="#fff">
+<rect x="70" y="210" width="140" height="54" rx="10" fill="#4f6d8a"/><text x="140" y="236">Vata</text><text x="140" y="254" font-size="12">movement</text>
+<rect x="250" y="210" width="140" height="54" rx="10" fill="#a94e24"/><text x="320" y="236">Pitta</text><text x="320" y="254" font-size="12">transformation</text>
+<rect x="430" y="210" width="140" height="54" rx="10" fill="#4d6b3c"/><text x="500" y="236">Kapha</text><text x="500" y="254" font-size="12">structure</text>
+</g>
+<text x="320" y="310" font-size="12" text-anchor="middle" fill="#56635b">Educational illustration (Ayurvedham). Traditional model, not modern chemistry or physiology.</text>
+</svg>

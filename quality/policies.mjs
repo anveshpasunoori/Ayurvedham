@@ -1,0 +1,1 @@
+export function validGTIN(value){if(typeof value!=='string'||!/^\d+$/.test(value)||![8,12,13,14].includes(value.length))return false;const digits=[...value].map(Number);const check=digits.pop();return (10-digits.reverse().reduce((s,n,i)=>s+n*(i%2?1:3),0)%10)%10===check;}

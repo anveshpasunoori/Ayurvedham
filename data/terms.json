@@ -1,0 +1,339 @@
+{
+ "schema": "term",
+ "version": 1,
+ "migratedFrom": "index.html",
+ "legacySha": "42cb8f2e1884",
+ "count": 55,
+ "items": [
+  {
+   "id": "dosha",
+   "term": "Dosha",
+   "definition": "The three functional forces: Vata (movement), Pitta (transformation), Kapha (structure and cohesion).",
+   "status": "editorial"
+  },
+  {
+   "id": "dhatu",
+   "term": "Dhatu",
+   "definition": "The seven tissues: Rasa, Rakta, Mamsa, Meda, Asthi, Majja, Shukra.",
+   "status": "editorial"
+  },
+  {
+   "id": "mala",
+   "term": "Mala",
+   "definition": "Wastes: Purisha (stool), Mutra (urine), Sveda (sweat).",
+   "status": "editorial"
+  },
+  {
+   "id": "agni",
+   "term": "Agni",
+   "definition": "Digestive and metabolic fire: one Jatharagni, five Bhutagnis, seven Dhatvagnis.",
+   "status": "editorial"
+  },
+  {
+   "id": "ama",
+   "term": "Ama",
+   "definition": "Undigested, sticky material from weak agni; the root of many diseases.",
+   "status": "editorial"
+  },
+  {
+   "id": "srotas",
+   "term": "Srotas",
+   "definition": "Body channels that carry dosha, dhatu and mala; blocked or vitiated srotas cause disease.",
+   "status": "editorial"
+  },
+  {
+   "id": "ojas",
+   "term": "Ojas",
+   "definition": "The essence of all tissues; the basis of immunity and strength.",
+   "status": "editorial"
+  },
+  {
+   "id": "prakriti",
+   "term": "Prakriti",
+   "definition": "A person's constitution, fixed at conception by the dominant doshas.",
+   "status": "editorial"
+  },
+  {
+   "id": "samprapti",
+   "term": "Samprapti",
+   "definition": "Pathogenesis: how vitiated doshas travel and lodge to cause disease.",
+   "status": "editorial"
+  },
+  {
+   "id": "shat-kriyakala",
+   "term": "Shat Kriyakala",
+   "definition": "Sushruta's six stages of disease: Sanchaya, Prakopa, Prasara, Sthana Samshraya, Vyakti, Bheda.",
+   "status": "editorial"
+  },
+  {
+   "id": "nidana-panchaka",
+   "term": "Nidana Panchaka",
+   "definition": "Five diagnostic tools: Nidana (cause), Purvarupa (prodrome), Rupa (signs), Upashaya (therapeutic test), Samprapti.",
+   "status": "editorial"
+  },
+  {
+   "id": "rasa-guna-virya-vipaka-prabhava",
+   "term": "Rasa, Guna, Virya, Vipaka, Prabhava",
+   "definition": "How a drug acts: taste, qualities, potency (hot or cold), post-digestive effect and special action.",
+   "status": "editorial"
+  },
+  {
+   "id": "panchakarma",
+   "term": "Panchakarma",
+   "definition": "Five cleansing procedures: Vamana, Virechana, Basti (two kinds: Niruha and Anuvasana) and Nasya; Sushruta adds Raktamokshana.",
+   "status": "editorial"
+  },
+  {
+   "id": "anupana",
+   "term": "Anupana",
+   "definition": "The vehicle taken with a medicine (water, honey, ghee, milk) that guides and boosts its action.",
+   "status": "editorial"
+  },
+  {
+   "id": "pathya",
+   "term": "Pathya",
+   "definition": "Diet and conduct that support treatment; Apathya is what harms it.",
+   "status": "editorial"
+  },
+  {
+   "id": "vata",
+   "term": "Vata",
+   "definition": "The dosha of movement (air and space): breathing, circulation, nerve impulses, elimination. Dry, light, cold, rough, mobile.",
+   "status": "editorial"
+  },
+  {
+   "id": "pitta",
+   "term": "Pitta",
+   "definition": "The dosha of transformation (fire and water): digestion, metabolism, body heat, vision, intellect. Hot, sharp, light, oily.",
+   "status": "editorial"
+  },
+  {
+   "id": "kapha",
+   "term": "Kapha",
+   "definition": "The dosha of structure and cohesion (water and earth): lubrication, stability, immunity. Heavy, cold, oily, slow, stable.",
+   "status": "editorial"
+  },
+  {
+   "id": "shodhana",
+   "term": "Shodhana",
+   "definition": "Cleansing therapy that removes vitiated doshas from the body, chiefly by Panchakarma.",
+   "status": "editorial"
+  },
+  {
+   "id": "shamana",
+   "term": "Shamana",
+   "definition": "Palliative therapy that calms doshas inside the body with medicines, diet and lifestyle, without expelling them.",
+   "status": "editorial"
+  },
+  {
+   "id": "rasayana",
+   "term": "Rasayana",
+   "definition": "Rejuvenation therapy that promotes long life, immunity, memory and tissue quality.",
+   "status": "editorial"
+  },
+  {
+   "id": "vajikarana",
+   "term": "Vajikarana",
+   "definition": "Therapy for sexual health, fertility and vigour.",
+   "status": "editorial"
+  },
+  {
+   "id": "dinacharya",
+   "term": "Dinacharya",
+   "definition": "The daily routine: waking before dawn, cleansing, oil massage, exercise, bathing and regular meals.",
+   "status": "editorial"
+  },
+  {
+   "id": "ritucharya",
+   "term": "Ritucharya",
+   "definition": "Seasonal routine: changing diet and conduct with each of the six seasons.",
+   "status": "editorial"
+  },
+  {
+   "id": "vamana",
+   "term": "Vamana",
+   "definition": "Therapeutic emesis, the main Panchakarma for Kapha disorders.",
+   "status": "editorial"
+  },
+  {
+   "id": "virechana",
+   "term": "Virechana",
+   "definition": "Therapeutic purgation, the main Panchakarma for Pitta disorders.",
+   "status": "editorial"
+  },
+  {
+   "id": "basti",
+   "term": "Basti",
+   "definition": "Medicated enema, the main Panchakarma for Vata disorders; Charaka calls it half of all treatment.",
+   "status": "editorial"
+  },
+  {
+   "id": "nasya",
+   "term": "Nasya",
+   "definition": "Medicine given through the nose, for disorders of the head and neck.",
+   "status": "editorial"
+  },
+  {
+   "id": "raktamokshana",
+   "term": "Raktamokshana",
+   "definition": "Bloodletting (by leech, needle or cupping) for blood-borne disorders; Sushruta counts it as a fifth cleansing therapy.",
+   "status": "editorial"
+  },
+  {
+   "id": "abhyanga",
+   "term": "Abhyanga",
+   "definition": "Oil massage of the whole body, part of the daily routine and of pre-Panchakarma preparation.",
+   "status": "editorial"
+  },
+  {
+   "id": "svedana",
+   "term": "Svedana",
+   "definition": "Sweating therapy (fomentation, steam) to loosen doshas and relieve stiffness and pain.",
+   "status": "editorial"
+  },
+  {
+   "id": "shirodhara",
+   "term": "Shirodhara",
+   "definition": "A steady stream of warm oil, milk or buttermilk poured on the forehead for sleep, stress and headache.",
+   "status": "editorial"
+  },
+  {
+   "id": "langhana",
+   "term": "Langhana",
+   "definition": "Lightening therapy: fasting, light diet, exercise and drying measures.",
+   "status": "editorial"
+  },
+  {
+   "id": "brimhana",
+   "term": "Brimhana",
+   "definition": "Nourishing therapy that builds tissues and strength.",
+   "status": "editorial"
+  },
+  {
+   "id": "sattvavajaya",
+   "term": "Sattvavajaya",
+   "definition": "Mind-control therapy: counselling and restraint of the mind from harmful objects; Ayurveda's psychotherapy.",
+   "status": "editorial"
+  },
+  {
+   "id": "kwatha",
+   "term": "Kwatha",
+   "definition": "A decoction: coarse herb powder boiled in water and reduced, usually to a quarter.",
+   "status": "editorial"
+  },
+  {
+   "id": "churna",
+   "term": "Churna",
+   "definition": "A fine powder of dried herbs.",
+   "status": "editorial"
+  },
+  {
+   "id": "vati",
+   "term": "Vati",
+   "definition": "A tablet or pill (also called Gutika).",
+   "status": "editorial"
+  },
+  {
+   "id": "ghrita",
+   "term": "Ghrita",
+   "definition": "Medicated ghee, made by cooking ghee with herbal paste and liquid.",
+   "status": "editorial"
+  },
+  {
+   "id": "taila",
+   "term": "Taila",
+   "definition": "Medicated oil, made the same way as Ghrita but with oil (usually sesame).",
+   "status": "editorial"
+  },
+  {
+   "id": "asava-and-arishta",
+   "term": "Asava and Arishta",
+   "definition": "Self-fermented liquid medicines: Asava from raw juices, Arishta from decoctions. They contain a little natural alcohol.",
+   "status": "editorial"
+  },
+  {
+   "id": "avaleha",
+   "term": "Avaleha",
+   "definition": "A medicated jam or confection (Leha), such as Chyavanaprasha.",
+   "status": "editorial"
+  },
+  {
+   "id": "guggulu-formulation",
+   "term": "Guggulu (formulation)",
+   "definition": "Tablets made with purified Guggulu resin as the base, such as Yogaraja Guggulu.",
+   "status": "editorial"
+  },
+  {
+   "id": "bhasma",
+   "term": "Bhasma",
+   "definition": "A calcined metal or mineral ash prepared by repeated purification and heating; used in tiny doses in Rasa Shastra.",
+   "status": "editorial"
+  },
+  {
+   "id": "rasa-shastra",
+   "term": "Rasa Shastra",
+   "definition": "The branch of Ayurveda that prepares medicines from metals and minerals (mercury, sulphur, iron, gold and others).",
+   "status": "editorial"
+  },
+  {
+   "id": "shodhana-purification",
+   "term": "Shodhana (purification)",
+   "definition": "The purification of a raw herb, mineral or metal before it can be used as medicine.",
+   "status": "editorial"
+  },
+  {
+   "id": "upashaya",
+   "term": "Upashaya",
+   "definition": "A therapeutic test: diagnosis from what relieves or aggravates the condition.",
+   "status": "editorial"
+  },
+  {
+   "id": "purvarupa",
+   "term": "Purvarupa",
+   "definition": "Early warning signs (prodrome) of a disease.",
+   "status": "editorial"
+  },
+  {
+   "id": "rupa",
+   "term": "Rupa",
+   "definition": "The fully developed signs and symptoms of a disease.",
+   "status": "editorial"
+  },
+  {
+   "id": "dushya",
+   "term": "Dushya",
+   "definition": "The tissue or waste that the vitiated dosha damages.",
+   "status": "editorial"
+  },
+  {
+   "id": "srotodushti",
+   "term": "Srotodushti",
+   "definition": "Channel disorder: excess flow, obstruction, swelling (granthi) or flow in the wrong path.",
+   "status": "editorial"
+  },
+  {
+   "id": "sadhya-and-asadhya",
+   "term": "Sadhya and Asadhya",
+   "definition": "Prognosis: curable (easily or with effort), controllable (yapya) or incurable.",
+   "status": "editorial"
+  },
+  {
+   "id": "ashtanga-ayurveda",
+   "term": "Ashtanga Ayurveda",
+   "definition": "The eight branches: internal medicine, surgery, ENT and eye, paediatrics, psychiatry and spirits, toxicology, rejuvenation and sexual health.",
+   "status": "editorial"
+  },
+  {
+   "id": "tridosha",
+   "term": "Tridosha",
+   "definition": "The doctrine that health is the balance of Vata, Pitta and Kapha, and disease their imbalance.",
+   "status": "editorial"
+  },
+  {
+   "id": "pancha-mahabhuta",
+   "term": "Pancha Mahabhuta",
+   "definition": "The five great elements (space, air, fire, water, earth) of which all matter, body and medicine are made.",
+   "status": "editorial"
+  }
+ ]
+}

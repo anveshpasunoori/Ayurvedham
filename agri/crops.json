@@ -1,0 +1,38 @@
+[
+  {
+    "id": "ashwagandha",
+    "name": "Ashwagandha",
+    "botanical": "Withania somnifera",
+    "market": "Roots"
+  },
+  {
+    "id": "shatavari",
+    "name": "Shatavari",
+    "botanical": "Asparagus racemosus",
+    "market": "Roots"
+  },
+  {
+    "id": "tulsi",
+    "name": "Tulsi",
+    "botanical": "Ocimum tenuiflorum",
+    "market": "Leaves and oil"
+  },
+  {
+    "id": "haridra",
+    "name": "Turmeric",
+    "botanical": "Curcuma longa",
+    "market": "Rhizomes"
+  },
+  {
+    "id": "amalaki",
+    "name": "Amla",
+    "botanical": "Phyllanthus emblica",
+    "market": "Fruit"
+  },
+  {
+    "id": "kalmegh",
+    "name": "Kalmegh",
+    "botanical": "Andrographis paniculata",
+    "market": "Herbal raw material"
+  }
+]

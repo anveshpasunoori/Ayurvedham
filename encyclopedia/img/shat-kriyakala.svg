@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 250" role="img" aria-labelledby="t d" font-family="system-ui,sans-serif">
+<title id="t">Shat Kriyakala: six stages of disease</title>
+<desc id="d">Six stages in sequence: Sanchaya accumulation, Prakopa aggravation, Prasara spread, Sthana Samshraya localisation, Vyakti manifestation, Bheda complication. Earlier stages are easier to treat.</desc>
+<rect width="680" height="250" rx="14" fill="#fbfaf6"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#56635b"/></marker></defs>
+<g font-size="13" text-anchor="middle">
+<g fill="#fff">
+<rect x="12" y="60" width="98" height="70" rx="10" fill="#6f9a77"/><rect x="122" y="60" width="98" height="70" rx="10" fill="#7f9a5f"/>
+<rect x="232" y="60" width="98" height="70" rx="10" fill="#a89a46"/><rect x="342" y="60" width="98" height="70" rx="10" fill="#c08a3a"/>
+<rect x="452" y="60" width="98" height="70" rx="10" fill="#c0642f"/><rect x="562" y="60" width="106" height="70" rx="10" fill="#a3261c"/>
+<text x="61" y="88" font-size="15">1 Sanchaya</text><text x="61" y="108">accumulation</text>
+<text x="171" y="88" font-size="15">2 Prakopa</text><text x="171" y="108">aggravation</text>
+<text x="281" y="88" font-size="15">3 Prasara</text><text x="281" y="108">spread</text>
+<text x="391" y="84" font-size="14">4 Sthana</text><text x="391" y="100" font-size="14">Samshraya</text><text x="391" y="118">localisation</text>
+<text x="501" y="88" font-size="15">5 Vyakti</text><text x="501" y="108">manifestation</text>
+<text x="615" y="88" font-size="15">6 Bheda</text><text x="615" y="108">complication</text>
+</g></g>
+<path d="M30 165 H650" stroke="#56635b" stroke-width="2" marker-end="url(#a)"/>
+<text x="30" y="188" font-size="13" fill="#1b2620">Easier to treat</text><text x="650" y="188" font-size="13" text-anchor="end" fill="#1b2620">Harder to treat</text>
+<text x="391" y="40" font-size="12" text-anchor="middle" fill="#56635b">early warning signs (Purvarupa)</text>
+<text x="340" y="232" font-size="12" text-anchor="middle" fill="#56635b">Educational illustration (Ayurvedham), after Sushruta Samhita, Sutra Sthana 21.</text>
+</svg>

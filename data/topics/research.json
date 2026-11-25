@@ -1,0 +1,21 @@
+{
+ "category": "research",
+ "label": "Research & evidence",
+ "items": [
+  {"id": "evidence-levels", "title": "Reading the evidence", "english": "How to judge whether a treatment works",
+   "summary": "A classical reference shows that a treatment was used traditionally. Whether it works and is safe is a separate question, answered by well-designed human studies.",
+   "sections": [
+    {"h": "Levels of evidence (strongest first)", "list": ["Systematic reviews and meta-analyses of randomised controlled trials", "Randomised controlled trials (RCTs) with adequate size and blinding", "Controlled studies without randomisation", "Cohort and case-control studies", "Case series and case reports", "Laboratory and animal studies (cannot show benefit in people)", "Expert opinion and traditional texts"]},
+    {"h": "Questions to ask of any study", "list": ["Who took part, and are they like me?", "What was the comparison: placebo, standard treatment or nothing?", "Was it randomised and blinded?", "Were the outcomes important ones (symptoms, complications, survival) rather than only lab values?", "How large was the effect, and how many people had side effects?", "Has it been repeated by independent groups?"]},
+    {"h": "How this encyclopedia rates evidence", "p": ["Condition articles give a separate clinical-evidence rating: some, limited or very limited. A rating describes human study evidence only and never the authority of the classical text."]}],
+   "sources": []},
+  {"id": "research-landmarks", "title": "Research highlights and institutions", "english": "Where Ayurvedic research stands",
+   "summary": "Research capacity has grown through government councils and universities, but most clinical studies remain small. Some areas have stronger evidence than others.",
+   "sections": [
+    {"h": "Institutions", "list": ["Central Council for Research in Ayurvedic Sciences (CCRAS), Ministry of Ayush: clinical research, drug standardisation and literary research", "All India Institute of Ayurveda, New Delhi", "Institute of Teaching and Research in Ayurveda, Jamnagar", "National Pharmacovigilance Programme for Ayurveda, Siddha, Unani and Homoeopathy drugs: reporting of adverse reactions"]},
+    {"h": "Examples of comparatively stronger evidence", "list": ["Kshara Sutra for fistula-in-ano: an ICMR-supported multicentre randomised trial compared it with conventional surgery (Indian Journal of Medical Research, 1991)", "Yoga for chronic low back pain: several systematic reviews report modest benefit"]},
+    {"h": "Common limitations", "list": ["Small sample sizes and short follow-up", "Lack of blinding or proper control groups", "Variation in formulations between manufacturers", "Few independent replications and limited safety reporting"]},
+    {"h": "Report a side effect", "p": ["If you suspect a reaction to an Ayurvedic medicine, tell your doctor and report it through the national pharmacovigilance programme or your country's medicines regulator."]}],
+   "sources": [{"text": "ICMR. Multicentric randomized controlled clinical trial of Kshaarasootra in the management of fistula-in-ano. Indian J Med Res 1991;94:177–185", "verified": false}]}
+ ]
+}

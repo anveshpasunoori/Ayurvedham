@@ -1,0 +1,820 @@
+{
+ "schema": "therapy",
+ "version": 1,
+ "note": "Editorial overview only. No procedure steps, quantities or doses are given; every therapy here must be performed or supervised by a qualified practitioner. Chapter locators are chapter-level and unverified against a recorded edition.",
+ "count": 24,
+ "items": [
+  {
+   "id": "panchakarma",
+   "name": "Panchakarma",
+   "english": "The five purification procedures",
+   "category": "shodhana",
+   "risk": "high",
+   "summary": "A planned course of purification (Shodhana) built around Vamana, Virechana, Basti, Nasya and Raktamokshana (Sushruta) or two kinds of Basti (Charaka), preceded by preparatory oleation and sudation (Purvakarma) and followed by a graded diet (Samsarjana Krama).",
+   "indications": [
+    "Chosen by the physician according to the dosha involved, the patient's strength (Bala) and the season"
+   ],
+   "contraindications": [
+    "Pregnancy (for most procedures)",
+    "Children and the very elderly unless specifically adapted by a specialist",
+    "Acute illness, fever, severe weakness, dehydration",
+    "Uncontrolled heart, kidney or liver disease"
+   ],
+   "risks": [
+    "Dehydration and electrolyte disturbance after emesis or purgation",
+    "Fainting, exhaustion",
+    "Aggravation of an undiagnosed illness"
+   ],
+   "aftercare": "Graded return to normal diet under supervision; rest; avoid exertion, cold exposure and daytime sleep as advised.",
+   "practitioner": "BAMS/MD physician with Panchakarma training, in a centre equipped to manage complications.",
+   "evidence": "Small trials exist for some conditions; overall quality of evidence is low and protocols vary widely between centres.",
+   "related": [
+    "vamana",
+    "virechana",
+    "basti",
+    "nasya",
+    "raktamokshana",
+    "snehana",
+    "swedana"
+   ],
+   "sources": [
+    {
+     "text": "Charaka Samhita, Sutra Sthana 15 (Upakalpaniya) and Siddhi Sthana 1 (Kalpana Siddhi)",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "snehana",
+   "name": "Snehana",
+   "english": "Oleation",
+   "category": "purvakarma",
+   "risk": "moderate",
+   "summary": "Internal (Snehapana) or external (Abhyanga) use of medicated fats. Internal oleation is a preparatory step before Shodhana and is done only under supervision.",
+   "indications": [
+    "Preparation for Vamana or Virechana",
+    "Vata disorders (as decided by the physician)"
+   ],
+   "contraindications": [
+    "Indigestion and Ama",
+    "Obesity and high blood lipids (internal oleation)",
+    "Pregnancy without specialist direction",
+    "Liver or gallbladder disease"
+   ],
+   "risks": [
+    "Indigestion, nausea, diarrhoea",
+    "Rising blood lipids with high-dose internal fat"
+   ],
+   "aftercare": "Warm water, light food; do not combine with self-directed purgation.",
+   "practitioner": "Internal oleation: physician only. Gentle external oil massage is part of ordinary daily routine.",
+   "evidence": "Limited clinical evidence.",
+   "related": [
+    "abhyanga",
+    "panchakarma"
+   ],
+   "sources": [
+    {
+     "text": "Charaka Samhita, Sutra Sthana 13 (Snehadhyaya)",
+     "verified": false
+    },
+    {
+     "text": "Ashtanga Hridaya, Sutra Sthana 16 (Snehavidhi)",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "abhyanga",
+   "name": "Abhyanga",
+   "english": "Oil massage",
+   "category": "bahya",
+   "risk": "low",
+   "summary": "Application of warm oil to the body as part of Dinacharya (daily routine) or as a therapeutic massage.",
+   "indications": [
+    "Daily routine for general wellbeing",
+    "Dry skin; Vata-predominant states"
+   ],
+   "contraindications": [
+    "Fever, acute illness and indigestion (Ama)",
+    "Broken or infected skin, rashes",
+    "Immediately after Vamana or Virechana",
+    "Deep vein thrombosis or unexplained leg swelling"
+   ],
+   "risks": [
+    "Slips and falls on oily floors",
+    "Skin irritation from some oils"
+   ],
+   "aftercare": "Warm bath after a short interval; avoid cold wind.",
+   "practitioner": "Self-massage is generally safe; therapeutic massage by a trained therapist.",
+   "evidence": "Massage in general has modest evidence for short-term relaxation and pain relief; Ayurveda-specific evidence is limited.",
+   "related": [
+    "snehana",
+    "udvartana"
+   ],
+   "sources": [
+    {
+     "text": "Charaka Samhita, Sutra Sthana 5 (Matrashitiya)",
+     "verified": false
+    },
+    {
+     "text": "Ashtanga Hridaya, Sutra Sthana 2 (Dinacharya)",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "swedana",
+   "name": "Swedana",
+   "english": "Sudation (therapeutic sweating)",
+   "category": "purvakarma",
+   "risk": "moderate",
+   "summary": "Induced sweating by steam, heated boluses, warm poultices or other methods, usually after oleation.",
+   "indications": [
+    "Stiffness, heaviness and cold-predominant pain (as decided by the physician)",
+    "Preparation for Shodhana"
+   ],
+   "contraindications": [
+    "Pregnancy",
+    "Heart disease, high blood pressure",
+    "Diabetes with reduced sensation",
+    "Bleeding disorders, burns, Pitta-predominant states",
+    "Dehydration, alcohol intoxication"
+   ],
+   "risks": [
+    "Burns",
+    "Fainting, dehydration and heat exhaustion"
+   ],
+   "aftercare": "Rest in a warm room; rehydrate; avoid cold exposure.",
+   "practitioner": "Trained therapist under physician supervision.",
+   "evidence": "Limited clinical evidence.",
+   "related": [
+    "snehana",
+    "panchakarma"
+   ],
+   "sources": [
+    {
+     "text": "Charaka Samhita, Sutra Sthana 14 (Svedadhyaya)",
+     "verified": false
+    },
+    {
+     "text": "Ashtanga Hridaya, Sutra Sthana 17 (Svedavidhi)",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "vamana",
+   "name": "Vamana",
+   "english": "Therapeutic emesis",
+   "category": "shodhana",
+   "risk": "high",
+   "summary": "Planned, induced vomiting to eliminate Kapha, preceded by oleation and sudation. Never a home procedure.",
+   "indications": [
+    "Selected Kapha-predominant disorders, decided by a specialist"
+   ],
+   "contraindications": [
+    "Children, elderly, pregnancy",
+    "Heart disease, high blood pressure",
+    "Weakness, emaciation",
+    "Bleeding from upper digestive tract, hernia, recent surgery",
+    "Eye disorders such as glaucoma (raised pressure)"
+   ],
+   "risks": [
+    "Aspiration, dehydration, electrolyte imbalance",
+    "Oesophageal tear and bleeding"
+   ],
+   "aftercare": "Graded diet (Samsarjana Krama) and rest under supervision.",
+   "practitioner": "Panchakarma specialist in an equipped centre.",
+   "evidence": "Very limited clinical evidence.",
+   "related": [
+    "panchakarma",
+    "virechana"
+   ],
+   "sources": [
+    {
+     "text": "Ashtanga Hridaya, Sutra Sthana 18 (Vamana-Virechana Vidhi)",
+     "verified": false
+    },
+    {
+     "text": "Charaka Samhita, Kalpa Sthana 1",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "virechana",
+   "name": "Virechana",
+   "english": "Therapeutic purgation",
+   "category": "shodhana",
+   "risk": "high",
+   "summary": "Planned purgation to eliminate Pitta, preceded by oleation and sudation.",
+   "indications": [
+    "Selected Pitta-predominant disorders, decided by a specialist"
+   ],
+   "contraindications": [
+    "Pregnancy, children, elderly, weakness",
+    "Inflammatory bowel disease, rectal bleeding, diarrhoea",
+    "Dehydration, kidney disease",
+    "Recent abdominal surgery"
+   ],
+   "risks": [
+    "Dehydration, low potassium, low blood pressure",
+    "Exhaustion, fainting"
+   ],
+   "aftercare": "Graded diet (Samsarjana Krama) and rest under supervision.",
+   "practitioner": "Panchakarma specialist.",
+   "evidence": "Very limited clinical evidence.",
+   "related": [
+    "panchakarma",
+    "vamana"
+   ],
+   "sources": [
+    {
+     "text": "Ashtanga Hridaya, Sutra Sthana 18 (Vamana-Virechana Vidhi)",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "basti",
+   "name": "Basti",
+   "english": "Medicated enema",
+   "category": "shodhana",
+   "risk": "high",
+   "summary": "Medicated decoctions (Niruha / Asthapana) or oils (Anuvasana) given rectally, the principal procedure for Vata disorders. Charaka describes Basti as half of all treatment.",
+   "indications": [
+    "Selected Vata-predominant disorders, decided by a specialist"
+   ],
+   "contraindications": [
+    "Rectal bleeding, fissure or recent anorectal surgery (as judged by physician)",
+    "Diarrhoea, intestinal obstruction, inflammatory bowel disease",
+    "Pregnancy without specialist direction",
+    "Severe weakness"
+   ],
+   "risks": [
+    "Rectal injury, perforation (rare)",
+    "Fluid and electrolyte disturbance"
+   ],
+   "aftercare": "Rest; light, warm food.",
+   "practitioner": "Panchakarma specialist; never self-administered.",
+   "evidence": "Small trials in some musculoskeletal and neurological conditions; low-quality evidence.",
+   "related": [
+    "panchakarma",
+    "kati-basti",
+    "janu-basti"
+   ],
+   "sources": [
+    {
+     "text": "Charaka Samhita, Siddhi Sthana",
+     "verified": false
+    },
+    {
+     "text": "Ashtanga Hridaya, Sutra Sthana 19 (Bastividhi)",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "nasya",
+   "name": "Nasya",
+   "english": "Nasal medication",
+   "category": "shodhana",
+   "risk": "moderate",
+   "summary": "Medicines instilled through the nose for disorders of the head and neck. Light daily nasal oil (Pratimarsha) is part of the classical daily routine; therapeutic Nasya is a physician-directed procedure.",
+   "indications": [
+    "Selected disorders of head, nose, throat and neck, decided by a physician"
+   ],
+   "contraindications": [
+    "Children under 7 and elderly (therapeutic Nasya)",
+    "Pregnancy",
+    "Immediately after meals, bathing or drinking alcohol",
+    "Acute sinus infection with fever"
+   ],
+   "risks": [
+    "Aspiration of oil into lungs (lipoid pneumonia) with repeated or excessive use",
+    "Nasal irritation"
+   ],
+   "aftercare": "Avoid cold wind and cold water; gargle with warm water.",
+   "practitioner": "Therapeutic Nasya by a physician.",
+   "evidence": "Very limited clinical evidence.",
+   "related": [
+    "panchakarma"
+   ],
+   "sources": [
+    {
+     "text": "Ashtanga Hridaya, Sutra Sthana 20 (Nasyavidhi)",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "raktamokshana",
+   "name": "Raktamokshana",
+   "english": "Therapeutic bloodletting",
+   "category": "shodhana",
+   "risk": "high",
+   "summary": "Removal of blood by leeches (Jalaukavacharana), venepuncture (Siravyadha) or other methods; Sushruta counts it among the five Shodhana procedures.",
+   "indications": [
+    "Selected skin and blood-borne (Rakta) disorders, decided by a specialist"
+   ],
+   "contraindications": [
+    "Anaemia, bleeding disorders, anticoagulant or antiplatelet medicines",
+    "Pregnancy, children, elderly, weakness",
+    "Immunosuppression, diabetes with poor healing"
+   ],
+   "risks": [
+    "Infection (including Aeromonas from leeches)",
+    "Prolonged bleeding, anaemia"
+   ],
+   "aftercare": "Wound care and observation for bleeding and infection.",
+   "practitioner": "Shalya specialist with sterile technique; never a home procedure.",
+   "evidence": "Medicinal leech therapy has a recognised role in some reconstructive surgery; evidence for Ayurvedic indications is very limited.",
+   "related": [
+    "panchakarma"
+   ],
+   "sources": [
+    {
+     "text": "Sushruta Samhita, Sutra Sthana 13 (Jalaukavacharaniya) and 14 (Shonitavarnaniya)",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "shirodhara",
+   "name": "Shirodhara",
+   "english": "Continuous pouring of liquid on the forehead",
+   "category": "bahya",
+   "risk": "low",
+   "summary": "A steady stream of warm oil, milk, buttermilk or decoction poured over the forehead. It is a later practice tradition (prominent in Kerala) rather than a procedure described in detail in the Brihat Trayi.",
+   "indications": [
+    "Used in practice for stress, sleep difficulty and headache (decided by the physician)"
+   ],
+   "contraindications": [
+    "Fever, acute cold or sinusitis",
+    "Scalp infection or wounds",
+    "Recent head injury"
+   ],
+   "risks": [
+    "Chill, slipping, eye irritation"
+   ],
+   "aftercare": "Keep the head warm; wash oil out after the advised interval.",
+   "practitioner": "Trained therapist under physician supervision.",
+   "evidence": "A few small trials for insomnia and anxiety; low-quality evidence.",
+   "related": [
+    "abhyanga"
+   ],
+   "sources": []
+  },
+  {
+   "id": "kati-basti",
+   "name": "Kati Basti",
+   "english": "Warm oil pooled on the lower back",
+   "category": "bahya",
+   "risk": "low",
+   "summary": "Warm medicated oil retained over the lower back inside a ring of dough. Despite the name it is an external therapy, not an enema; it belongs to later practice tradition.",
+   "indications": [
+    "Chronic low back pain without warning signs (decided by the physician)"
+   ],
+   "contraindications": [
+    "Back pain with fever, weight loss, bladder or bowel changes or leg weakness (seek urgent care)",
+    "Skin infection or wounds",
+    "Reduced skin sensation (burn risk)"
+   ],
+   "risks": [
+    "Burns"
+   ],
+   "aftercare": "Avoid cold exposure and heavy lifting the same day.",
+   "practitioner": "Trained therapist.",
+   "evidence": "Small trials; low-quality evidence.",
+   "related": [
+    "basti",
+    "janu-basti",
+    "abhyanga"
+   ],
+   "conditions": [
+    "katigraha",
+    "gridhrasi"
+   ],
+   "sources": []
+  },
+  {
+   "id": "janu-basti",
+   "name": "Janu Basti",
+   "english": "Warm oil pooled over the knee",
+   "category": "bahya",
+   "risk": "low",
+   "summary": "As Kati Basti, applied to the knee joint. External therapy from later practice tradition.",
+   "indications": [
+    "Chronic knee pain such as osteoarthritis (decided by the physician)"
+   ],
+   "contraindications": [
+    "Hot, red, swollen joint or fever (possible infection or gout: seek medical care)",
+    "Skin infection",
+    "Reduced sensation"
+   ],
+   "risks": [
+    "Burns"
+   ],
+   "aftercare": "Avoid cold exposure.",
+   "practitioner": "Trained therapist.",
+   "evidence": "Small trials; low-quality evidence.",
+   "related": [
+    "kati-basti"
+   ],
+   "conditions": [
+    "sandhivata"
+   ],
+   "sources": []
+  },
+  {
+   "id": "udvartana",
+   "name": "Udvartana",
+   "english": "Dry powder massage",
+   "category": "bahya",
+   "risk": "low",
+   "summary": "Massage with herbal powders in the direction opposite to hair growth, described in the daily routine for reducing Kapha and Meda.",
+   "indications": [
+    "Kapha-predominant states and excess body fat (as part of a wider plan)"
+   ],
+   "contraindications": [
+    "Broken, inflamed or sensitive skin",
+    "Pregnancy",
+    "Emaciation"
+   ],
+   "risks": [
+    "Skin abrasion and irritation"
+   ],
+   "aftercare": "Warm bath.",
+   "practitioner": "Trained therapist.",
+   "evidence": "Very limited clinical evidence.",
+   "related": [
+    "abhyanga"
+   ],
+   "conditions": [
+    "sthaulya"
+   ],
+   "sources": [
+    {
+     "text": "Ashtanga Hridaya, Sutra Sthana 2 (Dinacharya)",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "kshara-karma",
+   "name": "Kshara Karma and Kshara Sutra",
+   "english": "Alkaline cauterisation and medicated thread",
+   "category": "shalya",
+   "risk": "high",
+   "summary": "Application of caustic alkaline preparations, or a medicated thread (Kshara Sutra) tied through a fistula track. Kshara Sutra for anal fistula has been studied in clinical trials, including ICMR-supported work.",
+   "indications": [
+    "Anal fistula, haemorrhoids and some skin growths, decided by a Shalya specialist"
+   ],
+   "contraindications": [
+    "Bleeding disorders, anticoagulants",
+    "Inflammatory bowel disease, tuberculosis or cancer-related fistula (need specialist care)",
+    "Uncontrolled diabetes"
+   ],
+   "risks": [
+    "Chemical burns, pain, stricture, infection"
+   ],
+   "aftercare": "Regular dressing and review by the surgeon.",
+   "practitioner": "Shalya Tantra specialist (MS Ayurveda) in a surgical setting. Never self-applied.",
+   "evidence": "Kshara Sutra for fistula-in-ano has comparatively better evidence than most Ayurvedic procedures, including randomised comparisons with conventional surgery.",
+   "related": [
+    "agnikarma"
+   ],
+   "conditions": [
+    "bhagandara",
+    "arsha"
+   ],
+   "sources": [
+    {
+     "text": "Sushruta Samhita, Sutra Sthana 11 (Ksharapakavidhi)",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "agnikarma",
+   "name": "Agnikarma",
+   "english": "Therapeutic heat cauterisation",
+   "category": "shalya",
+   "risk": "high",
+   "summary": "Controlled application of heated instruments to a small area of skin, described by Sushruta for persistent pain and some lesions.",
+   "indications": [
+    "Selected cases of persistent localised pain, decided by a specialist"
+   ],
+   "contraindications": [
+    "Diabetes with neuropathy, poor circulation, bleeding disorders",
+    "Pitta-predominant states, pregnancy, children",
+    "Skin infection"
+   ],
+   "risks": [
+    "Burns, infection, scarring"
+   ],
+   "aftercare": "Wound care as instructed.",
+   "practitioner": "Shalya specialist; never a home procedure.",
+   "evidence": "Small trials; low-quality evidence.",
+   "related": [
+    "kshara-karma"
+   ],
+   "conditions": [
+    "sandhivata",
+    "gridhrasi"
+   ],
+   "sources": [
+    {
+     "text": "Sushruta Samhita, Sutra Sthana 12 (Agnikarmavidhi)",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "pizhichil",
+   "name": "Pizhichil",
+   "english": "Oil-bath therapy",
+   "category": "bahya",
+   "risk": "moderate",
+   "summary": "Warm medicated oil squeezed continuously over the body while it is massaged; a Kerala practice tradition combining Snehana and Swedana.",
+   "indications": [
+    "Selected Vata disorders (decided by the physician)"
+   ],
+   "contraindications": [
+    "Fever, Ama, obesity",
+    "Heart disease, high blood pressure",
+    "Skin infection"
+   ],
+   "risks": [
+    "Overheating, fainting, slipping"
+   ],
+   "aftercare": "Rest; warm bath; light food.",
+   "practitioner": "Trained therapists under physician supervision.",
+   "evidence": "Very limited clinical evidence.",
+   "related": [
+    "abhyanga",
+    "snehana",
+    "swedana"
+   ],
+   "sources": []
+  },
+  {
+   "id": "shirobasti",
+   "name": "Shirobasti",
+   "english": "Oil retained on the head",
+   "category": "bahya",
+   "risk": "low",
+   "summary": "Warm medicated oil is retained on the scalp inside a leather or rexine cap sealed at the forehead, for a set time. A form of Murdhni Taila (oil on the head).",
+   "indications": [
+    "Selected Vata disorders of the head, sleep difficulty and facial palsy, decided by a physician"
+   ],
+   "contraindications": [
+    "Fever, cold, sinusitis",
+    "Scalp infection or wounds",
+    "Recent head injury"
+   ],
+   "risks": [
+    "Chill, oil running into the eyes, neck strain"
+   ],
+   "aftercare": "Keep the head covered and warm; wash out the oil after the advised interval.",
+   "practitioner": "Trained therapist under physician supervision.",
+   "evidence": "Very limited clinical evidence.",
+   "related": [
+    "shirodhara",
+    "abhyanga"
+   ],
+   "sources": [
+    {
+     "text": "Ashtanga Hridaya, Sutra Sthana 22 (Murdhni Taila)",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "netra-tarpana",
+   "name": "Netra Tarpana",
+   "english": "Ghee retained over the eyes",
+   "category": "bahya",
+   "risk": "moderate",
+   "summary": "Medicated ghee is held over the open eyes inside a ring of dough, a classical Kriyakalpa (eye procedure).",
+   "indications": [
+    "Dry, strained eyes and selected eye disorders, decided by an eye specialist (Shalakya)"
+   ],
+   "contraindications": [
+    "Eye infection, conjunctivitis, recent eye surgery",
+    "Glaucoma or any painful red eye (needs ophthalmology)",
+    "Contact lens wear during treatment"
+   ],
+   "risks": [
+    "Infection from non-sterile preparations",
+    "Blurred vision and irritation"
+   ],
+   "aftercare": "Avoid bright light, wind and screens for the rest of the day.",
+   "practitioner": "Shalakya specialist using sterile preparations.",
+   "evidence": "Small studies in dry eye; low-quality evidence.",
+   "related": [
+    "putapaka"
+   ],
+   "conditions": [
+    "abhishyanda"
+   ],
+   "sources": [
+    {
+     "text": "Ashtanga Hridaya, Sutra Sthana 24 (Tarpana-Putapaka Vidhi)",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "putapaka",
+   "name": "Putapaka",
+   "english": "Eye treatment with expressed herbal juice",
+   "category": "bahya",
+   "risk": "moderate",
+   "summary": "Juice prepared by a special roasting process is retained over the eyes, usually after Tarpana, as an eye Kriyakalpa.",
+   "indications": [
+    "Selected eye disorders, decided by a Shalakya specialist"
+   ],
+   "contraindications": [
+    "Eye infection, recent surgery, glaucoma"
+   ],
+   "risks": [
+    "Irritation, infection"
+   ],
+   "aftercare": "Protect eyes from light and wind.",
+   "practitioner": "Shalakya specialist.",
+   "evidence": "Very limited clinical evidence.",
+   "related": [
+    "netra-tarpana"
+   ],
+   "sources": [
+    {
+     "text": "Ashtanga Hridaya, Sutra Sthana 24",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "kavala-gandusha",
+   "name": "Kavala and Gandusha",
+   "english": "Gargling and holding liquids in the mouth",
+   "category": "bahya",
+   "risk": "low",
+   "summary": "Gandusha is holding a liquid (oil, decoction, milk) in the mouth without moving it; Kavala is swishing a smaller amount. Part of daily routine and used for oral disorders.",
+   "indications": [
+    "Oral hygiene as part of daily routine",
+    "Mouth ulcers, gum disease and dry mouth, alongside dental care"
+   ],
+   "contraindications": [
+    "Children who may swallow or choke",
+    "Acute severe oral infection (see a dentist)"
+   ],
+   "risks": [
+    "Aspiration if done lying down; swallowing medicated liquids"
+   ],
+   "aftercare": "Spit out completely; rinse with warm water.",
+   "practitioner": "Self-care for simple oils; physician for medicated liquids.",
+   "evidence": "Oil pulling has small, low-quality studies on plaque and gingivitis; it does not replace brushing and flossing.",
+   "related": [
+    "abhyanga"
+   ],
+   "conditions": [
+    "dantaveshta",
+    "mukhapaka"
+   ],
+   "sources": [
+    {
+     "text": "Ashtanga Hridaya, Sutra Sthana 22 (Gandushadi Vidhi)",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "karnapurana",
+   "name": "Karnapurana",
+   "english": "Oil in the ears",
+   "category": "bahya",
+   "risk": "moderate",
+   "summary": "Warm oil is filled into the ear canal for a short time; described in daily routine and for some ear disorders.",
+   "indications": [
+    "Daily routine in classical texts; selected ear complaints decided by a physician"
+   ],
+   "contraindications": [
+    "Perforated eardrum or grommets",
+    "Ear discharge, ear infection or ear pain with fever",
+    "Recent ear surgery"
+   ],
+   "risks": [
+    "Infection, burns from hot oil, worsening of undiagnosed perforation"
+   ],
+   "aftercare": "Keep the ear dry and warm.",
+   "practitioner": "Have the ear examined first; do not use with any discharge.",
+   "evidence": "No good clinical evidence.",
+   "related": [
+    "abhyanga"
+   ],
+   "sources": [
+    {
+     "text": "Ashtanga Hridaya, Sutra Sthana 2",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "lepa",
+   "name": "Lepa",
+   "english": "Herbal paste application",
+   "category": "bahya",
+   "risk": "low",
+   "summary": "A paste of herbs is applied to the skin, usually against the direction of hair growth, and removed before it dries completely.",
+   "indications": [
+    "Local swelling, pain and some skin conditions, decided by a physician"
+   ],
+   "contraindications": [
+    "Open wounds unless specifically prescribed",
+    "Known allergy to the ingredients",
+    "Toxic ingredients (for example Bhallataka) on sensitive skin"
+   ],
+   "risks": [
+    "Contact dermatitis, burns from irritant herbs"
+   ],
+   "aftercare": "Wash off gently; watch for rash.",
+   "practitioner": "Physician-prescribed paste; patch-test first.",
+   "evidence": "Very limited clinical evidence.",
+   "related": [
+    "upanaha"
+   ],
+   "sources": [
+    {
+     "text": "Sushruta Samhita, Sutra Sthana 18",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "upanaha",
+   "name": "Upanaha",
+   "english": "Warm poultice",
+   "category": "bahya",
+   "risk": "low",
+   "summary": "A warm herbal poultice bandaged over a painful or stiff area, sometimes left overnight; a form of Swedana.",
+   "indications": [
+    "Stiff, painful joints and muscles (Vata), decided by a physician"
+   ],
+   "contraindications": [
+    "Hot, red, swollen joints (possible infection or gout)",
+    "Broken skin, reduced sensation, diabetes with neuropathy"
+   ],
+   "risks": [
+    "Burns, skin irritation"
+   ],
+   "aftercare": "Remove and clean the skin; avoid cold exposure.",
+   "practitioner": "Trained therapist.",
+   "evidence": "Very limited clinical evidence.",
+   "related": [
+    "swedana",
+    "lepa"
+   ],
+   "conditions": [
+    "sandhivata",
+    "avabahuka"
+   ],
+   "sources": [
+    {
+     "text": "Charaka Samhita, Sutra Sthana 14",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "pinda-sveda",
+   "name": "Pinda Sveda (Njavarakizhi)",
+   "english": "Sudation with heated boluses",
+   "category": "bahya",
+   "risk": "moderate",
+   "summary": "Boluses of herbs or of rice cooked in milk and herbal decoction (Njavarakizhi, a Kerala practice) are heated and massaged over the body.",
+   "indications": [
+    "Selected Vata disorders with wasting or stiffness, decided by a physician"
+   ],
+   "contraindications": [
+    "Fever, Ama, obesity",
+    "Skin infection",
+    "Heart disease and high blood pressure (whole-body treatment)"
+   ],
+   "risks": [
+    "Burns, overheating, fainting"
+   ],
+   "aftercare": "Rest, warm bath, light food.",
+   "practitioner": "Trained therapists under physician supervision.",
+   "evidence": "Small studies; low-quality evidence.",
+   "related": [
+    "swedana",
+    "pizhichil"
+   ],
+   "conditions": [
+    "pakshaghata"
+   ],
+   "sources": []
+  }
+ ]
+}

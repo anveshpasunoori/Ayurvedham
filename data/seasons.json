@@ -1,0 +1,39 @@
+{
+ "schema": "season",
+ "version": 1,
+ "migratedFrom": "index.html",
+ "legacySha": "42cb8f2e1884",
+ "count": 6,
+ "items": [
+  {
+   "id": "hemanta",
+   "name": "Early winter (Hemanta)",
+   "guidance": "Digestion is at its strongest. Eat warm, nourishing, unctuous food (soups, ghee, whole grains, sesame); oil massage and a warm bath daily; exercise more; wear warm clothes. Avoid cold, dry, light food and cold drinks."
+  },
+  {
+   "id": "shishira",
+   "name": "Late winter (Shishira)",
+   "guidance": "As early winter, with more cold and dryness: warm, nourishing food, daily oil massage, more exercise, warm water. Avoid cold, wind and dry, light food."
+  },
+  {
+   "id": "vasanta",
+   "name": "Spring (Vasanta)",
+   "guidance": "Kapha melted by the sun weakens digestion. Exercise vigorously, try dry powder massage, eat light and dry food (barley, old grains, honey, bitter greens). Avoid heavy, sweet, oily, sour food and day sleep."
+  },
+  {
+   "id": "grishma",
+   "name": "Summer (Grishma)",
+   "guidance": "Heat drains strength. Eat sweet, cool, liquid food (rice, milk, ghee, buttermilk, fruit), drink plenty of cool, not iced, water, exercise lightly in cool hours. A short afternoon rest is allowed if you are not overweight or diabetic. Avoid salty, sour, pungent food, alcohol and midday sun."
+  },
+  {
+   "id": "varsha",
+   "name": "Rainy season (Varsha)",
+   "guidance": "Digestion is weakest. Drink boiled water, eat light, warm food (old grains, soups, ginger), keep feet dry. Avoid day sleep, heavy food, overexertion and getting chilled."
+  },
+  {
+   "id": "sharad",
+   "name": "Autumn (Sharad)",
+   "guidance": "Pitta built up in summer flares. Favour bitter, sweet and cooling food (rice, green gram, ghee, amla, gourds), moonlight walks. Avoid curd, fried and sour food, midday sun and day sleep."
+  }
+ ]
+}

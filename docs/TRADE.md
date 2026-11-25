@@ -1,0 +1,3 @@
+# Trade & Industry
+Static discovery preview with six business roles, empty verified directory, role filter and local RFQ draft generator. No fabricated companies, orders, payments or data collection. Proposed database schema requires migration and tenant authorization review.
+Next: trusted business onboarding, independent licence and document verification, product moderation, private RFQ delivery, quotations, procurement matching, batch traceability, recall workflow, legal review and sandbox billing. Keep commercial rankings separate from clinical content. Never publish private documents or contact details by default. No medicine sales until applicable licensing and jurisdiction requirements are verified.

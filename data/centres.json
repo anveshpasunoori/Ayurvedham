@@ -1,0 +1,300 @@
+{
+ "schema": "centre",
+ "version": 1,
+ "migratedFrom": "index.html",
+ "legacySha": "42cb8f2e1884",
+ "count": 13,
+ "items": [
+  {
+   "id": "avs",
+   "name": "Arya Vaidya Sala, Kottakkal",
+   "place": "Kottakkal, Malappuram, Kerala",
+   "founded": 1902,
+   "type": "Charitable trust",
+   "region": "Kerala",
+   "inpatient": "Yes: five hospitals with over 400 beds in all, including a free Charitable Hospital (since 1924) and the Ayurvedic Hospital & Research Centre (since 1954)",
+   "outpatient": "Yes, at Kottakkal and at branches across India",
+   "treatments": [
+    "Classical Panchakarma with Kerala therapies (Pizhichil, Njavarakizhi, Shirodhara, Kativasti)",
+    "Free consultation and treatment for poor patients at the Charitable Hospital",
+    "Poison (Visha) treatment",
+    "Own medicines made in its factories"
+   ],
+   "note": "Founded by Vaidyaratnam P. S. Varier; run as a charitable trust since 1944. Often considered the best-known name in Kerala Ayurveda.",
+   "website": "https://www.aryavaidyasala.com",
+   "suitedFor": [
+    "*",
+    "jt",
+    "mn",
+    "sk"
+   ],
+   "listingStatus": "informational-not-endorsement"
+  },
+  {
+   "id": "gactvm",
+   "name": "Government Ayurveda College Hospital, Thiruvananthapuram",
+   "place": "Thiruvananthapuram, Kerala",
+   "founded": 1889,
+   "type": "Government",
+   "region": "Kerala",
+   "inpatient": "Yes: college hospital, plus a Panchakarma hospital and a women and children's hospital",
+   "outpatient": "Yes, with department and special clinics",
+   "treatments": [
+    "General Ayurveda (Kayachikitsa), surgery (Shalya), eye and ENT (Shalakya)",
+    "Panchakarma",
+    "Women's and children's care (Prasuti, Kaumarabhritya)"
+   ],
+   "note": "Founded by the Maharaja of Travancore; one of the oldest Ayurveda colleges in India. Government rates.",
+   "website": null,
+   "suitedFor": [
+    "*",
+    "wo",
+    "ch",
+    "ey"
+   ],
+   "listingStatus": "informational-not-endorsement"
+  },
+  {
+   "id": "mysore",
+   "name": "Government Ayurveda Medical College & Hospital, Mysuru",
+   "place": "Mysuru, Karnataka",
+   "founded": 1908,
+   "type": "Government",
+   "region": "South India",
+   "inpatient": "Yes",
+   "outpatient": "Yes",
+   "treatments": [
+    "General Ayurveda and Panchakarma",
+    "Teaching-hospital departments across specialities"
+   ],
+   "note": "One of India's oldest Ayurveda teaching institutions. Government rates.",
+   "website": "http://www.gamcmysore.in/",
+   "suitedFor": [
+    "*"
+   ],
+   "listingStatus": "informational-not-endorsement"
+  },
+  {
+   "id": "sitaram",
+   "name": "Sitaram Ayurveda Speciality Hospital, Thrissur",
+   "place": "Thrissur, Kerala",
+   "founded": 1921,
+   "type": "Private",
+   "region": "Kerala",
+   "inpatient": "Yes (NABH-accredited hospital)",
+   "outpatient": "Yes",
+   "treatments": [
+    "Panchakarma",
+    "Rejuvenation (Rasayana) therapies",
+    "Kerala special therapies"
+   ],
+   "note": "Founded in 1921 under the patronage of the Maharaja of Cochin; also runs wellness retreats.",
+   "website": "https://sitaramayurveda.com",
+   "suitedFor": [
+    "*",
+    "jt"
+   ],
+   "listingStatus": "informational-not-endorsement"
+  },
+  {
+   "id": "bhu",
+   "name": "Faculty of Ayurveda, Banaras Hindu University",
+   "place": "Varanasi, Uttar Pradesh",
+   "founded": 1927,
+   "type": "Government (central university)",
+   "region": "North & West India",
+   "inpatient": "Yes, through the university's Sir Sunderlal Hospital",
+   "outpatient": "Yes",
+   "treatments": [
+    "Ayurveda departments within a large integrated university hospital",
+    "Panchakarma, Kayachikitsa, Shalya and other specialities"
+   ],
+   "note": "Its Ayurvedic College opened in 1927 with an integrated Ayurveda-plus-modern-medicine course; modern medicine is on the same campus.",
+   "website": "https://www.bhu.ac.in",
+   "suitedFor": [
+    "*"
+   ],
+   "listingStatus": "informational-not-endorsement"
+  },
+  {
+   "id": "avp",
+   "name": "Arya Vaidya Pharmacy (AVP) & Arya Vaidya Chikitsalayam",
+   "place": "Coimbatore, Tamil Nadu",
+   "founded": 1943,
+   "type": "Private (with a research trust)",
+   "region": "South India",
+   "inpatient": "Yes",
+   "outpatient": "Yes",
+   "treatments": [
+    "Arthritis and rheumatology care",
+    "Panchakarma",
+    "Own classical medicines (about 400 formulations)"
+   ],
+   "note": "Founded by P. V. Rama Variar. Pioneered Ayurveda arthritis research: a WHO/ICMR rheumatoid arthritis study from 1977 and a trial with UCLA comparing Ayurveda with methotrexate.",
+   "website": "https://www.avpayurveda.com",
+   "suitedFor": [
+    "jt",
+    "*"
+   ],
+   "listingStatus": "informational-not-endorsement"
+  },
+  {
+   "id": "vaidyaratnam",
+   "name": "Vaidyaratnam Nursing Home (Ashtavaidyan Thaikkattu Mooss)",
+   "place": "Thaikkattussery, Ollur, Thrissur, Kerala",
+   "founded": 1951,
+   "type": "Private (Ashtavaidya family)",
+   "region": "Kerala",
+   "inpatient": "Yes (NABH-accredited)",
+   "outpatient": "Yes",
+   "treatments": [
+    "Panchakarma by classical rules",
+    "Curative treatment only (not a spa)",
+    "Own medicines (Vaidyaratnam Oushadhasala, since 1941)"
+   ],
+   "note": "Run by the Thaikkattu Mooss family, one of Kerala's eight hereditary Ashtavaidya physician families. Also has an Ayurveda museum on site.",
+   "website": "https://www.vaidyaratnammooss.com",
+   "suitedFor": [
+    "*",
+    "jt",
+    "mn"
+   ],
+   "listingStatus": "informational-not-endorsement"
+  },
+  {
+   "id": "itra",
+   "name": "Institute of Teaching & Research in Ayurveda (ITRA)",
+   "place": "Jamnagar, Gujarat",
+   "founded": 1956,
+   "type": "Government (Institute of National Importance)",
+   "region": "North & West India",
+   "inpatient": "Yes: hospital with about 180–300 beds",
+   "outpatient": "Yes",
+   "treatments": [
+    "All Ayurveda specialities and Panchakarma",
+    "Short courses for foreigners"
+   ],
+   "note": "Grew from India's first postgraduate Ayurveda centre (1956); became the first Institute of National Importance in AYUSH in 2020.",
+   "website": "https://itra.ac.in",
+   "suitedFor": [
+    "*"
+   ],
+   "listingStatus": "informational-not-endorsement"
+  },
+  {
+   "id": "sdm",
+   "name": "SDM College of Ayurveda Hospital, Udupi",
+   "place": "Kuthpady, Udupi, Karnataka",
+   "founded": 1958,
+   "type": "Private charitable (SDME Society)",
+   "region": "South India",
+   "inpatient": "Yes: about 430 beds including the Rathnashree Arogyadhama Panchakarma and Yoga centre (NABH-accredited)",
+   "outpatient": "Yes, 500+ patients a day",
+   "treatments": [
+    "Panchakarma, Yoga and physiotherapy",
+    "Kayachikitsa, Kaumarabhritya (children), Prasuti (women)",
+    "Own pharmacy"
+   ],
+   "note": "Established in 1958; economically priced; one of Karnataka's leading Ayurveda hospitals.",
+   "website": "https://sdmayurvedacollegeudupi.in/",
+   "suitedFor": [
+    "*",
+    "ch",
+    "wo"
+   ],
+   "listingStatus": "informational-not-endorsement"
+  },
+  {
+   "id": "narip",
+   "name": "National Ayurveda Research Institute for Panchakarma (CCRAS)",
+   "place": "Cheruthuruthy, Thrissur, Kerala",
+   "founded": 1971,
+   "type": "Government research institute",
+   "region": "Kerala",
+   "inpatient": "Yes (NABH-accredited)",
+   "outpatient": "Yes",
+   "treatments": [
+    "Panchakarma (its national speciality)",
+    "Neuromuscular conditions and Marma therapy",
+    "Para-surgical procedures (Anushastra)"
+   ],
+   "note": "The government's national Panchakarma research hospital, on the Bharathapuzha river.",
+   "website": "https://ccras.nic.in/narip-cheruthuruthy/",
+   "suitedFor": [
+    "jt",
+    "mn",
+    "*"
+   ],
+   "listingStatus": "informational-not-endorsement"
+  },
+  {
+   "id": "nia",
+   "name": "National Institute of Ayurveda (NIA)",
+   "place": "Jaipur, Rajasthan",
+   "founded": 1976,
+   "type": "Government (deemed university)",
+   "region": "North & West India",
+   "inpatient": "Yes: 280-bed NABH-accredited hospital",
+   "outpatient": "Yes, with super-speciality OPDs",
+   "treatments": [
+    "Panchakarma and Yoga units",
+    "All Ayurveda specialities",
+    "Free medicines, lab tests and Panchakarma for general-ward inpatients"
+   ],
+   "note": "Roots in an Ayurveda department from 1865 and a 1946 college; very low-cost government care.",
+   "website": "https://nia.nic.in",
+   "suitedFor": [
+    "*"
+   ],
+   "listingStatus": "informational-not-endorsement"
+  },
+  {
+   "id": "aiia",
+   "name": "All India Institute of Ayurveda (AIIA)",
+   "place": "Sarita Vihar, New Delhi (also AIIA Goa)",
+   "founded": 2009,
+   "type": "Government (Ministry of Ayush)",
+   "region": "North & West India",
+   "inpatient": "Yes: 200-bed referral hospital (from 2017)",
+   "outpatient": "Yes, since 2009",
+   "treatments": [
+    "Neurological and degenerative disease unit",
+    "Diabetes and metabolic disorders unit",
+    "Infertility and diabetic-retinopathy clinics",
+    "Kaumarabhritya (children), including autism; AIIA Goa runs the PRAYAS centre for neurodevelopmental disorders",
+    "Panchakarma and Yoga"
+   ],
+   "note": "India's apex Ayurveda hospital on the AIIMS model. Not old, but included because it leads national research and specialised clinics.",
+   "website": "https://aiia.gov.in",
+   "suitedFor": [
+    "mt",
+    "mn",
+    "ch",
+    "wo",
+    "ey",
+    "*"
+   ],
+   "listingStatus": "informational-not-endorsement"
+  },
+  {
+   "id": "ai-us",
+   "name": "The Ayurvedic Institute (Vasant Lad)",
+   "place": "Albuquerque, New Mexico, USA",
+   "founded": 1984,
+   "type": "Non-profit (USA)",
+   "region": "USA",
+   "inpatient": "Residential Panchakarma programmes (not a hospital)",
+   "outpatient": "Consultations and a student clinic",
+   "treatments": [
+    "Panchakarma programmes with an Ayurvedic consultant",
+    "Diet and lifestyle consultations"
+   ],
+   "note": "One of the first Ayurveda schools in the US, founded by Dr Vasant Lad, former medical director of an Ayurveda hospital in Pune. In the US, Ayurveda is a wellness service, not licensed medical treatment.",
+   "website": "https://ayurveda.com",
+   "suitedFor": [
+    "*"
+   ],
+   "listingStatus": "informational-not-endorsement"
+  }
+ ]
+}

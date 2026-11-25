@@ -1,0 +1,51 @@
+{
+  "currency": "INR",
+  "checkoutEnabled": false,
+  "plans": [
+    {
+      "id": "free",
+      "name": "Free",
+      "monthly": 0,
+      "annual": 0,
+      "features": [
+        "public_reference",
+        "medical_safety"
+      ]
+    },
+    {
+      "id": "student",
+      "name": "Student",
+      "monthly": 149,
+      "annual": null,
+      "features": [
+        "academy",
+        "mock_exams",
+        "flashcards"
+      ]
+    },
+    {
+      "id": "pro",
+      "name": "Pro",
+      "monthly": 499,
+      "annual": null,
+      "features": [
+        "clinical_tools",
+        "research_tools",
+        "printables"
+      ]
+    },
+    {
+      "id": "institution",
+      "name": "Institution",
+      "monthly": null,
+      "annual": 49999,
+      "features": [
+        "academy",
+        "clinical_tools",
+        "research_tools",
+        "faculty_dashboard",
+        "seat_management"
+      ]
+    }
+  ]
+}

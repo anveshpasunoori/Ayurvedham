@@ -1,0 +1,21 @@
+{
+ "schema": "branch",
+ "version": 1,
+ "note": "Editorial overview. Chapter locators are chapter-level and have not yet been checked against a recorded edition (verified:false).",
+ "sources": [
+  {"text": "Sushruta Samhita, Sutra Sthana 1 (enumeration of the eight branches)", "verified": false},
+  {"text": "Ashtanga Hridaya, Sutra Sthana 1 (enumeration of the eight branches)", "verified": false},
+  {"text": "Charaka Samhita, Sutra Sthana 30 (enumeration of the eight branches)", "verified": false}
+ ],
+ "count": 8,
+ "items": [
+  {"id": "kayachikitsa", "name": "Kayachikitsa", "english": "Internal medicine", "scope": "Diagnosis and medical management of systemic disease: fever, digestive, metabolic, respiratory, joint and neurological disorders.", "modernParallel": "General and internal medicine", "groups": ["in", "br", "dg", "mt", "jt", "mn", "sk", "ur"], "curriculum": "III/IV BAMS Kayachikitsa; MD Kayachikitsa", "coverage": "partial"},
+  {"id": "shalya", "name": "Shalya Tantra", "english": "Surgery", "scope": "Surgical and para-surgical care: wounds, fistula, haemorrhoids, fractures, Kshara Sutra, Kshara Karma, Agnikarma and Raktamokshana.", "modernParallel": "General surgery and proctology", "groups": [], "conditionIds": ["arsha", "bhagandara", "parikartika", "ashmari"], "curriculum": "IV BAMS Shalya Tantra; MS Shalya", "coverage": "minimal"},
+  {"id": "shalakya", "name": "Shalakya Tantra", "english": "Eye, ear, nose, throat, head and dental care", "scope": "Disorders above the clavicle (Urdhvajatru): eye, ear, nose, throat, oral cavity and head.", "modernParallel": "Ophthalmology, ENT and dentistry", "groups": ["ey"], "conditionIds": ["abhishyanda", "adhimantha", "dantaveshta", "mukhapaka", "pratishyaya", "shiroroga"], "curriculum": "IV BAMS Shalakya Tantra; MS Shalakya", "coverage": "partial"},
+  {"id": "kaumarabhritya", "name": "Kaumarabhritya", "english": "Paediatrics and neonatal care", "scope": "Care of newborns and children, wet-nursing and breast milk in classical texts, childhood disorders. Kashyapa Samhita is the principal classical text.", "modernParallel": "Paediatrics and neonatology", "groups": ["ch"], "curriculum": "IV BAMS Kaumarabhritya; MD Kaumarabhritya", "coverage": "minimal"},
+  {"id": "agada", "name": "Agada Tantra", "english": "Toxicology", "scope": "Poisons from plants, minerals, animals and bites; antidotes in the classical sense; forensic aspects. Modern emergency care always takes precedence.", "modernParallel": "Clinical toxicology and forensic medicine", "groups": [], "curriculum": "II BAMS Agada Tantra", "coverage": "minimal"},
+  {"id": "bhutavidya", "name": "Bhuta Vidya", "english": "Classical psychiatry", "scope": "Disorders of mind and behaviour as described classically, including Unmada and Apasmara. The classical framework includes supernatural explanations that are not part of modern psychiatry.", "modernParallel": "Psychiatry (partial, non-equivalent)", "groups": ["mn"], "conditionIds": ["apasmara", "vishada", "anidra"], "curriculum": "Manasa Roga within Kayachikitsa; MD Manovigyana evum Manasaroga", "coverage": "minimal"},
+  {"id": "rasayana", "name": "Rasayana", "english": "Rejuvenation", "scope": "Measures to promote healthy ageing, strength and resistance to disease: Rasayana drugs, diet and conduct (Achara Rasayana).", "modernParallel": "Geriatrics and preventive medicine (partial)", "groups": [], "curriculum": "Kayachikitsa (Rasayana); Swasthavritta", "coverage": "minimal"},
+  {"id": "vajikarana", "name": "Vajikarana", "english": "Reproductive and sexual health", "scope": "Sexual health, fertility and vigour in men and women as described classically.", "modernParallel": "Andrology and reproductive medicine (partial)", "groups": ["wo"], "curriculum": "Kayachikitsa (Vajikarana)", "coverage": "minimal"}
+ ]
+}

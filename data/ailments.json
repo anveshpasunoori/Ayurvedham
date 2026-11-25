@@ -1,0 +1,937 @@
+{
+ "schema": "ailment",
+ "version": 1,
+ "migratedFrom": "index.html",
+ "legacySha": "42cb8f2e1884",
+ "count": 22,
+ "items": [
+  {
+   "id": "cold",
+   "name": "Cold & cough",
+   "linkedCondition": "pratishyaya",
+   "keywords": [
+    "cold",
+    "cough",
+    "runny",
+    "nose",
+    "sneezing"
+   ],
+   "remedies": [
+    {
+     "remedy": "Dry ginger (sonth) decoction",
+     "how": "10–20 ml decoction from 2 g dry ginger, twice daily",
+     "caution": null
+    },
+    {
+     "remedy": "Tulsi (holy basil) juice",
+     "how": "5–10 ml with honey, 2–3 times daily",
+     "caution": null
+    },
+    {
+     "remedy": "Clove (laung) powder",
+     "how": "1 g with honey, 2–3 times a day; or chew a clove",
+     "caution": "Do not exceed; strong in large amounts."
+    },
+    {
+     "remedy": "Coriander–turmeric decoction",
+     "how": "20 ml decoction from 5 g coarse coriander with a little turmeric and sugar, 3 times daily",
+     "caution": null
+    },
+    {
+     "remedy": "Pippali (long pepper)",
+     "how": "2 g powder with honey, divided into 3 doses a day",
+     "caution": "Heating; avoid with acidity."
+    },
+    {
+     "remedy": "Steam inhalation",
+     "how": "Plain water, fresh mint (pudina) or ajwain, once a day",
+     "caution": "Keep children well away from hot water."
+    }
+   ],
+   "redFlags": [
+    "Breathlessness or wheezing",
+    "Fever above 102°F (39°C) or lasting more than 3 days",
+    "Cough lasting more than 3 weeks or with blood"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "throat",
+   "name": "Sore throat & hoarse voice",
+   "linkedCondition": "kasa",
+   "keywords": [
+    "sore",
+    "throat",
+    "hoarseness",
+    "voice",
+    "loss",
+    "throat",
+    "irritation"
+   ],
+   "remedies": [
+    {
+     "remedy": "Clove powder with honey",
+     "how": "A pinch to 1 g with honey or natural sugar, 2–3 times a day",
+     "caution": null
+    },
+    {
+     "remedy": "Dry ginger powder",
+     "how": "1–3 g with honey, divided into 3 doses",
+     "caution": null
+    },
+    {
+     "remedy": "Black pepper with ghee and honey",
+     "how": "1 g powder, twice daily",
+     "caution": null
+    },
+    {
+     "remedy": "Chew cinnamon (dalchini)",
+     "how": "A small piece, to soothe irritation",
+     "caution": null
+    },
+    {
+     "remedy": "Warm salt-water gargle",
+     "how": "2–3 times a day",
+     "caution": null
+    }
+   ],
+   "redFlags": [
+    "Severe pain, unable to swallow saliva, drooling",
+    "Swelling of the neck, muffled voice",
+    "Hoarseness lasting more than 3 weeks (especially smokers)"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "gas",
+   "name": "Gas, bloating & indigestion",
+   "linkedCondition": "ajirna",
+   "keywords": [
+    "gas",
+    "bloating",
+    "flatulence",
+    "indigestion",
+    "heaviness"
+   ],
+   "remedies": [
+    {
+     "remedy": "Fresh ginger before meals",
+     "how": "5 g crushed ginger with a pinch of salt or jaggery, twice daily before meals",
+     "caution": null
+    },
+    {
+     "remedy": "Ajwain + fennel",
+     "how": "2 g ajwain powder with 2 g fennel (saunf) powder in warm water",
+     "caution": null
+    },
+    {
+     "remedy": "Roasted cumin (jeera)",
+     "how": "3–6 g roasted cumin powder with rock salt in warm water, 3 times daily",
+     "caution": null
+    },
+    {
+     "remedy": "Lemon with salt and pepper",
+     "how": "5–10 ml lemon juice with a pinch of salt and pepper, before food",
+     "caution": null
+    },
+    {
+     "remedy": "Chew fennel after meals",
+     "how": "A pinch",
+     "caution": null
+    }
+   ],
+   "redFlags": [
+    "Severe or worsening abdominal pain",
+    "Vomiting blood or black stools",
+    "Weight loss, difficulty swallowing"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "acidity",
+   "name": "Acidity & heartburn",
+   "linkedCondition": "amlapitta",
+   "keywords": [
+    "acidity",
+    "heartburn",
+    "sour",
+    "burping"
+   ],
+   "remedies": [
+    {
+     "remedy": "Amla (Indian gooseberry)",
+     "how": "3–5 g powder with milk twice daily, or 10–20 ml juice twice daily, or the fresh fruit",
+     "caution": null
+    },
+    {
+     "remedy": "Tender coconut water",
+     "how": "A glass, twice daily",
+     "caution": "Watch potassium if you have kidney disease."
+    },
+    {
+     "remedy": "Pomegranate juice",
+     "how": "10 ml, twice daily; the fruit may be eaten freely",
+     "caution": null
+    },
+    {
+     "remedy": "Cumin-boiled ghee with rice",
+     "how": "5–10 g ghee boiled with cumin, taken with rice at meals",
+     "caution": null
+    }
+   ],
+   "redFlags": [
+    "Chest pain on exertion (could be the heart)",
+    "Black stools or vomiting blood",
+    "Difficulty swallowing"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "constip",
+   "name": "Constipation",
+   "linkedCondition": "vibandha",
+   "keywords": [
+    "constipation",
+    "hard",
+    "stools"
+   ],
+   "remedies": [
+    {
+     "remedy": "Ghee in warm milk",
+     "how": "5 ml (1 teaspoon) ghee in a cup of warm milk with sugar, at bedtime",
+     "caution": null
+    },
+    {
+     "remedy": "Soaked raisins",
+     "how": "10–20 g soaked overnight, eaten in the morning",
+     "caution": null
+    },
+    {
+     "remedy": "Amla",
+     "how": "3–5 g powder with milk, twice daily",
+     "caution": null
+    }
+   ],
+   "redFlags": [
+    "Blood in stools or weight loss",
+    "No stools or wind with vomiting and pain",
+    "New constipation after age 50"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "diarr",
+   "name": "Loose motions",
+   "linkedCondition": "atisara",
+   "keywords": [
+    "diarrhoea",
+    "diarrhea",
+    "loose",
+    "motions",
+    "dysentery"
+   ],
+   "remedies": [
+    {
+     "remedy": "Oral rehydration solution (ORS)",
+     "how": "After every loose stool",
+     "caution": "The most important step at any age."
+    },
+    {
+     "remedy": "Roasted cumin in buttermilk",
+     "how": "1–2 g roasted cumin powder in 250 ml buttermilk, 4 times daily",
+     "caution": null
+    },
+    {
+     "remedy": "Fennel with buttermilk",
+     "how": "3–5 g fennel powder with buttermilk, 3–4 times daily",
+     "caution": null
+    },
+    {
+     "remedy": "Pomegranate-rind decoction",
+     "how": "10 ml, 3 times daily",
+     "caution": null
+    },
+    {
+     "remedy": "Long pepper in buttermilk",
+     "how": "2–3 g pippali powder mixed into 1 litre buttermilk; drink a quarter every 6 hours",
+     "caution": null
+    }
+   ],
+   "redFlags": [
+    "Signs of dehydration: little urine, dizziness, sunken eyes",
+    "Blood in stools or high fever",
+    "Baby, elderly or anyone drowsy or unable to drink"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "vomit",
+   "name": "Nausea & vomiting",
+   "linkedCondition": null,
+   "keywords": [
+    "nausea",
+    "vomiting",
+    "queasy",
+    "motion",
+    "sickness"
+   ],
+   "remedies": [
+    {
+     "remedy": "Lemon-sugar-salt water",
+     "how": "5–10 ml lemon juice in water with sugar and a pinch of salt, small sips often",
+     "caution": null
+    },
+    {
+     "remedy": "Cinnamon with honey",
+     "how": "1–2 g powder with honey, divided into 3 doses",
+     "caution": null
+    },
+    {
+     "remedy": "Ginger",
+     "how": "Small amounts of fresh ginger or ginger tea",
+     "caution": "Good trial evidence for nausea, including in pregnancy (ask your doctor)."
+    }
+   ],
+   "redFlags": [
+    "Vomiting blood or green bile",
+    "Unable to keep fluids down for 12 hours",
+    "Severe abdominal pain, headache with stiff neck, or after a head injury"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "hiccup",
+   "name": "Hiccups",
+   "linkedCondition": null,
+   "keywords": [
+    "hiccups",
+    "hiccough"
+   ],
+   "remedies": [
+    {
+     "remedy": "Chew cardamom (elaichi)",
+     "how": "1–2 at a time, not more than 4 a day",
+     "caution": null
+    },
+    {
+     "remedy": "Clove powder with honey",
+     "how": "1–2 g, divided into 3 doses",
+     "caution": null
+    }
+   ],
+   "redFlags": [
+    "Hiccups lasting more than 48 hours",
+    "With chest pain, breathlessness or difficulty swallowing"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "appetite",
+   "name": "Poor appetite",
+   "linkedCondition": "aruchi",
+   "keywords": [
+    "loss",
+    "of",
+    "appetite",
+    "no",
+    "hunger"
+   ],
+   "remedies": [
+    {
+     "remedy": "Ajwain before meals",
+     "how": "1 g powder with warm water, half an hour before meals",
+     "caution": null
+    },
+    {
+     "remedy": "Ginger with rock salt",
+     "how": "A thin slice just before meals",
+     "caution": null
+    },
+    {
+     "remedy": "Lemon with salt and pepper",
+     "how": "5 ml juice with salt and a pinch of pepper, before meals",
+     "caution": null
+    }
+   ],
+   "redFlags": [
+    "Unexplained weight loss",
+    "Yellow eyes, persistent low mood, or lasting more than 2 weeks"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "fever",
+   "name": "Mild fever",
+   "linkedCondition": "jwara",
+   "keywords": [
+    "mild",
+    "fever",
+    "temperature"
+   ],
+   "remedies": [
+    {
+     "remedy": "Tulsi–coriander decoction",
+     "how": "30 ml decoction from a handful of tulsi leaves with 5 g coriander, 3 times daily",
+     "caution": null
+    },
+    {
+     "remedy": "Coriander decoction",
+     "how": "20 ml from 5 g coriander with sugar, 3–4 times daily",
+     "caution": null
+    },
+    {
+     "remedy": "Rest and light food",
+     "how": "Rice gruel, warm water",
+     "caution": null
+    }
+   ],
+   "redFlags": [
+    "Fever above 103°F (39.4°C), or any fever in a baby under 3 months",
+    "Rash, bleeding, confusion, stiff neck, breathlessness",
+    "Fever lasting more than 3 days, or after travel"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "headache",
+   "name": "Headache",
+   "linkedCondition": "shiroroga",
+   "keywords": [
+    "headache",
+    "tension",
+    "headache"
+   ],
+   "remedies": [
+    {
+     "remedy": "Ginger paste on the forehead",
+     "how": "Warm paste, up to 3–4 times daily",
+     "caution": null
+    },
+    {
+     "remedy": "Cinnamon paste (tension headache)",
+     "how": "Rub a stick with water on a rough stone; apply to the forehead",
+     "caution": "Test on a small skin area first."
+    },
+    {
+     "remedy": "Rest, water, regular meals",
+     "how": "Dark quiet room; avoid skipping meals",
+     "caution": null
+    }
+   ],
+   "redFlags": [
+    "Sudden \"worst ever\" headache",
+    "With fever and stiff neck, weakness, confusion or vision loss",
+    "After a head injury"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "sinus",
+   "name": "Blocked nose & sinus",
+   "linkedCondition": "pratishyaya",
+   "keywords": [
+    "blocked",
+    "nose",
+    "sinusitis",
+    "nasal",
+    "congestion"
+   ],
+   "remedies": [
+    {
+     "remedy": "Ajwain steam",
+     "how": "1–2 g ajwain in steaming water; inhale 2–3 times daily",
+     "caution": "Keep away from children; risk of scalds."
+    },
+    {
+     "remedy": "Warm ajwain paste",
+     "how": "On forehead and below the eyes, in the morning",
+     "caution": null
+    }
+   ],
+   "redFlags": [
+    "Swelling or redness around the eye",
+    "Severe facial pain with high fever",
+    "Symptoms lasting more than 10 days"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "tooth",
+   "name": "Toothache",
+   "linkedCondition": null,
+   "keywords": [
+    "toothache",
+    "tooth",
+    "pain",
+    "cavity"
+   ],
+   "remedies": [
+    {
+     "remedy": "Clove",
+     "how": "Keep a crushed clove in the decayed tooth",
+     "caution": "Temporary relief only; see a dentist."
+    },
+    {
+     "remedy": "Asafoetida (hing)",
+     "how": "A little fried hing in the cavity",
+     "caution": "Temporary relief only."
+    }
+   ],
+   "redFlags": [
+    "Facial swelling or fever (abscess)",
+    "Pain lasting more than 2 days"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "gums",
+   "name": "Bad breath & bleeding gums",
+   "linkedCondition": "dantaveshta",
+   "keywords": [
+    "bad",
+    "breath",
+    "halitosis",
+    "bleeding",
+    "gums"
+   ],
+   "remedies": [
+    {
+     "remedy": "Chew cardamom, clove or fennel",
+     "how": "After meals (cardamom: not more than 4 a day)",
+     "caution": null
+    },
+    {
+     "remedy": "Amla powder gum massage",
+     "how": "Fine powder rubbed into gums after brushing, twice daily",
+     "caution": null
+    },
+    {
+     "remedy": "Pomegranate-rind gargle",
+     "how": "Warm decoction, 3–4 times daily",
+     "caution": null
+    },
+    {
+     "remedy": "Oil pulling",
+     "how": "1 tablespoon sesame or coconut oil, swished 2–3 minutes and spat out, then rinse",
+     "caution": "Do not swallow."
+    }
+   ],
+   "redFlags": [
+    "Gums bleeding easily with bruising elsewhere",
+    "Loose teeth, pus, or swelling"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "wounds",
+   "name": "Minor cuts, scrapes & burns",
+   "linkedCondition": null,
+   "keywords": [
+    "cuts",
+    "wounds",
+    "scrapes",
+    "minor",
+    "burns"
+   ],
+   "remedies": [
+    {
+     "remedy": "Clean first",
+     "how": "Rinse with clean running water for burns (10–20 minutes) and cuts",
+     "caution": "Never apply ghee or oil to a fresh burn until it has been cooled with water."
+    },
+    {
+     "remedy": "Honey and ghee",
+     "how": "Apply a thin layer on a minor cleaned wound or small burn",
+     "caution": "Honey dressings have good evidence for minor burns."
+    },
+    {
+     "remedy": "Turmeric paste",
+     "how": "Paste with ghee or coconut oil on a minor cleaned wound",
+     "caution": null
+    },
+    {
+     "remedy": "Coconut oil",
+     "how": "On healing skin, frequently",
+     "caution": null
+    }
+   ],
+   "redFlags": [
+    "Burns larger than your palm, on face, hands, genitals, or blistering widely",
+    "Deep or gaping cuts, bleeding that will not stop",
+    "Signs of infection: spreading redness, pus, fever",
+    "Animal bite, or no tetanus shot in 10 years"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "acne",
+   "name": "Acne & pimples",
+   "linkedCondition": null,
+   "keywords": [
+    "acne",
+    "pimples",
+    "skin",
+    "breakouts"
+   ],
+   "remedies": [
+    {
+     "remedy": "Turmeric paste",
+     "how": "On spots, twice daily",
+     "caution": "Can stain skin briefly."
+    },
+    {
+     "remedy": "Pomegranate-seed paste",
+     "how": "On spots, twice daily",
+     "caution": null
+    },
+    {
+     "remedy": "Bitter gourd juice",
+     "how": "5–10 ml on an empty stomach, once daily",
+     "caution": "Can lower blood sugar."
+    }
+   ],
+   "redFlags": [
+    "Painful deep cysts or scarring",
+    "Acne with irregular periods or excess hair (possible PCOS)"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "hair",
+   "name": "Dandruff & hair fall",
+   "linkedCondition": null,
+   "keywords": [
+    "dandruff",
+    "hair",
+    "fall",
+    "hair",
+    "loss",
+    "greying"
+   ],
+   "remedies": [
+    {
+     "remedy": "Fenugreek (methi) paste",
+     "how": "Massage into scalp 30 minutes before bath",
+     "caution": null
+    },
+    {
+     "remedy": "Neem-leaf decoction",
+     "how": "Apply to scalp 1 hour before bath",
+     "caution": "Also for scalp ringworm."
+    },
+    {
+     "remedy": "Coconut oil with amla and fenugreek",
+     "how": "Oil boiled with the powders, used regularly",
+     "caution": null
+    },
+    {
+     "remedy": "Amla",
+     "how": "1–2 fresh fruits each morning",
+     "caution": null
+    }
+   ],
+   "redFlags": [
+    "Patchy bald spots, or sudden heavy hair loss",
+    "Hair loss with tiredness or weight change (check thyroid, iron)"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "aches",
+   "name": "Body aches & muscle pain",
+   "linkedCondition": null,
+   "keywords": [
+    "body",
+    "ache",
+    "muscle",
+    "pain",
+    "sprain",
+    "stiffness"
+   ],
+   "remedies": [
+    {
+     "remedy": "Dry ginger with jaggery",
+     "how": "2–5 g powder, divided into 3 doses a day",
+     "caution": null
+    },
+    {
+     "remedy": "Fenugreek + cumin in milk",
+     "how": "2 g each in warm milk with sugar, twice daily",
+     "caution": null
+    },
+    {
+     "remedy": "Garlic oil",
+     "how": "Warm paste of garlic in any oil, massaged over the painful area",
+     "caution": null
+    }
+   ],
+   "redFlags": [
+    "Severe pain after injury, swelling or inability to bear weight",
+    "Muscle pain with dark urine, or after starting a new medicine"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "cramps",
+   "name": "Period cramps",
+   "linkedCondition": "kashtartava",
+   "keywords": [
+    "period",
+    "pain",
+    "menstrual",
+    "cramps"
+   ],
+   "remedies": [
+    {
+     "remedy": "Ajwain with warm milk",
+     "how": "1–2 g powder, 3 times daily for 2–3 days",
+     "caution": null
+    },
+    {
+     "remedy": "Warm compress",
+     "how": "On the lower abdomen",
+     "caution": null
+    }
+   ],
+   "redFlags": [
+    "Severe pain with fever or unusual discharge",
+    "Pain with a missed period (possible ectopic pregnancy): emergency"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "heat",
+   "name": "Heat exhaustion & dehydration",
+   "linkedCondition": null,
+   "keywords": [
+    "heat",
+    "exhaustion",
+    "sunstroke",
+    "dehydration",
+    "hot",
+    "weather"
+   ],
+   "remedies": [
+    {
+     "remedy": "Tender coconut water",
+     "how": "Frequently",
+     "caution": null
+    },
+    {
+     "remedy": "Lemon water with salt and sugar",
+     "how": "One lemon in a glass of water, frequently",
+     "caution": null
+    },
+    {
+     "remedy": "Coriander decoction",
+     "how": "20 ml with sugar and a pinch of salt, frequently",
+     "caution": null
+    }
+   ],
+   "redFlags": [
+    "Confusion, fainting, hot dry skin, temperature above 104°F (40°C): heatstroke emergency",
+    "Not passing urine"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "itch",
+   "name": "Itchy skin & mild allergies",
+   "linkedCondition": "shitapitta",
+   "keywords": [
+    "itching",
+    "skin",
+    "allergy",
+    "rash"
+   ],
+   "remedies": [
+    {
+     "remedy": "Tulsi juice",
+     "how": "5–10 ml, 2–3 times daily",
+     "caution": null
+    },
+    {
+     "remedy": "Turmeric decoction",
+     "how": "From 1 g turmeric",
+     "caution": null
+    },
+    {
+     "remedy": "Ajwain powder",
+     "how": "1–2 g with water, twice daily (hives)",
+     "caution": null
+    }
+   ],
+   "redFlags": [
+    "Swelling of lips, tongue or throat, or breathing difficulty: emergency",
+    "Rash with fever, blisters or peeling skin"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  },
+  {
+   "id": "worms",
+   "name": "Worms (children & adults)",
+   "linkedCondition": "krimi",
+   "keywords": [
+    "worms",
+    "pinworm",
+    "deworming",
+    "itching",
+    "anus"
+   ],
+   "remedies": [
+    {
+     "remedy": "Coriander with jaggery",
+     "how": "3–5 g powder, twice daily for 5 days",
+     "caution": null
+    },
+    {
+     "remedy": "Neem-leaf decoction",
+     "how": "20 ml on an empty stomach for 3 days",
+     "caution": "Not for young children without advice."
+    },
+    {
+     "remedy": "Bitter gourd juice",
+     "how": "10 ml with jaggery each morning for 3 days",
+     "caution": null
+    }
+   ],
+   "redFlags": [
+    "Worms in a child under 2, or with weight loss",
+    "Seizures, or severe abdominal pain"
+   ],
+   "status": "legacy-unreviewed",
+   "review": {
+    "status": "legacy-unreviewed",
+    "reviewer": null,
+    "date": null,
+    "note": "Migrated from the legacy reference; requires verification of edition, locator and dose by a qualified BAMS/MD reviewer before it can be marked reviewed."
+   }
+  }
+ ]
+}

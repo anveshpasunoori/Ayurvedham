@@ -1,0 +1,1 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {estimate} from '../agri/economics.mjs';test('farm scenario',()=>{const x=estimate({area:5,cost:35000,yield:500,price:150,loss:10});assert.equal(x.profit,162500);assert.equal(x.saleable,2250)});test('reject invalid loss',()=>assert.throws(()=>estimate({area:1,cost:1,yield:1,price:1,loss:100})));

@@ -1,0 +1,145 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Ayurvedham clinical entry",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "status",
+    "patient",
+    "classical",
+    "evidence",
+    "sources",
+    "review"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "name": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "reviewed"
+      ]
+    },
+    "patient": {
+      "type": "object",
+      "required": [
+        "summary",
+        "redFlags",
+        "standardCare"
+      ],
+      "properties": {
+        "summary": {
+          "type": "string"
+        },
+        "redFlags": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "standardCare": {
+          "type": "string"
+        }
+      }
+    },
+    "classical": {
+      "type": "object",
+      "required": [
+        "term",
+        "mappingCaution",
+        "principles"
+      ],
+      "properties": {
+        "term": {
+          "type": "string"
+        },
+        "mappingCaution": {
+          "type": "string"
+        },
+        "principles": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "required": [
+        "traditional",
+        "clinical"
+      ],
+      "properties": {
+        "traditional": {
+          "type": "string"
+        },
+        "clinical": {
+          "type": "string"
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "title",
+          "locator"
+        ],
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "locator": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "review": {
+      "type": "object",
+      "properties": {
+        "reviewer": {
+          "type": "string"
+        },
+        "date": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "const": "reviewed"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "review": {
+            "required": [
+              "reviewer",
+              "date"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

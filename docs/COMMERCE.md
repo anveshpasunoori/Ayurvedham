@@ -1,0 +1,4 @@
+# Commercial foundation
+Pricing is a proposal, not a live offer. Checkout is disabled. No personal data is collected.
+Run node --test commerce/entitlements.test.mjs. Serve root over HTTP and open /commerce/.
+Next implement trusted server authentication, database-backed accounts and subscriptions, signed payment webhooks with replay protection and idempotency, sandbox checkout, cancellation and invoices, institution tenant isolation, independent doctor verification, appointment scheduling, academy content, and privacy-preserving analytics. Never trust client-supplied role or plan. Keep clinical safety free. No medical search history for ads. Obtain legal review before consultations or fee-sharing. Keep secrets out of Git. Pricing must be validated with users; taxes and operating costs are not included.

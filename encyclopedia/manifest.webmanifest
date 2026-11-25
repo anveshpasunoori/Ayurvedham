@@ -1,0 +1,9 @@
+{
+ "name": "Ayurvedham Encyclopedia",
+ "short_name": "Ayurvedham",
+ "start_url": "./",
+ "display": "standalone",
+ "background_color": "#fbfaf6",
+ "theme_color": "#17402f",
+ "description": "Source-referenced Ayurveda encyclopedia for patients, doctors and students."
+}

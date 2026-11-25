@@ -1,0 +1,1389 @@
+{
+ "schema": "synonym",
+ "version": 1,
+ "migratedFrom": "index.html",
+ "legacySha": "42cb8f2e1884",
+ "count": 276,
+ "items": [
+  {
+   "term": "neerizhivu",
+   "target": "madhumeha",
+   "verified": false
+  },
+  {
+   "term": "sakkarai noi",
+   "target": "madhumeha",
+   "verified": false
+  },
+  {
+   "term": "sarkarai noi",
+   "target": "madhumeha",
+   "verified": false
+  },
+  {
+   "term": "ratha azhutham",
+   "target": "hypertension",
+   "verified": false
+  },
+  {
+   "term": "moolam",
+   "target": "arsha",
+   "verified": false
+  },
+  {
+   "term": "malachikkal",
+   "target": "vibandha",
+   "verified": false
+  },
+  {
+   "term": "kaichal",
+   "target": "jwara",
+   "verified": false
+  },
+  {
+   "term": "kaaichal",
+   "target": "jwara",
+   "verified": false
+  },
+  {
+   "term": "irumal",
+   "target": "kasa",
+   "verified": false
+  },
+  {
+   "term": "jalathosham",
+   "target": "pratishyaya",
+   "verified": false
+  },
+  {
+   "term": "thalaivali",
+   "target": "shiroroga",
+   "verified": false
+  },
+  {
+   "term": "mootu vali",
+   "target": "sandhivata",
+   "verified": false
+  },
+  {
+   "term": "moottu vali",
+   "target": "sandhivata",
+   "verified": false
+  },
+  {
+   "term": "idupu vali",
+   "target": "katigraha",
+   "verified": false
+  },
+  {
+   "term": "mudhugu vali",
+   "target": "katigraha",
+   "verified": false
+  },
+  {
+   "term": "nenju erichal",
+   "target": "amlapitta",
+   "verified": false
+  },
+  {
+   "term": "vayiru erichal",
+   "target": "amlapitta",
+   "verified": false
+  },
+  {
+   "term": "vayitru pokku",
+   "target": "atisara",
+   "verified": false
+  },
+  {
+   "term": "pal vali",
+   "target": "ev-tooth",
+   "verified": false
+  },
+  {
+   "term": "thookaminmai",
+   "target": "anidra",
+   "verified": false
+  },
+  {
+   "term": "manachorvu",
+   "target": "vishada",
+   "verified": false
+  },
+  {
+   "term": "rathasogai",
+   "target": "pandu",
+   "verified": false
+  },
+  {
+   "term": "manjal kamalai",
+   "target": "kamala",
+   "verified": false
+  },
+  {
+   "term": "kal adaippu",
+   "target": "ashmari",
+   "verified": false
+  },
+  {
+   "term": "sirunirakak kal",
+   "target": "ashmari",
+   "verified": false
+  },
+  {
+   "term": "udal paruman",
+   "target": "sthaulya",
+   "verified": false
+  },
+  {
+   "term": "thol arippu",
+   "target": "ev-itch",
+   "verified": false
+  },
+  {
+   "term": "venpulli",
+   "target": "shvitra",
+   "verified": false
+  },
+  {
+   "term": "vellai paduthal",
+   "target": "shwetapradara",
+   "verified": false
+  },
+  {
+   "term": "vaai pun",
+   "target": "mukhapaka",
+   "verified": false
+  },
+  {
+   "term": "kakkuvaan",
+   "target": "kasa",
+   "verified": false
+  },
+  {
+   "term": "prameham",
+   "target": "madhumeha",
+   "verified": false
+  },
+  {
+   "term": "panchasara rogam",
+   "target": "madhumeha",
+   "verified": false
+  },
+  {
+   "term": "raktha samardam",
+   "target": "hypertension",
+   "verified": false
+  },
+  {
+   "term": "arshas",
+   "target": "arsha",
+   "verified": false
+  },
+  {
+   "term": "mala bandham",
+   "target": "vibandha",
+   "verified": false
+  },
+  {
+   "term": "pani",
+   "target": "jwara",
+   "verified": false
+  },
+  {
+   "term": "chuma",
+   "target": "kasa",
+   "verified": false
+  },
+  {
+   "term": "jaladosham",
+   "target": "pratishyaya",
+   "verified": false
+  },
+  {
+   "term": "thalavedana",
+   "target": "shiroroga",
+   "verified": false
+  },
+  {
+   "term": "sandhivedana",
+   "target": "sandhivata",
+   "verified": false
+  },
+  {
+   "term": "muttuvedana",
+   "target": "sandhivata",
+   "verified": false
+  },
+  {
+   "term": "nadduvedana",
+   "target": "katigraha",
+   "verified": false
+  },
+  {
+   "term": "nenjerichil",
+   "target": "amlapitta",
+   "verified": false
+  },
+  {
+   "term": "vayarilakkam",
+   "target": "atisara",
+   "verified": false
+  },
+  {
+   "term": "pallu vedana",
+   "target": "ev-tooth",
+   "verified": false
+  },
+  {
+   "term": "urakkamillayma",
+   "target": "anidra",
+   "verified": false
+  },
+  {
+   "term": "vishadam",
+   "target": "vishada",
+   "verified": false
+  },
+  {
+   "term": "vilarcha",
+   "target": "pandu",
+   "verified": false
+  },
+  {
+   "term": "manjappitham",
+   "target": "kamala",
+   "verified": false
+  },
+  {
+   "term": "moothrakkallu",
+   "target": "ashmari",
+   "verified": false
+  },
+  {
+   "term": "amitha vannam",
+   "target": "sthaulya",
+   "verified": false
+  },
+  {
+   "term": "chorichil",
+   "target": "ev-itch",
+   "verified": false
+  },
+  {
+   "term": "vellapandu",
+   "target": "shvitra",
+   "verified": false
+  },
+  {
+   "term": "vellapokku",
+   "target": "shwetapradara",
+   "verified": false
+  },
+  {
+   "term": "vayppunnu",
+   "target": "mukhapaka",
+   "verified": false
+  },
+  {
+   "term": "vatham",
+   "target": "amavata",
+   "verified": false
+  },
+  {
+   "term": "sakkare kayile",
+   "target": "madhumeha",
+   "verified": false
+  },
+  {
+   "term": "madhumeha roga",
+   "target": "madhumeha",
+   "verified": false
+  },
+  {
+   "term": "rakthadotthada",
+   "target": "hypertension",
+   "verified": false
+  },
+  {
+   "term": "raktadottada",
+   "target": "hypertension",
+   "verified": false
+  },
+  {
+   "term": "moolavyadhi",
+   "target": "arsha",
+   "verified": false
+  },
+  {
+   "term": "malabaddhate",
+   "target": "vibandha",
+   "verified": false
+  },
+  {
+   "term": "jwara",
+   "target": "jwara",
+   "verified": false
+  },
+  {
+   "term": "kemmu",
+   "target": "kasa",
+   "verified": false
+  },
+  {
+   "term": "negadi",
+   "target": "pratishyaya",
+   "verified": false
+  },
+  {
+   "term": "thalenovu",
+   "target": "shiroroga",
+   "verified": false
+  },
+  {
+   "term": "talenovu",
+   "target": "shiroroga",
+   "verified": false
+  },
+  {
+   "term": "keelu novu",
+   "target": "sandhivata",
+   "verified": false
+  },
+  {
+   "term": "sondu novu",
+   "target": "katigraha",
+   "verified": false
+  },
+  {
+   "term": "bennu novu",
+   "target": "katigraha",
+   "verified": false
+  },
+  {
+   "term": "edeyuri",
+   "target": "amlapitta",
+   "verified": false
+  },
+  {
+   "term": "hottenovu",
+   "target": "ajirna",
+   "verified": false
+  },
+  {
+   "term": "bedhi",
+   "target": "atisara",
+   "verified": false
+  },
+  {
+   "term": "hallu novu",
+   "target": "ev-tooth",
+   "verified": false
+  },
+  {
+   "term": "nidrahinate",
+   "target": "anidra",
+   "verified": false
+  },
+  {
+   "term": "khinnate",
+   "target": "vishada",
+   "verified": false
+  },
+  {
+   "term": "raktaheenate",
+   "target": "pandu",
+   "verified": false
+  },
+  {
+   "term": "kamale",
+   "target": "kamala",
+   "verified": false
+  },
+  {
+   "term": "kidney kallu",
+   "target": "ashmari",
+   "verified": false
+  },
+  {
+   "term": "bojju",
+   "target": "sthaulya",
+   "verified": false
+  },
+  {
+   "term": "turike",
+   "target": "ev-itch",
+   "verified": false
+  },
+  {
+   "term": "bilitonnu",
+   "target": "shvitra",
+   "verified": false
+  },
+  {
+   "term": "bili muttu",
+   "target": "shwetapradara",
+   "verified": false
+  },
+  {
+   "term": "bayi hunnu",
+   "target": "mukhapaka",
+   "verified": false
+  },
+  {
+   "term": "sugar",
+   "target": "madhumeha",
+   "verified": false
+  },
+  {
+   "term": "sugar disease",
+   "target": "madhumeha",
+   "verified": false
+  },
+  {
+   "term": "madhumeh",
+   "target": "madhumeha",
+   "verified": false
+  },
+  {
+   "term": "chakkera vyadhi",
+   "target": "madhumeha",
+   "verified": false
+  },
+  {
+   "term": "shugar",
+   "target": "madhumeha",
+   "verified": false
+  },
+  {
+   "term": "diabetic",
+   "target": "madhumeha",
+   "verified": false
+  },
+  {
+   "term": "bp",
+   "target": "hypertension",
+   "verified": false
+  },
+  {
+   "term": "high bp",
+   "target": "hypertension",
+   "verified": false
+  },
+  {
+   "term": "blood pressure",
+   "target": "hypertension",
+   "verified": false
+  },
+  {
+   "term": "raktachap",
+   "target": "hypertension",
+   "verified": false
+  },
+  {
+   "term": "bawaseer",
+   "target": "arsha",
+   "verified": false
+  },
+  {
+   "term": "bavasir",
+   "target": "arsha",
+   "verified": false
+  },
+  {
+   "term": "moolalu",
+   "target": "arsha",
+   "verified": false
+  },
+  {
+   "term": "hemorrhoids",
+   "target": "arsha",
+   "verified": false
+  },
+  {
+   "term": "haemorrhoids",
+   "target": "arsha",
+   "verified": false
+  },
+  {
+   "term": "kabz",
+   "target": "vibandha",
+   "verified": false
+  },
+  {
+   "term": "kabj",
+   "target": "vibandha",
+   "verified": false
+  },
+  {
+   "term": "malabaddhakam",
+   "target": "vibandha",
+   "verified": false
+  },
+  {
+   "term": "khansi",
+   "target": "kasa",
+   "verified": false
+  },
+  {
+   "term": "khasi",
+   "target": "kasa",
+   "verified": false
+  },
+  {
+   "term": "daggu",
+   "target": "kasa",
+   "verified": false
+  },
+  {
+   "term": "sardi",
+   "target": "pratishyaya",
+   "verified": false
+  },
+  {
+   "term": "zukam",
+   "target": "pratishyaya",
+   "verified": false
+  },
+  {
+   "term": "jukam",
+   "target": "pratishyaya",
+   "verified": false
+  },
+  {
+   "term": "jalubu",
+   "target": "pratishyaya",
+   "verified": false
+  },
+  {
+   "term": "runny nose",
+   "target": "pratishyaya",
+   "verified": false
+  },
+  {
+   "term": "sinus",
+   "target": "pratishyaya",
+   "verified": false
+  },
+  {
+   "term": "allergy nose",
+   "target": "pratishyaya",
+   "verified": false
+  },
+  {
+   "term": "bukhar",
+   "target": "jwara",
+   "verified": false
+  },
+  {
+   "term": "bukhaar",
+   "target": "jwara",
+   "verified": false
+  },
+  {
+   "term": "jwaram",
+   "target": "jwara",
+   "verified": false
+  },
+  {
+   "term": "fever",
+   "target": "jwara",
+   "verified": false
+  },
+  {
+   "term": "dengue",
+   "target": "jwara",
+   "verified": false
+  },
+  {
+   "term": "malaria",
+   "target": "jwara",
+   "verified": false
+  },
+  {
+   "term": "typhoid",
+   "target": "jwara",
+   "verified": false
+  },
+  {
+   "term": "sir dard",
+   "target": "shiroroga",
+   "verified": false
+  },
+  {
+   "term": "sar dard",
+   "target": "shiroroga",
+   "verified": false
+  },
+  {
+   "term": "tala noppi",
+   "target": "shiroroga",
+   "verified": false
+  },
+  {
+   "term": "talanoppi",
+   "target": "shiroroga",
+   "verified": false
+  },
+  {
+   "term": "migraine",
+   "target": "shiroroga",
+   "verified": false
+  },
+  {
+   "term": "peeliya",
+   "target": "kamala",
+   "verified": false
+  },
+  {
+   "term": "piliya",
+   "target": "kamala",
+   "verified": false
+  },
+  {
+   "term": "kamerlu",
+   "target": "kamala",
+   "verified": false
+  },
+  {
+   "term": "pachakamerlu",
+   "target": "kamala",
+   "verified": false
+  },
+  {
+   "term": "hepatitis",
+   "target": "kamala",
+   "verified": false
+  },
+  {
+   "term": "dama",
+   "target": "tamaka",
+   "verified": false
+  },
+  {
+   "term": "asthma",
+   "target": "tamaka",
+   "verified": false
+  },
+  {
+   "term": "ubbasam",
+   "target": "tamaka",
+   "verified": false
+  },
+  {
+   "term": "wheezing",
+   "target": "tamaka",
+   "verified": false
+  },
+  {
+   "term": "gathiya",
+   "target": "sandhivata",
+   "verified": false
+  },
+  {
+   "term": "arthritis",
+   "target": "sandhivata",
+   "verified": false
+  },
+  {
+   "term": "knee pain",
+   "target": "sandhivata",
+   "verified": false
+  },
+  {
+   "term": "joint pain",
+   "target": "sandhivata",
+   "verified": false
+  },
+  {
+   "term": "keelu noppi",
+   "target": "sandhivata",
+   "verified": false
+  },
+  {
+   "term": "kilu noppi",
+   "target": "sandhivata",
+   "verified": false
+  },
+  {
+   "term": "rheumatoid",
+   "target": "amavata",
+   "verified": false
+  },
+  {
+   "term": "ra",
+   "target": "amavata",
+   "verified": false
+  },
+  {
+   "term": "motapa",
+   "target": "sthaulya",
+   "verified": false
+  },
+  {
+   "term": "weight loss",
+   "target": "sthaulya",
+   "verified": false
+  },
+  {
+   "term": "overweight",
+   "target": "sthaulya",
+   "verified": false
+  },
+  {
+   "term": "obesity",
+   "target": "sthaulya",
+   "verified": false
+  },
+  {
+   "term": "lavu",
+   "target": "sthaulya",
+   "verified": false
+  },
+  {
+   "term": "khoon ki kami",
+   "target": "pandu",
+   "verified": false
+  },
+  {
+   "term": "anemia",
+   "target": "pandu",
+   "verified": false
+  },
+  {
+   "term": "low hemoglobin",
+   "target": "pandu",
+   "verified": false
+  },
+  {
+   "term": "raktaheenata",
+   "target": "pandu",
+   "verified": false
+  },
+  {
+   "term": "pathri",
+   "target": "ashmari",
+   "verified": false
+  },
+  {
+   "term": "kidney stone",
+   "target": "ashmari",
+   "verified": false
+  },
+  {
+   "term": "stone",
+   "target": "ashmari",
+   "verified": false
+  },
+  {
+   "term": "rallu",
+   "target": "ashmari",
+   "verified": false
+  },
+  {
+   "term": "kidney rallu",
+   "target": "ashmari",
+   "verified": false
+  },
+  {
+   "term": "mirgi",
+   "target": "apasmara",
+   "verified": false
+  },
+  {
+   "term": "fits",
+   "target": "apasmara",
+   "verified": false
+  },
+  {
+   "term": "seizure",
+   "target": "apasmara",
+   "verified": false
+  },
+  {
+   "term": "moorcha",
+   "target": "apasmara",
+   "verified": false
+  },
+  {
+   "term": "lakwa",
+   "target": "pakshaghata",
+   "verified": false
+  },
+  {
+   "term": "paralysis",
+   "target": "pakshaghata",
+   "verified": false
+  },
+  {
+   "term": "stroke",
+   "target": "pakshaghata",
+   "verified": false
+  },
+  {
+   "term": "pakshavatam",
+   "target": "pakshaghata",
+   "verified": false
+  },
+  {
+   "term": "facial palsy",
+   "target": "pakshaghata",
+   "verified": false
+  },
+  {
+   "term": "safed daag",
+   "target": "shvitra",
+   "verified": false
+  },
+  {
+   "term": "leucoderma",
+   "target": "shvitra",
+   "verified": false
+  },
+  {
+   "term": "bollu",
+   "target": "shvitra",
+   "verified": false
+  },
+  {
+   "term": "acidity",
+   "target": "amlapitta",
+   "verified": false
+  },
+  {
+   "term": "gerd",
+   "target": "amlapitta",
+   "verified": false
+  },
+  {
+   "term": "heartburn",
+   "target": "amlapitta",
+   "verified": false
+  },
+  {
+   "term": "gastritis",
+   "target": "amlapitta",
+   "verified": false
+  },
+  {
+   "term": "ulcer",
+   "target": "amlapitta",
+   "verified": false
+  },
+  {
+   "term": "dast",
+   "target": "atisara",
+   "verified": false
+  },
+  {
+   "term": "loose motion",
+   "target": "atisara",
+   "verified": false
+  },
+  {
+   "term": "loose motions",
+   "target": "atisara",
+   "verified": false
+  },
+  {
+   "term": "diarrhea",
+   "target": "atisara",
+   "verified": false
+  },
+  {
+   "term": "virechanalu",
+   "target": "atisara",
+   "verified": false
+  },
+  {
+   "term": "neend",
+   "target": "anidra",
+   "verified": false
+  },
+  {
+   "term": "sleeplessness",
+   "target": "anidra",
+   "verified": false
+  },
+  {
+   "term": "nidra lekapovadam",
+   "target": "anidra",
+   "verified": false
+  },
+  {
+   "term": "insomnia",
+   "target": "anidra",
+   "verified": false
+  },
+  {
+   "term": "depression",
+   "target": "vishada",
+   "verified": false
+  },
+  {
+   "term": "anxiety",
+   "target": "vishada",
+   "verified": false
+  },
+  {
+   "term": "stress",
+   "target": "vishada",
+   "verified": false
+  },
+  {
+   "term": "tension",
+   "target": "vishada",
+   "verified": false
+  },
+  {
+   "term": "udaasi",
+   "target": "vishada",
+   "verified": false
+  },
+  {
+   "term": "psoriasis",
+   "target": "ekakushtha",
+   "verified": false
+  },
+  {
+   "term": "eczema",
+   "target": "vicharchika",
+   "verified": false
+  },
+  {
+   "term": "khujli",
+   "target": "ev-itch",
+   "verified": false
+  },
+  {
+   "term": "itching",
+   "target": "ev-itch",
+   "verified": false
+  },
+  {
+   "term": "dhurada",
+   "target": "ev-itch",
+   "verified": false
+  },
+  {
+   "term": "hives",
+   "target": "shitapitta",
+   "verified": false
+  },
+  {
+   "term": "pitti",
+   "target": "shitapitta",
+   "verified": false
+  },
+  {
+   "term": "urticaria",
+   "target": "shitapitta",
+   "verified": false
+  },
+  {
+   "term": "thyroid",
+   "target": "thyroid",
+   "verified": false
+  },
+  {
+   "term": "hypothyroid",
+   "target": "thyroid",
+   "verified": false
+  },
+  {
+   "term": "cholesterol",
+   "target": "cholesterol",
+   "verified": false
+  },
+  {
+   "term": "lipids",
+   "target": "cholesterol",
+   "verified": false
+  },
+  {
+   "term": "triglycerides",
+   "target": "cholesterol",
+   "verified": false
+  },
+  {
+   "term": "fatty liver",
+   "target": "fattyliver",
+   "verified": false
+  },
+  {
+   "term": "liver fat",
+   "target": "fattyliver",
+   "verified": false
+  },
+  {
+   "term": "back pain",
+   "target": "katigraha",
+   "verified": false
+  },
+  {
+   "term": "kamar dard",
+   "target": "katigraha",
+   "verified": false
+  },
+  {
+   "term": "nadumu noppi",
+   "target": "katigraha",
+   "verified": false
+  },
+  {
+   "term": "sciatica",
+   "target": "gridhrasi",
+   "verified": false
+  },
+  {
+   "term": "neck pain",
+   "target": "cervical",
+   "verified": false
+  },
+  {
+   "term": "spondylosis",
+   "target": "cervical",
+   "verified": false
+  },
+  {
+   "term": "gardan dard",
+   "target": "cervical",
+   "verified": false
+  },
+  {
+   "term": "frozen shoulder",
+   "target": "avabahuka",
+   "verified": false
+  },
+  {
+   "term": "shoulder pain",
+   "target": "avabahuka",
+   "verified": false
+  },
+  {
+   "term": "gout",
+   "target": "vatarakta",
+   "verified": false
+  },
+  {
+   "term": "uric acid",
+   "target": "vatarakta",
+   "verified": false
+  },
+  {
+   "term": "prostate",
+   "target": "mutrashtila",
+   "verified": false
+  },
+  {
+   "term": "bph",
+   "target": "mutrashtila",
+   "verified": false
+  },
+  {
+   "term": "kidney failure",
+   "target": "mutraghata",
+   "verified": false
+  },
+  {
+   "term": "ckd",
+   "target": "mutraghata",
+   "verified": false
+  },
+  {
+   "term": "creatinine",
+   "target": "mutraghata",
+   "verified": false
+  },
+  {
+   "term": "heavy periods",
+   "target": "asrigdara",
+   "verified": false
+  },
+  {
+   "term": "period pain",
+   "target": "kashtartava",
+   "verified": false
+  },
+  {
+   "term": "white discharge",
+   "target": "shwetapradara",
+   "verified": false
+  },
+  {
+   "term": "safed pani",
+   "target": "shwetapradara",
+   "verified": false
+  },
+  {
+   "term": "tellabatta",
+   "target": "shwetapradara",
+   "verified": false
+  },
+  {
+   "term": "mouth ulcer",
+   "target": "mukhapaka",
+   "verified": false
+  },
+  {
+   "term": "munh ke chhale",
+   "target": "mukhapaka",
+   "verified": false
+  },
+  {
+   "term": "noti pundu",
+   "target": "mukhapaka",
+   "verified": false
+  },
+  {
+   "term": "gum bleeding",
+   "target": "dantaveshta",
+   "verified": false
+  },
+  {
+   "term": "pyorrhea",
+   "target": "dantaveshta",
+   "verified": false
+  },
+  {
+   "term": "pink eye",
+   "target": "abhishyanda",
+   "verified": false
+  },
+  {
+   "term": "red eye",
+   "target": "abhishyanda",
+   "verified": false
+  },
+  {
+   "term": "conjunctivitis",
+   "target": "abhishyanda",
+   "verified": false
+  },
+  {
+   "term": "glaucoma",
+   "target": "adhimantha",
+   "verified": false
+  },
+  {
+   "term": "kala motia",
+   "target": "adhimantha",
+   "verified": false
+  },
+  {
+   "term": "fistula",
+   "target": "bhagandara",
+   "verified": false
+  },
+  {
+   "term": "fissure",
+   "target": "parikartika",
+   "verified": false
+  },
+  {
+   "term": "worms",
+   "target": "krimi",
+   "verified": false
+  },
+  {
+   "term": "pet ke keede",
+   "target": "krimi",
+   "verified": false
+  },
+  {
+   "term": "nulipurugulu",
+   "target": "krimi",
+   "verified": false
+  },
+  {
+   "term": "ascites",
+   "target": "jalodara",
+   "verified": false
+  },
+  {
+   "term": "fibromyalgia",
+   "target": "fibromyalgia",
+   "verified": false
+  },
+  {
+   "term": "ibs",
+   "target": "grahani",
+   "verified": false
+  },
+  {
+   "term": "indigestion",
+   "target": "ajirna",
+   "verified": false
+  },
+  {
+   "term": "bloating",
+   "target": "ajirna",
+   "verified": false
+  },
+  {
+   "term": "gas",
+   "target": "ajirna",
+   "verified": false
+  },
+  {
+   "term": "appetite",
+   "target": "aruchi",
+   "verified": false
+  },
+  {
+   "term": "bhookh na lagna",
+   "target": "aruchi",
+   "verified": false
+  },
+  {
+   "term": "ulti",
+   "target": "ev-vomit",
+   "verified": false
+  },
+  {
+   "term": "vomiting",
+   "target": "ev-vomit",
+   "verified": false
+  },
+  {
+   "term": "nausea",
+   "target": "ev-vomit",
+   "verified": false
+  },
+  {
+   "term": "vaanthi",
+   "target": "ev-vomit",
+   "verified": false
+  },
+  {
+   "term": "hichki",
+   "target": "ev-hiccup",
+   "verified": false
+  },
+  {
+   "term": "hiccups",
+   "target": "ev-hiccup",
+   "verified": false
+  },
+  {
+   "term": "vekkillu",
+   "target": "ev-hiccup",
+   "verified": false
+  },
+  {
+   "term": "toothache",
+   "target": "ev-tooth",
+   "verified": false
+  },
+  {
+   "term": "daant dard",
+   "target": "ev-tooth",
+   "verified": false
+  },
+  {
+   "term": "pannu noppi",
+   "target": "ev-tooth",
+   "verified": false
+  },
+  {
+   "term": "dandruff",
+   "target": "ev-hair",
+   "verified": false
+  },
+  {
+   "term": "hair fall",
+   "target": "ev-hair",
+   "verified": false
+  },
+  {
+   "term": "baal jhadna",
+   "target": "ev-hair",
+   "verified": false
+  },
+  {
+   "term": "juttu raalatam",
+   "target": "ev-hair",
+   "verified": false
+  },
+  {
+   "term": "acne",
+   "target": "ev-acne",
+   "verified": false
+  },
+  {
+   "term": "pimples",
+   "target": "ev-acne",
+   "verified": false
+  },
+  {
+   "term": "motimalu",
+   "target": "ev-acne",
+   "verified": false
+  },
+  {
+   "term": "burn",
+   "target": "ev-wounds",
+   "verified": false
+  },
+  {
+   "term": "cut",
+   "target": "ev-wounds",
+   "verified": false
+  },
+  {
+   "term": "wound",
+   "target": "ev-wounds",
+   "verified": false
+  },
+  {
+   "term": "body pain",
+   "target": "ev-aches",
+   "verified": false
+  },
+  {
+   "term": "badan dard",
+   "target": "ev-aches",
+   "verified": false
+  },
+  {
+   "term": "heat stroke",
+   "target": "ev-heat",
+   "verified": false
+  },
+  {
+   "term": "loo",
+   "target": "ev-heat",
+   "verified": false
+  },
+  {
+   "term": "vadadebba",
+   "target": "ev-heat",
+   "verified": false
+  },
+  {
+   "term": "sore throat",
+   "target": "ev-throat",
+   "verified": false
+  },
+  {
+   "term": "gala kharab",
+   "target": "ev-throat",
+   "verified": false
+  },
+  {
+   "term": "gonthu noppi",
+   "target": "ev-throat",
+   "verified": false
+  },
+  {
+   "term": "autism",
+   "target": "autism",
+   "verified": false
+  },
+  {
+   "term": "adhd",
+   "target": "autism",
+   "verified": false
+  }
+ ]
+}
