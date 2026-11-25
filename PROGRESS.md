@@ -97,3 +97,8 @@ Legend: [x] implemented and tested · [~] implemented, content draft or unverifi
 - Practitioner discovery UI using existing API; appointment policies and proposed schema, not live booking.
 - Task-oriented homepage and condition-to-doctor links. Payments disabled.
 - Tests added and lint expanded; execution, browser verification, external link checks and production integration pending.
+
+## Personal tools and botanical garden
+- Workspace, optional browser voice search, botanical garden, external plant identification and GTIN checksum validation committed.
+- These are limited previews, not diagnostic AI, camera scanner, verified product lookup or health record storage.
+- Payments disabled; testing and production integration pending.
